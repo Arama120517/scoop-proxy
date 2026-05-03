@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/matlab/matlab-mcp-core-server/releases/download/v0.9.0/matlab-mcp-core-server-win64.exe#/matlab-mcp-core-server.exe",
+            "url": "https://v6.gh-proxy.org/https://github.com/matlab/matlab-mcp-core-server/releases/download/v0.9.0/matlab-mcp-core-server-win64.exe#/matlab-mcp-core-server.exe",
             "hash": "865683e23988c4e3f9849ae4bd61542cb38d95a8a765b8e5e4121537b213a621"
         }
     },

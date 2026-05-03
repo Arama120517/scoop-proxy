@@ -6,7 +6,7 @@
     "suggest": {
         "Java": "java/openjdk"
     },
-    "url": "https://github.com/karatelabs/karate/releases/download/v2.0.6/karate-2.0.6.jar#/karate.jar",
+    "url": "https://v6.gh-proxy.org/https://github.com/karatelabs/karate/releases/download/v2.0.6/karate-2.0.6.jar#/karate.jar",
     "hash": "72020f0106896b2346002eda1d204623448dd358c7ff00c0711e134994ae2c26",
     "pre_install": [
         "$cont = \"@echo off`r`n\" + 'cd /d \"%~dp0\"' + \"`r`njava -cp karate.jar;. com.intuit.karate.Main %*\"",

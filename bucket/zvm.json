@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tristanisham/zvm/releases/download/v0.8.20/zvm-windows-amd64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/tristanisham/zvm/releases/download/v0.8.20/zvm-windows-amd64.zip",
             "hash": "3e1602447f0ced4735ccdea92c7d6e0c1e27f3d982c557e7353047b588ec436a"
         },
         "arm64": {
-            "url": "https://github.com/tristanisham/zvm/releases/download/v0.8.20/zvm-windows-arm64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/tristanisham/zvm/releases/download/v0.8.20/zvm-windows-arm64.zip",
             "hash": "5016aad67a3b50697d0bf17f1c759372ba3fed92a6839a1571f49ac35e3f1ae0"
         }
     },

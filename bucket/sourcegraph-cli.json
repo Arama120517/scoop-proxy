@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sourcegraph/src-cli/releases/download/7.2.1/src-cli_7.2.1_windows_amd64.tar.gz",
+            "url": "https://v6.gh-proxy.org/https://github.com/sourcegraph/src-cli/releases/download/7.2.1/src-cli_7.2.1_windows_amd64.tar.gz",
             "hash": "55b02f82ca78cf3c60004dba15448c9ea2961e9b7461b987b1f4494a03ee42e0"
         }
     },

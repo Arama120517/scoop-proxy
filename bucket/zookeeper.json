@@ -21,7 +21,7 @@
     "checkver": {
         "url": "https://downloads.apache.org/zookeeper/",
         "regex": "zookeeper-([\\d.]+)/",
-        "reverse": true
+        "reverse": null
     },
     "autoupdate": {
         "url": "https://downloads.apache.org/zookeeper/zookeeper-$version/apache-zookeeper-$version-bin.tar.gz",

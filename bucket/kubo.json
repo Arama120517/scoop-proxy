@@ -17,7 +17,7 @@
     "bin": "ipfs.exe",
     "checkver": {
         "url": "https://dist.ipfs.tech/kubo/versions",
-        "reverse": true,
+        "reverse": null,
         "regex": "(?m)^v([\\d.]*)$"
     },
     "autoupdate": {

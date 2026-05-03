@@ -6,7 +6,7 @@
     "suggest": {
         "Python": "python"
     },
-    "url": "https://downloads.sourceforge.net/project/scons/scons-local/4.10.1/scons-local-4.10.1.zip",
+    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/scons/scons-local/4.10.1/scons-local-4.10.1.zip",
     "hash": "sha1:5d5be60161d19e07220e3e61333ee237e85ff51a",
     "pre_install": "echo \"python `\"$dir\\scons.py`\" @args\" | out-file \"$dir\\scons.ps1\"",
     "bin": "scons.ps1",
@@ -15,6 +15,6 @@
         "regex": "The current production release of SCons is <strong>([\\w.]+)</strong>"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/scons/scons-local/$version/scons-local-$version.zip"
+        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/scons/scons-local/$version/scons-local-$version.zip"
     }
 }

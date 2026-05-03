@@ -5,15 +5,15 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/railwayapp/cli/releases/download/v4.44.0/railway-v4.44.0-x86_64-pc-windows-msvc.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/railwayapp/cli/releases/download/v4.44.0/railway-v4.44.0-x86_64-pc-windows-msvc.zip",
             "hash": "9a8d3dc1d8481600fcc4b55653437863943e3cd90e609f35aa757a53ca313cbf"
         },
         "32bit": {
-            "url": "https://github.com/railwayapp/cli/releases/download/v4.44.0/railway-v4.44.0-i686-pc-windows-msvc.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/railwayapp/cli/releases/download/v4.44.0/railway-v4.44.0-i686-pc-windows-msvc.zip",
             "hash": "7d9e767d62052fde33038367ef40c7e06c4de3b30552ce5324bc493dea010918"
         },
         "arm64": {
-            "url": "https://github.com/railwayapp/cli/releases/download/v4.44.0/railway-v4.44.0-aarch64-pc-windows-msvc.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/railwayapp/cli/releases/download/v4.44.0/railway-v4.44.0-aarch64-pc-windows-msvc.zip",
             "hash": "1c9e3073ed13e95d5004c74ee63557ad0a69972942fedc086e9a3a1abea23be8"
         }
     },

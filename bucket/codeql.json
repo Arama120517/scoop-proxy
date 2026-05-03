@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/github/codeql-cli-binaries/releases/download/v2.25.3/codeql-win64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/github/codeql-cli-binaries/releases/download/v2.25.3/codeql-win64.zip",
             "hash": "268950c5ca1444bb8439ecdb20e60be9080ba0d786c5a690871251a4b7677647",
             "extract_dir": "codeql"
         }

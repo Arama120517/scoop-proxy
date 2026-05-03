@@ -5,15 +5,15 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_amd64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_amd64.zip",
             "hash": "05fe1b414bb40555d72e8149aca7046eba4ceacea7825d011c1188cc74c62e9c"
         },
         "arm64": {
-            "url": "https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_arm64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_arm64.zip",
             "hash": "8be323b730d1c99977926e12a6d35d32ccfc91cb942e19c282fc7e8a21e4f1ed"
         },
         "32bit": {
-            "url": "https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_386.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_386.zip",
             "hash": "ab38219399ded90881d670dc4cd36052d2cd5c347cd5881ea45084b507acdd68"
         }
     },

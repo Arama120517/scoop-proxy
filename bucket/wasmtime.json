@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v44.0.1/wasmtime-v44.0.1-x86_64-windows.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/bytecodealliance/wasmtime/releases/download/v44.0.1/wasmtime-v44.0.1-x86_64-windows.zip",
             "hash": "229c645305216a8c0d84f87b867930e82e07438bacb321a24d71039c4e162ea3",
             "extract_dir": "wasmtime-v44.0.1-x86_64-windows"
         }

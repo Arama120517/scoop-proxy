@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ouch-org/ouch/releases/download/0.7.1/ouch-x86_64-pc-windows-msvc.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/ouch-org/ouch/releases/download/0.7.1/ouch-x86_64-pc-windows-msvc.zip",
             "hash": "46f10ae48dae0ac1faf43aa16d1a1d9f8f3cb58c26a460a361b60edd67a657fe",
             "extract_dir": "ouch-x86_64-pc-windows-msvc"
         },
         "arm64": {
-            "url": "https://github.com/ouch-org/ouch/releases/download/0.7.1/ouch-aarch64-pc-windows-msvc.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/ouch-org/ouch/releases/download/0.7.1/ouch-aarch64-pc-windows-msvc.zip",
             "hash": "62df86c44e214e56c99f6618d0107414e63cb4235405ca29d3ad8a5e037529eb",
             "extract_dir": "ouch-aarch64-pc-windows-msvc"
         }

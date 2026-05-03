@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dex4er/tf/releases/download/v2.12.0/tf-windows-amd64.exe#/tf.exe",
+            "url": "https://v6.gh-proxy.org/https://github.com/dex4er/tf/releases/download/v2.12.0/tf-windows-amd64.exe#/tf.exe",
             "hash": "ba7a8756fdfd80f92227dce33285d16791cf70b1064cc041d7cc54cac30ff376"
         },
         "arm64": {
-            "url": "https://github.com/dex4er/tf/releases/download/v2.12.0/tf-windows-arm64.exe#/tf.exe",
+            "url": "https://v6.gh-proxy.org/https://github.com/dex4er/tf/releases/download/v2.12.0/tf-windows-arm64.exe#/tf.exe",
             "hash": "f74b187c5d1f8bf82613f84ab0bae774b64046b99bedf0f5bde5b4a707818053"
         }
     },

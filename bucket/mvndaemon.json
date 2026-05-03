@@ -23,7 +23,7 @@
     "checkver": {
         "url": "https://dist.apache.org/repos/dist/release/maven/mvnd/",
         "regex": ">([\\d.\\-m]+)/",
-        "reverse": true
+        "reverse": null
     },
     "autoupdate": {
         "architecture": {

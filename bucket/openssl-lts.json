@@ -29,7 +29,7 @@
         "url": "https://raw.githubusercontent.com/slproweb/opensslhashes/master/win32_openssl_hashes.json",
         "jsonpath": "$.files..basever",
         "regex": "(3\\.0\\.([\\d.]+))",
-        "reverse": true
+        "reverse": null
     },
     "autoupdate": {
         "architecture": {

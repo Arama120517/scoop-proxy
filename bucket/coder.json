@@ -5,7 +5,7 @@
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/coder/coder/releases/download/v2.31.11/coder_2.31.11_windows_amd64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/coder/coder/releases/download/v2.31.11/coder_2.31.11_windows_amd64.zip",
             "hash": "244195aeadc5f39265baed4439fc7b9ce58f450364f041425d0b752b1b16587e"
         }
     },

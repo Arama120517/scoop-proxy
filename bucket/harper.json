@@ -6,8 +6,8 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Automattic/harper/releases/download/v2.1.0/harper-ls-x86_64-pc-windows-msvc.zip",
-                "https://github.com/Automattic/harper/releases/download/v2.1.0/harper-cli-x86_64-pc-windows-msvc.zip"
+                "https://v6.gh-proxy.org/https://github.com/Automattic/harper/releases/download/v2.1.0/harper-ls-x86_64-pc-windows-msvc.zip",
+                "https://v6.gh-proxy.org/https://github.com/Automattic/harper/releases/download/v2.1.0/harper-cli-x86_64-pc-windows-msvc.zip"
             ],
             "hash": [
                 "a284613478c8e94b36ce1c81f82f9a9a582a7e2685403ba54f6d05e4063754c6",

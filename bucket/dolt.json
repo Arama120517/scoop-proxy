@@ -5,7 +5,7 @@
     "version": "1.86.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dolthub/dolt/releases/download/v1.86.6/dolt-windows-amd64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/dolthub/dolt/releases/download/v1.86.6/dolt-windows-amd64.zip",
             "hash": "0dccc8c9b7bd38a57e4a48ee85deaa3d8419a763a4b7fc6022644ad51524614b"
         }
     },

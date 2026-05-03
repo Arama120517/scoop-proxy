@@ -9,11 +9,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.24.3/azd-windows-amd64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.24.3/azd-windows-amd64.zip",
             "hash": "c52b74b071168d28357e130d2cf88c75655a3cd663f9d1d94f09999e6134f96c"
         },
         "arm64": {
-            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.24.3/azd-windows-arm64-alpha.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.24.3/azd-windows-arm64-alpha.zip",
             "hash": "91a3ab7f81114c71b2157917fc479d152ce6b6ced754911bc8163d52b24bf7e9"
         }
     },

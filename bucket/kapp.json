@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/carvel-kapp/releases/download/v0.65.2/kapp-windows-amd64.exe#/kapp.exe",
+            "url": "https://v6.gh-proxy.org/https://github.com/vmware-tanzu/carvel-kapp/releases/download/v0.65.2/kapp-windows-amd64.exe#/kapp.exe",
             "hash": "20c42452744622c140dac28c9820405c115974899ea90817325c494855578195"
         }
     },

@@ -28,7 +28,7 @@
     "checkver": {
         "url": "https://api.nuget.org/v3-flatcontainer/wix/index.json",
         "regex": "\"([\\d.]+)\"",
-        "reverse": true
+        "reverse": null
     },
     "autoupdate": {
         "url": "https://api.nuget.org/v3-flatcontainer/wix/$version/wix.$version.nupkg"

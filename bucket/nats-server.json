@@ -5,17 +5,17 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-windows-amd64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-windows-amd64.zip",
             "hash": "09ba382669cc4df390f97f16f08481f040eef0bb17ca5f2d71104b4be4cd613a",
             "extract_dir": "nats-server-v2.14.0-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-windows-386.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-windows-386.zip",
             "hash": "9a4b6ecb83f61e9b366655514fb32a34a499394b744f1c7eaa00aee9d0425603",
             "extract_dir": "nats-server-v2.14.0-windows-386"
         },
         "arm64": {
-            "url": "https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-windows-arm64.zip",
+            "url": "https://v6.gh-proxy.org/https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-windows-arm64.zip",
             "hash": "75982cb2256078d49b0425fc37a49de7674e4b23eea0a849836b232ebbf7fa52",
             "extract_dir": "nats-server-v2.14.0-windows-arm64"
         }

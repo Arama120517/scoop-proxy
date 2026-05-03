@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ByteNess/aws-vault/releases/download/v7.10.4/aws-vault-windows-amd64.exe#/aws-vault.exe",
+            "url": "https://v6.gh-proxy.org/https://github.com/ByteNess/aws-vault/releases/download/v7.10.4/aws-vault-windows-amd64.exe#/aws-vault.exe",
             "hash": "97ea26b9597e8b23cf5c851656050b277df0b977ac1ce814936c997251e0a10e"
         },
         "arm64": {
-            "url": "https://github.com/ByteNess/aws-vault/releases/download/v7.10.4/aws-vault-windows-arm64.exe#/aws-vault.exe",
+            "url": "https://v6.gh-proxy.org/https://github.com/ByteNess/aws-vault/releases/download/v7.10.4/aws-vault-windows-arm64.exe#/aws-vault.exe",
             "hash": "176e1295b6062d2ac8a2f7f111ccbb0ea225d024786e8d434ae6a420fa0684e4"
         }
     },
