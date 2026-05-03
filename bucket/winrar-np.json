@@ -1,0 +1,42 @@
+{
+    "version": "7.22",
+    "description": "File archiver utility.",
+    "homepage": "https://rarlab.com/",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.rarlab.com/rar/winrar-x64-722.exe",
+            "hash": "d669f4e15e9b8fde6e6dcc47697fc5a38b77e1fd5c608cf6423e4eba8df62498"
+        }
+    },
+    "installer": {
+        "args": [
+            "/s",
+            "/d$dir"
+        ]
+    },
+    "post_install": "Remove-Item -Recurse \"$([Environment]::GetFolderPath('startmenu'))\\Programs\\WinRAR\"",
+    "uninstaller": {
+        "file": "Uninstall.exe",
+        "args": "/s"
+    },
+    "bin": [
+        "Rar.exe",
+        "UnRAR.exe",
+        "WinRAR.exe"
+    ],
+    "shortcuts": [
+        [
+            "WinRAR.exe",
+            "WinRAR"
+        ]
+    ],
+    "checkver": "WinRAR and RAR ([\\d.]+) release",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersion.exe"
+            }
+        }
+    }
+}

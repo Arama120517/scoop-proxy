@@ -1,0 +1,30 @@
+{
+    "version": "7.1.0",
+    "description": "The leading WebAssembly Runtime supporting WASI and Emscripten",
+    "homepage": "https://wasmer.io/",
+    "license": "MIT",
+    "suggest": {
+        "wapm": "wapm-cli"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://v6.gh-proxy.org/https://github.com/wasmerio/wasmer/releases/download/v7.1.0/wasmer-windows-amd64.tar.gz",
+            "hash": "b61178c7ea2f57737b7a2e3943cd1e35826589dd66e66bcef60fe447a4c839fa"
+        }
+    },
+    "env_set": {
+        "WASMER_DIR": "$dir",
+        "WASMER_CACHE_DIR": "$dir\\cache"
+    },
+    "bin": "bin\\wasmer.exe",
+    "checkver": {
+        "github": "https://github.com/wasmerio/wasmer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wasmerio/wasmer/releases/download/v$version/wasmer-windows-amd64.tar.gz"
+            }
+        }
+    }
+}
