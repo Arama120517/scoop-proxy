@@ -42,9 +42,7 @@ def patch(content: str) -> str:
     elif "sourceforge.net" in content:
         rules += SOURCEFORGE_RULES
     for pattern, replace in rules:
-        content: str = re.sub(
-            pattern, replace, content, flags=re.IGNORECASE | re.MULTILINE
-        )
+        content: str = re.sub(pattern, replace, content)
     with contextlib.suppress(JSONDecodeError):
         manifest: Any = json.loads(content)
         if "checkver" in manifest:
