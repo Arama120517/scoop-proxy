@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/openshift/okd/releases/download/4.22.0-okd-scos.ec.15/openshift-client-windows-4.22.0-okd-scos.ec.15.zip",
+            "url": "https://github.com/openshift/okd/releases/download/4.22.0-okd-scos.ec.15/openshift-client-windows-4.22.0-okd-scos.ec.15.zip",
             "hash": "32e239c330b137a7fedb8e683de687d0e9450691848072b3857948cf6cfa1e4f"
         }
     },

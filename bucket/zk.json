@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/zk-org/zk/releases/download/v0.15.3/zk-v0.15.3-windows-x86_64.tar.gz",
+            "url": "https://github.com/zk-org/zk/releases/download/v0.15.3/zk-v0.15.3-windows-x86_64.tar.gz",
             "hash": "de3ca541d2d8bc9f4965f6e0e0c6f435038f928b617fe1c5fe2d1e9d9a669305"
         }
     },

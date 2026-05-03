@@ -9,15 +9,15 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/j178/prek/releases/download/v0.3.11/prek-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/j178/prek/releases/download/v0.3.11/prek-x86_64-pc-windows-msvc.zip",
             "hash": "a40604c7a10e6876423fb53ce3325615a2e90b5b3f09e15676b1d2fe74e56948"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/j178/prek/releases/download/v0.3.11/prek-i686-pc-windows-msvc.zip",
+            "url": "https://github.com/j178/prek/releases/download/v0.3.11/prek-i686-pc-windows-msvc.zip",
             "hash": "c6219d7f2bfd8a5830217d76454095fb3dcd8084baa5826dda9ceb8a492893c2"
         },
         "arm64": {
-            "url": "https://v6.gh-proxy.org/https://github.com/j178/prek/releases/download/v0.3.11/prek-aarch64-pc-windows-msvc.zip",
+            "url": "https://github.com/j178/prek/releases/download/v0.3.11/prek-aarch64-pc-windows-msvc.zip",
             "hash": "da0465bd86021265089387465c4d4d7a794966fa1cf86920c79cb0e9b98665ba"
         }
     },

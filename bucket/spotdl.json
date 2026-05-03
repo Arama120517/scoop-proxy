@@ -12,7 +12,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/spotDL/spotify-downloader/releases/download/v4.4.4/spotdl-4.4.4-win32.exe#/spotdl.exe",
+            "url": "https://github.com/spotDL/spotify-downloader/releases/download/v4.4.4/spotdl-4.4.4-win32.exe#/spotdl.exe",
             "hash": "7350afc8a07d1584661cca4cbed9d3c28be19a569d928857102f19662cade60b"
         }
     },

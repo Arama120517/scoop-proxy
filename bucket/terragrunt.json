@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/gruntwork-io/terragrunt/releases/download/v1.0.3/terragrunt_windows_amd64.exe#/terragrunt.exe",
+            "url": "https://github.com/gruntwork-io/terragrunt/releases/download/v1.0.3/terragrunt_windows_amd64.exe#/terragrunt.exe",
             "hash": "0c2dabb6d036da1f765ab1d22a7e0bfe00d892c130f6402c070e25ecf51aaef5"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/gruntwork-io/terragrunt/releases/download/v1.0.3/terragrunt_windows_386.exe#/terragrunt.exe",
+            "url": "https://github.com/gruntwork-io/terragrunt/releases/download/v1.0.3/terragrunt_windows_386.exe#/terragrunt.exe",
             "hash": "cc51a615361fea07477727bb518e07b7adb9f0fef55da5853e2dff5c376c2519"
         }
     },

@@ -14,7 +14,7 @@
     "checkver": {
         "url": "https://download.rethinkdb.com/service/rest/repository/browse/raw/windows",
         "regex": "rethinkdb-([\\d.]+)\\.zip",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

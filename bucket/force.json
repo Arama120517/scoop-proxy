@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/ForceCLI/force/releases/download/v1.9.0/force_windows_amd64.zip",
+            "url": "https://github.com/ForceCLI/force/releases/download/v1.9.0/force_windows_amd64.zip",
             "hash": "a21f7318d0f63a309528ea4719e19d0844da4196db4b4fb928d9a47103d7a63b"
         }
     },

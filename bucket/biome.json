@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.4.14/biome-win32-x64.exe#/biome.exe",
+            "url": "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.4.14/biome-win32-x64.exe#/biome.exe",
             "hash": "6aad48b69bb0699394f93c34fc700bf1b20130aeb7101e52fccf5d306b65ab92"
         },
         "arm64": {
-            "url": "https://v6.gh-proxy.org/https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.4.14/biome-win32-arm64.exe#/biome.exe",
+            "url": "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.4.14/biome-win32-arm64.exe#/biome.exe",
             "hash": "1f2d2f78dcf05ea708314608ff567b3412a85bfcd8c09ec555cee0b8a60bf5ae"
         }
     },

@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/aws-amplify/amplify-cli/releases/download/v14.4.0/amplify-pkg-win.exe.tgz",
+            "url": "https://github.com/aws-amplify/amplify-cli/releases/download/v14.4.0/amplify-pkg-win.exe.tgz",
             "hash": "1aa4d583eeffdfba35f5df1b65e184615c2782c737039049d04584b45aa8b952"
         }
     },

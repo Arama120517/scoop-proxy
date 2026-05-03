@@ -6,7 +6,7 @@
     "suggest": {
         "java": "java/oraclejre8"
     },
-    "url": "https://v6.gh-proxy.org/https://github.com/treasure-data/digdag/releases/download/v0.10.5.1/digdag-0.10.5.1.jar#/digdag.jar",
+    "url": "https://github.com/treasure-data/digdag/releases/download/v0.10.5.1/digdag-0.10.5.1.jar#/digdag.jar",
     "hash": "4d1337d777bd334c2348e07ebc1795283aa50a2fd3b7d720cba5ee33b5486aa8",
     "bin": "digdag.jar",
     "checkver": {

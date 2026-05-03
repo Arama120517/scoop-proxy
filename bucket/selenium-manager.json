@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/selenium-manager-37c0444/selenium-manager-windows.exe#/selenium-manager.exe",
+            "url": "https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/selenium-manager-37c0444/selenium-manager-windows.exe#/selenium-manager.exe",
             "hash": "0eda265ac88a3a1848a7f2ec63ae0884b553314f77f829bde41b14f2f7db441a"
         }
     },

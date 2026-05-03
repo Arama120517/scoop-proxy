@@ -38,7 +38,7 @@
     "checkver": {
         "url": "https://dl.gogs.io",
         "regex": "href=\"([\\d.]+)/",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

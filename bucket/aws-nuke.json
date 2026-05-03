@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/ekristen/aws-nuke/releases/download/v3.64.2/aws-nuke-v3.64.2-windows-amd64.zip",
+            "url": "https://github.com/ekristen/aws-nuke/releases/download/v3.64.2/aws-nuke-v3.64.2-windows-amd64.zip",
             "hash": "66f1a494af0ec47b6fc17c73262476bf7d928672b8c14daad46b946b12181578"
         }
     },

@@ -5,7 +5,7 @@
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/sourcemeta/jsonschema/releases/download/v15.2.0/jsonschema-15.2.0-windows-x86_64.zip",
+            "url": "https://github.com/sourcemeta/jsonschema/releases/download/v15.2.0/jsonschema-15.2.0-windows-x86_64.zip",
             "hash": "45ba6ef38dda9842901d052a19ba02dea17bd97f78e6432b5720e2a6c6db0a0a",
             "extract_dir": "jsonschema-15.2.0-windows-x86_64"
         }

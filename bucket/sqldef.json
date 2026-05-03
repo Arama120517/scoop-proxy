@@ -6,9 +6,9 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://v6.gh-proxy.org/https://github.com/k0kubun/sqldef/releases/download/v3.11.1/mssqldef_windows_amd64.zip",
-                "https://v6.gh-proxy.org/https://github.com/k0kubun/sqldef/releases/download/v3.11.1/mysqldef_windows_amd64.zip",
-                "https://v6.gh-proxy.org/https://github.com/k0kubun/sqldef/releases/download/v3.11.1/sqlite3def_windows_amd64.zip"
+                "https://github.com/k0kubun/sqldef/releases/download/v3.11.1/mssqldef_windows_amd64.zip",
+                "https://github.com/k0kubun/sqldef/releases/download/v3.11.1/mysqldef_windows_amd64.zip",
+                "https://github.com/k0kubun/sqldef/releases/download/v3.11.1/sqlite3def_windows_amd64.zip"
             ],
             "hash": [
                 "df02d8c0aba34bbe7bfdb21e6db87e8d8dbdc9dafb3223ffcc7df5384e8160b8",

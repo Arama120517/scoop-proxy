@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/facebook/flow/releases/download/v0.312.0/flow-win64-v0.312.0.zip",
+            "url": "https://github.com/facebook/flow/releases/download/v0.312.0/flow-win64-v0.312.0.zip",
             "hash": "0d523b75b53adcb92c0fff88c495f2f6bc6dc56ebed7172cd7c8a9fc20ca2a89"
         }
     },

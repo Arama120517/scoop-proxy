@@ -5,7 +5,7 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/tiann/hapi/releases/download/v0.17.2/hapi-win32-x64.zip",
+            "url": "https://github.com/tiann/hapi/releases/download/v0.17.2/hapi-win32-x64.zip",
             "hash": "0fc67548d23c983e1a82963075b661365e62f485d7a63706a24ede6068a23584"
         }
     },

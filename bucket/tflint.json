@@ -5,11 +5,11 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/terraform-linters/tflint/releases/download/v0.62.0/tflint_windows_amd64.zip",
+            "url": "https://github.com/terraform-linters/tflint/releases/download/v0.62.0/tflint_windows_amd64.zip",
             "hash": "d2b28caf4f312805edd06c7aede494135d1babb301db32e9b68994d2038936e4"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/terraform-linters/tflint/releases/download/v0.62.0/tflint_windows_386.zip",
+            "url": "https://github.com/terraform-linters/tflint/releases/download/v0.62.0/tflint_windows_386.zip",
             "hash": "093dc13b4e15aaebc17479a0b1129f6d0a7a066cc8019905a4daf66b5a6e3bce"
         }
     },

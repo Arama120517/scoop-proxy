@@ -15,7 +15,7 @@
     "checkver": {
         "url": "https://files.budman.pw/",
         "regex": "iperf([\\d.]+)",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

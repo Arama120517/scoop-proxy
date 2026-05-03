@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/AlexsJones/llmfit/releases/download/v0.9.18/llmfit-v0.9.18-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/AlexsJones/llmfit/releases/download/v0.9.18/llmfit-v0.9.18-x86_64-pc-windows-msvc.zip",
             "hash": "104697897ca7f3ee809d1754f65aca52a754ea77d835b9dd7d9aa76030305e9c",
             "extract_dir": "llmfit-v0.9.18-x86_64-pc-windows-msvc"
         },
         "arm64": {
-            "url": "https://v6.gh-proxy.org/https://github.com/AlexsJones/llmfit/releases/download/v0.9.18/llmfit-v0.9.18-aarch64-pc-windows-msvc.zip",
+            "url": "https://github.com/AlexsJones/llmfit/releases/download/v0.9.18/llmfit-v0.9.18-aarch64-pc-windows-msvc.zip",
             "hash": "81c369d7915fe821b6c3a924537e9ca7892fc56ac36245e1a8c848ae49a87020",
             "extract_dir": "llmfit-v0.9.18-aarch64-pc-windows-msvc"
         }

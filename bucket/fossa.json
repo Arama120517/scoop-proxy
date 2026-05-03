@@ -5,7 +5,7 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/fossas/fossa-cli/releases/download/v3.17.3/fossa_3.17.3_windows_amd64.zip",
+            "url": "https://github.com/fossas/fossa-cli/releases/download/v3.17.3/fossa_3.17.3_windows_amd64.zip",
             "hash": "1430daa12b7fa543769de0146bcf0d3b1c099c44e21fbdce4ba0cd76dcfca706"
         }
     },

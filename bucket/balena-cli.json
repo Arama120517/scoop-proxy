@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/balena-io/balena-cli/releases/download/v25.1.0/balena-cli-v25.1.0-windows-x64-standalone.tar.gz",
+            "url": "https://github.com/balena-io/balena-cli/releases/download/v25.1.0/balena-cli-v25.1.0-windows-x64-standalone.tar.gz",
             "hash": "909120ce2927cfe94421d292ee8c8e5331feb5a83806b2c9fe03d0b6eb69c2e5"
         }
     },

@@ -12,15 +12,15 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-21/ImageMagick-7.1.2-21-Q16-HDRI-x86-dll.exe",
+            "url": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-21/ImageMagick-7.1.2-21-Q16-HDRI-x86-dll.exe",
             "hash": "a4dc2f8540e1e1c68bc64b7e2618e1cf7762a93c296217933c7442ba82f962fd"
         },
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-21/ImageMagick-7.1.2-21-Q16-HDRI-x64-dll.exe",
+            "url": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-21/ImageMagick-7.1.2-21-Q16-HDRI-x64-dll.exe",
             "hash": "1550dc0086b626ce0d2c4e25dfc0e43d020bea655109a514dc86d197d3c63a3f"
         },
         "arm64": {
-            "url": "https://v6.gh-proxy.org/https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-21/ImageMagick-7.1.2-21-Q16-HDRI-arm64-dll.exe",
+            "url": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-21/ImageMagick-7.1.2-21-Q16-HDRI-arm64-dll.exe",
             "hash": "e3daa3355b45bbb82a6dea522dff6b211539b1d784c92bcf52dcdfbf2ca4fb2d"
         }
     },

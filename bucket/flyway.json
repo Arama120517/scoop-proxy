@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/flyway/flyway/releases/download/flyway-12.5.0/flyway-commandline-12.5.0-windows-x64.zip",
+            "url": "https://github.com/flyway/flyway/releases/download/flyway-12.5.0/flyway-commandline-12.5.0-windows-x64.zip",
             "hash": "f59b3d7d0e14ab47a0858136252a38fd3f1c3a8c45767d3fc4c50b68af341802"
         }
     },

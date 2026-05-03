@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/aquaproj/aqua/releases/download/v2.57.2/aqua_windows_amd64.zip",
+            "url": "https://github.com/aquaproj/aqua/releases/download/v2.57.2/aqua_windows_amd64.zip",
             "hash": "e974550d0e412adeeff491bdc1790dc7bc61856eac207082aa82536f519de862"
         },
         "arm64": {
-            "url": "https://v6.gh-proxy.org/https://github.com/aquaproj/aqua/releases/download/v2.57.2/aqua_windows_arm64.zip",
+            "url": "https://github.com/aquaproj/aqua/releases/download/v2.57.2/aqua_windows_arm64.zip",
             "hash": "0be5c3065239227888ed6e2bd72fb1100fe5253cadd7b4c5d8d23a9e04e61fd0"
         }
     },

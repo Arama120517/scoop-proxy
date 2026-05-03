@@ -15,7 +15,7 @@
     "depends": "main/llvm",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/PerryTS/perry/releases/download/v0.5.465/perry-windows-x86_64.zip",
+            "url": "https://github.com/PerryTS/perry/releases/download/v0.5.465/perry-windows-x86_64.zip",
             "hash": "64ec4711dd54ce9f33c3871f38c14a2ff8d025ebc143decde1ab36fa6d25bba5"
         }
     },

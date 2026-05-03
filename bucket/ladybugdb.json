@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/LadybugDB/ladybug/releases/download/v0.16.0/lbug_cli-windows-x86_64.zip",
+            "url": "https://github.com/LadybugDB/ladybug/releases/download/v0.16.0/lbug_cli-windows-x86_64.zip",
             "hash": "4b45e5f1e21f1f8b06914a726bd05c0d41bbc36182d98a01b7f5ddd511ab5d12"
         }
     },

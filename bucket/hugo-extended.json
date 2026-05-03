@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_extended_0.161.1_windows-amd64.zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_extended_0.161.1_windows-amd64.zip",
             "hash": "5116d0d9e3974177658c2db131c80bf87bc68babdcc1cbc7362b2f164fdf32cd"
         }
     },

@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-4.0.3-1/rubyinstaller-4.0.3-1-x64.7z",
+            "url": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-4.0.3-1/rubyinstaller-4.0.3-1-x64.7z",
             "hash": "a4094317397511e09242be1c95b32c8700fe91ebca713fb4e190de595eea5699",
             "extract_dir": "rubyinstaller-4.0.3-1-x64"
         },
         "arm64": {
-            "url": "https://v6.gh-proxy.org/https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-4.0.3-1/rubyinstaller-4.0.3-1-arm.7z",
+            "url": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-4.0.3-1/rubyinstaller-4.0.3-1-arm.7z",
             "hash": "0ac6b87598a8afab77111b643f765ecfe7c23212b3fe669438fa1268b13ab390",
             "extract_dir": "rubyinstaller-4.0.3-1-arm"
         }

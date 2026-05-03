@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/scaleway/scaleway-cli/releases/download/v2.55.0/scaleway-cli_2.55.0_windows_amd64.exe#/scw.exe",
+            "url": "https://github.com/scaleway/scaleway-cli/releases/download/v2.55.0/scaleway-cli_2.55.0_windows_amd64.exe#/scw.exe",
             "hash": "917f164159a95d6cfa95ce8a1177de617684cfd75452a179c33b433efbf23899"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/scaleway/scaleway-cli/releases/download/v2.55.0/scaleway-cli_2.55.0_windows_386.exe#/scw.exe",
+            "url": "https://github.com/scaleway/scaleway-cli/releases/download/v2.55.0/scaleway-cli_2.55.0_windows_386.exe#/scw.exe",
             "hash": "001dd1ab1130de88860f855a243b39c7e69bfd447efde0898bdfae6898e68db4"
         }
     },

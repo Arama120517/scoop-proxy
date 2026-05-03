@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/atuinsh/atuin/releases/download/v18.16.0/atuin-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/atuinsh/atuin/releases/download/v18.16.0/atuin-x86_64-pc-windows-msvc.zip",
             "hash": "10f019669502e2b0368fcd877765036e325fe488ca155f7b02b755d68cb31d66"
         }
     },

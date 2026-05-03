@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/https://github.com/fastfetch-cli/fastfetch/releases/download/2.62.1/fastfetch-windows-amd64.7z",
+            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.62.1/fastfetch-windows-amd64.7z",
             "hash": "2c0b603196e23714e9709330f1d8cf42353d1b2fdd60f880779c48d1906ed104"
         },
         "arm64": {
-            "url": "https://v6.gh-proxy.org/https://github.com/fastfetch-cli/fastfetch/releases/download/2.62.1/fastfetch-windows-aarch64.7z",
+            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.62.1/fastfetch-windows-aarch64.7z",
             "hash": "727b6ae0c9ade714d9cfd30c39fb28c371e2e76f9739642ef91f1722b85cb6bb"
         }
     },
