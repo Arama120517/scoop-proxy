@@ -3,7 +3,7 @@ name: Schedule
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/5 * * * *"
       timezone: "Asia/Shanghai"
 
 permissions:
@@ -35,9 +35,3 @@ jobs:
             git commit -m "feat: auto update $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')."
             git push origin main
           }
-
-      - uses: ScoopInstaller/GithubActions@162fa9fe9ee81ec7407ba46bc732e211085b552e # main
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          SCOOP_BRANCH: develop
-          SKIP_UPDATED: 1
