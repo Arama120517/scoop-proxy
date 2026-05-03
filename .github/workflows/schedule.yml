@@ -19,7 +19,18 @@ jobs:
           enable-cache: true
           cache-python: true
 
-      - run: uv run -m src.sync
+      - name: Sync and commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          uv run -m src.sync
+
+          if git status --porcelain | grep -q .; then
+            git add .
+            git commit -m "feat: auto update $(date '+%Y-%m-%d %H:%M:%S')."
+            git push origin main
+          fi
 
       - uses: ScoopInstaller/GithubActions@main
         env:
