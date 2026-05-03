@@ -1,0 +1,39 @@
+{
+    "version": "3.39.1",
+    "description": "ngrok is your app's front door. ngrok is a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them. ngrok supports delivering HTTP, TLS or TCP-based applications.",
+    "homepage": "https://ngrok.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://ngrok.com/tos"
+    },
+    "notes": "ngrok v2 is no longer supported.",
+    "architecture": {
+        "64bit": {
+            "url": "https://bin.ngrok.com/a/3mE3fjj2otg/ngrok-v3-3.39.1-windows-amd64.zip",
+            "hash": "d4d4b4044294048bb2cf7061c8447b8aa52a878f256e9ff22d11dc479a7dbd93"
+        },
+        "32bit": {
+            "url": "https://bin.ngrok.com/a/n6xB9M9Y6NG/ngrok-v3-3.39.1-windows-386.zip",
+            "hash": "246db70206853250bd4d2e246d021239e8df5127e7690453d007e57c8f062d68"
+        }
+    },
+    "bin": "ngrok.exe",
+    "checkver": {
+        "url": "https://ngrok.com/download/archive/ngrok/ngrok-v3/stable/ngrok_archive",
+        "regex": "/a/(?<hash64bit>\\w+)/ngrok-v[\\d.]+-([\\d.]+)-windows-amd64.zip(?:.|\\n)+?/a/(?<hash32bit>\\w+)/ngrok-v[\\d.]+-([\\d.]+)-windows-386.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://bin.ngrok.com/a/$matchHash64bit/ngrok-v$majorVersion-$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://bin.ngrok.com/a/$matchHash32bit/ngrok-v$majorVersion-$version-windows-386.zip"
+            }
+        },
+        "hash": {
+            "url": "https://ngrok.com/download/archive/ngrok/ngrok-v3/stable/ngrok_archive",
+            "regex": "$url(?:.|\\n)+?value=\"(\\w+)"
+        }
+    }
+}

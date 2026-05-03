@@ -1,0 +1,41 @@
+{
+    "version": "4.49.89",
+    "description": "Collaboration software",
+    "homepage": "https://slack.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://slack.com/intl/en-nl/legal"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.49.89/Slack.msix#/dl.zip",
+            "hash": "f2ae0041b05f919e19a660dc9e83f9857b483f3eabbdbbfbd1a29b0e80095d24"
+        },
+        "arm64": {
+            "url": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/4.49.89/Slack.msix#/dl.zip",
+            "hash": "bef30247018ed2fca715744066ac2384630296f06930916b1c9282632ce8bcb6"
+        }
+    },
+    "extract_dir": "app",
+    "bin": "slack.exe",
+    "shortcuts": [
+        [
+            "slack.exe",
+            "Slack"
+        ]
+    ],
+    "checkver": {
+        "url": "https://slack.com/release-notes/windows",
+        "regex": "<h2 .+?>Slack ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/$version/Slack.msix#/dl.zip"
+            },
+            "arm64": {
+                "url": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/$version/Slack.msix#/dl.zip"
+            }
+        }
+    }
+}
