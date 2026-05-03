@@ -104,7 +104,6 @@ for dir_name in [*SYNC_DIR_NAMES, "temp"]:
 
 
 for repo_name in BUCKETS:
-    print(f"开始同步 {repo_name}")
     repo_dir: Path = TEMP_DIR / repo_name.replace("/", "_")
     repo = Repo.clone_from(
         f"{GITHUB_URL}/https://github.com/{repo_name}",
