@@ -11,7 +11,7 @@ dependencies = [
 dev = [
     "python-dotenv==1.2.2",
     "ruff==0.15.12",
-    "ty==0.0.33",
+    "ty==0.0.34",
     "types-requests==2.33.0.20260408",
 ]
 
