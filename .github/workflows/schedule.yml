@@ -36,7 +36,7 @@ jobs:
             git push origin main
           }
 
-      - uses: ScoopInstaller/GithubActions@main
+      - uses: ScoopInstaller/GithubActions@162fa9fe9ee81ec7407ba46bc732e211085b552e # main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: 1

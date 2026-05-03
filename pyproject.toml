@@ -2,9 +2,9 @@
 name = "sync"
 version = "1.0.0"
 description = "自动同步其他仓库的bucket清单"
-requires-python = ">=3.14"
+requires-python = "==3.14.4"
 dependencies = [
-    "gitpython>=3.1.49",
+    "gitpython==3.1.49",
 ]
 
 [dependency-groups]
