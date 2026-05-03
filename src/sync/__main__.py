@@ -4,6 +4,7 @@ import re
 from collections.abc import Callable
 from json import JSONDecodeError
 from pathlib import Path
+from re import Pattern
 from shutil import copy2, copytree
 from typing import Any
 
@@ -12,9 +13,11 @@ from git import Repo, rmtree
 from sync.config import (
     BUCKETS,
     CURRENT_DIR,
+    DEFAULT_RULES,
+    GITHUB_RULES,
     GITHUB_URL,
     INVALID_GITHUB_URL,
-    SOURCEFORGE_URL,
+    SOURCEFORGE_RULES,
     SYNC_DIR_NAMES,
     TEMP_DIR,
 )
@@ -30,53 +33,14 @@ def patch_update(data: str | dict | list) -> str | dict | list:
 
 
 def patch(content: str) -> str:
-    rules: list[tuple[str, str | Callable[[re.Match[str]], str]]] = [
-        (r"\$bucketsdir\\[a-zA-Z\-]+\\", r"$$bucketsdir\\$$bucket\\"),
-        (
-            r"Find-BucketDirectory -Root -Name [a-zA-Z]+\)",
-            r"Find-BucketDirectory -Root -Name main)",
-        ),
-    ]
+    rules: list[tuple[Pattern, str | Callable[[re.Match[str]], str]]] = []
+    rules += DEFAULT_RULES
     if "github.com" in content or "githubusercontent.com" in content:
         for url in INVALID_GITHUB_URL:
             content: str = content.replace(url, GITHUB_URL)
-
-        rules += [
-            (
-                r"(https://github\.com.+/releases/download/)",
-                lambda m: f"{GITHUB_URL}/{m.group(1)}",
-            ),
-            (
-                r"(https://github\.com.+/archive/)",
-                lambda m: f"{GITHUB_URL}/{m.group(1)}",
-            ),
-            (
-                r"(https://(raw|gist)\.githubusercontent\.com)",
-                lambda m: f"{GITHUB_URL}/{m.group(1)}",
-            ),
-            (f"{GITHUB_URL}/{GITHUB_URL}", GITHUB_URL),
-            (
-                rf"https://[.0-9a-zA-Z]+/{re.escape(GITHUB_URL)}/https:",
-                f"{GITHUB_URL}/https:",
-            ),
-        ]
+        rules += GITHUB_RULES
     elif "sourceforge.net" in content:
-        rules += [
-            (
-                r"(https://sourceforge\.net/projects/[^/]+(?:/files/.+?)?/download(?![\w/]))",
-                lambda m: f"{SOURCEFORGE_URL}/{m.group(1)}",
-            ),
-            (
-                r"(https://(?:downloads|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)",
-                lambda m: f"{SOURCEFORGE_URL}/{m.group(1)}",
-            ),
-            (f"{SOURCEFORGE_URL}/{SOURCEFORGE_URL}", SOURCEFORGE_URL),
-            (
-                rf"https://[.0-9a-zA-Z-]+/{re.escape(SOURCEFORGE_URL)}/https:",
-                f"{SOURCEFORGE_URL}/https:",
-            ),
-        ]
-
+        rules += SOURCEFORGE_RULES
     for pattern, replace in rules:
         content: str = re.sub(
             pattern, replace, content, flags=re.IGNORECASE | re.MULTILINE
@@ -106,7 +70,7 @@ for dir_name in [*SYNC_DIR_NAMES, "temp"]:
 for repo_name in BUCKETS:
     repo_dir: Path = TEMP_DIR / repo_name.replace("/", "_")
     repo = Repo.clone_from(
-        f"{GITHUB_URL}/https://github.com/{repo_name}",
+        f"https://github.com/{repo_name}",
         repo_dir,
         multi_options=["--depth=1", "--filter=blob:none", "--no-checkout"],
     )

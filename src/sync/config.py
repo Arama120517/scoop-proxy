@@ -1,4 +1,7 @@
+import re
+from collections.abc import Callable
 from pathlib import Path
+from re import Pattern
 
 CURRENT_DIR: Path = Path.cwd()
 TEMP_DIR: Path = CURRENT_DIR / "temp"
@@ -36,4 +39,57 @@ BUCKETS: list[str] = [
     "Scoopforge/Extras-CN",
     "starise/Scoop-Gaming",
     "AkariiinMKII/Scoop4kariiin",
+]
+
+
+def compile(pattern: str) -> Pattern:
+    return re.compile(pattern, re.IGNORECASE | re.MULTILINE)
+
+
+DEFAULT_RULES: list[tuple[Pattern, str]] = [
+    (compile(r"\$bucketsdir\\[a-zA-Z\-]+\\"), r"$$bucketsdir\\$$bucket\\"),
+    (
+        compile(r"Find-BucketDirectory -Root -Name [a-zA-Z]+\)"),
+        r"Find-BucketDirectory -Root -Name main)",
+    ),
+]
+
+GITHUB_RULES: list[tuple[Pattern, str | Callable[[re.Match[str]], str]]] = [
+    (
+        compile(r"(https://github\.com.+/releases/download/)"),
+        lambda m: f"{GITHUB_URL}/{m.group(1)}",
+    ),
+    (
+        compile(r"(https://github\.com.+/archive/)"),
+        lambda m: f"{GITHUB_URL}/{m.group(1)}",
+    ),
+    (
+        compile(r"(https://(raw|gist)\.githubusercontent\.com)"),
+        lambda m: f"{GITHUB_URL}/{m.group(1)}",
+    ),
+    (compile(f"{GITHUB_URL}/{GITHUB_URL}"), GITHUB_URL),
+    (
+        compile(rf"https://[.0-9a-zA-Z]+/{re.escape(GITHUB_URL)}/https:"),
+        f"{GITHUB_URL}/https:",
+    ),
+]
+
+SOURCEFORGE_RULES: list[tuple[Pattern, str | Callable[[re.Match[str]], str]]] = [
+    (
+        compile(
+            r"(https://sourceforge\.net/projects/[^/]+(?:/files/.+?)?/download(?![\w/]))"
+        ),
+        lambda m: f"{SOURCEFORGE_URL}/{m.group(1)}",
+    ),
+    (
+        compile(
+            r"(https://(?:downloads|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"
+        ),
+        lambda m: f"{SOURCEFORGE_URL}/{m.group(1)}",
+    ),
+    (compile(f"{SOURCEFORGE_URL}/{SOURCEFORGE_URL}"), SOURCEFORGE_URL),
+    (
+        compile(rf"https://[.0-9a-zA-Z-]+/{re.escape(SOURCEFORGE_URL)}/https:"),
+        f"{SOURCEFORGE_URL}/https:",
+    ),
 ]
