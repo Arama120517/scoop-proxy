@@ -38,5 +38,6 @@ jobs:
 
       - uses: ScoopInstaller/GithubActions@162fa9fe9ee81ec7407ba46bc732e211085b552e # main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          SCOOP_BRANCH: develop
           SKIP_UPDATED: 1
