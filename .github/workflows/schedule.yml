@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 * * * *"
+      timezone: "Asia/Shanghai"
 
 permissions:
   contents: write
@@ -28,7 +29,7 @@ jobs:
 
           if (git status --porcelain) {
             git add .
-            git commit -m "feat: auto update $(date '+%Y-%m-%d %H:%M:%S')."
+            git commit -m "feat: auto update $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')."
             git push origin main
           }
 
