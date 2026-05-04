@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/pwgen-win/Password%20Tech/$version/PwTech-$version-64bit.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/pwgen-win/Password%20Tech/$version/PwTech-$version-64bit.zip"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/pwgen-win/Password%20Tech/$version/PwTech-$version-32bit.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/pwgen-win/Password%20Tech/$version/PwTech-$version-32bit.zip"
             }
         }
     }

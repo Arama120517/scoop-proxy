@@ -11,6 +11,6 @@
         "regex": "swissfileknife/([\\d.]+)/"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/$version/sfk$majorVersion$minorVersion$patchVersion.exe#/sfk.exe"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/$version/sfk$majorVersion$minorVersion$patchVersion.exe#/sfk.exe"
     }
 }

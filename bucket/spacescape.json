@@ -18,6 +18,6 @@
         "regex": "spacescape-([\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/spacescape/win/spacescape-$version.zip"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/spacescape/win/spacescape-$version.zip"
     }
 }

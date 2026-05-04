@@ -22,11 +22,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win64.zip",
+                "url": "sourceforge/https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win64.zip",
                 "extract_dir": "RHash-$version-win64"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win32.zip",
+                "url": "sourceforge/https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win32.zip",
                 "extract_dir": "RHash-$version-win32"
             }
         }

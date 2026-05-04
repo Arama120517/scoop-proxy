@@ -31,6 +31,6 @@
         "regex": "files/vpncfe/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/vpncfe/vpncfe/$version/vpncfe-$version-setup.exe"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/vpncfe/vpncfe/$version/vpncfe-$version-setup.exe"
     }
 }

@@ -23,11 +23,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version-x64.zip",
+                "url": "sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version-x64.zip",
                 "extract_dir": "astyle-$version-x64"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version.zip",
+                "url": "sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version.zip",
                 "extract_dir": "astyle-$version"
             }
         }

@@ -47,10 +47,12 @@ def compile(pattern: str) -> Pattern:
 
 
 DEFAULT_RULES: list[tuple[Pattern, str]] = [
-    (compile(r"\$bucketsdir\\[a-zA-Z\-]+\\"), r"$$bucketsdir\\$$bucket\\"),
+    (compile(r"\$bucketsdir\\\\[a-zA-Z]+\\\\"), r"$bucketsdir\\\\$bucket\\\\"),
     (
-        compile(r"Find-BucketDirectory -Root -Name [a-zA-Z]+\)"),
-        r"Find-BucketDirectory -Root -Name main)",
+        compile(
+            r"Find-BucketDirectory\s*(?:\([a-zA-Z-]+\)|-Root\s+-Name\s+[a-zA-Z-]+)"
+        ),
+        r"Find-BucketDirectory -Root -Name main",
     ),
 ]
 

@@ -12,7 +12,7 @@
         "regex": "swigwin-([\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/swig/swigwin/swigwin-$version/swigwin-$version.zip",
+        "url": "sourceforge/https://downloads.sourceforge.net/project/swig/swigwin/swigwin-$version/swigwin-$version.zip",
         "extract_dir": "swigwin-$version"
     }
 }

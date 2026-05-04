@@ -3,9 +3,7 @@ name = "sync"
 version = "1.0.0"
 description = "自动同步其他仓库的bucket清单"
 requires-python = "==3.14.4"
-dependencies = [
-    "gitpython==3.1.49",
-]
+dependencies = ["gitpython==3.1.49"]
 
 [dependency-groups]
 dev = [
@@ -43,7 +41,7 @@ select = [
     "S",   # flake8-bandit
 ]
 
-ignore = ["E501", "S311"]
+ignore = ["C901", "E501", "S311"]
 
 [tool.ruff.lint.isort]
 combine-as-imports = true

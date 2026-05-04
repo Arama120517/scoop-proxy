@@ -26,6 +26,6 @@
         "regex": "Free Pascal ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/freepascal/Win32/$version/fpc-$version.i386-win32.exe"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/freepascal/Win32/$version/fpc-$version.i386-win32.exe"
     }
 }

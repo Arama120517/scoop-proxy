@@ -17,6 +17,6 @@
         "regex": "Binaries/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/codeblocks/Binaries/$version/Windows/codeblocks-$versionmingw-nosetup.zip"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/codeblocks/Binaries/$version/Windows/codeblocks-$versionmingw-nosetup.zip"
     }
 }

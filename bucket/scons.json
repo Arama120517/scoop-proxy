@@ -15,6 +15,6 @@
         "regex": "The current production release of SCons is <strong>([\\w.]+)</strong>"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/scons/scons-local/$version/scons-local-$version.zip"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/scons/scons-local/$version/scons-local-$version.zip"
     }
 }

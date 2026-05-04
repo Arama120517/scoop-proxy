@@ -26,6 +26,6 @@
     ],
     "checkver": "Task Coach ([\\d.]+)",
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/taskcoach/taskcoach/Release-$version/X-TaskCoach_$version_rev1.zip"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/taskcoach/taskcoach/Release-$version/X-TaskCoach_$version_rev1.zip"
     }
 }

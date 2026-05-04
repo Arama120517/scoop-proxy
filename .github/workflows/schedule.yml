@@ -11,7 +11,7 @@ permissions:
 jobs:
   schedule:
     name: Schedule
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     defaults:
       run:
         shell: pwsh
@@ -29,8 +29,8 @@ jobs:
 
           uv run --no-dev -m src.sync
 
-          if (git status --porcelain) {
+          if git status --porcelain | grep -q .; then
             git add .
-            git commit -m "feat: auto update $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')."
+            git commit -m "feat: auto update $(date '+%Y-%m-%d %H:%M:%S')"
             git push origin main
-          }
+          fi

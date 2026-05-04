@@ -24,7 +24,7 @@
         "regex": "freeplane_bin-(.*)\\.zip"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/freeplane_bin-$version.zip",
+        "url": "sourceforge/https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/freeplane_bin-$version.zip",
         "extract_dir": "freeplane-$version"
     }
 }

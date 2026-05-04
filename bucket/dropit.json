@@ -19,7 +19,7 @@
     ],
     "checkver": "Latest Version: v([\\d.]+)",
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/dropit/DropIt/v$version/DropIt_v$version_Portable.zip",
+        "url": "sourceforge/https://downloads.sourceforge.net/project/dropit/DropIt/v$version/DropIt_v$version_Portable.zip",
         "extract_dir": "DropIt_v$version_Portable"
     }
 }

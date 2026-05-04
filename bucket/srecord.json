@@ -15,6 +15,6 @@
         "regex": "srecord-([\\d.]+)-win32"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/srecord/srecord-win32/$version/srecord-$version-win32.zip"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/srecord/srecord-win32/$version/srecord-$version-win32.zip"
     }
 }

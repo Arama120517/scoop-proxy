@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/sdcc/sdcc-win64/$version/sdcc-$version-x64-setup.exe#/dl.7z"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/sdcc/sdcc-win64/$version/sdcc-$version-x64-setup.exe#/dl.7z"
             }
         }
     }

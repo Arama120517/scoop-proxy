@@ -17,6 +17,6 @@
         "regex": "([\\d.]+)-binary\\.zip"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/win32diskimager/Archive/Win32DiskImager-$version-binary.zip"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/win32diskimager/Archive/Win32DiskImager-$version-binary.zip"
     }
 }

@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip"
             }
         }
     }

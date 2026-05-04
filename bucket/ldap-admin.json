@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w64-$version.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w64-$version.zip"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w32-$version.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w32-$version.zip"
             }
         }
     }

@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/maxima/Maxima-Windows/$version-Windows/maxima-$version-win64.exe#/dl.7z"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/maxima/Maxima-Windows/$version-Windows/maxima-$version-win64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/maxima/Maxima-Windows/$version-Windows/maxima-$version-win32.exe#/dl.7z"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/maxima/Maxima-Windows/$version-Windows/maxima-$version-win32.exe#/dl.7z"
             }
         }
     }

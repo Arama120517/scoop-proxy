@@ -10,7 +10,7 @@
     "url": "https://download.microsoft.com/download/6c1eeb25-cf8b-41d9-8d0d-cc1dbc032140/officedeploymenttool_19929-20062.exe#/dl.7z_",
     "hash": "a022a04611a520a9c8485f4264e3117de546e89bebedbdc4ba4f3d603bfce24c",
     "pre_install": [
-        "$scriptdir = \"$bucketsdir\\nonportable\\scripts\"",
+        "$scriptdir = \"$bucketsdir\\$bucket\\scripts\"",
         "if ($architecture -eq '64bit') {",
         "     Copy-Item \"$scriptdir\\install-office-365-apps.xml\" \"$dir\\\"",
         "}",

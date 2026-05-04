@@ -12,7 +12,7 @@
         "regex": "([\\d.]+)/binary-Windows"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/editorconfig/EditorConfig-C-Core/$version/binary-Windows/editorconfig-$version-Windows-x86.zip",
+        "url": "sourceforge/https://downloads.sourceforge.net/project/editorconfig/EditorConfig-C-Core/$version/binary-Windows/editorconfig-$version-Windows-x86.zip",
         "extract_dir": "editorconfig-$version-Windows-x86"
     }
 }

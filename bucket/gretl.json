@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-64.exe"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-64.exe"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-32.exe"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-32.exe"
             }
         }
     }

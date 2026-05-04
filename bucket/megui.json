@@ -14,6 +14,6 @@
     ],
     "checkver": "MeGUI-(\\d+)-32\\.7z",
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/megui/megui-stable/$version/MeGUI-$version-32.7z"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/megui/megui-stable/$version/MeGUI-$version-32.7z"
     }
 }

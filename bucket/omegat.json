@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Standard/OmegaT%20$version/OmegaT_$version_Windows_64_signed.exe"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Standard/OmegaT%20$version/OmegaT_$version_Windows_64_signed.exe"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Standard/OmegaT%20$version/OmegaT_$version_Windows_signed.exe"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Standard/OmegaT%20$version/OmegaT_$version_Windows_signed.exe"
             }
         }
     }

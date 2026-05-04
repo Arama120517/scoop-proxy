@@ -31,7 +31,7 @@
     ],
     "post_install": [
         "'install-file-associations', 'uninstall-file-associations' | ForEach-Object {",
-        "    $reg_file_in  = \"$bucketsdir\\main\\scripts\\kicad\\$_.reg\"",
+        "    $reg_file_in  = \"$bucketsdir\\$bucket\\scripts\\kicad\\$_.reg\"",
         "    $reg_file_out = \"$dir\\$_.reg\"",
         "    $kicad_root     = \"$dir\".Replace('\\', '\\\\')",
         "    if (Test-Path $reg_file_in) {",

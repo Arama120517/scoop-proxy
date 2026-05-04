@@ -21,6 +21,6 @@
         "regex": "Binaries/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/codeblocks/Binaries/$version/Windows/codeblocks-$version-nosetup.zip"
+        "url": "sourceforge/https://downloads.sourceforge.net/project/codeblocks/Binaries/$version/Windows/codeblocks-$version-nosetup.zip"
     }
 }

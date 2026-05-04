@@ -72,7 +72,7 @@
         "regex": "id=\"SweetHome3D#Portable\"\\s+version=\"([\\d.]+)\""
     },
     "autoupdate": {
-        "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z",
+        "url": "sourceforge/https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z",
         "extract_dir": "SweetHome3D-$version-portable"
     }
 }

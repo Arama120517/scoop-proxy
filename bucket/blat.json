@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/64%20bit%20versions/blat$cleanVersion_64.full.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/64%20bit%20versions/blat$cleanVersion_64.full.zip"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/32%20bit%20versions/Win2000%20and%20newer/blat$cleanVersion_32.full.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/32%20bit%20versions/Win2000%20and%20newer/blat$cleanVersion_32.full.zip"
             }
         },
         "extract_dir": "blat$cleanVersion"

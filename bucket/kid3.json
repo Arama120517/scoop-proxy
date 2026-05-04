@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/kid3/kid3/$matchShort/kid3-$version-win32-x64.zip",
+                "url": "sourceforge/https://downloads.sourceforge.net/project/kid3/kid3/$matchShort/kid3-$version-win32-x64.zip",
                 "extract_dir": "kid3-$matchShort-win32-x64"
             }
         }

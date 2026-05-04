@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/uncrustify/uncrustify-$matchFver/uncrustify-$version_f-win64.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/uncrustify/uncrustify-$matchFver/uncrustify-$version_f-win64.zip"
             },
             "32bit": {
-                "url": "sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/sourceforge/https://downloads.sourceforge.net/project/uncrustify/uncrustify-$matchFver/uncrustify-$version_f-win32.zip"
+                "url": "sourceforge/https://downloads.sourceforge.net/project/uncrustify/uncrustify-$matchFver/uncrustify-$version_f-win32.zip"
             }
         }
     }
