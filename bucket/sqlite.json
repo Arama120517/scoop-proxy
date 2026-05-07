@@ -1,0 +1,39 @@
+{
+    "version": "3.53.1",
+    "description": "A small, fast, self-contained, high-reliability and full-featured SQL database engine",
+    "homepage": "https://www.sqlite.org/",
+    "license": {
+        "identifier": "Public Domain",
+        "url": "https://www.sqlite.org/src/file?name=LICENSE.md"
+    },
+    "architecture": {
+        "arm64": {
+            "url": "https://www.sqlite.org/2026/sqlite-tools-win-arm64-3530100.zip",
+            "hash": "77e0e6a323d17ff2ecc90bdb0bb6ae17127111fd21ffb0758e12538ff55ea502"
+        },
+        "64bit": {
+            "url": "https://www.sqlite.org/2026/sqlite-tools-win-x64-3530100.zip",
+            "hash": "bcc88a2f9ebcf3d90b7a95337cc96bd492b1633f741bbdbff0525d1806098fc2"
+        }
+    },
+    "bin": [
+        "sqlite3.exe",
+        "sqldiff.exe",
+        "sqlite3_analyzer.exe",
+        "sqlite3_rsync.exe"
+    ],
+    "checkver": {
+        "url": "https://www.sqlite.org/download.html",
+        "regex": "PRODUCT,([\\d.]+),(?<year>\\d+)/sqlite-tools-win-x64-(?<clean>\\d+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "arm64": {
+                "url": "https://www.sqlite.org/$matchYear/sqlite-tools-win-arm64-$matchClean.zip"
+            },
+            "64bit": {
+                "url": "https://www.sqlite.org/$matchYear/sqlite-tools-win-x64-$matchClean.zip"
+            }
+        }
+    }
+}

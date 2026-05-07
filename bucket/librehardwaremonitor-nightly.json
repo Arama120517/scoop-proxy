@@ -1,0 +1,51 @@
+{
+    "version": "25277695902",
+    "description": "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer (nightly version).",
+    "homepage": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/LibreHardwareMonitor/LibreHardwareMonitor/actions/runs/25277695902/LibreHardwareMonitor.zip",
+            "hash": "95bd78b9f23fb0b6311489ea621fcdc2f199da5937eddd739200d2e8ad8b97e6"
+        }
+    },
+    "pre_install": [
+        "# Hardlinks cannot work properly here, as this app would create a new file instead of writing directly.",
+        "'LibreHardwareMonitor.config', 'LibreHardwareMonitorLog*.csv' | ForEach-Object {",
+        "    if (Test-Path -Path \"$persist_dir\\$_\" -PathType Leaf) {",
+        "        Copy-Item -Path \"$persist_dir\\$_\" -Destination $dir -Force",
+        "    }",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "LibreHardwareMonitor.exe",
+            "Libre Hardware Monitor (Nightly)"
+        ]
+    ],
+    "pre_uninstall": [
+        "# Hardlinks cannot work properly here, as this app would create a new file instead of writing directly.",
+        "'LibreHardwareMonitor.config', 'LibreHardwareMonitorLog*.csv' | ForEach-Object {",
+        "    if (Test-Path -Path \"$dir\\$_\" -PathType Leaf) {",
+        "        ensure $persist_dir | Out-Null",
+        "        Copy-Item -Path \"$dir\\$_\" -Destination $persist_dir -Force",
+        "    }",
+        "}"
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/LibreHardwareMonitor/LibreHardwareMonitor/actions/workflows/master.yml/runs?branch=master&status=success&workflow=master",
+        "jsonpath": "$.workflow_runs[0].id"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/LibreHardwareMonitor/LibreHardwareMonitor/actions/runs/$version/LibreHardwareMonitor.zip",
+                "hash": {
+                    "url": "https://api.github.com/repos/LibreHardwareMonitor/LibreHardwareMonitor/actions/runs/$version/artifacts",
+                    "mode": "json",
+                    "jsonpath": "$.artifacts[?(@.name== 'LibreHardwareMonitor')].digest"
+                }
+            }
+        }
+    }
+}
