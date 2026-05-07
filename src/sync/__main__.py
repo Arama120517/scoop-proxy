@@ -144,7 +144,7 @@ for repo_name in BUCKETS:
     )
     repo.git.sparse_checkout("init", "--no-cone")
     repo.git.sparse_checkout("set", *SYNC_DIR_NAMES)
-    repo.git.checkout("-b", "main", "origin/HEAD")
+    repo.git.checkout("-b", "result", "origin/HEAD")
 
     for sync_dir_name in SYNC_DIR_NAMES:
         if not (repo_dir / sync_dir_name).exists():
