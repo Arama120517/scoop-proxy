@@ -74,17 +74,24 @@ def patch_update(data: str | dict | list) -> str | dict | list:
         return [patch_update(i) for i in data]
 
 
+existing_files: list[str] = []
+
+
+def is_exists(dst: str) -> bool:
+    return dst.lower() in existing_files
+
+
 def copy(src: str, dst: str, *_) -> str:
     src_file, dst_file = Path(src), Path(dst)
+
     try:
         content: str = src_file.read_text("utf-8")
     except UnicodeDecodeError:
-        return dst if dst_file.exists() else copy2(src, dst)
+        return dst if is_exists(dst) else copy2(src, dst)
 
     if src_file.suffix == ".json":
         content: str = json.dumps(json.loads(content), indent=4, ensure_ascii=False)
-
-        if dst_file.exists():
+        if is_exists(dst):
             src_ver: str = json.loads(content)["version"]
             dst_ver: str = json.loads(dst_file.read_text("utf-8"))["version"]
             status: SemverStatus = semver_compare(dst_ver, src_ver)
@@ -101,8 +108,10 @@ def copy(src: str, dst: str, *_) -> str:
         rules += GITHUB_RULES
     elif "sourceforge.net" in content:
         rules += SOURCEFORGE_RULES
+
     for pattern, replace in rules:
         content: str = pattern.sub(replace, content)
+
     with contextlib.suppress(JSONDecodeError):
         manifest: Any = json.loads(content)
         if "checkver" in manifest:
@@ -111,6 +120,7 @@ def copy(src: str, dst: str, *_) -> str:
             manifest["autoupdate"] = patch_update(manifest["autoupdate"])
         content: str = json.dumps(manifest, indent=4, ensure_ascii=False)
     dst_file.write_text(content, "utf-8")
+    existing_files.append(dst.lower())
     return dst
 
 
