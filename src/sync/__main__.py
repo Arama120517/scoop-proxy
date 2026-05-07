@@ -140,11 +140,11 @@ for repo_name in BUCKETS:
     repo: Repo = Repo.clone_from(
         f"{GITHUB_URL + '/' if os.environ.get('MIRROR') else ''}https://github.com/{repo_name}",
         repo_dir,
-        multi_options=["--filter=blob:none", "--no-checkout"],
+        multi_options=["--filter=blob:none", "--no-checkout", "--depth=1"],
     )
     repo.git.sparse_checkout("init", "--no-cone")
     repo.git.sparse_checkout("set", *SYNC_DIR_NAMES)
-    repo.git.checkout("-b", "default", "origin/HEAD")
+    repo.git.checkout("-b", "main", "origin/HEAD")
 
     for sync_dir_name in SYNC_DIR_NAMES:
         if not (repo_dir / sync_dir_name).exists():
