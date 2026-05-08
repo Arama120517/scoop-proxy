@@ -25,7 +25,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          uv run --no-dev -m src.sync
+          uv run --no-dev -m src.sync.main
 
           if (git status --porcelain) {
             git add .

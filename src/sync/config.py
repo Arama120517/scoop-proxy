@@ -3,6 +3,8 @@ from collections.abc import Callable
 from pathlib import Path
 from re import Pattern
 
+import re2
+
 CURRENT_DIR: Path = Path.cwd()
 TEMP_DIR: Path = CURRENT_DIR / "temp"
 
@@ -48,7 +50,7 @@ BUCKETS: list[str] = [
     "cderv/r-bucket",
     "chawyehsu/dorado",
     "borger/scoop-galaxy-integrations",
-    "oilc/scoop-lemon",
+    "hoilc/scoop-lemon",
     "Scoopforge/Extras-CN",
     "Scoopforge/Extras-Plus",
     "littleli/scoop-clojure",
@@ -88,9 +90,12 @@ BUCKETS: list[str] = [
 
 type Rules = list[tuple[Pattern, str | Callable[[re.Match[str]], str]]]
 
+options = re2.Options()
+options.case_sensitive = False
+
 
 def compile(pattern: str) -> Pattern:
-    return re.compile(pattern, re.IGNORECASE | re.MULTILINE)
+    return re2.compile(pattern, options)
 
 
 DEFAULT_RULES: Rules = [
@@ -126,14 +131,13 @@ GITHUB_RULES: Rules = [
 SOURCEFORGE_RULES: Rules = [
     (
         compile(
-            r"(https://sourceforge\.net/projects/[^/]+(?:/files/.+?)?/download(?![\w/]))"
+            r"(https://sourceforge\.net/projects/[^/]+(?:/files/.+?)?/download)([^a-zA-Z0-9_/]|$)"
+            #                                                                  ^^^^^^^^^^^^^^^^^^ 捕获边界
         ),
-        lambda m: rf"{SOURCEFORGE_URL}/{m.group(1)}",
+        lambda m: SOURCEFORGE_URL + "/" + m.group(1) + (m.group(2) or ""),
     ),
     (
-        compile(
-            r"(https://(?:download|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"
-        ),
+        compile(r"(https://(?:download|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"),
         lambda m: rf"{SOURCEFORGE_URL}/{m.group(1)}",
     ),
     (compile(f"{SOURCEFORGE_URL}/{SOURCEFORGE_URL}"), SOURCEFORGE_URL),
