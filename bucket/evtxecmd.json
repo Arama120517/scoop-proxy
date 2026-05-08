@@ -1,0 +1,17 @@
+{
+  "version": "2026.5.0",
+  "description": "A C# based (Windows Event Log) evtx parser with lots of extras.",
+  "homepage": "https://github.com/EricZimmerman/evtx",
+  "license": "MIT",
+  "url": "https://download.ericzimmermanstools.com/EvtxECmd.zip",
+  "hash": "27dbf7b5508c50846471b3e0c534cfac85bea222010c88d1190b8dab53a20cc1",
+  "extract_dir": "EvtxeCmd",
+  "bin": "EvtxECmd.exe",
+  "checkver": {
+    "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+    "regex": "EvtxECmd.*?\\[([\\d.]+)\\]"
+  },
+  "autoupdate": {
+    "url": "https://download.ericzimmermanstools.com/EvtxECmd.zip"
+  }
+}

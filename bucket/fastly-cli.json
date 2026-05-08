@@ -1,0 +1,33 @@
+{
+  "version": "15.0.0",
+  "description": "A CLI for interacting with the Fastly platform.",
+  "homepage": "https://fastly.dev/reference/cli/",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/fastly/cli/releases/download/v15.0.0/fastly_v15.0.0_windows-amd64.zip",
+      "hash": "0e05b8da1a64e470a0f8b453d92ba67af9787c70029002e7dd79258e7e1ac774"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/fastly/cli/releases/download/v15.0.0/fastly_v15.0.0_windows-386.zip",
+      "hash": "825d8256f3d73d9579e2257d4955267e4971e3a2cf5b5d4c6c9755ba337c4fce"
+    }
+  },
+  "bin": "fastly.exe",
+  "checkver": {
+    "github": "https://github.com/fastly/cli"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/fastly/cli/releases/download/v$version/fastly_v$version_windows-amd64.zip"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/fastly/cli/releases/download/v$version/fastly_v$version_windows-386.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/fastly_v$version_SHA256SUMS"
+    }
+  }
+}

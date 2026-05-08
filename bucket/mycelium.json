@@ -1,0 +1,26 @@
+{
+  "version": "0.7.7",
+  "description": "An E2E encrypted IPv6 overlay network.",
+  "homepage": "https://github.com/threefoldtech/mycelium",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/threefoldtech/mycelium/releases/download/v0.7.7/mycelium_installer.msi",
+      "hash": "8a64e83c6c394dc8adc8cb1b58fc7a905e1634ad1403de8d1a805f667960bcd0"
+    }
+  },
+  "pre_install": [
+    "Get-ChildItem -Recurse \"$dir\" -Include '*.exe', '*.dll', '*.toml' | Move-Item -Force -Destination $dir",
+    "Remove-Item \"$dir\\PFiles64\", \"$dir\\System64\", \"$dir\\AppData\"  -Force -Recurse"
+  ],
+  "bin": "mycelium.exe",
+  "persist": "mycelium.toml",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/threefoldtech/mycelium/releases/download/v$version/mycelium_installer.msi"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "0.19.2",
+  "description": "A CLI to install, manage & troubleshoot Kubernetes clusters running Cilium.",
+  "homepage": "https://github.com/cilium/cilium-cli",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/cilium/cilium-cli/releases/download/v0.19.2/cilium-windows-amd64.zip",
+      "hash": "6be7bc367537add0eec1078f2e9a0c8192926b1fa2cbc486e64d2773000e9217"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/cilium/cilium-cli/releases/download/v0.19.2/cilium-windows-arm64.zip",
+      "hash": "f08eaa9e63f076d9f9c5c82078e67b61dd16b8dba6d7dd42eac51a6225c7c674"
+    }
+  },
+  "bin": "cilium.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/cilium/cilium-cli/releases/download/v$version/cilium-windows-amd64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/cilium/cilium-cli/releases/download/v$version/cilium-windows-arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256sum"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": "3.0-390-092b700",
+  "description": "A cross-platform software to find duplicated video (and image) files on hard disk based on similarity.",
+  "homepage": "https://github.com/0x90d/videoduplicatefinder",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/GUI-win-x64.zip",
+      "hash": "c035453b0d85765c3f715be95a3990edd357cb99d4c7b831e0aa524d99f880f4"
+    }
+  },
+  "shortcuts": [
+    [
+      "VDF.GUI.exe",
+      "Video Duplicate Finder"
+    ]
+  ],
+  "pre_install": "if (!(Test-Path \"$persist_dir\\Settings.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\Settings.json\" -Value '{\"CustomDatabaseFolder\":\"data\"}' }",
+  "persist": [
+    "Settings.json",
+    "data"
+  ],
+  "suggest": {
+    "ffmpeg": "ffmpeg"
+  },
+  "checkver": {
+    "url": "https://github.com/0x90d/videoduplicatefinder/actions/workflows/releases.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster",
+    "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):.*?/commit/(?<shortcommit>[0-9a-f]{7})(?<remainingcommit>[0-9a-f]+)\"",
+    "replace": "3.0-${build}-${shortcommit}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/GUI-win-x64.zip"
+      }
+    }
+  }
+}

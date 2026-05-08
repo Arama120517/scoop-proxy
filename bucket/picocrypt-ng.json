@@ -1,0 +1,26 @@
+{
+  "version": "2.08",
+  "description": "A very small, very simple, yet very secure encryption tool.",
+  "homepage": "https://github.com/Picocrypt-NG/Picocrypt-NG",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/Picocrypt-NG/Picocrypt-NG/releases/download/2.08/Picocrypt-NG.exe",
+      "hash": "db9272bb9991cad2a68bb4c5666672c82ef3a9e8925e47b4c1bf8485d3b1cccf"
+    }
+  },
+  "shortcuts": [
+    [
+      "Picocrypt-NG.exe",
+      "Picocrypt NG"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/Picocrypt-NG/Picocrypt-NG/releases/download/$version/Picocrypt-NG.exe"
+      }
+    }
+  }
+}

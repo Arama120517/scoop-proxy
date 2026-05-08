@@ -1,0 +1,47 @@
+{
+  "version": "2.11.0",
+  "description": "An open source universal loading system that lets you launch games and media instantly using physical objects.",
+  "homepage": "https://zaparoo.org/",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.11.0/zaparoo-windows_amd64-2.11.0.zip",
+      "hash": "65813d818532557972d3b9597d3ca9b2fc8370dba680d1479e98b0004f72eff8"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.11.0/zaparoo-windows_386-2.11.0.zip",
+      "hash": "82421f343860be25084b56d5fc204803373eca2caf800867b9dc37986e228eab"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.11.0/zaparoo-windows_arm64-2.11.0.zip",
+      "hash": "43e989ef611e94590c9ef713ec103fd6efffed158d70b9bf5126638d74cc735a"
+    }
+  },
+  "shortcuts": [
+    [
+      "Zaparoo.exe",
+      "Zaparoo"
+    ]
+  ],
+  "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\zaparoo\" -Force -Recurse -ErrorAction SilentlyContinue }",
+  "notes": [
+    "Zaparoo is NOT portable.",
+    "Settings are stored in '%LOCALAPPDATA%\\zaparoo', and will be purged during uninstallation."
+  ],
+  "checkver": {
+    "github": "https://github.com/ZaparooProject/zaparoo-core"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ZaparooProject/zaparoo-core/releases/download/v$version/zaparoo-windows_amd64-$version.zip"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ZaparooProject/zaparoo-core/releases/download/v$version/zaparoo-windows_386-$version.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ZaparooProject/zaparoo-core/releases/download/v$version/zaparoo-windows_arm64-$version.zip"
+      }
+    }
+  }
+}

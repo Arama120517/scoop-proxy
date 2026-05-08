@@ -1,0 +1,29 @@
+{
+  "version": "2.7.4",
+  "description": "Minimal Firewall is a portable Windows firewall frontend that alerts users to internet connections.",
+  "homepage": "https://github.com/deminimis/minimalfirewall",
+  "license": "AGPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/deminimis/minimalfirewall/releases/download/v2.7.4/Minimal.Firewall.exe",
+      "hash": "1e6fe4adec2cef32975b03cf49d3d05b87b98d9efb1c4daba87ef307ca761908"
+    }
+  },
+  "shortcuts": [
+    [
+      "Minimal.Firewall.exe",
+      "Minimal Firewall"
+    ]
+  ],
+  "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.json' | Move-Item -Force -Destination \"$dir\"",
+  "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.json' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+  "persist": "backup",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/deminimis/minimalfirewall/releases/download/v$version/Minimal.Firewall.exe"
+      }
+    }
+  }
+}

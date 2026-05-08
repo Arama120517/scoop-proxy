@@ -1,0 +1,33 @@
+{
+  "version": "2.2.0",
+  "description": "The CLI tool to automate / manage GPU pods for runpod.io.",
+  "homepage": "https://www.runpod.io/",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/runpod/runpodctl/releases/download/v2.2.0/runpodctl-windows-amd64.zip",
+      "hash": "20192be8e02955fdcc1a1878cd9d7b7820240521913baecc9c49ce2226fd0fdb"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/runpod/runpodctl/releases/download/v2.2.0/runpodctl-windows-arm64.zip",
+      "hash": "381f11e436ae1ce1b681fc6635d1a3f7c868d5dbdcbe00795c59117b0392c148"
+    }
+  },
+  "bin": "runpodctl.exe",
+  "checkver": {
+    "github": "https://github.com/runpod/runpodctl"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/runpod/runpodctl/releases/download/v$version/runpodctl-windows-amd64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/runpod/runpodctl/releases/download/v$version/runpodctl-windows-arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums_$version_sha256.txt"
+    }
+  }
+}

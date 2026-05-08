@@ -1,0 +1,30 @@
+{
+  "version": "2026.05.08-351c1f4",
+  "description": "A fast Spotify client with native GUI.",
+  "homepage": "https://github.com/jpochyla/psst",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/jpochyla/psst/releases/download/rolling/Psst.exe",
+      "hash": "8a26a700dded6987d2dab9719b7bbd7297c4e2142a128215a1b03364a7b4a88a"
+    }
+  },
+  "shortcuts": [
+    [
+      "Psst.exe",
+      "Psst"
+    ]
+  ],
+  "notes": "A Spotify Premium account is required.",
+  "checkver": {
+    "url": "https://github.com/jpochyla/psst/releases.atom",
+    "regex": "Continuous release\\s+\\((.+?)\\)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/jpochyla/psst/releases/download/rolling/Psst.exe"
+      }
+    }
+  }
+}

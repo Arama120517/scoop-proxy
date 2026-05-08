@@ -1,0 +1,38 @@
+{
+  "version": "2.11.2",
+  "description": "Dump ACME data from Traefik to certificates.",
+  "homepage": "https://github.com/ldez/traefik-certs-dumper",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ldez/traefik-certs-dumper/releases/download/v2.11.2/traefik-certs-dumper_v2.11.2_windows_amd64.zip",
+      "hash": "d107936278e6004d6e579c85f846277e42c8ec575d5250913d6f865517038bcf"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ldez/traefik-certs-dumper/releases/download/v2.11.2/traefik-certs-dumper_v2.11.2_windows_386.zip",
+      "hash": "61df2c2049074193a75375e5382106c7b8aa9206067bcb3985be8c780f33a935"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ldez/traefik-certs-dumper/releases/download/v2.11.2/traefik-certs-dumper_v2.11.2_windows_arm64.zip",
+      "hash": "5edaa83667333ea47d008ad5e28a23f0774e5000d31fdefa5e88ce369ee675ab"
+    }
+  },
+  "bin": "traefik-certs-dumper.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ldez/traefik-certs-dumper/releases/download/v$version/traefik-certs-dumper_v$version_windows_amd64.zip"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ldez/traefik-certs-dumper/releases/download/v$version/traefik-certs-dumper_v$version_windows_386.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ldez/traefik-certs-dumper/releases/download/v$version/traefik-certs-dumper_v$version_windows_arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/traefik-certs-dumper_$version_checksums.txt"
+    }
+  }
+}

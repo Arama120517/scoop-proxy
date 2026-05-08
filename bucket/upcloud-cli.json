@@ -1,0 +1,31 @@
+{
+  "version": "3.32.1",
+  "description": "upctl provides a command-line interface to UpCloud services.",
+  "homepage": "https://github.com/UpCloudLtd/upcloud-cli",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/UpCloudLtd/upcloud-cli/releases/download/v3.32.1/upcloud-cli_3.32.1_windows_x86_64.zip",
+      "hash": "ab5d489ca2d8e474ed18162a442d4d924f6eb6673166e3391b080089b16816d6"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/UpCloudLtd/upcloud-cli/releases/download/v3.32.1/upcloud-cli_3.32.1_windows_arm64.zip",
+      "hash": "102f979ec514ef5f0826308741e4a537ca33bccd29d28a50accf1fe62cba43fa"
+    }
+  },
+  "bin": "upctl.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/UpCloudLtd/upcloud-cli/releases/download/v$version/upcloud-cli_$version_windows_x86_64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/UpCloudLtd/upcloud-cli/releases/download/v$version/upcloud-cli_$version_windows_arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
+    }
+  }
+}

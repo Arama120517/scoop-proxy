@@ -1,0 +1,32 @@
+{
+  "version": "0.31.6",
+  "description": "A Prometheus exporter for Windows machines.",
+  "homepage": "https://github.com/prometheus-community/windows_exporter",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/prometheus-community/windows_exporter/releases/download/v0.31.6/windows_exporter-0.31.6-amd64.exe#/windows_exporter.exe",
+      "hash": "2f05d9b7101c18bf6bc5470e7cbccd62a9a069960facec70d17269b3ab401df6"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/prometheus-community/windows_exporter/releases/download/v0.31.6/windows_exporter-0.31.6-arm64.exe#/windows_exporter.exe",
+      "hash": "6b9439c7e3942315321fdbd0eabd9578f59ed08f3d367cc1cce6d9bc6d96a8c2"
+    }
+  },
+  "bin": "windows_exporter.exe",
+  "persist": "textfile_inputs",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/prometheus-community/windows_exporter/releases/download/v$version/windows_exporter-$version-amd64.exe#/windows_exporter.exe"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/prometheus-community/windows_exporter/releases/download/v$version/windows_exporter-$version-arm64.exe#/windows_exporter.exe"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha256sums.txt"
+    }
+  }
+}

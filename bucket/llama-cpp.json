@@ -1,0 +1,45 @@
+{
+  "version": "b9073",
+  "description": "(CPU Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
+  "homepage": "https://github.com/ggml-org/llama.cpp",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ggml-org/llama.cpp/releases/download/b9073/llama-b9073-bin-win-cpu-x64.zip",
+      "hash": "b9eec9323a495975323ebdf5b0ca30f415679b576fb2383f1a39cfa0e603bc7b"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/ggml-org/llama.cpp/releases/download/b9073/llama-b9073-bin-win-cpu-arm64.zip",
+      "hash": "25567f783f967310bfb3927c4f80932782bef2d0c7650f17a38c4d86c90944e7"
+    }
+  },
+  "bin": [
+    "llama-cli.exe",
+    "llama-server.exe",
+    "llama-perplexity.exe",
+    "llama-bench.exe",
+    "llama-imatrix.exe",
+    "llama-quantize.exe",
+    "llama-tokenize.exe",
+    "llama-tts.exe",
+    "llama-mtmd-cli.exe",
+    [
+      "rpc-server.exe",
+      "llama-rpc-server"
+    ]
+  ],
+  "checkver": {
+    "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
+    "regex": "Repository/\\d+/(b\\d+)<"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cpu-x64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cpu-arm64.zip"
+      }
+    }
+  }
+}

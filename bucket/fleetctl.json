@@ -1,0 +1,41 @@
+{
+  "version": "4.84.3",
+  "description": "A CLI tool for managing Fleet, an open-source platform for IT, security, and infrastructure teams.",
+  "homepage": "https://fleetdm.com/",
+  "license": {
+    "identifier": "MIT",
+    "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/fleetdm/fleet/refs/heads/main/LICENSE"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/fleetdm/fleet/releases/download/fleet-v4.84.3/fleetctl_v4.84.3_windows_amd64.zip",
+      "extract_dir": "fleetctl_v4.84.3_windows_amd64",
+      "hash": "6f3d202f5ac908dd6261eee70ee39a9cad91f00687fa93adf13121f67d96777c"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/fleetdm/fleet/releases/download/fleet-v4.84.3/fleetctl_v4.84.3_windows_arm64.zip",
+      "extract_dir": "fleetctl_v4.84.3_windows_arm64",
+      "hash": "6a9e17827f10c99dcddfe2d61bff309daf685159411cb4481483e1a8be4f5214"
+    }
+  },
+  "bin": "fleetctl.exe",
+  "checkver": {
+    "url": "https://github.com/fleetdm/fleet/releases.atom",
+    "regex": "Repository/\\d+/fleet-v(.+?)<"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/fleetdm/fleet/releases/download/fleet-v$version/fleetctl_v$version_windows_amd64.zip",
+        "extract_dir": "fleetctl_v$version_windows_amd64"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/fleetdm/fleet/releases/download/fleet-v$version/fleetctl_v$version_windows_arm64.zip",
+        "extract_dir": "fleetctl_v$version_windows_arm64"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
+    }
+  }
+}

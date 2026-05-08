@@ -1,0 +1,33 @@
+{
+  "version": "3.42.0",
+  "description": "The command line interface for Buildkite, a scale-out delivery platform.",
+  "homepage": "https://github.com/barnybug/cli53",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/buildkite/cli/releases/download/v3.42.0/bk_3.42.0_windows_amd64.zip",
+      "hash": "d2c9d6a6f1a0e825aec1e8b044f88bba1a099decb5a23ae890425360462ac5d2"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/buildkite/cli/releases/download/v3.42.0/bk_3.42.0_windows_arm64.zip",
+      "hash": "dc9ebf86e97c85a2f775de7775cac568c8458fbd5b7069758adf1a23986c1a73"
+    }
+  },
+  "bin": "bk.exe",
+  "checkver": {
+    "github": "https://github.com/buildkite/cli"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/buildkite/cli/releases/download/v$version/bk_$version_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/buildkite/cli/releases/download/v$version/bk_$version_windows_arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/bk_$version_checksums.txt"
+    }
+  }
+}

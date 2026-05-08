@@ -1,0 +1,21 @@
+{
+  "version": "2.0.12",
+  "description": "A local HTTP proxy for command-line tools.",
+  "homepage": "https://github.com/samuong/alpaca",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/samuong/alpaca/releases/download/v2.0.12/alpaca_v2.0.12_windows-amd64.exe#/alpaca.exe",
+      "hash": "526b10cadb622bc07da450ca3fcae1270a8084442d75a94469704710fa125e7c"
+    }
+  },
+  "bin": "alpaca.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/samuong/alpaca/releases/download/v$version/alpaca_v$version_windows-amd64.exe#/alpaca.exe"
+      }
+    }
+  }
+}

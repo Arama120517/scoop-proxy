@@ -1,0 +1,35 @@
+{
+  "version": "1.83.0",
+  "description": "A Prometheus exporter for Redis metrics.",
+  "homepage": "https://github.com/oliver006/redis_exporter",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/oliver006/redis_exporter/releases/download/v1.83.0/redis_exporter-v1.83.0.windows-amd64.zip",
+      "hash": "656f0cb107fdba0f1c94cba0c302b5fb0f317f4df82b5cb2e95ce78cf15eb0cd",
+      "extract_dir": "redis_exporter-v1.83.0.windows-amd64"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/oliver006/redis_exporter/releases/download/v1.83.0/redis_exporter-v1.83.0.windows-386.zip",
+      "hash": "cc84371d7dbe066c47436486589d778439550eaf3903c6352ad493b130860f56",
+      "extract_dir": "redis_exporter-v1.83.0.windows-386"
+    }
+  },
+  "bin": "redis_exporter.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/oliver006/redis_exporter/releases/download/v$version/redis_exporter-v$version.windows-amd64.zip",
+        "extract_dir": "redis_exporter-v$version.windows-amd64"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/oliver006/redis_exporter/releases/download/v$version/redis_exporter-v$version.windows-386.zip",
+        "extract_dir": "redis_exporter-v$version.windows-386"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha256sums.txt"
+    }
+  }
+}

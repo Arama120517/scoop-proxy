@@ -1,0 +1,23 @@
+{
+  "version": "2.2.1",
+  "description": "The Crossplane CLI helps simplify some development and administration aspects of Crossplane.",
+  "homepage": "https://docs.crossplane.io/latest/cli/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://releases.crossplane.io/stable/v2.2.1/bin/windows_amd64/crank.exe#/crossplane.exe",
+      "hash": "dd33976f4f32f10792018d0964a8ee64b58e7f966d90947fa2e61bf7dd707da9"
+    }
+  },
+  "bin": "crossplane.exe",
+  "checkver": {
+    "github": "https://github.com/crossplane/crossplane"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://releases.crossplane.io/stable/v$version/bin/windows_amd64/crank.exe#/crossplane.exe"
+      }
+    }
+  }
+}

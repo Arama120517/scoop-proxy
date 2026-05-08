@@ -1,0 +1,29 @@
+{
+  "version": "3.9.2",
+  "description": "Scalable datastore for metrics, events, and real-time analytics.",
+  "homepage": "https://www.influxdata.com/",
+  "license": "MIT",
+  "notes": "InfluxDB v2 has been moved to 'Versions' bucket, use 'scoop install versions/influxdb2' to install it.",
+  "architecture": {
+    "64bit": {
+      "url": "https://dl.influxdata.com/influxdb/releases/influxdb3-core-3.9.2-windows_amd64.zip",
+      "hash": "3b18a74ae195631f81dfc04fd05f686063a129c415f4edc1d713311cc167d7bb"
+    }
+  },
+  "bin": "influxdb3.exe",
+  "checkver": {
+    "url": "https://docs.influxdata.com/influxdb3/core/release-notes/",
+    "regex": ">v([\\d.]+)<"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dl.influxdata.com/influxdb/releases/influxdb3-core-$version-windows_amd64.zip",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    },
+    "bin": "influxdb$majorVersion.exe"
+  }
+}

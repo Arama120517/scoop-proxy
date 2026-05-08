@@ -1,0 +1,56 @@
+{
+  "version": "8.9.4",
+  "description": "Text and source code editor",
+  "homepage": "https://notepad-plus-plus.org/",
+  "license": "GPL-2.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.4/npp.8.9.4.Installer.x64.exe#/installer.exe",
+      "hash": "f3629f500d0754d8e870255fff0e00384a37f5402d6f3ad8dd1f4f67d707b593"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.4/npp.8.9.4.Installer.exe#/installer.exe",
+      "hash": "164ddb2de0d4633da203f009778d4be34f369ac9b0badddda0fc336a39f4c592"
+    }
+  },
+  "installer": {
+    "script": [
+      "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
+      "Start-Process \"$dir\\installer.exe\" -ArgumentList @('/S', \"/D=$dir\") -Wait -Verb RunAs | Out-Null",
+      "Remove-Item \"$([Environment]::GetFolderPath('commonstartmenu'))\\Programs\\Notepad++.lnk\"",
+      "if (Test-Path(\"$env:AppData\\Notepad++_Scoop_backup\")) { Copy-Item \"$env:AppData\\Notepad++_Scoop_backup\\*\" \"$Env:AppData\\Notepad++\" -Force -Recurse }"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
+      "if (!(Test-Path(\"$env:AppData\\Notepad++_Scoop_backup\"))) { New-Item \"$env:AppData\\Notepad++_Scoop_backup\" -ItemType Directory | Out-Null }",
+      "Copy-Item \"$Env:AppData\\Notepad++\\*\" \"$env:AppData\\Notepad++_Scoop_backup\" -Force -Recurse",
+      "Start-Process \"$dir\\uninstall.exe\" -ArgumentList '/S' -Wait -Verb RunAs | Out-Null",
+      "Stop-Process -Name explorer"
+    ]
+  },
+  "bin": "notepad++.exe",
+  "shortcuts": [
+    [
+      "notepad++.exe",
+      "Notepad++"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/notepad-plus-plus/notepad-plus-plus"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.Installer.x64.exe#/installer.exe"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.Installer.exe#/installer.exe"
+      }
+    },
+    "hash": {
+      "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.checksums.sha256"
+    }
+  }
+}

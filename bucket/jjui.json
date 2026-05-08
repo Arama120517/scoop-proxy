@@ -1,0 +1,35 @@
+{
+  "version": "0.10.4",
+  "description": "Jujutsu UI (jjui) is a Text User Interface (TUI) designed for interacting with the Jujutsu version control system.",
+  "homepage": "https://idursun.github.io/jjui/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/idursun/jjui/releases/download/v0.10.4/jjui-0.10.4-windows-amd64.zip",
+      "hash": "dd3930c4612ec1b5ce0e9ef846a22f8227dd0bc6d6d5b71c4a36d47c76552680"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/idursun/jjui/releases/download/v0.10.4/jjui-0.10.4-windows-arm64.zip",
+      "hash": "94fdc085e47d8a6eee5192c3211c734ffcc24c8cd1cdea13359503dcfc633838"
+    }
+  },
+  "pre_install": "Get-ChildItem -Path $dir -Filter 'jjui*.exe' -Recurse | Select-Object -First 1 | Rename-Item -NewName 'jjui.exe'",
+  "env_set": {
+    "JJUI_CONFIG_DIR": "$dir\\config"
+  },
+  "bin": "jjui.exe",
+  "persist": "config",
+  "checkver": {
+    "github": "https://github.com/idursun/jjui"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-amd64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-arm64.zip"
+      }
+    }
+  }
+}

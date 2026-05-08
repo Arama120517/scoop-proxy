@@ -1,0 +1,25 @@
+{
+  "version": "36.0.9",
+  "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
+  "homepage": "https://wasmtime.dev",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/bytecodealliance/wasmtime/releases/download/v36.0.9/wasmtime-v36.0.9-x86_64-windows.zip",
+      "hash": "093aac5a954e4bedbcb3f1a4074b1d71308c868016f692ff2d486a47242be4e2",
+      "extract_dir": "wasmtime-v36.0.9-x86_64-windows"
+    }
+  },
+  "bin": "wasmtime.exe",
+  "checkver": {
+    "github": "https://github.com/bytecodealliance/wasmtime"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/bytecodealliance/wasmtime/releases/download/v$version/wasmtime-v$version-x86_64-windows.zip",
+        "extract_dir": "wasmtime-v$version-x86_64-windows"
+      }
+    }
+  }
+}

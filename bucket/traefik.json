@@ -1,0 +1,41 @@
+{
+  "version": "3.7.0",
+  "description": "HTTP reverse proxy and load balancer",
+  "homepage": "https://traefik.io/",
+  "license": "MIT",
+  "notes": "Run with a configuration file 'traefik -c <yourconfig.toml>' or 'traefik --help' for all options.",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/traefik/traefik/releases/download/v3.7.0/traefik_v3.7.0_windows_amd64.zip",
+      "hash": "d98257129f06d117cb02327c9a461c57a2c32a2e3345e218f2806f3e43354a9b"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/traefik/traefik/releases/download/v3.7.0/traefik_v3.7.0_windows_386.zip",
+      "hash": "3425364d8d0cc7e08c0103cef43c9f6da2c24edb489b483dcfdea1f01eb11f90"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/traefik/traefik/releases/download/v3.7.0/traefik_v3.7.0_windows_arm64.zip",
+      "hash": "6cb55881602e90f1d7da7d1c5b0965a7868aa3e974fbefc0ef0b1b871f3cb55e"
+    }
+  },
+  "bin": "traefik.exe",
+  "checkver": {
+    "github": "https://github.com/traefik/traefik"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/traefik/traefik/releases/download/v$version/traefik_v$version_windows_amd64.zip"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/traefik/traefik/releases/download/v$version/traefik_v$version_windows_386.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/traefik/traefik/releases/download/v$version/traefik_v$version_windows_arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/traefik_v$version_checksums.txt"
+    }
+  }
+}

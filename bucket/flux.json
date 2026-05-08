@@ -1,0 +1,43 @@
+{
+  "version": "2.8.6",
+  "description": "Open and extensible continuous delivery solution for Kubernetes.",
+  "homepage": "https://fluxcd.io",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_amd64.zip",
+      "hash": "05fe1b414bb40555d72e8149aca7046eba4ceacea7825d011c1188cc74c62e9c"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_arm64.zip",
+      "hash": "8be323b730d1c99977926e12a6d35d32ccfc91cb942e19c282fc7e8a21e4f1ed"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_386.zip",
+      "hash": "ab38219399ded90881d670dc4cd36052d2cd5c347cd5881ea45084b507acdd68"
+    }
+  },
+  "bin": "flux.exe",
+  "checkver": {
+    "github": "https://api.github.com/repos/fluxcd/flux2/releases",
+    "jsonpath": "$..browser_download_url",
+    "regex": "flux_([\\d.]+)_windows_amd64.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v$version/flux_$version_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v$version/flux_$version_windows_arm64.zip"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux2/releases/download/v$version/flux_$version_windows_386.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/flux_$version_checksums.txt"
+    }
+  },
+  "notes": "For Flux v1, please install 'versions/fluxctl' instead."
+}

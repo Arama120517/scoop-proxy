@@ -1,0 +1,33 @@
+{
+  "version": "1.1.0",
+  "description": "Blazing-fast tool to grab screenshots of webpages/URLs right from terminal.",
+  "homepage": "https://github.com/pwnwriter/haylxon",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/pwnwriter/haylxon/releases/download/v1.1.0/haylxon-1.1.0-x86_64-pc-windows-msvc.zip",
+      "hash": "2bd4f7fb50e13e06c883e427f14ecae8509ad53e6750883b17eddcb0a0a38fef"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/pwnwriter/haylxon/releases/download/v1.1.0/haylxon-1.1.0-i686-pc-windows-msvc.zip",
+      "hash": "1498110522ad3699f04a440628943fd3444ce86132db24bbaefe8eb887a48c7d"
+    }
+  },
+  "extract_dir": "haylxon-1.1.0",
+  "bin": "hxn.exe",
+  "checkver": {
+    "url": "https://github.com/pwnwriter/haylxon/releases/latest",
+    "regex": "/haylxon/tree/v([^/]+?)\""
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/pwnwriter/haylxon/releases/download/v$version/haylxon-$version-x86_64-pc-windows-msvc.zip"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/pwnwriter/haylxon/releases/download/v$version/haylxon-$version-i686-pc-windows-msvc.zip"
+      }
+    },
+    "extract_dir": "haylxon-$version"
+  }
+}

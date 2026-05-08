@@ -1,0 +1,31 @@
+{
+  "version": "1.19.3",
+  "description": "A fully distributed networking and security observability platform for cloud native workloads.",
+  "homepage": "https://github.com/cilium/hubble",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/cilium/hubble/releases/download/v1.19.3/hubble-windows-amd64.tar.gz",
+      "hash": "a49f982747c1520cee2ecca64e0dde49c9b94fcb9d462d1a3f9468e462a6edfe"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/cilium/hubble/releases/download/v1.19.3/hubble-windows-arm64.tar.gz",
+      "hash": "880d50a1e99804f064a0fab9a797029ae4781467e157101a2d937bfd994db440"
+    }
+  },
+  "bin": "hubble.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/cilium/hubble/releases/download/v$version/hubble-windows-amd64.tar.gz"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/cilium/hubble/releases/download/v$version/hubble-windows-arm64.tar.gz"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256sum"
+    }
+  }
+}

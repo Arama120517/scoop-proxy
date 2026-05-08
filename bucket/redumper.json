@@ -1,0 +1,44 @@
+{
+  "version": "720",
+  "description": "A low level CD dumper utility.",
+  "homepage": "https://github.com/superg/redumper",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/superg/redumper/releases/download/b720/redumper-b720-windows-x64.zip",
+      "extract_dir": "redumper-b720-windows-x64\\bin",
+      "hash": "536cb204e37af059213ec7723c103e9e33d23fa0477a165c772c083255089e1b"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/superg/redumper/releases/download/b720/redumper-b720-windows-x86.zip",
+      "extract_dir": "redumper-b720-windows-x86\\bin",
+      "hash": "d3bb111f1ea1319ccdd256bbded67e514fbfd66c5c6eab6ff2d68c4b497f9704"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/superg/redumper/releases/download/b720/redumper-b720-windows-arm64.zip",
+      "extract_dir": "redumper-b720-windows-arm64\\bin",
+      "hash": "7efaf0b53c0a5bf127e6d39a2d1992054e6fa2dcfa2405efb8805b68084ef458"
+    }
+  },
+  "bin": "redumper.exe",
+  "checkver": {
+    "url": "https://github.com/superg/redumper/releases.atom",
+    "regex": "Repository/\\d+/b(\\d+?)<"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/superg/redumper/releases/download/b$version/redumper-b$version-windows-x64.zip",
+        "extract_dir": "redumper-b$version-windows-x64\\bin"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/superg/redumper/releases/download/b$version/redumper-b$version-windows-x86.zip",
+        "extract_dir": "redumper-b$version-windows-x86\\bin"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/superg/redumper/releases/download/b$version/redumper-b$version-windows-arm64.zip",
+        "extract_dir": "redumper-b$version-windows-arm64\\bin"
+      }
+    }
+  }
+}
