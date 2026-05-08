@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/vidiot/Vidiot-2.1.0-win64.zip",
+            "url": "https://downloads.sourceforge.net/project/vidiot/Vidiot-2.1.0-win64.zip",
             "hash": "sha1:36dc2ca47814417026a4474b90132c02b5752002",
             "extract_dir": "Vidiot-2.1.0-win64"
         }
@@ -32,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/vidiot/Vidiot-$version-win64.zip",
+                "url": "https://downloads.sourceforge.net/project/vidiot/Vidiot-$version-win64.zip",
                 "extract_dir": "Vidiot-$version-win64"
             }
         }

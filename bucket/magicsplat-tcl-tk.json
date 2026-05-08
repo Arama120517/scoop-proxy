@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-9.0.3-installer-2.0.6-x64.msi",
+            "url": "https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-9.0.3-installer-2.0.6-x64.msi",
             "hash": "sha1:31b8c791506a9250059270677182ad3d60961ac9",
             "extract_dir": "Tcl9.0"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-9.0.3-installer-2.0.6-x86.msi",
+            "url": "https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-9.0.3-installer-2.0.6-x86.msi",
             "hash": "sha1:fe991d4d41ad42b8b6376538635313ef87a37931",
             "extract_dir": "Tcl9.0"
         }
@@ -35,11 +35,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-$matchMajor.$matchMinor.$matchPatch-installer-$version-x64.msi",
+                "url": "https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-$matchMajor.$matchMinor.$matchPatch-installer-$version-x64.msi",
                 "extract_dir": "Tcl$matchMajor.$matchMinor"
             },
             "32bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-$matchMajor.$matchMinor.$matchPatch-installer-$version-x86.msi",
+                "url": "https://downloads.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-$matchMajor.$matchMinor.$matchPatch-installer-$version-x86.msi",
                 "extract_dir": "Tcl$matchMajor.$matchMinor"
             }
         }

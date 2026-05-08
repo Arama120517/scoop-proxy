@@ -3,7 +3,7 @@
     "description": "Set of utilities for managing multiple monitor setups.",
     "homepage": "https://dualmonitortool.sourceforge.net/",
     "license": "GPL-3.0-only",
-    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/2.12/DualMonitorTools-2.12.zip",
+    "url": "https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/2.12/DualMonitorTools-2.12.zip",
     "hash": "sha1:705cd7b8c56b4dfcef5f876ae88ca279bd4c7623",
     "pre_install": [
         "# Hardlink is incompatible with app. Using copy workaround.",
@@ -36,6 +36,6 @@
         "regex": "dualmonitortool/([\\d.]+)/"
     },
     "autoupdate": {
-        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/$version/DualMonitorTools-$version.zip"
+        "url": "https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/$version/DualMonitorTools-$version.zip"
     }
 }

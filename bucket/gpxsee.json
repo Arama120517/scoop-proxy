@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gpxsee/Windows/GPXSee-16.6_x64.exe#/dl.7z",
+            "url": "https://downloads.sourceforge.net/project/gpxsee/Windows/GPXSee-16.6_x64.exe#/dl.7z",
             "hash": "sha1:7f26a8f776515fe746ae5406d2ac9ca0a429d9f0"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gpxsee/Windows/GPXSee-$version_x64.exe#/dl.7z"
+                "url": "https://downloads.sourceforge.net/project/gpxsee/Windows/GPXSee-$version_x64.exe#/dl.7z"
             }
         }
     }

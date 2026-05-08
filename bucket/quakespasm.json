@@ -20,12 +20,12 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-0.96.3_windows.zip",
+            "url": "https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-0.96.3_windows.zip",
             "hash": "sha1:71b4090f4c2dee49046533bf84e884b41be25c8e",
             "extract_dir": "quakespasm-0.96.3_windows"
         },
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-0.96.3_win64.zip",
+            "url": "https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-0.96.3_win64.zip",
             "hash": "sha1:981346bf5b8345e3a140dfbaa0e4be18b07de2e1",
             "extract_dir": "quakespasm-0.96.3_win64"
         }
@@ -71,11 +71,11 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-$version_windows.zip",
+                "url": "https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-$version_windows.zip",
                 "extract_dir": "quakespasm-$version_windows"
             },
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-$version_win64.zip",
+                "url": "https://downloads.sourceforge.net/project/quakespasm/Windows/quakespasm-$version_win64.zip",
                 "extract_dir": "quakespasm-$version_win64"
             }
         }

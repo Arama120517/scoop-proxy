@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip",
+            "url": "https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip",
             "hash": "sha1:ee3ffda40abd7d420427620d6db3203923cda4c7"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip"
+                "url": "https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip"
             }
         }
     }

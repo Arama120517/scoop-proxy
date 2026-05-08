@@ -9,7 +9,7 @@
     "notes": "Web UI Theme https://github.com/WDaan/VueTorrent",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.2.0/qbittorrent_5.2.0_x64_setup.exe#/setup.exe",
+            "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.2.0/qbittorrent_5.2.0_x64_setup.exe#/setup.exe",
             "hash": "dfde18111e28d0d20d037056e87f00e039cbf9a7ccb561b07ea6a4138b7fb784"
         }
     },
@@ -53,7 +53,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_x64_setup.exe#/setup.exe",
+                "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_x64_setup.exe#/setup.exe",
                 "hash": {
                     "url": "https://www.qbittorrent.org/download.php",
                     "regex": "(?sm)td>64-bit Installer.*?<code>$sha256</code>"

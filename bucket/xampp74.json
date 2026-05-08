@@ -9,7 +9,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.sourceforge.net/project/xampp/XAMPP%20Windows/7.4.29/xampp-windows-x64-7.4.29-1-VC15.7z",
+            "url": "https://v6.gh-proxy.org/sourceforge/https://download.sourceforge.net/project/xampp/XAMPP%20Windows/7.4.29/xampp-windows-x64-7.4.29-1-VC15.7z",
             "hash": "sha1:5adcfce3b2b6073686248e2d809ab749529cc071"
         }
     },
@@ -50,7 +50,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.sourceforge.net/project/xampp/XAMPP%20Windows/$matchHead/xampp-windows-x64-$version-VC15.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://download.sourceforge.net/project/xampp/XAMPP%20Windows/$matchHead/xampp-windows-x64-$version-VC15.7z"
             }
         }
     }

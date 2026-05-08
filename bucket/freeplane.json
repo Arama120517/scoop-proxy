@@ -9,7 +9,7 @@
             "java/openjdk17"
         ]
     },
-    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/freeplane_bin-1.13.2.zip",
+    "url": "https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/freeplane_bin-1.13.2.zip",
     "hash": "sha1:53e856529a790a6b37fc37b774f08614819c1e84",
     "extract_dir": "freeplane-1.13.2",
     "bin": "freeplane.exe",
@@ -24,7 +24,7 @@
         "regex": "freeplane_bin-(.*)\\.zip"
     },
     "autoupdate": {
-        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/freeplane_bin-$version.zip",
+        "url": "https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/freeplane_bin-$version.zip",
         "extract_dir": "freeplane-$version"
     }
 }

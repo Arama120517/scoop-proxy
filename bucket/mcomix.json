@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mcomix/MComix-3.1.1/mcomix-win64-3.1.1.zip",
+            "url": "https://downloads.sourceforge.net/project/mcomix/MComix-3.1.1/mcomix-win64-3.1.1.zip",
             "hash": "sha1:a22063d1f834112d6553115fdcfe349bb6100de5"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mcomix/MComix-$version/mcomix-win64-$version.zip"
+                "url": "https://downloads.sourceforge.net/project/mcomix/MComix-$version/mcomix-win64-$version.zip"
             }
         }
     }

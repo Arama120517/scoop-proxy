@@ -10,11 +10,11 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/odamex/Odamex/12.0.0/odamex-win32-12.0.0.zip",
+            "url": "https://downloads.sourceforge.net/project/odamex/Odamex/12.0.0/odamex-win32-12.0.0.zip",
             "hash": "sha1:8af640afd23ba6ea31b8035a4268154271768a9c"
         },
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/odamex/Odamex/12.0.0/odamex-win64-12.0.0.zip",
+            "url": "https://downloads.sourceforge.net/project/odamex/Odamex/12.0.0/odamex-win64-12.0.0.zip",
             "hash": "sha1:48b9b767accd712f4609ade04b9c497a3c02fde6"
         }
     },
@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/odamex/Odamex/$version/odamex-win32-$version.zip"
+                "url": "https://downloads.sourceforge.net/project/odamex/Odamex/$version/odamex-win32-$version.zip"
             },
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/odamex/Odamex/$version/odamex-win64-$version.zip"
+                "url": "https://downloads.sourceforge.net/project/odamex/Odamex/$version/odamex-win64-$version.zip"
             }
         }
     }

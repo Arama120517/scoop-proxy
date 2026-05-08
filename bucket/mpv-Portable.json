@@ -13,11 +13,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20260419-git-06f4ce7.7z",
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20260419-git-06f4ce7.7z",
             "hash": "2276b5ddf02c508dacb5f90f79cf3b409c3e6519a30b61160738e47bd606cf4c"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20260419-git-06f4ce7.7z",
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20260419-git-06f4ce7.7z",
             "hash": "cd185df4708ac0c96170d41c69dbc4f180d8842d73fff389863eeae4d04b0292"
         }
     },
@@ -36,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-$version-git-$matchCommit.7z"
+                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-$version-git-$matchCommit.7z"
             },
             "32bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-$version-git-$matchCommit.7z"
+                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-$version-git-$matchCommit.7z"
             }
         }
     }

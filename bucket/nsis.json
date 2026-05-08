@@ -3,7 +3,7 @@
     "description": "A professional open source system to create Windows installers.",
     "homepage": "https://nsis.sourceforge.io/Main_Page",
     "license": "Zlib",
-    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/nsis/NSIS%203/3.12/nsis-3.12.zip",
+    "url": "https://downloads.sourceforge.net/project/nsis/NSIS%203/3.12/nsis-3.12.zip",
     "hash": "sha1:364fd795b0cafc1fbff3e966f103a8f8fc8fb7f1",
     "extract_dir": "nsis-3.12",
     "bin": [
@@ -29,7 +29,7 @@
         "regex": "\\/rn\\/v([\\d.]+)\""
     },
     "autoupdate": {
-        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/nsis/NSIS%20$majorVersion/$version/nsis-$version.zip",
+        "url": "https://downloads.sourceforge.net/project/nsis/NSIS%20$majorVersion/$version/nsis-$version.zip",
         "extract_dir": "nsis-$version"
     }
 }

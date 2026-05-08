@@ -3,7 +3,7 @@
     "description": "x64/x32 debugger",
     "homepage": "https://x64dbg.com/",
     "license": "GPL-3.0-only",
-    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2026-04-20_19-04.zip",
+    "url": "https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2026-04-20_19-04.zip",
     "hash": "sha1:8d14fe92601625c431c3a8d3773e2f90da540603",
     "pre_install": [
         "'release\\x96dbg.ini', 'release\\x32\\x32dbg.ini', 'release\\x64\\x64dbg.ini' | ForEach-Object {",
@@ -69,6 +69,6 @@
         "regex": "snapshot_([\\d-_]+)"
     },
     "autoupdate": {
-        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_$version.zip"
+        "url": "https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_$version.zip"
     }
 }

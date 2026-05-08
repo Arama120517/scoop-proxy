@@ -5,11 +5,11 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/2026b/gretl-2026b-64.exe",
+            "url": "https://downloads.sourceforge.net/project/gretl/gretl/2026b/gretl-2026b-64.exe",
             "hash": "sha1:2c2ded057cec98053b8b7912ce5bde83fc229246"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/2026b/gretl-2026b-32.exe",
+            "url": "https://downloads.sourceforge.net/project/gretl/gretl/2026b/gretl-2026b-32.exe",
             "hash": "sha1:94ea206c0561f4a66265ce8fc1b7e175839782a5"
         }
     },
@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-64.exe"
+                "url": "https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-64.exe"
             },
             "32bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-32.exe"
+                "url": "https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-32.exe"
             }
         }
     }

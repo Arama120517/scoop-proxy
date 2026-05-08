@@ -4,7 +4,7 @@
     "homepage": "https://sourceforge.net/projects/kpenhentryview/",
     "license": "GPL-3.0-only",
     "depends": "extras/keepass",
-    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/kpenhentryview/v2.7.1/KPEnhancedEntryView-v2.7.1.zip",
+    "url": "https://downloads.sourceforge.net/project/kpenhentryview/v2.7.1/KPEnhancedEntryView-v2.7.1.zip",
     "hash": "sha1:1899056a09d05d4475ad2df9673d8d094ce83493",
     "installer": {
         "script": "Copy-Item \"$dir\\KPEnhancedEntryView.plgx\" \"$(appdir keepass $global)\\current\\Plugins\""
@@ -17,6 +17,6 @@
         "regex": "KPEnhancedEntryView-v([\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/kpenhentryview/v$version/KPEnhancedEntryView-v$version.zip"
+        "url": "https://downloads.sourceforge.net/project/kpenhentryview/v$version/KPEnhancedEntryView-v$version.zip"
     }
 }

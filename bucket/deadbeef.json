@@ -5,7 +5,7 @@
     "license": "GPL-2.0,...",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/deadbeef/travis/windows/1.10.0/deadbeef-1.10.0-windows-x86_64.zip",
+            "url": "https://downloads.sourceforge.net/project/deadbeef/travis/windows/1.10.0/deadbeef-1.10.0-windows-x86_64.zip",
             "hash": "sha1:fbd0b4bb6885029ddf0d0ea45e6d6572b73ae571"
         }
     },
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/deadbeef/travis/windows/$version/deadbeef-$version-windows-x86_64.zip"
+                "url": "https://downloads.sourceforge.net/project/deadbeef/travis/windows/$version/deadbeef-$version-windows-x86_64.zip"
             }
         }
     }

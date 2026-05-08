@@ -5,7 +5,7 @@
     "license": "gnuplot",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gnuplot/gnuplot/6.0.3/gp603-win64-mingw.7z",
+            "url": "https://downloads.sourceforge.net/project/gnuplot/gnuplot/6.0.3/gp603-win64-mingw.7z",
             "hash": "sha1:d6c7367f5a11f90e50f36f04313f028733bc490e"
         }
     },
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gnuplot/gnuplot/$version/gp$cleanVersion-win64-mingw.7z"
+                "url": "https://downloads.sourceforge.net/project/gnuplot/gnuplot/$version/gp$cleanVersion-win64-mingw.7z"
             }
         }
     }

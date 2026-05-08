@@ -3,7 +3,7 @@
     "description": "Command-line SVG rendering tool from GNOME librsvg",
     "homepage": "https://wiki.gnome.org/Projects/LibRsvg",
     "license": "LGPL-2.0-or-later",
-    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/tumagcc/rsvg-convert-2.40.20.7z",
+    "url": "https://downloads.sourceforge.net/project/tumagcc/rsvg-convert-2.40.20.7z",
     "hash": "sha1:27227a4b59e122958df5ed9214a249a01283cf32",
     "bin": "rsvg-convert.exe",
     "checkver": {
@@ -11,6 +11,6 @@
         "regex": "rsvg-convert-([\\d.]+)\\.7z"
     },
     "autoupdate": {
-        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/tumagcc/rsvg-convert-$version.7z"
+        "url": "https://downloads.sourceforge.net/project/tumagcc/rsvg-convert-$version.7z"
     }
 }

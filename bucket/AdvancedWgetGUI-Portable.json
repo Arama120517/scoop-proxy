@@ -9,11 +9,11 @@
     "changelog": "https://github.com/Nenirey/AWGG/blob/master/changelog.txt",
     "architecture": {
         "64bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win64.zip",
+            "url": "https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win64.zip",
             "hash": "77dc83328309b09d499588a71c995415cfc24083c70b2faca01b5479880387a6"
         },
         "32bit": {
-            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win32.zip",
+            "url": "https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win32.zip",
             "hash": "0e2b8dc83d5bff108d82e8cadf85895e7a75b63015240e7153399ad0bb5e1db4"
         }
     },
@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win64.zip"
+                "url": "https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win64.zip"
             },
             "32bit": {
-                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win32.zip"
+                "url": "https://downloads.sourceforge.net/project/awgg/Beta/AWGG_win32.zip"
             }
         }
     },

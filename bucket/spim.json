@@ -3,7 +3,7 @@
     "description": "SPIM A MIPS32 Simulator",
     "homepage": "https://pages.cs.wisc.edu/~larus/spim.html",
     "license": "BSD",
-    "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/spimsimulator/QtSpim_9.1.24_Windows.msi",
+    "url": "https://downloads.sourceforge.net/project/spimsimulator/QtSpim_9.1.24_Windows.msi",
     "hash": "sha1:1acb44f7b64f7c5bb5dec312d39a7b2ba5ac5044",
     "notes": [
         "QtSpim hardcoded searching paths for help files. To make them available in menu, create a symbolic link by running with administrator rights:",
@@ -23,6 +23,6 @@
         "regex": "QtSpim_([\\d.]+)_Windows\\.msi"
     },
     "autoupdate": {
-        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/spimsimulator/QtSpim_$version_Windows.msi"
+        "url": "https://downloads.sourceforge.net/project/spimsimulator/QtSpim_$version_Windows.msi"
     }
 }
