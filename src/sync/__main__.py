@@ -72,8 +72,7 @@ def is_exists(dst: str) -> bool:
     return existing_files.get(dst.lower()) is not None
 
 
-def copy(src: str, dst: str, *_, repo: str) -> str:  # noqa: C901
-    print(src + " -> " + dst)
+def copy(src: str, dst: str, *_, repo: str) -> str:
     src_file, dst_file = Path(src), Path(dst)
     version: str = "unknown"
 
@@ -87,7 +86,7 @@ def copy(src: str, dst: str, *_, repo: str) -> str:  # noqa: C901
             info: dict[str, str] = existing_files[src_file.name.lower()]
             if info["repo"] in HIGH_QUALITY_BUCKETS:
                 return dst
-            elif src_file.suffix == ".json" and content is not None:
+            elif src_file.suffix == ".json":
                 version: str = json.loads(content)["version"]
                 dst_version: str = info["version"]
                 status: SemverStatus = semver_compare(dst_version, version)
