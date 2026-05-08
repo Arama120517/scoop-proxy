@@ -24,6 +24,6 @@
         "github": "https://github.com/the-via/releases"
     },
     "autoupdate": {
-        "url": "https://github.com/the-via/releases/releases/download/v$version/via-$version-win.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/the-via/releases/releases/download/v$version/via-$version-win.exe#/dl.7z"
     }
 }

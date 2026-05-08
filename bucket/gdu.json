@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dundee/gdu/releases/download/v$version/gdu_windows_amd64.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dundee/gdu/releases/download/v$version/gdu_windows_amd64.exe.zip"
             }
         },
         "hash": {

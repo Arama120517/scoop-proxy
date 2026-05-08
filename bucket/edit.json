@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/microsoft/edit/releases/download/v$version/edit-$version-x86_64-windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/microsoft/edit/releases/download/v$version/edit-$version-x86_64-windows.zip",
                 "extract_dir": "edit-$version-x86_64-windows"
             },
             "arm64": {
-                "url": "https://github.com/microsoft/edit/releases/download/v$version/edit-$version-aarch64-windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/microsoft/edit/releases/download/v$version/edit-$version-aarch64-windows.zip",
                 "extract_dir": "edit-$version-aarch64-windows"
             }
         }

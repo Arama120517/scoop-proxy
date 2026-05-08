@@ -27,11 +27,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/FluidSynth/fluidsynth/releases/download/$matchTag/$matchPrefix-x64$matchSuffix.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/FluidSynth/fluidsynth/releases/download/$matchTag/$matchPrefix-x64$matchSuffix.zip",
                 "extract_dir": "$matchPrefix-x64$matchSuffix"
             },
             "32bit": {
-                "url": "https://github.com/FluidSynth/fluidsynth/releases/download/$matchTag/$matchPrefix-x86$matchSuffix.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/FluidSynth/fluidsynth/releases/download/$matchTag/$matchPrefix-x86$matchSuffix.zip",
                 "extract_dir": "$matchPrefix-x86$matchSuffix"
             }
         }

@@ -58,10 +58,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bitbeans/SimpleDnsCrypt/releases/download/$version/SimpleDNSCrypt64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/bitbeans/SimpleDnsCrypt/releases/download/$version/SimpleDNSCrypt64.msi"
             },
             "32bit": {
-                "url": "https://github.com/bitbeans/SimpleDnsCrypt/releases/download/$version/SimpleDNSCrypt.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/bitbeans/SimpleDnsCrypt/releases/download/$version/SimpleDNSCrypt.msi"
             }
         }
     }

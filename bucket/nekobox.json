@@ -30,13 +30,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qr243vbi/nekobox/releases/download/$version/nekobox-$version-windows64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/qr243vbi/nekobox/releases/download/$version/nekobox-$version-windows64.zip"
             },
             "32bit": {
-                "url": "https://github.com/qr243vbi/nekobox/releases/download/$version/nekobox-$version-windows32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/qr243vbi/nekobox/releases/download/$version/nekobox-$version-windows32.zip"
             },
             "arm64": {
-                "url": "https://github.com/qr243vbi/nekobox/releases/download/$version/nekobox-$version-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/qr243vbi/nekobox/releases/download/$version/nekobox-$version-windows-arm64.zip"
             }
         }
     }

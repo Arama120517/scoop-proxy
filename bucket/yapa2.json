@@ -20,6 +20,6 @@
         "github": "https://github.com/YetAnotherPomodoroApp/YAPA-2"
     },
     "autoupdate": {
-        "url": "https://github.com/YetAnotherPomodoroApp/YAPA-2/releases/download/v$version/YAPA2.$version.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/YetAnotherPomodoroApp/YAPA-2/releases/download/v$version/YAPA2.$version.exe#/dl.7z"
     }
 }

@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Jabba-Team/jabba/releases/download/$version/jabba-$version-windows-amd64.exe#/jabba.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Jabba-Team/jabba/releases/download/$version/jabba-$version-windows-amd64.exe#/jabba.exe"
             },
             "32bit": {
-                "url": "https://github.com/Jabba-Team/jabba/releases/download/$version/jabba-$version-windows-386.exe#/jabba.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Jabba-Team/jabba/releases/download/$version/jabba-$version-windows-386.exe#/jabba.exe"
             }
         }
     }

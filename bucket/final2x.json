@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/EutropicAI/Final2x/releases/download/v$version/Final2x-windows-x64-unpacked.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/EutropicAI/Final2x/releases/download/v$version/Final2x-windows-x64-unpacked.7z"
             },
             "arm64": {
-                "url": "https://github.com/EutropicAI/Final2x/releases/download/v$version/Final2x-windows-arm64-unpacked.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/EutropicAI/Final2x/releases/download/v$version/Final2x-windows-arm64-unpacked.7z"
             }
         }
     }

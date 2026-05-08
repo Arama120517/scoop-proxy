@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/WalletWasabi/WalletWasabi/releases/download/v$matchTag/Wasabi-$version-win-x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/WalletWasabi/WalletWasabi/releases/download/v$matchTag/Wasabi-$version-win-x64.zip",
                 "hash": {
                     "url": "$baseurl/SHA256SUMS.asc",
                     "find": "$sha256\\s+Wasabi-$version-win-x64\\.zip"

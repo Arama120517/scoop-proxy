@@ -15,6 +15,6 @@
         "github": "https://github.com/NikolayIT/RatioMaster.NET"
     },
     "autoupdate": {
-        "url": "https://github.com/NikolayIT/RatioMaster.NET/releases/download/$version/RatioMaster.NET_$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/NikolayIT/RatioMaster.NET/releases/download/$version/RatioMaster.NET_$version.zip"
     }
 }

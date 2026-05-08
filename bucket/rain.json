@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/aws-cloudformation/rain/releases/download/v$version/rain-v$version_windows-i386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/aws-cloudformation/rain/releases/download/v$version/rain-v$version_windows-i386.zip",
                 "extract_dir": "rain-v$version_windows-i386"
             },
             "64bit": {
-                "url": "https://github.com/aws-cloudformation/rain/releases/download/v$version/rain-v$version_windows-amd64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/aws-cloudformation/rain/releases/download/v$version/rain-v$version_windows-amd64.zip",
                 "extract_dir": "rain-v$version_windows-amd64"
             }
         }

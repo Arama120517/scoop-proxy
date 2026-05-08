@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/akiyosi/zonvie/releases/download/v$version/zonvie-v$version-windows-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/akiyosi/zonvie/releases/download/v$version/zonvie-v$version-windows-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/akiyosi/zonvie/releases/download/v$version/zonvie-v$version-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/akiyosi/zonvie/releases/download/v$version/zonvie-v$version-windows-arm64.zip"
             }
         }
     }

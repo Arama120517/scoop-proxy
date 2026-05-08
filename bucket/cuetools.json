@@ -41,7 +41,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gchudov/cuetools.net/releases/download/v$version/CUETools_$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/gchudov/cuetools.net/releases/download/v$version/CUETools_$version.zip"
             }
         },
         "extract_dir": "CUETools_$version"

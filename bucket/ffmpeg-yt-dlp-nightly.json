@@ -37,15 +37,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-win64-gpl.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-win64-gpl.zip",
                 "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-win64-gpl"
             },
             "32bit": {
-                "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-win32-gpl.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-win32-gpl.zip",
                 "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-win32-gpl"
             },
             "arm64": {
-                "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-winarm64-gpl.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-winarm64-gpl.zip",
                 "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-winarm64-gpl"
             }
         },

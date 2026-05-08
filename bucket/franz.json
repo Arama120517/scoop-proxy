@@ -29,7 +29,7 @@
         "github": "https://github.com/meetfranz/franz"
     },
     "autoupdate": {
-        "url": "https://github.com/meetfranz/franz/releases/download/v$version/franz-setup-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/meetfranz/franz/releases/download/v$version/franz-setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

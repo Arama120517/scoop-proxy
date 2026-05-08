@@ -29,7 +29,7 @@
         "github": "https://github.com/thomasnordquist/MQTT-Explorer"
     },
     "autoupdate": {
-        "url": "https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v$version/MQTT-Explorer-Setup-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v$version/MQTT-Explorer-Setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

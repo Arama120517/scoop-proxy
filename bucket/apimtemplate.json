@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Azure/azure-api-management-devops-resource-kit/releases/download/$version/reskit-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Azure/azure-api-management-devops-resource-kit/releases/download/$version/reskit-$version.zip"
             }
         }
     }

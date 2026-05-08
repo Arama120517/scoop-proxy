@@ -23,10 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/appium/appium-inspector/releases/download/v$version/Appium-Inspector-$version-win-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/appium/appium-inspector/releases/download/v$version/Appium-Inspector-$version-win-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/appium/appium-inspector/releases/download/v$version/Appium-Inspector-$version-win-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/appium/appium-inspector/releases/download/v$version/Appium-Inspector-$version-win-arm64.zip"
             }
         }
     }

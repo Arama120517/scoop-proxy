@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v$version/wasm-tools-$version-x86_64-windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/bytecodealliance/wasm-tools/releases/download/v$version/wasm-tools-$version-x86_64-windows.zip",
                 "extract_dir": "wasm-tools-$version-x86_64-windows"
             }
         }

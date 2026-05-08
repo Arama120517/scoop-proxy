@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tinygo-org/tinygo/releases/download/v$version/tinygo$version.windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/tinygo-org/tinygo/releases/download/v$version/tinygo$version.windows-amd64.zip"
             }
         }
     }

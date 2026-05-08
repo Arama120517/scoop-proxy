@@ -10,6 +10,6 @@
         "github": "https://github.com/todbot/blink1-tool"
     },
     "autoupdate": {
-        "url": "https://github.com/todbot/blink1-tool/releases/download/v$version/blink1-tool-v$version-windows-x86_64.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/todbot/blink1-tool/releases/download/v$version/blink1-tool-v$version-windows-x86_64.zip"
     }
 }

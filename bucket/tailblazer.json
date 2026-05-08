@@ -17,6 +17,6 @@
         "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/RolandPheasant/TailBlazer/releases/download/$version/Tailblazer_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/RolandPheasant/TailBlazer/releases/download/$version/Tailblazer_v$version.zip"
     }
 }

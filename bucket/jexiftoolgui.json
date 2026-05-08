@@ -20,7 +20,7 @@
         "regex": "jExifToolGUI-([\\d.]+)-win-x86_64_with-jre\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/hvdwolf/jExifToolGUI/releases/download/$matchHead/jExifToolGUI-$version-win-x86_64_with-jre.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/hvdwolf/jExifToolGUI/releases/download/$matchHead/jExifToolGUI-$version-win-x86_64_with-jre.zip",
         "extract_dir": "jExifToolGUI-$version-win-x86_64_with-jre"
     }
 }

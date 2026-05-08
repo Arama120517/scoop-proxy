@@ -12,6 +12,6 @@
     "bin": "lsix",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/hackerb9/lsix/$version/lsix"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/hackerb9/lsix/$version/lsix"
     }
 }

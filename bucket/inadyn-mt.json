@@ -36,7 +36,7 @@
     ],
     "checkver": "title=\"/inadyn-mt/inadyn-mt\\.v\\.([\\d.]+)",
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/inadyn-mt/inadyn-mt/inadyn-mt.v.$version/inadyn-mt.v.$version.tar.gz",
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/inadyn-mt/inadyn-mt/inadyn-mt.v.$version/inadyn-mt.v.$version.tar.gz",
         "extract_dir": "inadyn-mt.v.$version"
     }
 }

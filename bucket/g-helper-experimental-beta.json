@@ -49,7 +49,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/seerge/g-helper-experimental-release/releases/download/v$version/GHelper.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/seerge/g-helper-experimental-release/releases/download/v$version/GHelper.zip"
             }
         }
     }

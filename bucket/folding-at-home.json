@@ -38,7 +38,7 @@
     "checkver": {
         "url": "https://download.foldingathome.org/releases/public/fah-client/windows-10-64bit/release/",
         "regex": "_([\\d.]+)_",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

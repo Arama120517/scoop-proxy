@@ -31,15 +31,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/version-fox/vfox/releases/download/v$version/vfox_$version_windows_x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/version-fox/vfox/releases/download/v$version/vfox_$version_windows_x86_64.zip",
                 "extract_dir": "vfox_$version_windows_x86_64"
             },
             "32bit": {
-                "url": "https://github.com/version-fox/vfox/releases/download/v$version/vfox_$version_windows_i386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/version-fox/vfox/releases/download/v$version/vfox_$version_windows_i386.zip",
                 "extract_dir": "vfox_$version_windows_i386"
             },
             "arm64": {
-                "url": "https://github.com/version-fox/vfox/releases/download/v$version/vfox_$version_windows_aarch64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/version-fox/vfox/releases/download/v$version/vfox_$version_windows_aarch64.zip",
                 "extract_dir": "vfox_$version_windows_aarch64"
             }
         },

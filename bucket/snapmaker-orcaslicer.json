@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v$version/Snapmaker_Orca_Windows_V$version_portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Snapmaker/OrcaSlicer/releases/download/v$version/Snapmaker_Orca_Windows_V$version_portable.zip"
             }
         },
         "extract_dir": "Snapmaker_Orca_Windows_V$version_portable"

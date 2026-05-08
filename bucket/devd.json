@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cortesi/devd/releases/download/v$version/devd-$version-windows64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/cortesi/devd/releases/download/v$version/devd-$version-windows64.zip",
                 "extract_dir": "devd-$version-windows64"
             }
         }

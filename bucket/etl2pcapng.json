@@ -16,6 +16,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/etl2pcapng/releases/download/v$version/etl2pcapng.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/microsoft/etl2pcapng/releases/download/v$version/etl2pcapng.exe"
     }
 }

@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v$version/waifu2x-snowshell_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v$version/waifu2x-snowshell_v$version.zip"
             }
         }
     }

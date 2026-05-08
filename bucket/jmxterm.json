@@ -11,6 +11,6 @@
     "bin": "jmxterm.jar",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jiaqi/jmxterm/releases/download/v$version/jmxterm-$version-uber.jar#/jmxterm.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/jiaqi/jmxterm/releases/download/v$version/jmxterm-$version-uber.jar#/jmxterm.jar"
     }
 }

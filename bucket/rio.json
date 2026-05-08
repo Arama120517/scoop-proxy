@@ -39,14 +39,14 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-x86_64.exe#/rio.exe",
-                    "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
+                    "https://v6.gh-proxy.org/https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-x86_64.exe#/rio.exe",
+                    "https://v6.gh-proxy.org/https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
                 ]
             },
             "arm64": {
                 "url": [
-                    "https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-aarch64.exe#/rio.exe",
-                    "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
+                    "https://v6.gh-proxy.org/https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-aarch64.exe#/rio.exe",
+                    "https://v6.gh-proxy.org/https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
                 ]
             }
         }

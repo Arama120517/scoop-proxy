@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/github/git-sizer/releases/download/v$version/git-sizer-$version-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/github/git-sizer/releases/download/v$version/git-sizer-$version-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/github/git-sizer/releases/download/v$version/git-sizer-$version-windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/github/git-sizer/releases/download/v$version/git-sizer-$version-windows-386.zip"
             }
         }
     }

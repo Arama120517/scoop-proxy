@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kraxarn/spotify-qt/releases/download/v$matchHead/spotify-qt-v$version-win64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/kraxarn/spotify-qt/releases/download/v$matchHead/spotify-qt-v$version-win64.zip"
             }
         }
     }

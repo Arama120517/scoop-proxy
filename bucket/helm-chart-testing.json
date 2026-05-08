@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/helm/chart-testing/releases/download/v$version/chart-testing_$version_windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/helm/chart-testing/releases/download/v$version/chart-testing_$version_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/helm/chart-testing/releases/download/v$version/chart-testing_$version_windows_arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/helm/chart-testing/releases/download/v$version/chart-testing_$version_windows_arm64.zip"
             }
         },
         "hash": {

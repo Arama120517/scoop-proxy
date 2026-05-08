@@ -17,7 +17,7 @@
     "checkver": {
         "url": "https://archive.apache.org/dist/spark/",
         "regex": "spark-(3.3.\\d)",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://archive.apache.org/dist/spark/spark-$version/spark-$version-bin-hadoop3.tgz",

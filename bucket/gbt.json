@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jtyr/gbt/releases/download/v$version/gbt-$version-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jtyr/gbt/releases/download/v$version/gbt-$version-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/jtyr/gbt/releases/download/v$version/gbt-$version-windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jtyr/gbt/releases/download/v$version/gbt-$version-windows-386.zip"
             }
         },
         "hash": {

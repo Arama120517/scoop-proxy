@@ -120,8 +120,8 @@
     },
     "autoupdate": {
         "url": [
-            "https://github.com/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-devel-$version-VC.zip",
-            "https://github.com/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-$version.zip"
+            "https://v6.gh-proxy.org/https://github.com/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-devel-$version-VC.zip",
+            "https://v6.gh-proxy.org/https://github.com/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-$version.zip"
         ]
     }
 }

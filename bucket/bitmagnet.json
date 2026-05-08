@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bitmagnet-io/bitmagnet/releases/download/v$version/bitmagnet_$version_windows_x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/bitmagnet-io/bitmagnet/releases/download/v$version/bitmagnet_$version_windows_x86_64.zip"
             }
         },
         "hash": {

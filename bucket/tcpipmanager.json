@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/tcpipmanager/tcpipmanager_stable/TCP_IP_Manager_v$matchVer_%28Build_$matchBuild%29/TCP_IP_Manager_v$version_x64.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/tcpipmanager/tcpipmanager_stable/TCP_IP_Manager_v$matchVer_%28Build_$matchBuild%29/TCP_IP_Manager_v$version_x64.7z"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/tcpipmanager/tcpipmanager_stable/TCP_IP_Manager_v$matchVer_%28Build_$matchBuild%29/TCP_IP_Manager_v$version_x86.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/tcpipmanager/tcpipmanager_stable/TCP_IP_Manager_v$matchVer_%28Build_$matchBuild%29/TCP_IP_Manager_v$version_x86.7z"
             }
         }
     }

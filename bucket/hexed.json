@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/samizzo/hexed/releases/download/v$version/hexed.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/samizzo/hexed/releases/download/v$version/hexed.exe"
             }
         }
     }

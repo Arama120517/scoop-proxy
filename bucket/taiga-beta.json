@@ -30,6 +30,6 @@
         "regex": "v([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/erengy/taiga/releases/download/v$version/TaigaSetup_$version.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/erengy/taiga/releases/download/v$version/TaigaSetup_$version.exe#/dl.7z"
     }
 }

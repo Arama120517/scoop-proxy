@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dfu-programmer/dfu-programmer/releases/download/v$version/dfu-programmer-x64-$version.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/dfu-programmer/dfu-programmer/releases/download/v$version/dfu-programmer-x64-$version.7z"
             },
             "32bit": {
-                "url": "https://github.com/dfu-programmer/dfu-programmer/releases/download/v$version/dfu-programmer-x86-$version.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/dfu-programmer/dfu-programmer/releases/download/v$version/dfu-programmer-x86-$version.7z"
             }
         }
     }

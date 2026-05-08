@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/marchellodev/sharik/releases/download/v$version/sharik_v$version_windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/marchellodev/sharik/releases/download/v$version/sharik_v$version_windows.zip"
             }
         }
     }

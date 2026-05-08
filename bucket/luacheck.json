@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lunarmodules/luacheck/releases/download/v$version/luacheck.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/lunarmodules/luacheck/releases/download/v$version/luacheck.exe"
             }
         }
     }

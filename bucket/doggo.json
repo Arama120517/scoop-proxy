@@ -22,11 +22,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mr-karan/doggo/releases/download/v$version/doggo_$version_Windows_x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mr-karan/doggo/releases/download/v$version/doggo_$version_Windows_x86_64.zip",
                 "extract_dir": "doggo_$version_Windows_x86_64"
             },
             "32bit": {
-                "url": "https://github.com/mr-karan/doggo/releases/download/v$version/doggo_$version_Windows_i386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mr-karan/doggo/releases/download/v$version/doggo_$version_Windows_i386.zip",
                 "extract_dir": "doggo_$version_Windows_i386"
             }
         },

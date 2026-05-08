@@ -28,13 +28,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/EasyTier/EasyTier/releases/download/v$version/easytier-windows-x86_64-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/EasyTier/EasyTier/releases/download/v$version/easytier-windows-x86_64-v$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/EasyTier/EasyTier/releases/download/v$version/easytier-windows-i686-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/EasyTier/EasyTier/releases/download/v$version/easytier-windows-i686-v$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/EasyTier/EasyTier/releases/download/v$version/easytier-windows-arm64-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/EasyTier/EasyTier/releases/download/v$version/easytier-windows-arm64-v$version.zip"
             }
         }
     }

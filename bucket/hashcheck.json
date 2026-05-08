@@ -29,7 +29,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/gurnec/HashCheck/releases/download/v$version/HashCheckSetup-v$version.exe",
+        "url": "https://v6.gh-proxy.org/https://github.com/gurnec/HashCheck/releases/download/v$version/HashCheckSetup-v$version.exe",
         "hash": {
             "url": "$url.sha256"
         }

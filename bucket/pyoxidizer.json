@@ -26,11 +26,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer%2F$version/pyoxidizer-$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer%2F$version/pyoxidizer-$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "pyoxidizer-$version-x86_64-pc-windows-msvc"
             },
             "32bit": {
-                "url": "https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer%2F$version/pyoxidizer-$version-i686-pc-windows-msvc.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer%2F$version/pyoxidizer-$version-i686-pc-windows-msvc.zip",
                 "extract_dir": "pyoxidizer-$version-i686-pc-windows-msvc"
             }
         },

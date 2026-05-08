@@ -11,6 +11,6 @@
         "regex": "tag/release([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/0xbadfca11/fat32format/releases/download/release$version/fat32format.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/0xbadfca11/fat32format/releases/download/release$version/fat32format.exe"
     }
 }

@@ -20,7 +20,7 @@
         "regex": "tag/([\\w\\.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/careteditor/releases-beta/releases/download/$version/caret-beta-$version-full.nupkg",
+        "url": "https://v6.gh-proxy.org/https://github.com/careteditor/releases-beta/releases/download/$version/caret-beta-$version-full.nupkg",
         "hash": {
             "url": "$baseurl/RELEASES"
         }

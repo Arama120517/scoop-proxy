@@ -21,7 +21,7 @@
     "checkver": {
         "url": "https://odinbinaries.thisdrunkdane.io/file/odin-binaries/nightly.json",
         "regex": "nightly%2B([\\d\\-]+).zip",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

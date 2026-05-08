@@ -33,6 +33,6 @@
         "regex": "(?i)download/(?<tag>[^/]+)/XySubfilter_with_libass_([\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Masaiki/xy-VSFilter/releases/download/$matchTag/XySubfilter_with_libass_$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Masaiki/xy-VSFilter/releases/download/$matchTag/XySubfilter_with_libass_$version.zip"
     }
 }

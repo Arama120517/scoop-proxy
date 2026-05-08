@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/odin-lang/Odin/releases/download/dev-$version/odin-windows-amd64-dev-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/odin-lang/Odin/releases/download/dev-$version/odin-windows-amd64-dev-$version.zip"
             }
         }
     }

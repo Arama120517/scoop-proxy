@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dheijl/swyh-rs/releases/download/$version/swyh-rs-release.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dheijl/swyh-rs/releases/download/$version/swyh-rs-release.zip"
             }
         }
     }

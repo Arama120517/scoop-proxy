@@ -15,7 +15,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/KirillOsenkov/MSBuildStructuredLog/releases/download/v$version/MSBuildStructuredLogViewer-$version-full.nupkg",
+        "url": "https://v6.gh-proxy.org/https://github.com/KirillOsenkov/MSBuildStructuredLog/releases/download/v$version/MSBuildStructuredLogViewer-$version-full.nupkg",
         "hash": {
             "url": "$baseurl/RELEASES"
         }

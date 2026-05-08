@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/juicedata/juicefs/releases/download/v$version/juicefs-$version-windows-amd64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/juicedata/juicefs/releases/download/v$version/juicefs-$version-windows-amd64.tar.gz"
             }
         },
         "hash": {

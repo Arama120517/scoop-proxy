@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RubyMetric/chsrc/releases/download/v$version/chsrc-x64-windows.exe#/chsrc.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/RubyMetric/chsrc/releases/download/v$version/chsrc-x64-windows.exe#/chsrc.exe"
             },
             "32bit": {
-                "url": "https://github.com/RubyMetric/chsrc/releases/download/v$version/chsrc-x86-windows.exe#/chsrc.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/RubyMetric/chsrc/releases/download/v$version/chsrc-x86-windows.exe#/chsrc.exe"
             }
         }
     }

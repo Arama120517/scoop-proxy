@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/beeradmoore/dlss-swapper/releases/download/v$version/DLSS.Swapper-$version-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/beeradmoore/dlss-swapper/releases/download/v$version/DLSS.Swapper-$version-portable.zip"
             }
         }
     }

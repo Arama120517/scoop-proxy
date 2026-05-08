@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/exercism/cli/releases/download/v$version/exercism-$version-windows-x86_64.zip#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/exercism/cli/releases/download/v$version/exercism-$version-windows-x86_64.zip#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/exercism/cli/releases/download/v$version/exercism-$version-windows-i386.zip#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/exercism/cli/releases/download/v$version/exercism-$version-windows-i386.zip#/dl.7z"
             }
         }
     }

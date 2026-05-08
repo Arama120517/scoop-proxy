@@ -42,6 +42,6 @@
         "regex": "files/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/recaps/0.9.0.3480/ReCaps_V0.9.0.3480.exe#/dl.exe"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/recaps/0.9.0.3480/ReCaps_V0.9.0.3480.exe#/dl.exe"
     }
 }

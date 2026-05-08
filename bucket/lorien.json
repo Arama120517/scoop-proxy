@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mbrlabs/Lorien/releases/download/v$version/Lorien_v$version_Windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mbrlabs/Lorien/releases/download/v$version/Lorien_v$version_Windows.zip",
                 "extract_dir": "Lorien_v$version_Windows"
             }
         }

@@ -16,6 +16,6 @@
         "regex": "Pentaho (?<short>[\\d.]+)/client-tools/pdi-ce-(?<version>[\\w.-]+)\\.zip"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/pentaho/Pentaho%20$matchShort/client-tools/pdi-ce-$version.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/pentaho/Pentaho%20$matchShort/client-tools/pdi-ce-$version.zip"
     }
 }

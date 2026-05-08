@@ -11,7 +11,7 @@
         "github": "https://github.com/kee-org/keepassrpc"
     },
     "autoupdate": {
-        "url": "https://github.com/kee-org/keepassrpc/releases/download/v$version/KeePassRPC.plgx"
+        "url": "https://v6.gh-proxy.org/https://github.com/kee-org/keepassrpc/releases/download/v$version/KeePassRPC.plgx"
     },
     "installer": {
         "script": "Copy-Item \"$dir\\KeePassRPC.plgx\" \"$(appdir keepass $global)\\current\\Plugins\""

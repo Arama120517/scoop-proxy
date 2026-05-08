@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OpenNBS/OpenNoteBlockStudio/releases/download/v$version/Minecraft.Note.Block.Studio.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/OpenNBS/OpenNoteBlockStudio/releases/download/v$version/Minecraft.Note.Block.Studio.zip"
             }
         }
     }

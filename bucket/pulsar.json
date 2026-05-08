@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pulsar-edit/pulsar/releases/download/v$version/Windows.Pulsar-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pulsar-edit/pulsar/releases/download/v$version/Windows.Pulsar-$version-win.zip"
             }
         },
         "hash": {

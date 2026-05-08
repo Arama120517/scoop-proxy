@@ -26,7 +26,7 @@
     "checkver": {
         "url": "https://download.bleachbit.org/beta/",
         "regex": "href=\"/beta/([\\d.]+)/\"",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://download.bleachbit.org/beta/$version/BleachBit-$version-portable.zip",

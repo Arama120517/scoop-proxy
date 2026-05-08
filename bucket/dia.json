@@ -14,6 +14,6 @@
     ],
     "checkver": "Contains Dia ([\\d.]+) with updated base libraries",
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/dia-installer/dia/$version/dia_$version_win32.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/dia-installer/dia/$version/dia_$version_win32.zip"
     }
 }

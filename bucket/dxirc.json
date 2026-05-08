@@ -21,6 +21,6 @@
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/dxirc/$version/dxirc-$version-bin.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/dxirc/$version/dxirc-$version-bin.zip"
     }
 }

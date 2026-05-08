@@ -14,6 +14,6 @@
         "github": "https://github.com/kjokjo/ipcalc"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/kjokjo/ipcalc/$version/ipcalc"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/kjokjo/ipcalc/$version/ipcalc"
     }
 }

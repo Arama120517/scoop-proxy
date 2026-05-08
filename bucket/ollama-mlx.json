@@ -28,8 +28,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip",
-                    "https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64-mlx.zip"
+                    "https://v6.gh-proxy.org/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip",
+                    "https://v6.gh-proxy.org/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64-mlx.zip"
                 ]
             }
         },

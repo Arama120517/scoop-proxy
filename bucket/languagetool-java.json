@@ -27,7 +27,7 @@
     "checkver": {
         "url": "https://languagetool.org/download/",
         "regex": "LanguageTool-([\\d.]+)\\.zip",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://languagetool.org/download/LanguageTool-$version.zip",

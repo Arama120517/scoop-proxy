@@ -28,9 +28,9 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox.CE-$version-Setup.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox.CE-$version-Setup.exe#/dl.7z",
         "hash": {
-            "url": "https://github.com/Bin-Huang/chatbox/releases/download/v$version/latest.yml",
+            "url": "https://v6.gh-proxy.org/https://github.com/Bin-Huang/chatbox/releases/download/v$version/latest.yml",
             "regex": "sha512:\\s+$base64"
         }
     }

@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tpanj/cht.exe/releases/download/v$version/cht_windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/tpanj/cht.exe/releases/download/v$version/cht_windows.zip"
             }
         }
     }

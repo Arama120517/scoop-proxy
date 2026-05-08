@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/casey/intermodal/releases/download/v$version/imdl-v$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/casey/intermodal/releases/download/v$version/imdl-v$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

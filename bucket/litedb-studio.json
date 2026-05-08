@@ -16,6 +16,6 @@
         "github": "https://github.com/mbdavid/LiteDB.Studio"
     },
     "autoupdate": {
-        "url": "https://github.com/mbdavid/LiteDB.Studio/releases/download/v$version/LiteDB.Studio.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/mbdavid/LiteDB.Studio/releases/download/v$version/LiteDB.Studio.exe"
     }
 }

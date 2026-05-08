@@ -23,6 +23,6 @@
     "persist": "data",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/XX-net/XX-Net/releases/download/$version/XX-Net-win10-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/XX-net/XX-Net/releases/download/$version/XX-Net-win10-$version.zip"
     }
 }

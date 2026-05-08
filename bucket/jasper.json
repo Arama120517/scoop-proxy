@@ -34,6 +34,6 @@
         "regex": "(?<=\")(?<tag>v?([\\d.]+))(?=\")"
     },
     "autoupdate": {
-        "url": "https://github.com/jasperapp/jasper/releases/download/$matchTag/jasper_v$version_windows_setup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/jasperapp/jasper/releases/download/$matchTag/jasper_v$version_windows_setup.exe"
     }
 }

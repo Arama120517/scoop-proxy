@@ -39,6 +39,6 @@
         "KeyMap.txt"
     ],
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/jpegview/jpegview/$version/JPEGView_$version.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/jpegview/jpegview/$version/JPEGView_$version.zip"
     }
 }

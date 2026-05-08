@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/portainer/portainer/releases/download/$version/portainer-$version-windows1809-amd64.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/portainer/portainer/releases/download/$version/portainer-$version-windows1809-amd64.tar.gz",
                 "hash": {
                     "url": "$baseurl/portainer-$version-windows1809-amd64-checksum.txt",
                     "regex": "$sha256"

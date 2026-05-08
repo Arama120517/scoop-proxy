@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kubescape/kubescape/releases/download/v$version/kubescape.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/kubescape/kubescape/releases/download/v$version/kubescape.exe"
             }
         }
     }

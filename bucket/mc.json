@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/adamyg/mcwin32/releases/download/$version/mcwin32-build$buildVersion-setup.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/adamyg/mcwin32/releases/download/$version/mcwin32-build$buildVersion-setup.exe"
             },
             "64bit": {
-                "url": "https://github.com/adamyg/mcwin32/releases/download/$version/mcwin32-build$buildVersion-x64-setup.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/adamyg/mcwin32/releases/download/$version/mcwin32-build$buildVersion-x64-setup.exe"
             }
         }
     }

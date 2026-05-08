@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/differentrain/Delapp/releases/download/$version/Delapp.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/differentrain/Delapp/releases/download/$version/Delapp.zip"
     }
 }

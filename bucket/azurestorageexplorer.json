@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v$version/StorageExplorer-windows-x64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/microsoft/AzureStorageExplorer/releases/download/v$version/StorageExplorer-windows-x64.exe"
             },
             "arm64": {
-                "url": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v$version/StorageExplorer-windows-arm64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/microsoft/AzureStorageExplorer/releases/download/v$version/StorageExplorer-windows-arm64.exe"
             }
         }
     }

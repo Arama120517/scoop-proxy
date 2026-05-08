@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pixop/video-compare/releases/download/$version/video-compare-$version-win10-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pixop/video-compare/releases/download/$version/video-compare-$version-win10-x86_64.zip"
             }
         }
     }

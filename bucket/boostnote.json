@@ -33,6 +33,6 @@
         "github": "https://github.com/BoostIO/BoostNote-App"
     },
     "autoupdate": {
-        "url": "https://github.com/BoostIO/BoostNote-App/releases/download/v$version/boost-note-win.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/BoostIO/BoostNote-App/releases/download/v$version/boost-note-win.exe#/dl.7z"
     }
 }

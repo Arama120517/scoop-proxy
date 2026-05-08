@@ -41,10 +41,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_arm64.zip"
             }
         }
     }

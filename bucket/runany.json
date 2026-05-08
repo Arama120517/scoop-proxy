@@ -27,7 +27,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/hui-Zz/RunAny/archive/v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/hui-Zz/RunAny/archive/v$version.zip",
         "extract_dir": "RunAny-$version"
     }
 }

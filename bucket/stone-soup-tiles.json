@@ -23,7 +23,7 @@
         "regex": "dcss-([\\d.]+)-win32-tiles"
     },
     "autoupdate": {
-        "url": "https://github.com/crawl/crawl/releases/download/$version/dcss-$version-win32-tiles.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/crawl/crawl/releases/download/$version/dcss-$version-win32-tiles.zip",
         "extract_dir": "stone_soup-tiles-$majorVersion.$minorVersion"
     }
 }

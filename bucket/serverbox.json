@@ -19,6 +19,6 @@
         "github": "https://github.com/lollipopkit/flutter_server_box"
     },
     "autoupdate": {
-        "url": "https://github.com/lollipopkit/flutter_server_box/releases/download/v$version/ServerBox_v$version_windows_amd64.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/lollipopkit/flutter_server_box/releases/download/v$version/ServerBox_v$version_windows_amd64.zip"
     }
 }

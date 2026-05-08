@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/loft-sh/loft/releases/download/v$version/loft-windows-amd64.exe#/loft.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/loft-sh/loft/releases/download/v$version/loft-windows-amd64.exe#/loft.exe"
             }
         },
         "hash": {

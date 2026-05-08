@@ -18,7 +18,7 @@
         "regex": "/grails-([\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/grails/grails-core/releases/download/v$version/grails-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/grails/grails-core/releases/download/v$version/grails-$version.zip",
         "extract_dir": "grails-$version"
     }
 }

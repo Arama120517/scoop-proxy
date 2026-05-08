@@ -20,7 +20,7 @@
         "regex": "tag/v([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/v$version/OutlookGoogleCalendarSync-$version-full.nupkg",
+        "url": "https://v6.gh-proxy.org/https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/v$version/OutlookGoogleCalendarSync-$version-full.nupkg",
         "hash": {
             "url": "$baseurl/RELEASES"
         }

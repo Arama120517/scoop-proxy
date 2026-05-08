@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/fabiospampinato/noty/releases/download/v$version/Noty-$version-win.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/fabiospampinato/noty/releases/download/v$version/Noty-$version-win.zip"
     }
 }

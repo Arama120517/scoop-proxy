@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/antonycourtney/tad/releases/download/v$version/Tad-Setup-$version.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/antonycourtney/tad/releases/download/v$version/Tad-Setup-$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"

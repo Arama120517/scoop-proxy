@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/niXman/mingw-builds-binaries/releases/download/$version/x86_64-$match1-release-posix-seh-msvcrt-$matchBuild.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/niXman/mingw-builds-binaries/releases/download/$version/x86_64-$match1-release-posix-seh-msvcrt-$matchBuild.7z"
             },
             "32bit": {
-                "url": "https://github.com/niXman/mingw-builds-binaries/releases/download/$version/i686-$match1-release-posix-dwarf-msvcrt-$matchBuild.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/niXman/mingw-builds-binaries/releases/download/$version/i686-$match1-release-posix-dwarf-msvcrt-$matchBuild.7z"
             }
         }
     }

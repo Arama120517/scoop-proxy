@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jewlexx/ignoreit/releases/download/v$version/ignoreit-x86_64.exe#/ignoreit.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/jewlexx/ignoreit/releases/download/v$version/ignoreit-x86_64.exe#/ignoreit.exe"
             }
         }
     }

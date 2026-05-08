@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/danielgtaylor/restish/releases/download/v$version/restish-$version-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/danielgtaylor/restish/releases/download/v$version/restish-$version-windows-amd64.zip"
             }
         },
         "hash": {

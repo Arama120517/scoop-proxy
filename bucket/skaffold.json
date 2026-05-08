@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GoogleCloudPlatform/skaffold/releases/download/v$version/skaffold-windows-amd64.exe#/skaffold.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/GoogleCloudPlatform/skaffold/releases/download/v$version/skaffold-windows-amd64.exe#/skaffold.exe"
             }
         },
         "hash": {

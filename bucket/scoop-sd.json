@@ -12,6 +12,6 @@
         "regex": "(?<prefix>[\\w-]+)v(?<version>[\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/grisha765/scoop-search-directory/releases/download/$matchPrefixv$version/scoop-sd.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/grisha765/scoop-search-directory/releases/download/$matchPrefixv$version/scoop-sd.exe"
     }
 }

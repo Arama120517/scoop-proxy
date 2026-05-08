@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MakovWait/godots/releases/download/v$version.stable/Windows.Desktop.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/MakovWait/godots/releases/download/v$version.stable/Windows.Desktop.zip"
             }
         }
     }

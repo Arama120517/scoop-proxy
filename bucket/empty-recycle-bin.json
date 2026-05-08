@@ -8,6 +8,6 @@
     "bin": "empty-recycle-bin.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/sindresorhus/empty-recycle-bin/releases/download/$version/empty-recycle-bin.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/sindresorhus/empty-recycle-bin/releases/download/$version/empty-recycle-bin.exe"
     }
 }

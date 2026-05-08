@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/giantpinkrobots/varia/releases/download/v$version/varia-windows-portable-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/giantpinkrobots/varia/releases/download/v$version/varia-windows-portable-amd64.zip"
             }
         }
     }

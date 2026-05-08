@@ -33,7 +33,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v$version/Waifu2x-Extension-GUI-v$version-Win64.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v$version/Waifu2x-Extension-GUI-v$version-Win64.7z",
                 "hash": {
                     "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/tag/v$version",
                     "regex": "$basename\\n$sha256"

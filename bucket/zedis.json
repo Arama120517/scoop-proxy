@@ -23,10 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vicanso/zedis/releases/download/v$version/zedis-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/vicanso/zedis/releases/download/v$version/zedis-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/vicanso/zedis/releases/download/v$version/zedis-windows-aarch64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/vicanso/zedis/releases/download/v$version/zedis-windows-aarch64.zip"
             }
         }
     }

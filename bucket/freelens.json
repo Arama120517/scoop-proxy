@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/freelensapp/freelens/releases/download/v$version/Freelens-$version-windows-amd64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/freelensapp/freelens/releases/download/v$version/Freelens-$version-windows-amd64.msi"
             },
             "arm64": {
-                "url": "https://github.com/freelensapp/freelens/releases/download/v$version/Freelens-$version-windows-arm64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/freelensapp/freelens/releases/download/v$version/Freelens-$version-windows-arm64.msi"
             }
         },
         "hash": {

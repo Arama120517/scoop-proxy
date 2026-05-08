@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pdfarranger/pdfarranger/releases/download/$version/pdfarranger-$version-windows-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pdfarranger/pdfarranger/releases/download/$version/pdfarranger-$version-windows-portable.zip"
             }
         },
         "extract_dir": "pdf arranger-$version"

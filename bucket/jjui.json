@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-arm64.zip"
             }
         }
     }

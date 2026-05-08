@@ -16,6 +16,6 @@
         "github": "https://github.com/qmk/qmk_toolbox"
     },
     "autoupdate": {
-        "url": "https://github.com/qmk/qmk_toolbox/releases/download/$version/qmk_toolbox.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/qmk/qmk_toolbox/releases/download/$version/qmk_toolbox.exe"
     }
 }

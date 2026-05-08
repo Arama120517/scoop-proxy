@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wasmerio/wapm-cli/releases/download/v$version/wapm-cli-windows-amd64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/wasmerio/wapm-cli/releases/download/v$version/wapm-cli-windows-amd64.tar.gz"
             }
         }
     }

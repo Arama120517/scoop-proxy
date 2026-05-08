@@ -19,14 +19,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/IrineSistiana/mosdns-cn/releases/download/v$version/mosdns-cn-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/IrineSistiana/mosdns-cn/releases/download/v$version/mosdns-cn-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/IrineSistiana/mosdns-cn/releases/download/v$version/mosdns-cn-windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/IrineSistiana/mosdns-cn/releases/download/v$version/mosdns-cn-windows-386.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/IrineSistiana/mosdns-cn/releases/download/v$version/mosdns-cn_$version_checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/IrineSistiana/mosdns-cn/releases/download/v$version/mosdns-cn_$version_checksums.txt"
         }
     }
 }

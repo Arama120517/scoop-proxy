@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/moonrepo/moon/releases/download/v$version/moon-x86_64-pc-windows-msvc.exe#/moon.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/moonrepo/moon/releases/download/v$version/moon-x86_64-pc-windows-msvc.exe#/moon.exe"
             }
         }
     }

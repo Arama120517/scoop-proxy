@@ -46,6 +46,6 @@
         "regex": "download/(?<version>[\\d.]+)/(?<filename>.*)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/tablacus/TablacusExplorer/releases/download/$version/$matchFilename.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/tablacus/TablacusExplorer/releases/download/$version/$matchFilename.zip"
     }
 }

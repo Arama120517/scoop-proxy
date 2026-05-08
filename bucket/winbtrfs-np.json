@@ -42,6 +42,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/maharmstone/btrfs/releases/download/v$version/btrfs-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/maharmstone/btrfs/releases/download/v$version/btrfs-$version.zip"
     }
 }

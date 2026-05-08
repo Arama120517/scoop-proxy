@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/randyrants/sharpkeys/releases/download/v$version/sharpkeys$cleanVersion.msi"
+        "url": "https://v6.gh-proxy.org/https://github.com/randyrants/sharpkeys/releases/download/v$version/sharpkeys$cleanVersion.msi"
     }
 }

@@ -71,13 +71,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.zip"
             },
             "arm64": {
-                "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.arm64.zip"
             }
         },
         "hash": {

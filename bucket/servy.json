@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aelassas/servy/releases/download/v$version/servy-$version-x64-installer.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/aelassas/servy/releases/download/v$version/servy-$version-x64-installer.exe"
             }
         }
     }

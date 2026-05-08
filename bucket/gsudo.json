@@ -36,7 +36,7 @@
         "github": "https://github.com/gerardog/gsudo"
     },
     "autoupdate": {
-        "url": "https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.portable.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.portable.zip",
         "architecture": {
             "64bit": {
                 "extract_dir": "x64"

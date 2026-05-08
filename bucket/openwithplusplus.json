@@ -37,7 +37,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stax76/OpenWithPlusPlus/releases/download/v$majorVersion.$minorVersion/OpenWithPP-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/stax76/OpenWithPlusPlus/releases/download/v$majorVersion.$minorVersion/OpenWithPP-$version.zip"
             }
         }
     }

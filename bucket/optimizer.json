@@ -14,7 +14,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/hellzerg/optimizer/releases/download/$version/Optimizer-$version.exe#/Optimizer.exe",
+        "url": "https://v6.gh-proxy.org/https://github.com/hellzerg/optimizer/releases/download/$version/Optimizer-$version.exe#/Optimizer.exe",
         "hash": {
             "url": "https://github.com/hellzerg/optimizer/releases/latest",
             "find": "<p>$sha256</p></div>"

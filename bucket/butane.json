@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/coreos/butane/releases/download/v$version/butane-x86_64-pc-windows-gnu.exe#/butane.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/coreos/butane/releases/download/v$version/butane-x86_64-pc-windows-gnu.exe#/butane.exe"
             }
         }
     }

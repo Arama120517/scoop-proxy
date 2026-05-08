@@ -8,6 +8,6 @@
     "bin": "WinNFSd.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/winnfsd/winnfsd/releases/download/$version/WinNFSd.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/winnfsd/winnfsd/releases/download/$version/WinNFSd.exe"
     }
 }

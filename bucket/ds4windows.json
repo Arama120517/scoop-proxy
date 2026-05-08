@@ -68,10 +68,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/schmaldeo/DS4Windows/releases/download/v$version/DS4Windows_$version_x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/schmaldeo/DS4Windows/releases/download/v$version/DS4Windows_$version_x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/schmaldeo/DS4Windows/releases/download/v$version/DS4Windows_$version_x86.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/schmaldeo/DS4Windows/releases/download/v$version/DS4Windows_$version_x86.zip"
             }
         }
     }

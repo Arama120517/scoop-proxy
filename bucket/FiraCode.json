@@ -86,6 +86,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/tonsky/FiraCode/releases/download/$version/Fira_Code_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/tonsky/FiraCode/releases/download/$version/Fira_Code_v$version.zip"
     }
 }

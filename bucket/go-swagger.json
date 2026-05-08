@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/go-swagger/go-swagger/releases/download/v$version/swagger_windows_amd64.exe#/swagger.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/go-swagger/go-swagger/releases/download/v$version/swagger_windows_amd64.exe#/swagger.exe"
             },
             "arm64": {
-                "url": "https://github.com/go-swagger/go-swagger/releases/download/v$version/swagger_windows_arm64.exe#/swagger.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/go-swagger/go-swagger/releases/download/v$version/swagger_windows_arm64.exe#/swagger.exe"
             }
         },
         "hash": {

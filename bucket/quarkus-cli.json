@@ -16,7 +16,7 @@
         "regex": "([\\d+\\.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/quarkusio/quarkus/releases/download/$version/quarkus-cli-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/quarkusio/quarkus/releases/download/$version/quarkus-cli-$version.zip",
         "extract_dir": "quarkus-cli-$version",
         "hash": {
             "url": "$baseurl/checksums_sha256.txt"

@@ -98,10 +98,10 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://github.com/ichitenfont/I.Ming/releases/download/$version/I.Ming-$version.ttf",
-            "https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingCP-$version.ttf",
-            "https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingVar-$version.ttf",
-            "https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingVarCP-$version.ttf"
+            "https://v6.gh-proxy.org/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.Ming-$version.ttf",
+            "https://v6.gh-proxy.org/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingCP-$version.ttf",
+            "https://v6.gh-proxy.org/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingVar-$version.ttf",
+            "https://v6.gh-proxy.org/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingVarCP-$version.ttf"
         ]
     }
 }

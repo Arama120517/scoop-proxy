@@ -17,6 +17,6 @@
     "bin": "zenhan.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/iuchim/zenhan/releases/download/v$version/zenhan.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/iuchim/zenhan/releases/download/v$version/zenhan.zip"
     }
 }

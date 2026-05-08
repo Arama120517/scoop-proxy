@@ -44,7 +44,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/coreybutler/nvm-windows/releases/download/$version/nvm-noinstall.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/coreybutler/nvm-windows/releases/download/$version/nvm-noinstall.zip",
         "hash": {
             "url": "$url.checksum.txt",
             "regex": "$md5"

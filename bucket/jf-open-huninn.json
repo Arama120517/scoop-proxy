@@ -87,6 +87,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/justfont/open-huninn-font/releases/download/v$version/jf-openhuninn-$version.ttf"
+        "url": "https://v6.gh-proxy.org/https://github.com/justfont/open-huninn-font/releases/download/v$version/jf-openhuninn-$version.ttf"
     }
 }

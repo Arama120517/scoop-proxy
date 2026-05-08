@@ -44,10 +44,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jurplel/qView/releases/download/$version/qView-$version-win64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jurplel/qView/releases/download/$version/qView-$version-win64.zip"
             },
             "32bit": {
-                "url": "https://github.com/jurplel/qView/releases/download/$version/qView-$version-win32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jurplel/qView/releases/download/$version/qView-$version-win32.zip"
             }
         }
     }

@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hasherezade/pe-bear/releases/download/v$version/PE-bear_$version_qt5_x64_win_vs19.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/hasherezade/pe-bear/releases/download/v$version/PE-bear_$version_qt5_x64_win_vs19.zip"
             },
             "32bit": {
-                "url": "https://github.com/hasherezade/pe-bear/releases/download/v$version/PE-bear_$version_qt5_x86_win_vs19.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/hasherezade/pe-bear/releases/download/v$version/PE-bear_$version_qt5_x86_win_vs19.zip"
             }
         }
     }

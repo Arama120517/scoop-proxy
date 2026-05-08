@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/saber-notes/saber/releases/download/v$version/SaberInstaller_v$version$matchExtra.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/saber-notes/saber/releases/download/v$version/SaberInstaller_v$version$matchExtra.exe"
             }
         }
     }

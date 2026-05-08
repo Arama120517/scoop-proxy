@@ -5,11 +5,11 @@
     "license": "zlib-acknowledgement",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win64.zip",
+            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win64.zip",
             "hash": "sha1:622f925e3121cc30dea3b6ff9578865596675c52"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win32.zip",
+            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win32.zip",
             "hash": "sha1:e7f3928b73852aea74c58c1a8c857f2ca227e337"
         }
     },
@@ -39,10 +39,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win64.zip"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win64.zip"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win32.zip"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win32.zip"
             }
         }
     }

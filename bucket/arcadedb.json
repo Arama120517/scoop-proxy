@@ -34,7 +34,7 @@
         "github": "https://github.com/ArcadeData/arcadedb"
     },
     "autoupdate": {
-        "url": "https://github.com/ArcadeData/arcadedb/releases/download/$version/arcadedb-$version.tar.gz",
+        "url": "https://v6.gh-proxy.org/https://github.com/ArcadeData/arcadedb/releases/download/$version/arcadedb-$version.tar.gz",
         "extract_dir": "arcadedb-$version"
     }
 }

@@ -10,6 +10,6 @@
         "github": "https://github.com/Mozilla-Ocho/llamafile"
     },
     "autoupdate": {
-        "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version#/llamafile.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version#/llamafile.exe"
     }
 }

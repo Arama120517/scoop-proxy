@@ -67,6 +67,6 @@
         "regex": "v(?<tag>[\\d.]+)/Dism%2B%2B(?<version>[\\d.]+[\\w]?)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$matchTag/Dism++$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$matchTag/Dism++$version.zip"
     }
 }

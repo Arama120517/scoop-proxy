@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/CHerSun/NoSleep/releases/download/$version/NoSleep.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/CHerSun/NoSleep/releases/download/$version/NoSleep.exe"
     }
 }

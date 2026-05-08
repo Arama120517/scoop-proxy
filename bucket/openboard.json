@@ -16,6 +16,6 @@
         "github": "https://github.com/OpenBoard-org/OpenBoard"
     },
     "autoupdate": {
-        "url": "https://github.com/OpenBoard-org/OpenBoard/releases/download/v$version/OpenBoard_Installer_$version.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/OpenBoard-org/OpenBoard/releases/download/v$version/OpenBoard_Installer_$version.exe"
     }
 }

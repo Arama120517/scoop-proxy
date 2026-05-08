@@ -14,6 +14,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/xatupal/KeeTheme/releases/download/v$version/KeeTheme.plgx"
+        "url": "https://v6.gh-proxy.org/https://github.com/xatupal/KeeTheme/releases/download/v$version/KeeTheme.plgx"
     }
 }

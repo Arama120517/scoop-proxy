@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/anyproto/anytype-ts/releases/download/v$version/Anytype.Setup.$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/anyproto/anytype-ts/releases/download/v$version/Anytype.Setup.$version.exe#/dl.7z"
             }
         }
     }

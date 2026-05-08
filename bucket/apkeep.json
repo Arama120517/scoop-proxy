@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/EFForg/apkeep/releases/download/$version/apkeep-x86_64-pc-windows-msvc.exe#/apkeep.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/EFForg/apkeep/releases/download/$version/apkeep-x86_64-pc-windows-msvc.exe#/apkeep.exe"
             }
         }
     }

@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/asciinema/agg/releases/download/v$version/agg-x86_64-pc-windows-msvc.exe#/agg.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/asciinema/agg/releases/download/v$version/agg-x86_64-pc-windows-msvc.exe#/agg.exe"
             }
         }
     }

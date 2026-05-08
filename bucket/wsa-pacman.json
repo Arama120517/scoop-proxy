@@ -50,7 +50,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/alesimula/wsa_pacman/releases/download/v$version/WSA-pacman-v$version-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/alesimula/wsa_pacman/releases/download/v$version/WSA-pacman-v$version-portable.zip"
             }
         }
     }

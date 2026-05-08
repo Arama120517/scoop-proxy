@@ -30,6 +30,6 @@
         "replace": "$1$2.$3.$4"
     },
     "autoupdate": {
-        "url": "https://github.com/spicetify/spicetify-themes/archive/master.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/spicetify/spicetify-themes/archive/master.zip"
     }
 }

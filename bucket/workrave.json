@@ -17,6 +17,6 @@
         "regex": "workrave-win32-v([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://github.com/rcaelers/workrave/releases/download/v$underscoreVersion/workrave-win32-v$version.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/rcaelers/workrave/releases/download/v$underscoreVersion/workrave-win32-v$version.exe"
     }
 }

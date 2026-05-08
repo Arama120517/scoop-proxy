@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Macchina-CLI/macchina/releases/download/v$version/macchina-v$version-windows-x86_64.exe#/macchina.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Macchina-CLI/macchina/releases/download/v$version/macchina-v$version-windows-x86_64.exe#/macchina.exe"
             },
             "arm64": {
-                "url": "https://github.com/Macchina-CLI/macchina/releases/download/v$version/macchina-v$version-windows-aarch64.exe#/macchina.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Macchina-CLI/macchina/releases/download/v$version/macchina-v$version-windows-aarch64.exe#/macchina.exe"
             }
         }
     }

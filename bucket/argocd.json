@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/argoproj/argo-cd/releases/download/v$version/argocd-windows-amd64.exe#/argocd.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/argoproj/argo-cd/releases/download/v$version/argocd-windows-amd64.exe#/argocd.exe"
             }
         }
     }

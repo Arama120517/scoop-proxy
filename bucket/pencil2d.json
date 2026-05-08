@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pencil2d/pencil/releases/download/v$version/pencil2d-win64-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pencil2d/pencil/releases/download/v$version/pencil2d-win64-$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/pencil2d/pencil/releases/download/v$version/pencil2d-win32-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pencil2d/pencil/releases/download/v$version/pencil2d-win32-$version.zip"
             }
         }
     }

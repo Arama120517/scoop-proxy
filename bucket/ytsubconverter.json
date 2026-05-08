@@ -16,6 +16,6 @@
     "persist": "StyleOptions.xml",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/arcusmaximus/YTSubConverter/releases/download/$version/YTSubConverter.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/arcusmaximus/YTSubConverter/releases/download/$version/YTSubConverter.exe"
     }
 }

@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/printfn/fend/releases/download/v$version/fend-$version-windows-x64-exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/printfn/fend/releases/download/v$version/fend-$version-windows-x64-exe.zip"
             }
         }
     }

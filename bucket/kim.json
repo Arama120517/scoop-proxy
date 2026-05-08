@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rancher/kim/releases/download/v$version/kim-windows-amd64.exe#/kim.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/rancher/kim/releases/download/v$version/kim-windows-amd64.exe#/kim.exe"
             }
         }
     }

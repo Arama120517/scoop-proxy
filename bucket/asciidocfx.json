@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/asciidocfx/AsciidocFX/releases/download/v$version/AsciidocFX_Windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/asciidocfx/AsciidocFX/releases/download/v$version/AsciidocFX_Windows.zip",
                 "hash": {
                     "url": "$baseurl/updates.xml",
                     "xpath": "/updateDescriptor/entry[@fileName='$basename']/@sha256Sum"

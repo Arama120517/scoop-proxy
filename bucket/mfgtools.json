@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nxp-imx/mfgtools/releases/download/uuu_$version/uuu.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/nxp-imx/mfgtools/releases/download/uuu_$version/uuu.exe"
             }
         }
     }

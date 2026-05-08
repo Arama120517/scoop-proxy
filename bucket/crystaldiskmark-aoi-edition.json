@@ -48,6 +48,6 @@
         "regex": "CrystalDiskMark ([\\w\\.]+) &#8211;"
     },
     "autoupdate": {
-        "url": "sourceforge/https://zenlayer.dl.sourceforge.net/project/crystaldiskmark/$version/CrystalDiskMark$underscoreVersionAoi.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://zenlayer.dl.sourceforge.net/project/crystaldiskmark/$version/CrystalDiskMark$underscoreVersionAoi.zip"
     }
 }

@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/andy-5/wslgit/releases/download/v$version/wslgit.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/andy-5/wslgit/releases/download/v$version/wslgit.exe"
             }
         }
     }

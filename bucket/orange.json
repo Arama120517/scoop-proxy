@@ -20,7 +20,7 @@
     "checkver": {
         "url": "https://download.biolab.si/download/files/",
         "regex": "Orange3-([\\d.]+)\\.zip",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

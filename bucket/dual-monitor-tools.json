@@ -36,6 +36,6 @@
         "regex": "dualmonitortool/([\\d.]+)/"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/$version/DualMonitorTools-$version.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/$version/DualMonitorTools-$version.zip"
     }
 }

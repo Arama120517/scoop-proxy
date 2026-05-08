@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/camunda/camunda-platform/releases/download/$matchGenver/camunda-operate-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/camunda/camunda-platform/releases/download/$matchGenver/camunda-operate-$version.zip"
             }
         },
         "hash": {

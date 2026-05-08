@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cjpais/Handy/releases/download/v$version/Handy_$version_x64-setup.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/cjpais/Handy/releases/download/v$version/Handy_$version_x64-setup.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/cjpais/Handy/releases/download/v$version/Handy_$version_arm64-setup.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/cjpais/Handy/releases/download/v$version/Handy_$version_arm64-setup.exe#/dl.7z"
             }
         }
     }

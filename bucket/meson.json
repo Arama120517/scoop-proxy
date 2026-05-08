@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mesonbuild/meson/releases/download/$version/meson-$version-64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/mesonbuild/meson/releases/download/$version/meson-$version-64.msi"
             }
         }
     }

@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/CoatiSoftware/Sourcetrail/releases/download/$version/Sourcetrail_$underscoreVersion_Windows_64bit_Portable.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/CoatiSoftware/Sourcetrail/releases/download/$version/Sourcetrail_$underscoreVersion_Windows_64bit_Portable.zip",
                 "extract_dir": "Sourcetrail_$underscoreVersion_64bit_Portable\\Sourcetrail_$underscoreVersion_64bit"
             }
         },

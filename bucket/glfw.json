@@ -22,11 +22,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/glfw/glfw/releases/download/$version/glfw-$version.bin.WIN64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/glfw/glfw/releases/download/$version/glfw-$version.bin.WIN64.zip",
                 "extract_dir": "glfw-$version.bin.WIN64"
             },
             "32bit": {
-                "url": "https://github.com/glfw/glfw/releases/download/$version/glfw-$version.bin.WIN32.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/glfw/glfw/releases/download/$version/glfw-$version.bin.WIN32.zip",
                 "extract_dir": "glfw-$version.bin.WIN32"
             }
         }

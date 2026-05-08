@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "regex": "(\\d{4}\\.\\d{2}\\.\\d{2})\\:",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://codeload.github.com/AveYo/MediaCreationTool.bat/zip/refs/heads/main#/dl.zip"

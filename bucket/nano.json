@@ -38,17 +38,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/okibcn/nano-for-windows/releases/download/v$version/nano-for-windows_win64_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/okibcn/nano-for-windows/releases/download/v$version/nano-for-windows_win64_v$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/okibcn/nano-for-windows/releases/download/v$version/nano-for-windows_win32_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/okibcn/nano-for-windows/releases/download/v$version/nano-for-windows_win32_v$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/okibcn/nano-for-windows/releases/download/v$version/nano-for-windows_arm64_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/okibcn/nano-for-windows/releases/download/v$version/nano-for-windows_arm64_v$version.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/okibcn/nano-for-windows/releases/download/v$version/hashes.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/okibcn/nano-for-windows/releases/download/v$version/hashes.txt"
         }
     }
 }

@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/turtl/desktop/releases/download/v$version/turtl-$version-windows64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/turtl/desktop/releases/download/v$version/turtl-$version-windows64.msi"
             }
         },
         "hash": {

@@ -27,13 +27,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ast-grep/ast-grep/releases/download/$version/app-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ast-grep/ast-grep/releases/download/$version/app-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://github.com/ast-grep/ast-grep/releases/download/$version/app-i686-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ast-grep/ast-grep/releases/download/$version/app-i686-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/ast-grep/ast-grep/releases/download/$version/app-aarch64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ast-grep/ast-grep/releases/download/$version/app-aarch64-pc-windows-msvc.zip"
             }
         }
     }

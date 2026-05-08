@@ -17,6 +17,6 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/blackholeearth/Win10_BrightnessSlider/releases/download/v$version/Win10_BrightnessSlider.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/blackholeearth/Win10_BrightnessSlider/releases/download/v$version/Win10_BrightnessSlider.exe"
     }
 }

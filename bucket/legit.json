@@ -23,7 +23,7 @@
         "github": "https://github.com/frostming/legit"
     },
     "autoupdate": {
-        "url": "https://github.com/frostming/legit/releases/download/$version/legit.exe",
+        "url": "https://v6.gh-proxy.org/https://github.com/frostming/legit/releases/download/$version/legit.exe",
         "hash": {
             "url": "$url.sha256"
         }

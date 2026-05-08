@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kristoff-it/superhtml/releases/download/v$version/x86_64-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/kristoff-it/superhtml/releases/download/v$version/x86_64-windows.zip"
             },
             "arm64": {
-                "url": "https://github.com/kristoff-it/superhtml/releases/download/v$version/aarch64-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/kristoff-it/superhtml/releases/download/v$version/aarch64-windows.zip"
             }
         }
     }

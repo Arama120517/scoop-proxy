@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mumble-voip/mumble/releases/download/v$version/mumble_client-$version.x64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/mumble-voip/mumble/releases/download/v$version/mumble_client-$version.x64.exe"
             }
         }
     }

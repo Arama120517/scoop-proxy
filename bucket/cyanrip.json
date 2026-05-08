@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cyanreg/cyanrip/releases/download/v$version/cyanrip-win64.exe#/cyanrip.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/cyanreg/cyanrip/releases/download/v$version/cyanrip-win64.exe#/cyanrip.exe"
             }
         }
     }

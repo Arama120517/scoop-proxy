@@ -8,6 +8,6 @@
     "bin": "gog-plugins-downloader.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Slashbunny/gog-galaxy-plugin-downloader/releases/download/v$version/gog-plugins-downloader-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Slashbunny/gog-galaxy-plugin-downloader/releases/download/v$version/gog-plugins-downloader-v$version.zip"
     }
 }

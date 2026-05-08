@@ -32,7 +32,7 @@
         "github": "https://github.com/gaborbata/jpass"
     },
     "autoupdate": {
-        "url": "https://github.com/gaborbata/jpass/releases/download/v$version/jpass-$version-RELEASE.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/gaborbata/jpass/releases/download/v$version/jpass-$version-RELEASE.zip",
         "hash": {
             "url": "$url.sha256"
         }

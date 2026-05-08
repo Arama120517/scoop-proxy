@@ -8,6 +8,6 @@
     "bin": "assume-role.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/remind101/assume-role/releases/download/$version/assume-role-Windows.exe#/assume-role.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/remind101/assume-role/releases/download/$version/assume-role-Windows.exe#/assume-role.exe"
     }
 }

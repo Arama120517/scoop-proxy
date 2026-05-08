@@ -19,6 +19,6 @@
         "github": "https://github.com/ricochet-im/ricochet"
     },
     "autoupdate": {
-        "url": "https://github.com/ricochet-im/ricochet/releases/download/v$version/ricochet-$version-win-install.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/ricochet-im/ricochet/releases/download/v$version/ricochet-$version-win-install.exe"
     }
 }

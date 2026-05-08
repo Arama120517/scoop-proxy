@@ -22,6 +22,6 @@
         "regex": "(?<tag>[\\d.]+) (?<version>[\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/tom-englert/RegionToShare/releases/download/$matchTag/RegionToShare.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/tom-englert/RegionToShare/releases/download/$matchTag/RegionToShare.zip"
     }
 }

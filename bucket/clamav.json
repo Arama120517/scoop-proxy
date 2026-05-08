@@ -43,11 +43,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.win.x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.win.x64.zip",
                 "extract_dir": "clamav-$version.win.x64"
             },
             "32bit": {
-                "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.win.win32.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.win.win32.zip",
                 "extract_dir": "clamav-$version.win.win32"
             }
         }

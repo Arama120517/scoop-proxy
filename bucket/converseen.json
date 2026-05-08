@@ -19,7 +19,7 @@
         "regex": "converseen-(?<version>[\\d\\.+]+)-(?<build>\\d+)-win32-portable.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Faster3ck/Converseen/releases/download/v$version/converseen-$version-$matchBuild-win32-portable.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/Faster3ck/Converseen/releases/download/v$version/converseen-$version-$matchBuild-win32-portable.zip",
         "extract_dir": "converseen-$version-$matchBuild-win32-portable"
     }
 }

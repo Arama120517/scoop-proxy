@@ -17,6 +17,6 @@
         "regex": "version([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version$version/ffdec_$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version$version/ffdec_$version.zip"
     }
 }

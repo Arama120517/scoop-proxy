@@ -20,6 +20,6 @@
         "regex": "thonny-([\\d.]+)-windows-portable\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/thonny/thonny/releases/download/v$version/thonny-$version-windows-portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/thonny/thonny/releases/download/v$version/thonny-$version-windows-portable.zip"
     }
 }

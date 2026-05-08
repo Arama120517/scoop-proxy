@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DonutWare/Fladder/releases/download/v$version/Fladder-Windows-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/DonutWare/Fladder/releases/download/v$version/Fladder-Windows-$version.zip"
             }
         }
     }

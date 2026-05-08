@@ -27,14 +27,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pawelsalawa/sqlitestudio/releases/download/$version/sqlitestudio-$version-windows-x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/pawelsalawa/sqlitestudio/releases/download/$version/sqlitestudio-$version-windows-x64.zip",
                 "hash": {
                     "url": "https://github.com/pawelsalawa/sqlitestudio/releases/tag/$version",
                     "find": "<td>Windows\\s+?x64<\\/td>\\s*?<td>Portable<\\/td>[\\s\\S]*?<code>(.*?)<\\/code>"
                 }
             },
             "32bit": {
-                "url": "https://github.com/pawelsalawa/sqlitestudio/releases/download/$version/sqlitestudio-$version-windows-x86.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/pawelsalawa/sqlitestudio/releases/download/$version/sqlitestudio-$version-windows-x86.zip",
                 "hash": {
                     "url": "https://github.com/pawelsalawa/sqlitestudio/releases/tag/$version",
                     "find": "<td>Windows\\s+?i386<\\/td>\\s*?<td>Portable<\\/td>[\\s\\S]*?<code>(.*?)<\\/code>"

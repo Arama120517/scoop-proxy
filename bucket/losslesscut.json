@@ -44,7 +44,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mifi/lossless-cut/releases/download/v$version/LosslessCut-win-x64.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/mifi/lossless-cut/releases/download/v$version/LosslessCut-win-x64.7z"
             }
         }
     }

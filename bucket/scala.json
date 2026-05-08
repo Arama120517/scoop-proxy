@@ -25,7 +25,7 @@
         "github": "https://github.com/scala/scala3/"
     },
     "autoupdate": {
-        "url": "https://github.com/scala/scala3/releases/download/$version/scala3-$version.msi",
+        "url": "https://v6.gh-proxy.org/https://github.com/scala/scala3/releases/download/$version/scala3-$version.msi",
         "hash": {
             "url": "$url.sha256"
         }

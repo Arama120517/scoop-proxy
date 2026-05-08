@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/$version/dhall-$version-x86_64-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dhall-lang/dhall-haskell/releases/download/$version/dhall-$version-x86_64-windows.zip"
             }
         }
     }

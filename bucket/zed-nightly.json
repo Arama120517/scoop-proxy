@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deevus/zed-windows-builds/releases/download/$version/zed.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/deevus/zed-windows-builds/releases/download/$version/zed.zip"
             }
         },
         "hash": {

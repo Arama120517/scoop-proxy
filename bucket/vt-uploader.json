@@ -36,6 +36,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/SamuelTulach/VirusTotalUploader/releases/download/$version/vt_portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/SamuelTulach/VirusTotalUploader/releases/download/$version/vt_portable.zip"
     }
 }

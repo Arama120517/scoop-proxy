@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "arm64": {
-                "url": "https://github.com/obsproject/obs-studio/releases/download/$version/OBS-Studio-$version-Windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/obsproject/obs-studio/releases/download/$version/OBS-Studio-$version-Windows-arm64.zip"
             },
             "64bit": {
-                "url": "https://github.com/obsproject/obs-studio/releases/download/$version/OBS-Studio-$version-Windows-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/obsproject/obs-studio/releases/download/$version/OBS-Studio-$version-Windows-x64.zip"
             }
         }
     }

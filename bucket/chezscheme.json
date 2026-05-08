@@ -37,6 +37,6 @@
         "github": "https://github.com/cisco/ChezScheme"
     },
     "autoupdate": {
-        "url": "https://github.com/cisco/ChezScheme/releases/download/v$version/ChezScheme$version.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/cisco/ChezScheme/releases/download/v$version/ChezScheme$version.exe"
     }
 }

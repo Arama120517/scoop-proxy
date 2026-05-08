@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/danielqsj/kafka_exporter/releases/download/v$version/kafka_exporter-$version.windows-amd64.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/danielqsj/kafka_exporter/releases/download/v$version/kafka_exporter-$version.windows-amd64.tar.gz",
                 "extract_dir": "kafka_exporter-$version.windows-amd64"
             },
             "32bit": {
-                "url": "https://github.com/danielqsj/kafka_exporter/releases/download/v$version/kafka_exporter-$version.windows-386.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/danielqsj/kafka_exporter/releases/download/v$version/kafka_exporter-$version.windows-386.tar.gz",
                 "extract_dir": "kafka_exporter-$version.windows-386"
             }
         }

@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/afonsojramos/discrakt/releases/download/v$version/discrakt_win64.exe#/discrakt.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/afonsojramos/discrakt/releases/download/v$version/discrakt_win64.exe#/discrakt.exe"
             }
         }
     }

@@ -33,7 +33,7 @@
         "regex": "/releases/tag/release-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/quodlibet/quodlibet/releases/download/release-$version/quodlibet-$version-portable.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/quodlibet/quodlibet/releases/download/release-$version/quodlibet-$version-portable.exe#/dl.7z",
         "hash": {
             "url": "$url.sha256"
         },

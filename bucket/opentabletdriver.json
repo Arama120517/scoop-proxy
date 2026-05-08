@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v$version/OpenTabletDriver-$version_win-x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v$version/OpenTabletDriver-$version_win-x64.zip",
                 "extract_dir": "OpenTabletDriver-$version_win-x64"
             }
         }

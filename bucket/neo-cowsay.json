@@ -25,13 +25,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Code-Hex/Neo-cowsay/releases/download/v$version/cowsay_$version_Windows_x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Code-Hex/Neo-cowsay/releases/download/v$version/cowsay_$version_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/Code-Hex/Neo-cowsay/releases/download/v$version/cowsay_$version_Windows_i386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Code-Hex/Neo-cowsay/releases/download/v$version/cowsay_$version_Windows_i386.zip"
             },
             "arm64": {
-                "url": "https://github.com/Code-Hex/Neo-cowsay/releases/download/v$version/cowsay_$version_Windows_arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Code-Hex/Neo-cowsay/releases/download/v$version/cowsay_$version_Windows_arm64.zip"
             }
         },
         "hash": {

@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/$version/binaries/Windows/biber-MSWIN64.zip"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/$version/binaries/Windows/biber-MSWIN64.zip"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/$version/binaries/Windows/biber-MSWIN32.zip"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/$version/binaries/Windows/biber-MSWIN32.zip"
             }
         }
     }

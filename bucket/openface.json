@@ -47,11 +47,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_$version/OpenFace_$version_win_x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_$version/OpenFace_$version_win_x64.zip",
                 "extract_dir": "OpenFace_$version_win_x64"
             },
             "32bit": {
-                "url": "https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_$version/OpenFace_$version_win_x86.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_$version/OpenFace_$version_win_x86.zip",
                 "extract_dir": "OpenFace_$version_win_x86"
             }
         }

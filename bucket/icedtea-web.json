@@ -25,9 +25,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AdoptOpenJDK/IcedTea-Web/releases/download/icedtea-web-$version/icedtea-web-$version.win.bin.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/AdoptOpenJDK/IcedTea-Web/releases/download/icedtea-web-$version/icedtea-web-$version.win.bin.zip",
                 "hash": {
-                    "url": "https://github.com/AdoptOpenJDK/IcedTea-Web/releases/download/icedtea-web-$version/icedtea-web-$version.win.bin.zip.sha256.txt"
+                    "url": "https://v6.gh-proxy.org/https://github.com/AdoptOpenJDK/IcedTea-Web/releases/download/icedtea-web-$version/icedtea-web-$version.win.bin.zip.sha256.txt"
                 }
             }
         }

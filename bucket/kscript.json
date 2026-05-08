@@ -12,7 +12,7 @@
     "bin": "bin\\kscript.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/kscripting/kscript/releases/download/v$version/kscript-$version-bin.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/kscripting/kscript/releases/download/v$version/kscript-$version-bin.zip",
         "extract_dir": "kscript-$version"
     }
 }

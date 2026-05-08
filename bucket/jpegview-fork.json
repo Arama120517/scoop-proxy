@@ -37,7 +37,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/sylikc/jpegview/releases/download/v$version/JPEGView_$version.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/sylikc/jpegview/releases/download/v$version/JPEGView_$version.7z",
         "hash": {
             "url": "https://github.com/sylikc/jpegview/releases/tag/v$version",
             "regex": "$sha256 \\*$basename"

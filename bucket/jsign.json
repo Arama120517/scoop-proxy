@@ -23,8 +23,8 @@
     },
     "autoupdate": {
         "url": [
-            "https://github.com/ebourg/jsign/releases/download/$version/jsign-$version.jar#/jsign.jar",
-            "https://raw.githubusercontent.com/ebourg/jsign/$version/jsign/src/choco/tools/jsign.cmd"
+            "https://v6.gh-proxy.org/https://github.com/ebourg/jsign/releases/download/$version/jsign-$version.jar#/jsign.jar",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/ebourg/jsign/$version/jsign/src/choco/tools/jsign.cmd"
         ]
     }
 }

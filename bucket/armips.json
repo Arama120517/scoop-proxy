@@ -8,6 +8,6 @@
     "bin": "armips.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Kingcom/armips/releases/download/v$version/armips-v$version-windows-x86.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/Kingcom/armips/releases/download/v$version/armips-v$version-windows-x86.7z"
     }
 }

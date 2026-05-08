@@ -13,6 +13,6 @@
         "github": "https://github.com/halo-dev/halo"
     },
     "autoupdate": {
-        "url": "https://github.com/halo-dev/halo/releases/download/v$version/halo-$version.jar#/halo.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/halo-dev/halo/releases/download/v$version/halo-$version.jar#/halo.jar"
     }
 }

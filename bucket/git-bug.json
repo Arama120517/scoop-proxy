@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/git-bug/git-bug/releases/download/v$version/git-bug_windows_amd64.exe#/git-bug.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/git-bug/git-bug/releases/download/v$version/git-bug_windows_amd64.exe#/git-bug.exe"
             },
             "32bit": {
-                "url": "https://github.com/git-bug/git-bug/releases/download/v$version/git-bug_windows_386.exe#/git-bug.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/git-bug/git-bug/releases/download/v$version/git-bug_windows_386.exe#/git-bug.exe"
             }
         }
     }

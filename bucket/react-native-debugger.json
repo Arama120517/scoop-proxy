@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jhen0409/react-native-debugger/releases/download/v$version/rn-debugger-windows-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jhen0409/react-native-debugger/releases/download/v$version/rn-debugger-windows-x64.zip"
             }
         }
     }

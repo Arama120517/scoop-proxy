@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/grpc/grpc-web/releases/download/$version/protoc-gen-grpc-web-$version-windows-x86_64.exe#/protoc-gen-grpc-web.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/grpc/grpc-web/releases/download/$version/protoc-gen-grpc-web-$version-windows-x86_64.exe#/protoc-gen-grpc-web.exe"
             }
         },
         "hash": {

@@ -19,6 +19,6 @@
         "regex": "WuMgr_v([\\w.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/DavidXanatos/wumgr/releases/download/v$matchHead/WuMgr_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/DavidXanatos/wumgr/releases/download/v$matchHead/WuMgr_v$version.zip"
     }
 }

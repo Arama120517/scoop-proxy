@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/block/goose/releases/download/v$version/Goose-win32-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/block/goose/releases/download/v$version/Goose-win32-x64.zip"
             }
         }
     }

@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://raw.githubusercontent.com/mbuilov/grep-windows/$version/grep-$version-x64.exe#/grep.exe"
+                "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/mbuilov/grep-windows/$version/grep-$version-x64.exe#/grep.exe"
             },
             "32bit": {
-                "url": "https://raw.githubusercontent.com/mbuilov/grep-windows/$version/grep-$version-x86.exe#/grep.exe"
+                "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/mbuilov/grep-windows/$version/grep-$version-x86.exe#/grep.exe"
             }
         }
     }

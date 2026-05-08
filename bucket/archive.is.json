@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wabarc/archive.is/releases/download/v$version/archive.is-windows-amd64-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/wabarc/archive.is/releases/download/v$version/archive.is-windows-amd64-$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/wabarc/archive.is/releases/download/v$version/archive.is-windows-386-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/wabarc/archive.is/releases/download/v$version/archive.is-windows-386-$version.zip"
             }
         }
     }

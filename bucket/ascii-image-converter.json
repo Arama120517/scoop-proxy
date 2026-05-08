@@ -25,13 +25,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TheZoraiz/ascii-image-converter/releases/download/v$version/ascii-image-converter_Windows_amd64_64bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TheZoraiz/ascii-image-converter/releases/download/v$version/ascii-image-converter_Windows_amd64_64bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/TheZoraiz/ascii-image-converter/releases/download/v$version/ascii-image-converter_Windows_i386_32bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TheZoraiz/ascii-image-converter/releases/download/v$version/ascii-image-converter_Windows_i386_32bit.zip"
             },
             "arm64": {
-                "url": "https://github.com/TheZoraiz/ascii-image-converter/releases/download/v$version/ascii-image-converter_Windows_arm64_64bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TheZoraiz/ascii-image-converter/releases/download/v$version/ascii-image-converter_Windows_arm64_64bit.zip"
             }
         },
         "hash": {

@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ClementTsang/bottom/releases/download/$version/bottom_x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ClementTsang/bottom/releases/download/$version/bottom_x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://github.com/ClementTsang/bottom/releases/download/$version/bottom_i686-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ClementTsang/bottom/releases/download/$version/bottom_i686-pc-windows-msvc.zip"
             }
         }
     }

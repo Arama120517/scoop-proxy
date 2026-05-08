@@ -25,13 +25,13 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/orhun/git-cliff/releases/download/v$version/git-cliff-$version-i686-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/orhun/git-cliff/releases/download/v$version/git-cliff-$version-i686-pc-windows-msvc.zip"
             },
             "64bit": {
-                "url": "https://github.com/orhun/git-cliff/releases/download/v$version/git-cliff-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/orhun/git-cliff/releases/download/v$version/git-cliff-$version-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/orhun/git-cliff/releases/download/v$version/git-cliff-$version-aarch64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/orhun/git-cliff/releases/download/v$version/git-cliff-$version-aarch64-pc-windows-msvc.zip"
             }
         },
         "extract_dir": "git-cliff-$version"

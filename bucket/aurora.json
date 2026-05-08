@@ -19,6 +19,6 @@
         "github": "https://github.com/antonpup/Aurora"
     },
     "autoupdate": {
-        "url": "https://github.com/antonpup/Aurora/releases/download/v$version/Aurora-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/antonpup/Aurora/releases/download/v$version/Aurora-v$version.zip"
     }
 }

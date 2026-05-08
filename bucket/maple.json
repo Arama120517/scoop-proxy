@@ -48,7 +48,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/YtFlow/Maple/releases/download/v$matchHead/Maple.App_$version_x64_Test.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/YtFlow/Maple/releases/download/v$matchHead/Maple.App_$version_x64_Test.zip",
                 "extract_dir": "Maple.App_$version_x64_Test"
             }
         }

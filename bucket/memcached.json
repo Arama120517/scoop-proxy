@@ -21,7 +21,7 @@
         "regex": "/archive/refs/tags/([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/nono303/memcached/archive/$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/nono303/memcached/archive/$version.zip",
         "architecture": {
             "64bit": {
                 "extract_dir": "memcached-$version\\libevent-2.1\\x64"

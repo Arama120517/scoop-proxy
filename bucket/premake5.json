@@ -11,6 +11,6 @@
         "regex": "v(5[0-9a-z.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/premake/premake-core/releases/download/v$version/premake-$version-windows.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/premake/premake-core/releases/download/v$version/premake-$version-windows.zip"
     }
 }

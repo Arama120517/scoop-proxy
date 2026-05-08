@@ -51,6 +51,6 @@
         "regex": "FileOptimizer/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/$version/FileOptimizerFull.7z.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/$version/FileOptimizerFull.7z.exe#/dl.7z"
     }
 }

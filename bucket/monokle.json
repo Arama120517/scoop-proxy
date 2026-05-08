@@ -41,7 +41,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kubeshop/monokle/releases/download/v$version/Monokle-win-$version-x64.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/kubeshop/monokle/releases/download/v$version/Monokle-win-$version-x64.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"

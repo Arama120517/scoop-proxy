@@ -22,7 +22,7 @@
         "replace": "0.${1}.${2}.${3}"
     },
     "autoupdate": {
-        "url": "https://github.com/corpnewt/ProperTree/archive/$matchSha.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/corpnewt/ProperTree/archive/$matchSha.zip",
         "extract_dir": "ProperTree-$matchSha"
     }
 }

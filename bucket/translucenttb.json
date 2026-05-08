@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB-portable-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB-portable-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB-portable-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB-portable-arm64.zip"
             }
         }
     }

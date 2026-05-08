@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vrcx-team/VRCX/releases/download/v$version/VRCX_$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/vrcx-team/VRCX/releases/download/v$version/VRCX_$version.zip"
             }
         }
     }

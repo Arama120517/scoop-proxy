@@ -12,6 +12,6 @@
     "bin": "moor.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/walles/moor/releases/download/v$version/moor-v$version-windows-amd64.exe#/moor.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/walles/moor/releases/download/v$version/moor-v$version-windows-amd64.exe#/moor.exe"
     }
 }

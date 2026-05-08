@@ -23,7 +23,7 @@
         "regex": "tag/([\\d.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/portapps/discord-ptb-portable/releases/download/$version/discord-ptb-portable-win64-$version.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/portapps/discord-ptb-portable/releases/download/$version/discord-ptb-portable-win64-$version.7z",
         "hash": {
             "url": "$baseurl/checksums.txt"
         }

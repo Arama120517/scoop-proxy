@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HemmeligOrg/Hemmelig.app/releases/download/$matchTag/hemmelig-windows-amd64.exe#/hemmelig.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/HemmeligOrg/Hemmelig.app/releases/download/$matchTag/hemmelig-windows-amd64.exe#/hemmelig.exe"
             }
         },
         "hash": {

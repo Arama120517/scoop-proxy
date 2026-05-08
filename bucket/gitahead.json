@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gitahead/gitahead/releases/download/v$version/GitAhead-win64-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/gitahead/gitahead/releases/download/v$version/GitAhead-win64-$version.exe#/dl.7z"
             }
         }
     }

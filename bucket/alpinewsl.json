@@ -49,6 +49,6 @@
         "regex": "/releases/tag/(?:v|V)?([\\d.]+(-\\d+)?)"
     },
     "autoupdate": {
-        "url": "https://github.com/yuk7/AlpineWSL/releases/download/$version/Alpine.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/yuk7/AlpineWSL/releases/download/$version/Alpine.zip"
     }
 }

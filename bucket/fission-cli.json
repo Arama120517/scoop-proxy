@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fission/fission/releases/download/v$version/fission-v$version-windows-amd64.exe#/fission.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/fission/fission/releases/download/v$version/fission-v$version-windows-amd64.exe#/fission.exe"
             }
         },
         "hash": {

@@ -40,6 +40,6 @@
         "regex": "v(?<half>[\\d.]+)-([\\d.]+_canary_[\\d-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/duplicati/duplicati/releases/download/v$matchHalf-$version/duplicati-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/duplicati/duplicati/releases/download/v$matchHalf-$version/duplicati-$version.zip"
     }
 }

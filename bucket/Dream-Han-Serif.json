@@ -90,6 +90,6 @@
         "regex": "dream-([\\d.]+)-sans-(?<sans>[\\d.]+)-serif-(?<serif>[\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-$version-sans-$matchSans-serif-$matchSerif/DreamHanSerif.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Pal3love/dream-han-cjk/releases/download/dream-$version-sans-$matchSans-serif-$matchSerif/DreamHanSerif.zip"
     }
 }

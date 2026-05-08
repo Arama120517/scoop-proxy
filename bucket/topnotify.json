@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SamsidParty/TopNotify/releases/download/$version/TopNotify.Msix#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/SamsidParty/TopNotify/releases/download/$version/TopNotify.Msix#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/SamsidParty/TopNotify/releases/download/$version/TopNotify.ARM64.Msix#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/SamsidParty/TopNotify/releases/download/$version/TopNotify.ARM64.Msix#/dl.7z"
             }
         }
     }

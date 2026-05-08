@@ -20,6 +20,6 @@
         "regex": "Greenshot-INSTALLER-([\\d.]+)-UNSTABLE-UNSIGNED"
     },
     "autoupdate": {
-        "url": "https://github.com/greenshot/greenshot/releases/download/v$version/Greenshot-INSTALLER-$version-UNSTABLE-UNSIGNED.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/greenshot/greenshot/releases/download/v$version/Greenshot-INSTALLER-$version-UNSTABLE-UNSIGNED.exe"
     }
 }

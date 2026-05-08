@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ProtonMail/proton-mail-export/releases/download/v$version/proton-mail-export-cli-windows_x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ProtonMail/proton-mail-export/releases/download/v$version/proton-mail-export-cli-windows_x86_64.zip"
             }
         }
     }

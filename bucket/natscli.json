@@ -25,15 +25,15 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-386.zip",
                 "extract_dir": "nats-$version-windows-386"
             },
             "64bit": {
-                "url": "https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-amd64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-amd64.zip",
                 "extract_dir": "nats-$version-windows-amd64"
             },
             "arm64": {
-                "url": "https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-arm64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-arm64.zip",
                 "extract_dir": "nats-$version-windows-arm64"
             }
         },

@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/v$version/Google-Assistant-Setup-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/v$version/Google-Assistant-Setup-$version.exe#/dl.7z"
             }
         }
     }

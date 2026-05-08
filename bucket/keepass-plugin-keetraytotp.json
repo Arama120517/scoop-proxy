@@ -14,6 +14,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/victor-rds/KeeTrayTOTP/releases/download/v$version/KeeTrayTOTP.plgx"
+        "url": "https://v6.gh-proxy.org/https://github.com/victor-rds/KeeTrayTOTP/releases/download/v$version/KeeTrayTOTP.plgx"
     }
 }

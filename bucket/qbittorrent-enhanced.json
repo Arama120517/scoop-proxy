@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-$version/qbittorrent_enhanced_$version_x64_setup.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-$version/qbittorrent_enhanced_$version_x64_setup.exe#/dl.7z"
             }
         }
     }

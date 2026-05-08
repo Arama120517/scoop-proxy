@@ -43,14 +43,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.Installer.x64.exe#/installer.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.Installer.x64.exe#/installer.exe"
             },
             "32bit": {
-                "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.Installer.exe#/installer.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.Installer.exe#/installer.exe"
             }
         },
         "hash": {
-            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.checksums.sha256"
+            "url": "https://v6.gh-proxy.org/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.checksums.sha256"
         }
     }
 }

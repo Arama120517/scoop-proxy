@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/evilmartians/lefthook/releases/download/v$version/lefthook_$version_Windows_x86_64.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/evilmartians/lefthook/releases/download/v$version/lefthook_$version_Windows_x86_64.gz"
             },
             "32bit": {
-                "url": "https://github.com/evilmartians/lefthook/releases/download/v$version/lefthook_$version_Windows_i386.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/evilmartians/lefthook/releases/download/v$version/lefthook_$version_Windows_i386.gz"
             },
             "arm64": {
-                "url": "https://github.com/evilmartians/lefthook/releases/download/v$version/lefthook_$version_Windows_arm64.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/evilmartians/lefthook/releases/download/v$version/lefthook_$version_Windows_arm64.gz"
             }
         },
         "hash": {

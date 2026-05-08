@@ -33,7 +33,7 @@
         "github": "https://github.com/Chhekur/local-browser"
     },
     "autoupdate": {
-        "url": "https://github.com/Chhekur/local-browser/releases/download/v$version/local-browser-setup-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/Chhekur/local-browser/releases/download/v$version/local-browser-setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512: $base64"

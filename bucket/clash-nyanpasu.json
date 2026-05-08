@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/libNyanpasu/clash-nyanpasu/releases/download/v$version/Clash.Nyanpasu_$version_x64_portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/libNyanpasu/clash-nyanpasu/releases/download/v$version/Clash.Nyanpasu_$version_x64_portable.zip"
             }
         }
     }

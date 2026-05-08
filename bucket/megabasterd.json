@@ -29,8 +29,8 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://github.com/tonikelope/megabasterd/releases/download/v$version/MegaBasterd_$version.jar#/MegaBasterd.jar",
-            "https://raw.githubusercontent.com/tonikelope/megabasterd/v$version/src/main/resources/images/pica_roja_big.ico#/MegaBasterd.ico"
+            "https://v6.gh-proxy.org/https://github.com/tonikelope/megabasterd/releases/download/v$version/MegaBasterd_$version.jar#/MegaBasterd.jar",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/tonikelope/megabasterd/v$version/src/main/resources/images/pica_roja_big.ico#/MegaBasterd.ico"
         ]
     }
 }

@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HelloZeroNet/ZeroNet-win/archive/$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/HelloZeroNet/ZeroNet-win/archive/$version.zip",
                 "extract_dir": "ZeroNet-win-$version"
             }
         }

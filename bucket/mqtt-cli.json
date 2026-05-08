@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hivemq/mqtt-cli/releases/download/v$version/mqtt-cli-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/hivemq/mqtt-cli/releases/download/v$version/mqtt-cli-$version-win.zip"
             }
         }
     }

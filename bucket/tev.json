@@ -16,6 +16,6 @@
         "github": "https://github.com/Tom94/tev"
     },
     "autoupdate": {
-        "url": "https://github.com/Tom94/tev/releases/download/v$version/tev.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Tom94/tev/releases/download/v$version/tev.exe"
     }
 }

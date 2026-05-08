@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MuhammedKalkan/OpenLens/releases/download/v$version/OpenLens-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/MuhammedKalkan/OpenLens/releases/download/v$version/OpenLens-$version.exe#/dl.7z"
             }
         },
         "hash": {

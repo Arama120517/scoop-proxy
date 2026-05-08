@@ -10,7 +10,7 @@
     "bin": "XJoy.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/sam0x17/XJoy/releases/download/v$version/XJoy.v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/sam0x17/XJoy/releases/download/v$version/XJoy.v$version.zip",
         "extract_dir": "XJoy v$version"
     }
 }

@@ -39,6 +39,6 @@
         "github": "https://github.com/Beaver-Notes/Beaver-Notes"
     },
     "autoupdate": {
-        "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver-Notes-$version-portable.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver-Notes-$version-portable.exe#/dl.7z"
     }
 }

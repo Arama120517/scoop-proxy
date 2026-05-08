@@ -89,6 +89,6 @@
         "hash": {
             "url": "$baseurl/md5-v$version.txt"
         },
-        "url": "https://github.com/welai/glow-sans/releases/download/v$version/GlowSansTC-Compressed-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/welai/glow-sans/releases/download/v$version/GlowSansTC-Compressed-v$version.zip"
     }
 }

@@ -14,7 +14,7 @@
         "bin\\redpen-server.bat"
     ],
     "autoupdate": {
-        "url": "https://github.com/redpen-cc/redpen/releases/download/redpen-$version/redpen-$version.tar.gz",
+        "url": "https://v6.gh-proxy.org/https://github.com/redpen-cc/redpen/releases/download/redpen-$version/redpen-$version.tar.gz",
         "extract_dir": "redpen-distribution-$version"
     }
 }

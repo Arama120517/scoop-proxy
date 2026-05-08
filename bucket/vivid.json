@@ -38,11 +38,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sharkdp/vivid/releases/download/v$version/vivid-v$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/sharkdp/vivid/releases/download/v$version/vivid-v$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "vivid-v$version-x86_64-pc-windows-msvc"
             },
             "32bit": {
-                "url": "https://github.com/sharkdp/vivid/releases/download/v$version/vivid-v$version-i686-pc-windows-msvc.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/sharkdp/vivid/releases/download/v$version/vivid-v$version-i686-pc-windows-msvc.zip",
                 "extract_dir": "vivid-v$version-i686-pc-windows-msvc"
             }
         }

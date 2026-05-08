@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mrjosh/helm-ls/releases/download/v$version/helm_ls_windows_amd64.exe#/helm-ls.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/mrjosh/helm-ls/releases/download/v$version/helm_ls_windows_amd64.exe#/helm-ls.exe"
             }
         },
         "hash": {

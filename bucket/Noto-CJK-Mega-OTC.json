@@ -90,6 +90,6 @@
         "regex": "tag/Sans([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/notofonts/noto-cjk/releases/download/Sans$version/00_NotoSansCJK.ttc.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/notofonts/noto-cjk/releases/download/Sans$version/00_NotoSansCJK.ttc.zip"
     }
 }

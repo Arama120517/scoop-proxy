@@ -40,14 +40,14 @@
         "architecture": {
             "32bit": {
                 "url": [
-                    "https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxer-$version-win32.zip",
-                    "https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxerGUI-$version-win32.zip"
+                    "https://v6.gh-proxy.org/https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxer-$version-win32.zip",
+                    "https://v6.gh-proxy.org/https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxerGUI-$version-win32.zip"
                 ]
             },
             "64bit": {
                 "url": [
-                    "https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxer-$version-win64.zip",
-                    "https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxerGUI-$version-win64.zip"
+                    "https://v6.gh-proxy.org/https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxer-$version-win64.zip",
+                    "https://v6.gh-proxy.org/https://github.com/justdan96/tsMuxer/releases/download/$version/tsMuxerGUI-$version-win64.zip"
                 ]
             }
         }

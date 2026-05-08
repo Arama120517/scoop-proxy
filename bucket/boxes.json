@@ -11,7 +11,7 @@
         "github": "https://github.com/ascii-boxes/boxes"
     },
     "autoupdate": {
-        "url": "https://github.com/ascii-boxes/boxes/releases/download/v$version/boxes-$version-intel-win32.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/ascii-boxes/boxes/releases/download/v$version/boxes-$version-intel-win32.zip",
         "extract_dir": "boxes-$version"
     }
 }

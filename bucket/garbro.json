@@ -17,6 +17,6 @@
         "regex": "GARbro-v([\\d.]+).rar"
     },
     "autoupdate": {
-        "url": "https://github.com/morkt/GARbro/releases/download/v$majorVersion.$minorVersion.$patchVersion/GARbro-v$version.rar"
+        "url": "https://v6.gh-proxy.org/https://github.com/morkt/GARbro/releases/download/v$majorVersion.$minorVersion.$patchVersion/GARbro-v$version.rar"
     }
 }

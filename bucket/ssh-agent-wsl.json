@@ -16,6 +16,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/rupor-github/ssh-agent-wsl/releases/download/v$version/ssh-agent-wsl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/rupor-github/ssh-agent-wsl/releases/download/v$version/ssh-agent-wsl.7z"
     }
 }

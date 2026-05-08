@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/FiloSottile/mkcert/releases/download/v$version/mkcert-v$version-windows-amd64.exe#/mkcert.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/FiloSottile/mkcert/releases/download/v$version/mkcert-v$version-windows-amd64.exe#/mkcert.exe"
             },
             "arm64": {
-                "url": "https://github.com/FiloSottile/mkcert/releases/download/v$version/mkcert-v$version-windows-arm64.exe#/mkcert.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/FiloSottile/mkcert/releases/download/v$version/mkcert-v$version-windows-arm64.exe#/mkcert.exe"
             }
         }
     }

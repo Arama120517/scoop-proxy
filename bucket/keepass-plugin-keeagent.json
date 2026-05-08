@@ -16,6 +16,6 @@
         "github": "https://github.com/dlech/KeeAgent"
     },
     "autoupdate": {
-        "url": "https://github.com/dlech/KeeAgent/releases/download/v$version/KeeAgent_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/dlech/KeeAgent/releases/download/v$version/KeeAgent_v$version.zip"
     }
 }

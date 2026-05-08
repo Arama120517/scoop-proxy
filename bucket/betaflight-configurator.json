@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/betaflight/betaflight-configurator/releases/download/$version/betaflight-configurator_$version_win64-installer.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/betaflight/betaflight-configurator/releases/download/$version/betaflight-configurator_$version_win64-installer.exe"
             }
         }
     }

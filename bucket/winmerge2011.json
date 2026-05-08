@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/datadiode/winmerge2011/releases/download/0.$version/WinMerge_0.$version_x64_setup.cpl#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/datadiode/winmerge2011/releases/download/0.$version/WinMerge_0.$version_x64_setup.cpl#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/datadiode/winmerge2011/releases/download/0.$version/WinMerge_0.$version_setup.cpl#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/datadiode/winmerge2011/releases/download/0.$version/WinMerge_0.$version_setup.cpl#/dl.7z"
             }
         }
     }

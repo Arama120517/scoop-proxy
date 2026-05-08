@@ -36,13 +36,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-x86_64.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-x86_64.7z"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-i686.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-i686.7z"
             },
             "arm64": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-aarch64.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-aarch64.7z"
             }
         }
     }

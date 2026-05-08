@@ -32,6 +32,6 @@
         "github": "https://github.com/ramensoftware/windhawk"
     },
     "autoupdate": {
-        "url": "https://github.com/ramensoftware/windhawk/releases/download/v$version/windhawk_setup_offline.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/ramensoftware/windhawk/releases/download/v$version/windhawk_setup_offline.exe"
     }
 }

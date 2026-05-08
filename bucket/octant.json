@@ -22,11 +22,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vmware/octant/releases/download/v$version/octant_$version_Windows-64bit.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/vmware/octant/releases/download/v$version/octant_$version_Windows-64bit.zip",
                 "extract_dir": "octant_$version_Windows-64bit"
             },
             "arm64": {
-                "url": "https://github.com/vmware/octant/releases/download/v$version/octant_$version_Windows-arm64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/vmware/octant/releases/download/v$version/octant_$version_Windows-arm64.zip",
                 "extract_dir": "octant_$version_Windows-arm64"
             }
         },

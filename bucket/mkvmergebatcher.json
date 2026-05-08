@@ -15,6 +15,6 @@
     "persist": "userdata.json",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Bazzu85/MKVmergeBatcher/releases/download/$version/MKVmergeBatcher.$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Bazzu85/MKVmergeBatcher/releases/download/$version/MKVmergeBatcher.$version.zip"
     }
 }

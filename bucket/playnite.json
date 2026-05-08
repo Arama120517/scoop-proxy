@@ -50,6 +50,6 @@
         "regex": "download/(?<version>[\\d.]+)/(?<file>.*?\\.(?:7z|zip))"
     },
     "autoupdate": {
-        "url": "https://github.com/JosefNemec/Playnite/releases/download/$version/$matchFile"
+        "url": "https://v6.gh-proxy.org/https://github.com/JosefNemec/Playnite/releases/download/$version/$matchFile"
     }
 }

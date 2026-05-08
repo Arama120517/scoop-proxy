@@ -11,6 +11,6 @@
         "github": "https://github.com/git-tfs/git-tfs"
     },
     "autoupdate": {
-        "url": "https://github.com/git-tfs/git-tfs/releases/download/v$version/GitTfs-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/git-tfs/git-tfs/releases/download/v$version/GitTfs-$version.zip"
     }
 }

@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/session-foundation/session-desktop/releases/download/v$version/session-desktop-win-x64-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/session-foundation/session-desktop/releases/download/v$version/session-desktop-win-x64-$version.exe#/dl.7z"
             }
         },
         "hash": {

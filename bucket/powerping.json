@@ -8,6 +8,6 @@
     "bin": "PowerPing.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Killeroo/PowerPing/releases/download/v$version/PowerPing.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Killeroo/PowerPing/releases/download/v$version/PowerPing.exe"
     }
 }

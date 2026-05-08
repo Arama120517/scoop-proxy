@@ -15,6 +15,6 @@
     "bin": "SmartSystemMenu.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v$version/SmartSystemMenu_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v$version/SmartSystemMenu_v$version.zip"
     }
 }

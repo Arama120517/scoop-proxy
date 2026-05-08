@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jmacd/xdelta-gpl/releases/download/v$version/xdelta3-$version-x86_64.exe.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/jmacd/xdelta-gpl/releases/download/v$version/xdelta3-$version-x86_64.exe.zip",
                 "bin": [
                     [
                         "xdelta3-$version-x86_64.exe",
@@ -52,7 +52,7 @@
                 ]
             },
             "32bit": {
-                "url": "https://github.com/jmacd/xdelta-gpl/releases/download/v$version/xdelta3-$version-i686.exe.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/jmacd/xdelta-gpl/releases/download/v$version/xdelta3-$version-i686.exe.zip",
                 "bin": [
                     [
                         "xdelta3-$version-i686.exe",

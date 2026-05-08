@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-x86_64.cab#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-x86_64.cab#/dl.7z",
                 "extract_dir": "wsltty-$version-x86_64"
             }
         }

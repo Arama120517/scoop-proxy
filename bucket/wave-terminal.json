@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wavetermdev/waveterm/releases/download/v$version/Wave-win32-x64-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/wavetermdev/waveterm/releases/download/v$version/Wave-win32-x64-$version.zip"
             }
         }
     }

@@ -16,6 +16,6 @@
         "github": "https://github.com/jwallet/spy-spotify"
     },
     "autoupdate": {
-        "url": "https://github.com/jwallet/spy-spotify/releases/download/$version/Spytify-v.$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/jwallet/spy-spotify/releases/download/$version/Spytify-v.$version.zip"
     }
 }

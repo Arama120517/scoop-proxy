@@ -13,6 +13,6 @@
         "github": "https://github.com/google/bundletool"
     },
     "autoupdate": {
-        "url": "https://github.com/google/bundletool/releases/download/$version/bundletool-all-$version.jar#/bundletool.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/google/bundletool/releases/download/$version/bundletool-all-$version.jar#/bundletool.jar"
     }
 }

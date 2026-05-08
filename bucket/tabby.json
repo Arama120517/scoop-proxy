@@ -32,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Eugeny/tabby/releases/download/v$version/tabby-$version-setup-x64.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/Eugeny/tabby/releases/download/v$version/tabby-$version-setup-x64.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest-x64.yml",
                     "regex": "sha512: $base64"

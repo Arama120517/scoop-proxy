@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/roswell/roswell/releases/download/v$version/roswell_$version_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/roswell/roswell/releases/download/v$version/roswell_$version_amd64.zip"
             }
         },
         "hash": {

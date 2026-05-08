@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/garethr/kubeval/releases/download/v$version/kubeval-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/garethr/kubeval/releases/download/v$version/kubeval-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/garethr/kubeval/releases/download/v$version/kubeval-windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/garethr/kubeval/releases/download/v$version/kubeval-windows-386.zip"
             }
         },
         "hash": {

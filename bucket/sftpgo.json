@@ -23,6 +23,6 @@
         "github": "https://github.com/drakkan/sftpgo"
     },
     "autoupdate": {
-        "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_portable.zip"
     }
 }

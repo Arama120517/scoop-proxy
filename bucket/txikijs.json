@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/saghul/txiki.js/releases/download/v$version/txiki-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/saghul/txiki.js/releases/download/v$version/txiki-windows-x86_64.zip"
             }
         }
     }

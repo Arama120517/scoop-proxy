@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tbillington/kondo/releases/download/v$version/kondo-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/tbillington/kondo/releases/download/v$version/kondo-x86_64-pc-windows-msvc.zip"
             }
         }
     }

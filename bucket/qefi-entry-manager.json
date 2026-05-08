@@ -17,6 +17,6 @@
         "regex": "download/(?<prefix>[v|V][\\.]?)?([\\d.]+)/QEFI.Entry.Manager.for.Windows.Qt(?<qt>[\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Inokinoki/QEFIEntryManager/releases/download/$matchPrefix$version/QEFI.Entry.Manager.for.Windows.Qt$matchQt.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Inokinoki/QEFIEntryManager/releases/download/$matchPrefix$version/QEFI.Entry.Manager.for.Windows.Qt$matchQt.zip"
     }
 }

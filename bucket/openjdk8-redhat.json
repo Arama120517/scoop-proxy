@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AdoptOpenJDK/openjdk$matchMajor-upstream-binaries/releases/download/jdk$version/OpenJDK$matchMajorU-jdk_x64_windows_$matchMajor$matchUpdate$matchBuild.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/AdoptOpenJDK/openjdk$matchMajor-upstream-binaries/releases/download/jdk$version/OpenJDK$matchMajorU-jdk_x64_windows_$matchMajor$matchUpdate$matchBuild.zip"
             }
         },
         "extract_dir": "openjdk-$version"

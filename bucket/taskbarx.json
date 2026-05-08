@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ChrisAnd1998/TaskbarX/releases/download/$version/TaskbarX_$version_x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ChrisAnd1998/TaskbarX/releases/download/$version/TaskbarX_$version_x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/ChrisAnd1998/TaskbarX/releases/download/$version/TaskbarX_$version_x86.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ChrisAnd1998/TaskbarX/releases/download/$version/TaskbarX_$version_x86.zip"
             }
         }
     }

@@ -68,10 +68,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-amd64-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-amd64-portable.zip"
             },
             "arm64": {
-                "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-arm64-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-arm64-portable.zip"
             }
         }
     }

@@ -35,14 +35,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/koho/frpmgr/releases/download/v$version/frpmgr-$version-setup-x64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/koho/frpmgr/releases/download/v$version/frpmgr-$version-setup-x64.exe"
             },
             "32bit": {
-                "url": "https://github.com/koho/frpmgr/releases/download/v$version/frpmgr-$version-setup-x86.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/koho/frpmgr/releases/download/v$version/frpmgr-$version-setup-x86.exe"
             }
         },
         "hash": {
-            "url": "https://github.com/koho/frpmgr/releases/download/v$version/frpmgr-$version-sha256-checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/koho/frpmgr/releases/download/v$version/frpmgr-$version-sha256-checksums.txt"
         }
     }
 }

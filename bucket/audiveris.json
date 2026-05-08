@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Audiveris/audiveris/releases/download/$version/Audiveris-$version-windowsConsole-x86_64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/Audiveris/audiveris/releases/download/$version/Audiveris-$version-windowsConsole-x86_64.msi"
             }
         }
     }

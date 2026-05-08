@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/chrxh/alien/releases/download/v$version/alien-installer.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/chrxh/alien/releases/download/v$version/alien-installer.msi"
             }
         }
     }

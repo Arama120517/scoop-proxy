@@ -11,6 +11,6 @@
         "regex": "/files/make-([\\d.]+)-without-guile-w32-bin.zip"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/ezwinports/make-$version-without-guile-w32-bin.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/ezwinports/make-$version-without-guile-w32-bin.zip"
     }
 }

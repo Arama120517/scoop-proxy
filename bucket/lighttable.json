@@ -17,7 +17,7 @@
         "github": "https://github.com/lighttable/lighttable"
     },
     "autoupdate": {
-        "url": "https://github.com/LightTable/LightTable/releases/download/$version/lighttable-$version-windows.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/LightTable/LightTable/releases/download/$version/lighttable-$version-windows.zip",
         "extract_dir": "lighttable-$version-windows"
     }
 }

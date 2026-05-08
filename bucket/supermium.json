@@ -51,10 +51,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_64_setup_win10_11.exe#/dl.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_64_setup_win10_11.exe#/dl.zip"
             },
             "32bit": {
-                "url": "https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_32_setup.exe#/dl.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_32_setup.exe#/dl.zip"
             }
         }
     }

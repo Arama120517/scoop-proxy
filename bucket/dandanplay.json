@@ -39,6 +39,6 @@
         "regex": ">windows-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$matchHead.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$matchHead.zip"
     }
 }

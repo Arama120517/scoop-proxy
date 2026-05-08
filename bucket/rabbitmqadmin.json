@@ -14,6 +14,6 @@
     ],
     "bin": "rabbitmqadmin.ps1",
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/rabbitmq/rabbitmq-management/v$version/bin/rabbitmqadmin"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/rabbitmq/rabbitmq-management/v$version/bin/rabbitmqadmin"
     }
 }

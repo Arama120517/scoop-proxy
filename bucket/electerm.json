@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
                 "extract_dir": "electerm-$version-win-x64"
             }
         }

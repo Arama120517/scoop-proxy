@@ -31,7 +31,7 @@
         "regex": "download/v.([\\d.]+)\\/freeshooter-(?<short>[\\d.]+)-bin\\.7z"
     },
     "autoupdate": {
-        "url": "https://github.com/henrypp/freeshooter/releases/download/v.$version/freeshooter-$matchShort-bin.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/henrypp/freeshooter/releases/download/v.$version/freeshooter-$matchShort-bin.7z",
         "hash": {
             "url": "$baseurl/freeshooter-$matchShort.sha256"
         }

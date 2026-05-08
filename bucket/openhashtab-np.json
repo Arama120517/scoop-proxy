@@ -17,6 +17,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/namazso/OpenHashTab/releases/download/v$version/OpenHashTab_setup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/namazso/OpenHashTab/releases/download/v$version/OpenHashTab_setup.exe"
     }
 }

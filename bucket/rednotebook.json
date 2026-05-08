@@ -17,6 +17,6 @@
         "github": "https://github.com/jendrikseipp/rednotebook"
     },
     "autoupdate": {
-        "url": "https://github.com/jendrikseipp/rednotebook/releases/download/v$version/rednotebook-$version.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/jendrikseipp/rednotebook/releases/download/v$version/rednotebook-$version.exe"
     }
 }

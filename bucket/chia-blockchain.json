@@ -19,7 +19,7 @@
         "github": "https://github.com/Chia-Network/chia-blockchain"
     },
     "autoupdate": {
-        "url": "https://github.com/Chia-Network/chia-blockchain/releases/download/$version/ChiaSetup-$version.exe#/ChiaSetup-$version.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/Chia-Network/chia-blockchain/releases/download/$version/ChiaSetup-$version.exe#/ChiaSetup-$version.7z"
     },
     "notes": "Chia data are stored at '$env:USERPROFILE\\.chia'"
 }

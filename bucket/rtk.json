@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rtk-ai/rtk/releases/download/v$version/rtk-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/rtk-ai/rtk/releases/download/v$version/rtk-x86_64-pc-windows-msvc.zip"
             }
         },
         "hash": {

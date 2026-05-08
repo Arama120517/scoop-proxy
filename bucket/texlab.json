@@ -24,13 +24,13 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-i686-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-i686-windows.zip"
             },
             "64bit": {
-                "url": "https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-x86_64-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-x86_64-windows.zip"
             },
             "arm64": {
-                "url": "https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-aarch64-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-aarch64-windows.zip"
             }
         }
     }

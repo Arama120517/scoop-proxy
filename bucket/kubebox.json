@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/astefanutti/kubebox/releases/download/v$version/kubebox-windows.exe#/kubebox.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/astefanutti/kubebox/releases/download/v$version/kubebox-windows.exe#/kubebox.exe"
             }
         }
     }

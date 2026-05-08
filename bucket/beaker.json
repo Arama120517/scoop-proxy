@@ -32,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/beakerbrowser/beaker/releases/download/$version/beaker-browser-setup-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/beakerbrowser/beaker/releases/download/$version/beaker-browser-setup-$version.exe#/dl.7z"
             }
         },
         "hash": {

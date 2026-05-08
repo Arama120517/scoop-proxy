@@ -87,6 +87,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v$version/LXGWNeoZhiSong.ttf"
+        "url": "https://v6.gh-proxy.org/https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v$version/LXGWNeoZhiSong.ttf"
     }
 }

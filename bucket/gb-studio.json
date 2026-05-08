@@ -27,11 +27,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/chrismaltby/gb-studio/releases/download/v$version/gb-studio-windows-64bit-standalone.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/chrismaltby/gb-studio/releases/download/v$version/gb-studio-windows-64bit-standalone.zip",
                 "extract_dir": "GB Studio-win32-x64"
             },
             "32bit": {
-                "url": "https://github.com/chrismaltby/gb-studio/releases/download/v$version/gb-studio-windows-32bit-standalone.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/chrismaltby/gb-studio/releases/download/v$version/gb-studio-windows-32bit-standalone.zip",
                 "extract_dir": "GB Studio-win32-ia32"
             }
         }

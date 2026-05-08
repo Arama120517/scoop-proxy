@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fluxcd/flux/releases/download/$version/fluxctl_windows_amd64#/fluxctl.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/fluxcd/flux/releases/download/$version/fluxctl_windows_amd64#/fluxctl.exe"
             }
         }
     },

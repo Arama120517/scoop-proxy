@@ -28,7 +28,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Microsoft/winfile/releases/download/v$version/Winfile_v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/Microsoft/winfile/releases/download/v$version/Winfile_v$version.zip",
         "architecture": {
             "64bit": {
                 "extract_dir": "Winfile_v$version\\x64"

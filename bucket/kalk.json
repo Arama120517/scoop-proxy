@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xoofx/kalk/releases/download/$version/kalk.$version.win-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/xoofx/kalk/releases/download/$version/kalk.$version.win-x64.zip"
             }
         }
     }

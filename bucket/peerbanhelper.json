@@ -37,7 +37,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/PBH-BTN/PeerBanHelper/releases/download/v$version/PeerBanHelper_Windows_$version_Portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/PBH-BTN/PeerBanHelper/releases/download/v$version/PeerBanHelper_Windows_$version_Portable.zip"
             }
         }
     }

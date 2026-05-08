@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/staxrip/staxrip/releases/download/v$version/StaxRip-v$version-x64.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/staxrip/staxrip/releases/download/v$version/StaxRip-v$version-x64.7z",
                 "extract_dir": "StaxRip-v$version-x64"
             }
         }

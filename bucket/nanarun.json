@@ -31,13 +31,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/M2Team/NanaRun/releases/download/$version/NanaRun_1.0_Preview3_$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/M2Team/NanaRun/releases/download/$version/NanaRun_1.0_Preview3_$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/M2Team/NanaRun/releases/download/$version/NanaRun_1.0_Preview3_$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/M2Team/NanaRun/releases/download/$version/NanaRun_1.0_Preview3_$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/M2Team/NanaRun/releases/download/$version/NanaRun_1.0_Preview3_$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/M2Team/NanaRun/releases/download/$version/NanaRun_1.0_Preview3_$version.zip"
             }
         }
     }

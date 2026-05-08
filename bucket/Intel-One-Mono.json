@@ -88,6 +88,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/intel/intel-one-mono/releases/download/V$version/ttf.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/intel/intel-one-mono/releases/download/V$version/ttf.zip"
     }
 }

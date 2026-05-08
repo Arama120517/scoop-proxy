@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v$version/Stirling-PDF.jar"
+                "url": "https://v6.gh-proxy.org/https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v$version/Stirling-PDF.jar"
             }
         }
     }

@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/oracle/weblogic-remote-console/releases/download/v$version/WebLogic-Remote-Console-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/oracle/weblogic-remote-console/releases/download/v$version/WebLogic-Remote-Console-$version-win.zip"
             }
         }
     }

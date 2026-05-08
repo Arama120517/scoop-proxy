@@ -67,10 +67,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/alexmercerind2/harmonoid-releases/releases/download/v$version/harmonoid-windows-x64-exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/alexmercerind2/harmonoid-releases/releases/download/v$version/harmonoid-windows-x64-exe.zip"
             },
             "arm64": {
-                "url": "https://github.com/alexmercerind2/harmonoid-releases/releases/download/v$version/harmonoid-windows-arm64-exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/alexmercerind2/harmonoid-releases/releases/download/v$version/harmonoid-windows-arm64-exe.zip"
             }
         }
     }

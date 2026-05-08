@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_arm64.zip"
             }
         },
         "hash": {

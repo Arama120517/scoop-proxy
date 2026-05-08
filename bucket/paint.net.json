@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.arm64.zip"
             }
         }
     }

@@ -17,6 +17,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Losses/rune/releases/download/v$version/Rune-v$version-windows-amd64.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Losses/rune/releases/download/v$version/Rune-v$version-windows-amd64.zip"
     }
 }

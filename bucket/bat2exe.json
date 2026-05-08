@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/islamadel/bat2exe/releases/download/$version/bat2exe.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/islamadel/bat2exe/releases/download/$version/bat2exe.exe"
             }
         }
     }

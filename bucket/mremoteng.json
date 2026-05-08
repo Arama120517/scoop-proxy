@@ -18,6 +18,6 @@
         "regex": "mRemoteNG-Installer-([\\d.]+)\\.msi"
     },
     "autoupdate": {
-        "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v$matchHead/mRemoteNG-Installer-$version.msi"
+        "url": "https://v6.gh-proxy.org/https://github.com/mRemoteNG/mRemoteNG/releases/download/v$matchHead/mRemoteNG-Installer-$version.msi"
     }
 }

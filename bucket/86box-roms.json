@@ -18,7 +18,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/86Box/roms/archive/refs/tags/v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/86Box/roms/archive/refs/tags/v$version.zip",
         "extract_dir": "roms-$version"
     }
 }

@@ -46,15 +46,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-amd64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-amd64.zip",
                 "extract_dir": "sing-box-$version-windows-amd64"
             },
             "32bit": {
-                "url": "https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-386.zip",
                 "extract_dir": "sing-box-$version-windows-386"
             },
             "arm64": {
-                "url": "https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-arm64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-arm64.zip",
                 "extract_dir": "sing-box-$version-windows-arm64"
             }
         }

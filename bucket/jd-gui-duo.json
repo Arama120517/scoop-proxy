@@ -15,6 +15,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/nbauma109/jd-gui-duo/releases/download/$version/jd-gui-duo-windows-$version.tar.xz"
+        "url": "https://v6.gh-proxy.org/https://github.com/nbauma109/jd-gui-duo/releases/download/$version/jd-gui-duo-windows-$version.tar.xz"
     }
 }

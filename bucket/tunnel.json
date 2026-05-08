@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel_$version_windows_64-bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel_$version_windows_64-bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel_$version_windows_32-bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel_$version_windows_32-bit.zip"
             }
         },
         "hash": {

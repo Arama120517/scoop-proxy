@@ -40,7 +40,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zealdocs/zeal/releases/download/v$version/zeal-$version-portable-windows-x64.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/zealdocs/zeal/releases/download/v$version/zeal-$version-portable-windows-x64.7z",
                 "extract_dir": "zeal-$version-portable-windows-x64"
             }
         }

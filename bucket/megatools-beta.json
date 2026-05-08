@@ -23,7 +23,7 @@
     "checkver": {
         "url": "https://megatools.megous.com/builds/experimental/",
         "regex": "\"megatools-?(\\S+)-win64.zip\"",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

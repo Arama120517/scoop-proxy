@@ -26,13 +26,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/j178/prek/releases/download/v$version/prek-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/j178/prek/releases/download/v$version/prek-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://github.com/j178/prek/releases/download/v$version/prek-i686-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/j178/prek/releases/download/v$version/prek-i686-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/j178/prek/releases/download/v$version/prek-aarch64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/j178/prek/releases/download/v$version/prek-aarch64-pc-windows-msvc.zip"
             }
         },
         "hash": {

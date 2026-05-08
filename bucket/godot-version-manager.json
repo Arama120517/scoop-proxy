@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/noidexe/godot-version-manager/releases/download/v$version/Godot.Version.Manager.v$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/noidexe/godot-version-manager/releases/download/v$version/Godot.Version.Manager.v$version-win.zip"
             }
         }
     }

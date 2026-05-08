@@ -14,6 +14,6 @@
     "bin": "ktlint.jar",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/pinterest/ktlint/releases/download/$version/ktlint#/ktlint.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/pinterest/ktlint/releases/download/$version/ktlint#/ktlint.jar"
     }
 }

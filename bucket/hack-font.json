@@ -28,7 +28,7 @@
         "github": "https://github.com/source-foundry/Hack-windows-installer"
     },
     "autoupdate": {
-        "url": "https://github.com/source-foundry/Hack-windows-installer/releases/download/v$version/HackFontsWindowsInstaller.exe",
+        "url": "https://v6.gh-proxy.org/https://github.com/source-foundry/Hack-windows-installer/releases/download/v$version/HackFontsWindowsInstaller.exe",
         "hash": {
             "url": "https://github.com/source-foundry/Hack-windows-installer/releases/tag/v$version",
             "regex": "Installer SHA-256 hash $sha256"

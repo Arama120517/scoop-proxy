@@ -49,6 +49,6 @@
         "github": "https://github.com/ViGEm/DsHidMini"
     },
     "autoupdate": {
-        "url": "https://github.com/ViGEm/DsHidMini/releases/download/v$version/dshidmini_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/ViGEm/DsHidMini/releases/download/v$version/dshidmini_v$version.zip"
     }
 }

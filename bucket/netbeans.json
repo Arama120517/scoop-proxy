@@ -56,7 +56,7 @@
     "checkver": {
         "url": "https://archive.apache.org/dist/netbeans/netbeans/",
         "regex": "([\\d.]+)/",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://archive.apache.org/dist/netbeans/netbeans/$version/netbeans-$version-bin.zip",

@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cube2222/octosql/releases/download/v$version/octosql_$version_windows_amd64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/cube2222/octosql/releases/download/v$version/octosql_$version_windows_amd64.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/cube2222/octosql/releases/download/v$version/octosql_$version_windows_arm64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/cube2222/octosql/releases/download/v$version/octosql_$version_windows_arm64.tar.gz"
             }
         },
         "hash": {

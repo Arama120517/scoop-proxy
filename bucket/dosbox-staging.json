@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dosbox-staging/dosbox-staging/releases/download/v$version/dosbox-staging-windows-x64-v$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/dosbox-staging/dosbox-staging/releases/download/v$version/dosbox-staging-windows-x64-v$version.zip",
                 "extract_dir": "dosbox-staging-v$version"
             }
         }

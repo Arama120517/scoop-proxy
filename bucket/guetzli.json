@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/google/guetzli/releases/download/v$version/guetzli_windows_x86-64.exe#/guetzli.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/google/guetzli/releases/download/v$version/guetzli_windows_x86-64.exe#/guetzli.exe"
             },
             "32bit": {
-                "url": "https://github.com/google/guetzli/releases/download/v$version/guetzli_windows_x86.exe#/guetzli.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/google/guetzli/releases/download/v$version/guetzli_windows_x86.exe#/guetzli.exe"
             }
         }
     }

@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/camunda/camunda/releases/download/$version/camunda-zeebe-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/camunda/camunda/releases/download/$version/camunda-zeebe-$version.zip"
             }
         },
         "extract_dir": "camunda-zeebe-$version"

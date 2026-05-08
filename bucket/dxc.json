@@ -24,6 +24,6 @@
         "regex": "v(?<version>[\\d.]+)/dxc_(?<date>[\\d_]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/microsoft/DirectXShaderCompiler/releases/download/v$matchVersion/dxc_$matchDate.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/microsoft/DirectXShaderCompiler/releases/download/v$matchVersion/dxc_$matchDate.zip"
     }
 }

@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/heyman/heynote/releases/download/v$version/Heynote_$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/heyman/heynote/releases/download/v$version/Heynote_$version.exe#/dl.7z"
             }
         },
         "hash": {

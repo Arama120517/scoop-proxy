@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-hip-radeon-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-hip-radeon-x64.zip"
             }
         }
     }

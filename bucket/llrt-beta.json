@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/awslabs/llrt/releases/download/v$version/llrt-windows-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/awslabs/llrt/releases/download/v$version/llrt-windows-x64.zip"
             }
         }
     }

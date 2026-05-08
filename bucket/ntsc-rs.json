@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/valadaptive/ntsc-rs/releases/download/v$version/ntsc-rs-windows-standalone.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/valadaptive/ntsc-rs/releases/download/v$version/ntsc-rs-windows-standalone.zip"
             }
         }
     }

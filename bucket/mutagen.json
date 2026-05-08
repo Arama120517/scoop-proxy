@@ -24,13 +24,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_386_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_386_v$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_arm64_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_arm64_v$version.zip"
             }
         },
         "hash": {

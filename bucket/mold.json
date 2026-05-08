@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rui314/mold/releases/download/v$version/mold-$version-x86_64-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/rui314/mold/releases/download/v$version/mold-$version-x86_64-windows.zip"
             }
         }
     }

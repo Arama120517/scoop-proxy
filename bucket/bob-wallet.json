@@ -16,7 +16,7 @@
         "github": "https://github.com/kyokan/bob-wallet"
     },
     "autoupdate": {
-        "url": "https://github.com/kyokan/bob-wallet/releases/download/v$version/Bob-$version.msi",
+        "url": "https://v6.gh-proxy.org/https://github.com/kyokan/bob-wallet/releases/download/v$version/Bob-$version.msi",
         "hash": {
             "url": "$baseurl/SHA256SUMS.asc"
         }

@@ -15,10 +15,10 @@
         "github": "https://github.com/graalvm/graalvm-ce-dev-builds",
         "regex": "/(?<release>[\\d\\w.-]+)-dev-(?<build>[\\d\\w.-]+)/graalvm-ce-java(?<java>\\d[\\d]+)-windows-amd64-dev",
         "replace": "${release}-dev-${build}",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
-        "url": "https://github.com/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java$matchJava-windows-amd64-dev.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java$matchJava-windows-amd64-dev.zip",
         "extract_dir": "graalvm-ce-java$matchJava-$matchRelease-dev"
     }
 }

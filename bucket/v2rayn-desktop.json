@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64-desktop.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64-desktop.zip"
             },
             "arm64": {
-                "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-arm64-desktop.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-arm64-desktop.zip"
             }
         }
     }

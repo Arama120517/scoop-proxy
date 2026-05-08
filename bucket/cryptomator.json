@@ -32,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cryptomator/cryptomator/releases/download/$version/Cryptomator-$version-x64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/cryptomator/cryptomator/releases/download/$version/Cryptomator-$version-x64.msi"
             }
         },
         "hash": {

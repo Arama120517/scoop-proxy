@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/okieselbach/SyncMLViewer/releases/download/v$version/SyncMLViewer-v$cleanVersion.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/okieselbach/SyncMLViewer/releases/download/v$version/SyncMLViewer-v$cleanVersion.zip"
             }
         }
     }

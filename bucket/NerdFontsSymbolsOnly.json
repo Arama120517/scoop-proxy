@@ -89,7 +89,7 @@
         "github": "https://github.com/ryanoasis/nerd-fonts"
     },
     "autoupdate": {
-        "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/NerdFontsSymbolsOnly.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/NerdFontsSymbolsOnly.zip",
         "homepage": "https://github.com/ryanoasis/nerd-fonts/tree/v$version/patched-fonts/NerdFontsSymbolsOnly"
     }
 }

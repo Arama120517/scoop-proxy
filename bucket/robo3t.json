@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Studio3T/robomongo/releases/download/v$version/robo3t-$version-windows-x86_64-$matchCommit.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Studio3T/robomongo/releases/download/v$version/robo3t-$version-windows-x86_64-$matchCommit.zip",
                 "extract_dir": "robo3t-$version-windows-x86_64-$matchCommit"
             }
         }

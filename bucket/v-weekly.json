@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
             }
         }
     }

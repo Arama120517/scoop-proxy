@@ -23,7 +23,7 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://github.com/protegeproject/protege-distribution/releases/download/$matchPrefix$version/Protege-$version-win.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/protegeproject/protege-distribution/releases/download/$matchPrefix$version/Protege-$version-win.zip",
         "extract_dir": "Protege-$version"
     }
 }

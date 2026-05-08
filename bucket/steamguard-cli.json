@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dyc3/steamguard-cli/releases/download/v$version/steamguard.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/dyc3/steamguard-cli/releases/download/v$version/steamguard.exe"
             }
         }
     }

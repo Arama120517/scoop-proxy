@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version/tsukimi-x86_64-windows-gnu.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/tsukinaha/tsukimi/releases/download/v$version/tsukimi-x86_64-windows-gnu.7z"
             }
         },
         "hash": {

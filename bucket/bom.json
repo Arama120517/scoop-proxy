@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kubernetes-sigs/bom/releases/download/v$version/bom-amd64-windows.exe#/bom.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/kubernetes-sigs/bom/releases/download/v$version/bom-amd64-windows.exe#/bom.exe"
             }
         },
         "hash": {

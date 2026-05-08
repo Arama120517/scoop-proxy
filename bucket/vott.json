@@ -22,6 +22,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/VoTT/releases/download/v$version/vott-$version-win32.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/microsoft/VoTT/releases/download/v$version/vott-$version-win32.exe#/dl.7z"
     }
 }

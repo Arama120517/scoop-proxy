@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v$version%20Beta/wxHexEditor-v$version-Win64.zip"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v$version%20Beta/wxHexEditor-v$version-Win64.zip"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v$version%20Beta/wxHexEditor-v$version-Win32.zip"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v$version%20Beta/wxHexEditor-v$version-Win32.zip"
             }
         }
     }

@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_aarch64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_aarch64.zip"
             }
         },
         "hash": {

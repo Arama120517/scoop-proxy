@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stackrox/kube-linter/releases/download/v$version/kube-linter.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/stackrox/kube-linter/releases/download/v$version/kube-linter.exe"
             },
             "arm64": {
-                "url": "https://github.com/stackrox/kube-linter/releases/download/v$version/kube-linter_arm64.exe#/kube-linter.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/stackrox/kube-linter/releases/download/v$version/kube-linter_arm64.exe#/kube-linter.exe"
             }
         }
     }

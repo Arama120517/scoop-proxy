@@ -41,10 +41,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/buptczq/WinCryptSSHAgent/releases/download/v$version/WinCryptSSHAgent.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/buptczq/WinCryptSSHAgent/releases/download/v$version/WinCryptSSHAgent.exe"
             },
             "32bit": {
-                "url": "https://github.com/buptczq/WinCryptSSHAgent/releases/download/v$version/WinCryptSSHAgent_32bit.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/buptczq/WinCryptSSHAgent/releases/download/v$version/WinCryptSSHAgent_32bit.exe"
             }
         }
     }

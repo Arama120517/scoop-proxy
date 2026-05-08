@@ -17,6 +17,6 @@
         "github": "https://github.com/ModuleArt/quick-picture-viewer"
     },
     "autoupdate": {
-        "url": "https://github.com/ModuleArt/quick-picture-viewer/releases/download/v$version/QuickPictureViewer-Setup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/ModuleArt/quick-picture-viewer/releases/download/v$version/QuickPictureViewer-Setup.exe"
     }
 }

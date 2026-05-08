@@ -23,17 +23,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shihanng/gig/releases/download/v$version/gig_$version_Windows_x86_64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/shihanng/gig/releases/download/v$version/gig_$version_Windows_x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/shihanng/gig/releases/download/v$version/gig_$version_Windows_386.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/shihanng/gig/releases/download/v$version/gig_$version_Windows_386.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/shihanng/gig/releases/download/v$version/gig_$version_Windows_arm64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/shihanng/gig/releases/download/v$version/gig_$version_Windows_arm64.tar.gz"
             }
         },
         "hash": {
-            "url": "https://github.com/shihanng/gig/releases/download/v$version/checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/shihanng/gig/releases/download/v$version/checksums.txt"
         }
     }
 }

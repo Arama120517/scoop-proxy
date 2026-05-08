@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sayanarijit/qrscan/releases/download/v$version/qrscan-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/sayanarijit/qrscan/releases/download/v$version/qrscan-$version-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://github.com/sayanarijit/qrscan/releases/download/v$version/qrscan-$version-i686-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/sayanarijit/qrscan/releases/download/v$version/qrscan-$version-i686-pc-windows-msvc.zip"
             }
         },
         "extract_dir": "qrscan-$version"

@@ -12,7 +12,7 @@
     "checkver": {
         "url": "http://gittup.org/tup/win32",
         "regex": "tup-v([\\d.-]+)-(?<commit>[\\w]+)\\.zip",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "http://gittup.org/tup/win32/tup-v$version-$matchCommit.zip"

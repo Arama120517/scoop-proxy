@@ -38,14 +38,14 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/themes.zip",
-                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-amd64.exe#/oh-my-posh.exe"
+                    "https://v6.gh-proxy.org/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/themes.zip",
+                    "https://v6.gh-proxy.org/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-amd64.exe#/oh-my-posh.exe"
                 ]
             },
             "arm64": {
                 "url": [
-                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/themes.zip",
-                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-arm64.exe#/oh-my-posh.exe"
+                    "https://v6.gh-proxy.org/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/themes.zip",
+                    "https://v6.gh-proxy.org/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-arm64.exe#/oh-my-posh.exe"
                 ]
             }
         }

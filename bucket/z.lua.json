@@ -16,7 +16,7 @@
         "regex": "(?i)tag/(?<tag>v?([\\d.]+))(?=\")"
     },
     "autoupdate": {
-        "url": "https://github.com/skywind3000/z.lua/archive/refs/tags/$matchTag.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/skywind3000/z.lua/archive/refs/tags/$matchTag.zip",
         "extract_dir": "z.lua-$version"
     }
 }

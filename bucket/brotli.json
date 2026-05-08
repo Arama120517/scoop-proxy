@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/google/brotli/releases/download/v$version/brotli-x64-windows-static.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/google/brotli/releases/download/v$version/brotli-x64-windows-static.zip"
             },
             "32bit": {
-                "url": "https://github.com/google/brotli/releases/download/v$version/brotli-x86-windows-static.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/google/brotli/releases/download/v$version/brotli-x86-windows-static.zip"
             }
         }
     }

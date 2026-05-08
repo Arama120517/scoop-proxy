@@ -25,20 +25,20 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nats-io/nats-server/releases/download/v$version/nats-server-v$version-windows-amd64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/nats-io/nats-server/releases/download/v$version/nats-server-v$version-windows-amd64.zip",
                 "extract_dir": "nats-server-v$version-windows-amd64"
             },
             "32bit": {
-                "url": "https://github.com/nats-io/nats-server/releases/download/v$version/nats-server-v$version-windows-386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/nats-io/nats-server/releases/download/v$version/nats-server-v$version-windows-386.zip",
                 "extract_dir": "nats-server-v$version-windows-386"
             },
             "arm64": {
-                "url": "https://github.com/nats-io/nats-server/releases/download/v$version/nats-server-v$version-windows-arm64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/nats-io/nats-server/releases/download/v$version/nats-server-v$version-windows-arm64.zip",
                 "extract_dir": "nats-server-v$version-windows-arm64"
             }
         },
         "hash": {
-            "url": "https://github.com/nats-io/nats-server/releases/download/v$version/SHA256SUMS"
+            "url": "https://v6.gh-proxy.org/https://github.com/nats-io/nats-server/releases/download/v$version/SHA256SUMS"
         }
     }
 }

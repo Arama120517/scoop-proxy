@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/trailofbits/winchecksec/releases/download/v$version/windows.x64.Release.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/trailofbits/winchecksec/releases/download/v$version/windows.x64.Release.zip"
             },
             "32bit": {
-                "url": "https://github.com/trailofbits/winchecksec/releases/download/v$version/windows.Win32.Release.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/trailofbits/winchecksec/releases/download/v$version/windows.Win32.Release.zip"
             }
         }
     }

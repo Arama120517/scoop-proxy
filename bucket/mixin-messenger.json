@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MixinNetwork/flutter-app/releases/download/v$version/mixin_desktop_windows_setup_amd64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/MixinNetwork/flutter-app/releases/download/v$version/mixin_desktop_windows_setup_amd64.exe"
             }
         }
     }

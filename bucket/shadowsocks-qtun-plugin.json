@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shadowsocks/qtun/releases/download/v$version/qtun-windows-native-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/shadowsocks/qtun/releases/download/v$version/qtun-windows-native-v$version.zip"
             }
         }
     }

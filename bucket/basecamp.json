@@ -22,7 +22,7 @@
     "checkver": {
         "url": "https://bc3-desktop.s3.amazonaws.com/windows/RELEASES",
         "regex": "basecamp3-([\\d.]+)-full\\.nupkg",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

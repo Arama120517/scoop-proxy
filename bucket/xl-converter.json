@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/JacobDev1/xl-converter/releases/download/v$version/xl-converter-win-$version-x86_64-portable.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/JacobDev1/xl-converter/releases/download/v$version/xl-converter-win-$version-x86_64-portable.7z",
                 "extract_dir": "xl-converter-win-$version-x86_64-portable"
             }
         }

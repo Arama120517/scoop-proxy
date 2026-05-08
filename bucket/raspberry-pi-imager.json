@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/raspberrypi/rpi-imager/releases/download/v$version/imager-v$version.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/raspberrypi/rpi-imager/releases/download/v$version/imager-v$version.exe"
             }
         }
     }

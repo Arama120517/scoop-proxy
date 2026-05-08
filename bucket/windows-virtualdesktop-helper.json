@@ -17,7 +17,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/dankrusi/WindowsVirtualDesktopHelper/releases/download/v$version/WindowsVirtualDesktopHelper.Executable.v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/dankrusi/WindowsVirtualDesktopHelper/releases/download/v$version/WindowsVirtualDesktopHelper.Executable.v$version.zip",
         "hash": {
             "url": "$url.sha256"
         }

@@ -24,6 +24,6 @@
         "github": "https://github.com/nefarius/nefcon"
     },
     "autoupdate": {
-        "url": "https://github.com/nefarius/nefcon/releases/download/v$version/nefcon_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/nefarius/nefcon/releases/download/v$version/nefcon_v$version.zip"
     }
 }

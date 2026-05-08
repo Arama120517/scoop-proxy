@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/smolck/uivonim/releases/download/v$version/uivonim-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/smolck/uivonim/releases/download/v$version/uivonim-$version-win.zip"
             }
         }
     }

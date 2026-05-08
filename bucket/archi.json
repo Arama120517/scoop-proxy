@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/archimatetool/archi.io/releases/download/$version/Archi-Win64-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/archimatetool/archi.io/releases/download/$version/Archi-Win64-$version.zip"
             }
         },
         "hash": {

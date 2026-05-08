@@ -34,6 +34,6 @@
         "regex": "Download WinSpy-([\\d.]+)\\.7z from SourceForge"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/winspyex/$version/WinSpy-$version.7z"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/winspyex/$version/WinSpy-$version.7z"
     }
 }

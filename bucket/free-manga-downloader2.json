@@ -45,10 +45,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_x86_64-win64.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_x86_64-win64.7z"
             },
             "32bit": {
-                "url": "https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_i386-win32.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_i386-win32.7z"
             }
         }
     }

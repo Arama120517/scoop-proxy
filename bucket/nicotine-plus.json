@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nicotine-plus/nicotine-plus/releases/download/$version/windows-x86_64-package.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/nicotine-plus/nicotine-plus/releases/download/$version/windows-x86_64-package.zip"
             }
         },
         "hash": {

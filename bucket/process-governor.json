@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lowleveldesign/process-governor/releases/download/$version/procgov.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/lowleveldesign/process-governor/releases/download/$version/procgov.zip"
             }
         }
     }

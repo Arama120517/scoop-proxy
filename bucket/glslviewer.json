@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/patriciogonzalezvivo/glslViewer/releases/download/$version/glslViewer-$version-win64-AMD64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/patriciogonzalezvivo/glslViewer/releases/download/$version/glslViewer-$version-win64-AMD64.zip",
                 "extract_dir": "glslViewer-$version-win64-AMD64"
             }
         }

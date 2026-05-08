@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-win32-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-win32-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-win32-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-win32-arm64.zip"
             }
         }
     }

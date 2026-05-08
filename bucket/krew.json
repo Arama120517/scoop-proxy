@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kubernetes-sigs/krew/releases/download/v$version/krew.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/kubernetes-sigs/krew/releases/download/v$version/krew.exe"
             }
         },
         "hash": {

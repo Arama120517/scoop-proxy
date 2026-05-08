@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "arm64": {
-                "url": "https://github.com/crazystylus/otadump/releases/download/$version/otadump-$version-aarch64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/crazystylus/otadump/releases/download/$version/otadump-$version-aarch64-pc-windows-msvc.zip"
             },
             "64bit": {
-                "url": "https://github.com/crazystylus/otadump/releases/download/$version/otadump-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/crazystylus/otadump/releases/download/$version/otadump-$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

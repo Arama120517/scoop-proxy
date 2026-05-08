@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-386.zip"
             }
         },
         "hash": {

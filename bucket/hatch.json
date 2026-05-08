@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pypa/hatch/releases/download/hatch-v$version/hatch-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pypa/hatch/releases/download/hatch-v$version/hatch-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://github.com/pypa/hatch/releases/download/hatch-v$version/hatch-i686-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pypa/hatch/releases/download/hatch-v$version/hatch-i686-pc-windows-msvc.zip"
             }
         }
     }

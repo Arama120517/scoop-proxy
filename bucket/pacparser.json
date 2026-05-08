@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/manugarg/pacparser/releases/download/v$version/pacparser-v$version-windows-x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/manugarg/pacparser/releases/download/v$version/pacparser-v$version-windows-x86_64.zip",
                 "extract_dir": "pacparser-v$version-windows-x86_64"
             }
         }

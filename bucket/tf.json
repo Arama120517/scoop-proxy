@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dex4er/tf/releases/download/v$version/tf-windows-amd64.exe#/tf.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/dex4er/tf/releases/download/v$version/tf-windows-amd64.exe#/tf.exe"
             },
             "arm64": {
-                "url": "https://github.com/dex4er/tf/releases/download/v$version/tf-windows-arm64.exe#/tf.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/dex4er/tf/releases/download/v$version/tf-windows-arm64.exe#/tf.exe"
             }
         },
         "hash": {

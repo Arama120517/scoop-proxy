@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/google/ios-webkit-debug-proxy/releases/download/$matchTag/ios-webkit-debug-proxy-$version-win64-bin.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/google/ios-webkit-debug-proxy/releases/download/$matchTag/ios-webkit-debug-proxy-$version-win64-bin.zip"
             }
         }
     }

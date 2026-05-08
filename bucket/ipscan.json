@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/angryip/ipscan/releases/download/$version/ipscan-$version-setup.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/angryip/ipscan/releases/download/$version/ipscan-$version-setup.exe#/dl.7z"
             }
         }
     }

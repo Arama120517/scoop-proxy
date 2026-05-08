@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/apache/camel-k/releases/download/v$version/camel-k-client-$version-windows-amd64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/apache/camel-k/releases/download/v$version/camel-k-client-$version-windows-amd64.tar.gz"
             }
         }
     }

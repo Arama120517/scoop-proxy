@@ -14,6 +14,6 @@
         "github": "https://github.com/iBotPeaches/Apktool"
     },
     "autoupdate": {
-        "url": "https://github.com/iBotPeaches/Apktool/releases/download/v$version/apktool_$version.jar#/apktool.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/iBotPeaches/Apktool/releases/download/v$version/apktool_$version.jar#/apktool.jar"
     }
 }

@@ -11,7 +11,7 @@
         "github": "https://github.com/ritchielawrence/cmdow"
     },
     "autoupdate": {
-        "url": "https://github.com/ritchielawrence/cmdow/archive/v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/ritchielawrence/cmdow/archive/v$version.zip",
         "extract_dir": "cmdow-$version"
     }
 }

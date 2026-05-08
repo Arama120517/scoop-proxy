@@ -31,7 +31,7 @@
         "github": "https://github.com/tomek-o/tSIP"
     },
     "autoupdate": {
-        "url": "https://github.com/tomek-o/tSIP/releases/download/v$version/tSIP_$underscoreVersion_bin.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/tomek-o/tSIP/releases/download/v$version/tSIP_$underscoreVersion_bin.zip",
         "extract_dir": "tSIP_$underscoreVersion_bin"
     }
 }

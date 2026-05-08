@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/silexlabs/silex-desktop/releases/download/v$version/silex-desktop-Setup-$version.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/silexlabs/silex-desktop/releases/download/v$version/silex-desktop-Setup-$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"

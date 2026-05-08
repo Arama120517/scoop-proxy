@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/analogdevicesinc/scopy/releases/download/v$version/Scopy-v$version-Windows-x86_64-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/analogdevicesinc/scopy/releases/download/v$version/Scopy-v$version-Windows-x86_64-portable.zip"
             }
         },
         "extract_dir": "Scopy-v$version-Windows-x86_64-portable"

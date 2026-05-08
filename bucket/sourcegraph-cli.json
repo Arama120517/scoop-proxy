@@ -12,9 +12,9 @@
     "bin": "src.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/sourcegraph/src-cli/releases/download/$version/src-cli_$version_windows_amd64.tar.gz",
+        "url": "https://v6.gh-proxy.org/https://github.com/sourcegraph/src-cli/releases/download/$version/src-cli_$version_windows_amd64.tar.gz",
         "hash": {
-            "url": "https://github.com/sourcegraph/src-cli/releases/download/$version/src-cli_$version_checksums.txt",
+            "url": "https://v6.gh-proxy.org/https://github.com/sourcegraph/src-cli/releases/download/$version/src-cli_$version_checksums.txt",
             "regex": "^(\\w+)\\s+src-cli_$version_windows_amd64\\.tar\\.gz$"
         }
     }

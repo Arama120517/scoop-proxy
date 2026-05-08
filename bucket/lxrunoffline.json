@@ -8,6 +8,6 @@
     "bin": "LxRunOffline.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/DDoSolitary/LxRunOffline/releases/download/v$version/LxRunOffline-v$version-msvc.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/DDoSolitary/LxRunOffline/releases/download/v$version/LxRunOffline-v$version-msvc.zip"
     }
 }

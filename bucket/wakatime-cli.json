@@ -25,13 +25,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-386.zip"
             },
             "arm64": {
-                "url": "https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-arm64.zip"
             }
         },
         "hash": {

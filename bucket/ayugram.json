@@ -20,6 +20,6 @@
         "regex": "/releases/tag/(?:v|V)?([\\d.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v$version/AyuGram.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/AyuGram/AyuGramDesktop/releases/download/v$version/AyuGram.zip"
     }
 }

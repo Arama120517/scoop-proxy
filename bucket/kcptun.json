@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xtaci/kcptun/releases/download/v$version/kcptun-windows-amd64-$version.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/xtaci/kcptun/releases/download/v$version/kcptun-windows-amd64-$version.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/xtaci/kcptun/releases/download/v$version/kcptun-windows-386-$version.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/xtaci/kcptun/releases/download/v$version/kcptun-windows-386-$version.tar.gz"
             }
         },
         "hash": {

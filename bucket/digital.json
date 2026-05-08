@@ -23,6 +23,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/hneemann/Digital/releases/download/v$version/Digital.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/hneemann/Digital/releases/download/v$version/Digital.zip"
     }
 }

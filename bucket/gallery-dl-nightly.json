@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gdl-org/builds/releases/download/$version/gallery-dl_windows.exe#/gallery-dl.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/gdl-org/builds/releases/download/$version/gallery-dl_windows.exe#/gallery-dl.exe"
             },
             "32bit": {
-                "url": "https://github.com/gdl-org/builds/releases/download/$version/gallery-dl_windows_x86.exe#/gallery-dl.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/gdl-org/builds/releases/download/$version/gallery-dl_windows_x86.exe#/gallery-dl.exe"
             }
         }
     }

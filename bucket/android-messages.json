@@ -35,7 +35,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OrangeDrangon/android-messages-desktop/releases/download/v$version/Android-Messages-v$version-win-x64.portable.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/OrangeDrangon/android-messages-desktop/releases/download/v$version/Android-Messages-v$version-win-x64.portable.exe#/dl.7z"
             }
         }
     }

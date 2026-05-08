@@ -51,7 +51,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TypesettingTools/Aegisub/releases/download/v$version/Aegisub-$version-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TypesettingTools/Aegisub/releases/download/v$version/Aegisub-$version-portable.zip"
             }
         }
     }

@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/YACReader/yacreader/releases/download/$matchHead/YACReader-v$version-winx64-7z-qt6.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/YACReader/yacreader/releases/download/$matchHead/YACReader-v$version-winx64-7z-qt6.exe"
             },
             "arm64": {
-                "url": "https://github.com/YACReader/yacreader/releases/download/$matchHead/YACReader-v$version-winarm64-7z-qt6.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/YACReader/yacreader/releases/download/$matchHead/YACReader-v$version-winarm64-7z-qt6.exe"
             }
         }
     }

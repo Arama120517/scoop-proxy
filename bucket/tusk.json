@@ -25,6 +25,6 @@
         "github": "https://github.com/klaussinani/tusk"
     },
     "autoupdate": {
-        "url": "https://github.com/klaussinani/tusk/releases/download/v$version/tusk-$version.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/klaussinani/tusk/releases/download/v$version/tusk-$version.exe#/dl.7z"
     }
 }

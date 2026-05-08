@@ -11,6 +11,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/FelixSelter/JEnv-for-Windows/releases/download/v$version/JEnv.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/FelixSelter/JEnv-for-Windows/releases/download/v$version/JEnv.zip"
     }
 }

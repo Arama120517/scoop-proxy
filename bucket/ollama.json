@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-arm64.zip"
             }
         },
         "hash": {

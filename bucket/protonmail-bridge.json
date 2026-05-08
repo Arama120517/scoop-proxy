@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ProtonMail/proton-bridge/releases/download/v$version/Bridge-Installer.exe#/dl.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ProtonMail/proton-bridge/releases/download/v$version/Bridge-Installer.exe#/dl.exe"
             }
         }
     }

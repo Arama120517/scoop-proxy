@@ -33,10 +33,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/billziss-gh/sshfs-win/releases/download/$matchTag/sshfs-win-$version-x64.msi#/setup.msi_"
+                "url": "https://v6.gh-proxy.org/https://github.com/billziss-gh/sshfs-win/releases/download/$matchTag/sshfs-win-$version-x64.msi#/setup.msi_"
             },
             "32bit": {
-                "url": "https://github.com/billziss-gh/sshfs-win/releases/download/$matchTag/sshfs-win-$version-x86.msi#/setup.msi_"
+                "url": "https://v6.gh-proxy.org/https://github.com/billziss-gh/sshfs-win/releases/download/$matchTag/sshfs-win-$version-x86.msi#/setup.msi_"
             }
         }
     }

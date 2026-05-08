@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LionelJouin/PiP-Tool/releases/download/$version/PiP-Tool.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/LionelJouin/PiP-Tool/releases/download/$version/PiP-Tool.msi"
             }
         }
     }

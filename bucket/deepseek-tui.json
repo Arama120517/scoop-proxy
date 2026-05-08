@@ -24,8 +24,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/Hmbown/DeepSeek-TUI/releases/download/v$version/deepseek-tui-windows-x64.exe#/deepseek-tui.exe",
-                    "https://github.com/Hmbown/DeepSeek-TUI/releases/download/v$version/deepseek-windows-x64.exe#/deepseek.exe"
+                    "https://v6.gh-proxy.org/https://github.com/Hmbown/DeepSeek-TUI/releases/download/v$version/deepseek-tui-windows-x64.exe#/deepseek-tui.exe",
+                    "https://v6.gh-proxy.org/https://github.com/Hmbown/DeepSeek-TUI/releases/download/v$version/deepseek-windows-x64.exe#/deepseek.exe"
                 ]
             }
         },

@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nextai-translator/nextai-translator/releases/download/v$version/NextAI.Translator_$version_x64-setup.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/nextai-translator/nextai-translator/releases/download/v$version/NextAI.Translator_$version_x64-setup.exe#/dl.7z"
             }
         }
     }

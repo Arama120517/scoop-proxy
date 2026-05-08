@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/esrlabs/chipmunk/releases/download/$version/chipmunk@$version-win64-portable.tgz"
+                "url": "https://v6.gh-proxy.org/https://github.com/esrlabs/chipmunk/releases/download/$version/chipmunk@$version-win64-portable.tgz"
             }
         }
     }

@@ -13,7 +13,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/rcmaehl/MSEdgeRedirect/releases/download/$version/MSEdgeRedirect.exe",
+        "url": "https://v6.gh-proxy.org/https://github.com/rcmaehl/MSEdgeRedirect/releases/download/$version/MSEdgeRedirect.exe",
         "hash": {
             "url": "$baseurl/checksums.sha256"
         }

@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/eibol/ffmpeg_batch/releases/download/$version/FFBatch_AV_Converter_$version_64bit.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/eibol/ffmpeg_batch/releases/download/$version/FFBatch_AV_Converter_$version_64bit.exe"
             }
         }
     }

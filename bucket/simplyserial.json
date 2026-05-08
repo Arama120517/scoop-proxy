@@ -10,6 +10,6 @@
     "persist": "settings.cfg",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/fasteddy516/SimplySerial/releases/download/v$version/SimplySerial_$version_standalone.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/fasteddy516/SimplySerial/releases/download/v$version/SimplySerial_$version_standalone.zip"
     }
 }

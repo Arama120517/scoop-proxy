@@ -22,6 +22,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jasongin/nvs/releases/download/v$version/nvs-$version.msi"
+        "url": "https://v6.gh-proxy.org/https://github.com/jasongin/nvs/releases/download/v$version/nvs-$version.msi"
     }
 }

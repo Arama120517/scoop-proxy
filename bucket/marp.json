@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/marp-team/marp-cli/releases/download/v$version/marp-cli-v$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/marp-team/marp-cli/releases/download/v$version/marp-cli-v$version-win.zip"
             }
         }
     }

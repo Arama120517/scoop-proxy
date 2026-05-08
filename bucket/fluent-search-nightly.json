@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/adirh3/Fluent-Search/releases/download/$version/fluent-search-portable-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/adirh3/Fluent-Search/releases/download/$version/fluent-search-portable-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/adirh3/Fluent-Search/releases/download/$version/fluent-search-portable-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/adirh3/Fluent-Search/releases/download/$version/fluent-search-portable-arm64.zip"
             }
         }
     }

@@ -33,7 +33,7 @@
         "github": "https://github.com/nteract/nteract"
     },
     "autoupdate": {
-        "url": "https://github.com/nteract/nteract/releases/download/v$version/nteract-setup-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/nteract/nteract/releases/download/v$version/nteract-setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512: $base64"

@@ -32,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/keepassxreboot/keepassxc/releases/download/$version/KeePassXC-$version-Win64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/keepassxreboot/keepassxc/releases/download/$version/KeePassXC-$version-Win64.zip",
                 "extract_dir": "KeePassXC-$version-Win64"
             }
         },

@@ -35,7 +35,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle#/dl.7z",
         "hash": {
             "url": "https://github.com/M2Team/NanaZip/releases/tag/$version",
             "regex": "(?s)$basename.*?$sha256"

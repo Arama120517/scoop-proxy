@@ -87,6 +87,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Chenyu-otf/chenyuluoyan_thin/releases/download/v$version/ChenYuluoyan-Thin.ttf"
+        "url": "https://v6.gh-proxy.org/https://github.com/Chenyu-otf/chenyuluoyan_thin/releases/download/v$version/ChenYuluoyan-Thin.ttf"
     }
 }

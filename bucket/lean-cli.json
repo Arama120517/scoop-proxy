@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x64.exe#/lean.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x64.exe#/lean.exe"
             },
             "32bit": {
-                "url": "https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x86.exe#/lean.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x86.exe#/lean.exe"
             }
         }
     }

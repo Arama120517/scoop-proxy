@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Tichau/FileConverter/releases/download/v$version/FileConverter-$version-x64-setup.msi#/setup.msi_"
+                "url": "https://v6.gh-proxy.org/https://github.com/Tichau/FileConverter/releases/download/v$version/FileConverter-$version-x64-setup.msi#/setup.msi_"
             }
         }
     }

@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/releases/download/v$version/realesrgan-ncnn-vulkan-v$version-windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/releases/download/v$version/realesrgan-ncnn-vulkan-v$version-windows.zip",
                 "extract_dir": "realesrgan-ncnn-vulkan-v$version-windows"
             }
         }

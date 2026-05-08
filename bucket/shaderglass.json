@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mausimus/ShaderGlass/releases/download/$matchTag/ShaderGlass-$version-win-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mausimus/ShaderGlass/releases/download/$matchTag/ShaderGlass-$version-win-x64.zip"
             }
         }
     }

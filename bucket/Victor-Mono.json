@@ -90,6 +90,6 @@
         "github": "https://github.com/rubjo/victor-mono"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/rubjo/victor-mono/v$version/public/VictorMonoAll.zip"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/rubjo/victor-mono/v$version/public/VictorMonoAll.zip"
     }
 }

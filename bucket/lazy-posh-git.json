@@ -11,6 +11,6 @@
     "depends": "posh-git",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/bergmeister/lazy-posh-git/releases/download/$version/lazy-posh-git.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/bergmeister/lazy-posh-git/releases/download/$version/lazy-posh-git.zip"
     }
 }

@@ -16,6 +16,6 @@
         "github": "https://github.com/oliverschwendener/ueli"
     },
     "autoupdate": {
-        "url": "https://github.com/oliverschwendener/ueli/releases/download/v$version/ueli-$version-win.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/oliverschwendener/ueli/releases/download/v$version/ueli-$version-win.zip"
     }
 }

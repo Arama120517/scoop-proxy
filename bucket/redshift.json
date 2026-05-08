@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jonls/redshift/releases/download/v$version/redshift-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jonls/redshift/releases/download/v$version/redshift-windows-x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/jonls/redshift/releases/download/v$version/redshift-windows-i686.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jonls/redshift/releases/download/v$version/redshift-windows-i686.zip"
             }
         }
     }

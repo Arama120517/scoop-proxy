@@ -26,6 +26,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/popeen/Classic-Volume-Mixer/releases/download/$version/setup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/popeen/Classic-Volume-Mixer/releases/download/$version/setup.exe"
     }
 }

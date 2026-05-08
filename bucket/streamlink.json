@@ -43,7 +43,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py$matchPy-x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py$matchPy-x86_64.zip",
                 "extract_dir": "streamlink-$version-py$matchPy-x86_64"
             }
         }

@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mullvad/mullvadvpn-app/releases/download/$version/MullvadVPN-$version_x64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/mullvad/mullvadvpn-app/releases/download/$version/MullvadVPN-$version_x64.exe"
             },
             "arm64": {
-                "url": "https://github.com/mullvad/mullvadvpn-app/releases/download/$version/MullvadVPN-$version_arm64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/mullvad/mullvadvpn-app/releases/download/$version/MullvadVPN-$version_arm64.exe"
             }
         }
     }

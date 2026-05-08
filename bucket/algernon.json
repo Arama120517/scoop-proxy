@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xyproto/algernon/releases/download/v$version/algernon-$version-windows_x86_64_static.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/xyproto/algernon/releases/download/v$version/algernon-$version-windows_x86_64_static.zip",
                 "extract_dir": "algernon-$version-windows_x86_64_static"
             }
         }

@@ -17,6 +17,6 @@
         "regex": "joewin-([\\d.]+)\\.msi"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/joewin-$version.msi"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/$version/joewin-$version.msi"
     }
 }

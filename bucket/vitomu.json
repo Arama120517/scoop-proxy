@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/digimezzo/vitomu/releases/download/v$version/Vitomu-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/digimezzo/vitomu/releases/download/v$version/Vitomu-$version.exe#/dl.7z"
             }
         }
     }

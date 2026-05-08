@@ -26,6 +26,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/TestCentric/testcentric-gui/releases/download/$version/testcentric-gui.$version.nupkg"
+        "url": "https://v6.gh-proxy.org/https://github.com/TestCentric/testcentric-gui/releases/download/$version/testcentric-gui.$version.nupkg"
     }
 }

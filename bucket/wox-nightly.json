@@ -12,6 +12,6 @@
         "replace": "${semver}.${date}-nightly.${commit}"
     },
     "autoupdate": {
-        "url": "https://github.com/Wox-launcher/Wox/releases/download/v$matchTag/wox-windows-amd64-$matchDate-$matchCommit.exe#/wox.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Wox-launcher/Wox/releases/download/v$matchTag/wox-windows-amd64-$matchDate-$matchCommit.exe#/wox.exe"
     }
 }

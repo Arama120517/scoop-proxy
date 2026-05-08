@@ -21,6 +21,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/java-decompiler/jd-gui/releases/download/v$version/jd-gui-$version.jar#/jd-gui.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/java-decompiler/jd-gui/releases/download/v$version/jd-gui-$version.jar#/jd-gui.jar"
     }
 }

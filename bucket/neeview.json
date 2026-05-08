@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/neelabo/NeeView/releases/download/$version/NeeView$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/neelabo/NeeView/releases/download/$version/NeeView$version.zip",
                 "extract_dir": "NeeView$version"
             }
         }

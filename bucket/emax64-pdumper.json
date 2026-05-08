@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/m-parashar/emax64/releases/download/pdumper-$version/emax64-pdumper-bin-$version.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/m-parashar/emax64/releases/download/pdumper-$version/emax64-pdumper-bin-$version.7z"
             }
         }
     }

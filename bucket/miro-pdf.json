@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vincent-uden/miro/releases/download/v$version/miro-pdf.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/vincent-uden/miro/releases/download/v$version/miro-pdf.exe"
             }
         }
     }

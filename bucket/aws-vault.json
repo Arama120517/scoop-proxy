@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ByteNess/aws-vault/releases/download/v$version/aws-vault-windows-amd64.exe#/aws-vault.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ByteNess/aws-vault/releases/download/v$version/aws-vault-windows-amd64.exe#/aws-vault.exe"
             },
             "arm64": {
-                "url": "https://github.com/ByteNess/aws-vault/releases/download/v$version/aws-vault-windows-arm64.exe#/aws-vault.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ByteNess/aws-vault/releases/download/v$version/aws-vault-windows-arm64.exe#/aws-vault.exe"
             }
         },
         "hash": {

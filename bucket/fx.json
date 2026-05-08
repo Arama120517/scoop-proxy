@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/antonmedv/fx/releases/download/$version/fx_windows_amd64.exe#/fx.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/antonmedv/fx/releases/download/$version/fx_windows_amd64.exe#/fx.exe"
             },
             "arm64": {
-                "url": "https://github.com/antonmedv/fx/releases/download/$version/fx_windows_arm64.exe#/fx.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/antonmedv/fx/releases/download/$version/fx_windows_arm64.exe#/fx.exe"
             }
         }
     }

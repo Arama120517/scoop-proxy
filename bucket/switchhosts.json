@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_x64_$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_x64_$version.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_ia32_$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_ia32_$version.exe#/dl.7z"
             }
         }
     }

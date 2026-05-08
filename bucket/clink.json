@@ -19,6 +19,6 @@
         "regex": "/v(?<tag>[\\d.]+)/clink\\.([\\d.]+)\\.(?<commit>[\\w.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/chrisant996/clink/releases/download/v$matchTag/clink.$version.$matchCommit.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/chrisant996/clink/releases/download/v$matchTag/clink.$version.$matchCommit.zip"
     }
 }

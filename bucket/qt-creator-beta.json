@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qt-creator/qt-creator/releases/download/v$version/qtcreator-Windows-MSVC-$matchNums.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/qt-creator/qt-creator/releases/download/v$version/qtcreator-Windows-MSVC-$matchNums.7z"
             }
         }
     }

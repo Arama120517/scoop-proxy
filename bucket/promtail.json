@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/grafana/loki/releases/download/v$version/promtail-windows-amd64.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/grafana/loki/releases/download/v$version/promtail-windows-amd64.exe.zip"
             }
         },
         "hash": {

@@ -23,11 +23,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SAP/SapMachine/releases/download/$matchSap.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/SAP/SapMachine/releases/download/$matchSap.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/SAP/SapMachine/releases/download/$matchSap.sha256.txt",
+            "url": "https://v6.gh-proxy.org/https://github.com/SAP/SapMachine/releases/download/$matchSap.sha256.txt",
             "find": "^($sha256)\\s"
         },
         "extract_dir": "sapmachine-jdk-$matchVersion"

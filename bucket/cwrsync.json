@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/itefixnet/cwrsync-client/releases/download/v$version/cwrsync_$version_x64_free.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/itefixnet/cwrsync-client/releases/download/v$version/cwrsync_$version_x64_free.zip"
             }
         }
     }

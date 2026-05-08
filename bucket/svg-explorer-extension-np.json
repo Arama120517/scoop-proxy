@@ -32,14 +32,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tibold/svg-explorer-extension/releases/download/v$version/svg_see_x64.exe",
+                "url": "https://v6.gh-proxy.org/https://github.com/tibold/svg-explorer-extension/releases/download/v$version/svg_see_x64.exe",
                 "hash": {
                     "url": "https://github.com/tibold/svg-explorer-extension/releases/tag/v$version",
                     "find": "SHA256.*([A-F0-9]{64})"
                 }
             },
             "32bit": {
-                "url": "https://github.com/tibold/svg-explorer-extension/releases/download/v$version/svg_see_x86.exe",
+                "url": "https://v6.gh-proxy.org/https://github.com/tibold/svg-explorer-extension/releases/download/v$version/svg_see_x86.exe",
                 "hash": {
                     "url": "https://github.com/tibold/svg-explorer-extension/releases/tag/v$version",
                     "find": "(?sm)SHA256.*SHA256.*([A-F0-9]{64})"

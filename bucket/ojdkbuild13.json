@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ojdkbuild/ojdkbuild/releases/download/java-$majorVersion-openjdk-$version/java-$majorVersion-openjdk-$version.windows.ojdkbuild.x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/ojdkbuild/ojdkbuild/releases/download/java-$majorVersion-openjdk-$version/java-$majorVersion-openjdk-$version.windows.ojdkbuild.x86_64.zip",
                 "extract_dir": "java-$majorVersion-openjdk-$version.windows.ojdkbuild.x86_64"
             }
         },

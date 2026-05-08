@@ -30,6 +30,6 @@
         "github": "https://github.com/winsiderss/systeminformer"
     },
     "autoupdate": {
-        "url": "https://github.com/winsiderss/systeminformer/releases/download/v$version/systeminformer-$matchHead-release-bin.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/winsiderss/systeminformer/releases/download/v$version/systeminformer-$matchHead-release-bin.zip"
     }
 }

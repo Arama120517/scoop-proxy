@@ -22,7 +22,7 @@
         "github": "https://github.com/URenko/Accesser"
     },
     "autoupdate": {
-        "url": "https://github.com/URenko/Accesser/releases/download/v$version/Accesser.exe",
+        "url": "https://v6.gh-proxy.org/https://github.com/URenko/Accesser/releases/download/v$version/Accesser.exe",
         "hash": {
             "url": "https://github.com/URenko/Accesser/releases/tag/v$version",
             "regex": "SHA256: $sha256"

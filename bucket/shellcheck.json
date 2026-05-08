@@ -11,6 +11,6 @@
         "github": "https://github.com/koalaman/shellcheck"
     },
     "autoupdate": {
-        "url": "https://github.com/koalaman/shellcheck/releases/download/v$version/shellcheck-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/koalaman/shellcheck/releases/download/v$version/shellcheck-v$version.zip"
     }
 }

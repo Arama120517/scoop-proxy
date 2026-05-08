@@ -17,7 +17,7 @@
         "regex": "/releases/tag/(?:auth-v)?([\\d.]+)\""
     },
     "autoupdate": {
-        "url": "https://github.com/ente-io/ente/releases/download/auth-v$version/ente-auth-v$version-windows.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/ente-io/ente/releases/download/auth-v$version/ente-auth-v$version-windows.zip",
         "hash": {
             "url": "$baseurl/sha256sum-windows",
             "regex": "$sha256\\s+\\*artifacts/$basename"

@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/unkn0wn-root/resterm/releases/download/v$version/resterm_Windows_x86_64.exe#/resterm.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/unkn0wn-root/resterm/releases/download/v$version/resterm_Windows_x86_64.exe#/resterm.exe"
             },
             "arm64": {
-                "url": "https://github.com/unkn0wn-root/resterm/releases/download/v$version/resterm_Windows_arm64.exe#/resterm.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/unkn0wn-root/resterm/releases/download/v$version/resterm_Windows_arm64.exe#/resterm.exe"
             }
         },
         "hash": {

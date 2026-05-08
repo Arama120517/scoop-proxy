@@ -23,7 +23,7 @@
         "github": "https://github.com/tabulapdf/tabula"
     },
     "autoupdate": {
-        "url": "https://github.com/tabulapdf/tabula/releases/download/v$version/tabula-win-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/tabulapdf/tabula/releases/download/v$version/tabula-win-$version.zip",
         "hash": {
             "url": "https://github.com/tabulapdf/tabula/releases/tag/v$version"
         }

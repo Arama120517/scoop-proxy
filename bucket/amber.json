@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dalance/amber/releases/download/v$version/amber-v$version-x86_64-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dalance/amber/releases/download/v$version/amber-v$version-x86_64-win.zip"
             }
         }
     }

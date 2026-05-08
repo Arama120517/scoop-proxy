@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-amd64.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-amd64.tar.gz",
                 "extract_dir": "pushgateway-$version.windows-amd64"
             },
             "32bit": {
-                "url": "https://github.com/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-386.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-386.tar.gz",
                 "extract_dir": "pushgateway-$version.windows-386"
             }
         },

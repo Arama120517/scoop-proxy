@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/weclaw1/inbac/releases/download/$version/inbac-Windows.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/weclaw1/inbac/releases/download/$version/inbac-Windows.zip"
     }
 }

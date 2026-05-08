@@ -17,7 +17,7 @@
         "regex": "/releases/download/(?<tag>tag_.*?-)?hadoop-(?<version>[\\d.]+)(?<qualifier>.*?)/"
     },
     "autoupdate": {
-        "url": "https://github.com/steveloughran/winutils/releases/download/$matchTaghadoop-$version$matchQualifier/hadoop-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/steveloughran/winutils/releases/download/$matchTaghadoop-$version$matchQualifier/hadoop-$version.zip",
         "extract_dir": "hadoop-$version"
     }
 }

@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bgrabitmap/lazpaint/releases/download/v$version/lazpaint$version_win64_no_install.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/bgrabitmap/lazpaint/releases/download/v$version/lazpaint$version_win64_no_install.zip"
             },
             "32bit": {
-                "url": "https://github.com/bgrabitmap/lazpaint/releases/download/v$version/lazpaint$version_win32_no_install.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/bgrabitmap/lazpaint/releases/download/v$version/lazpaint$version_win32_no_install.zip"
             }
         }
     }

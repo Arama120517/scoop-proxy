@@ -24,7 +24,7 @@
         "github": "https://github.com/zaproxy/zaproxy"
     },
     "autoupdate": {
-        "url": "https://github.com/zaproxy/zaproxy/releases/download/v$version/ZAP_$version_Crossplatform.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/zaproxy/zaproxy/releases/download/v$version/ZAP_$version_Crossplatform.zip",
         "extract_dir": "ZAP_$version"
     }
 }

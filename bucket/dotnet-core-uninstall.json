@@ -11,6 +11,6 @@
         "github": "https://github.com/dotnet/cli-lab"
     },
     "autoupdate": {
-        "url": "https://github.com/dotnet/cli-lab/releases/download/$version/dotnet-core-uninstall.msi"
+        "url": "https://v6.gh-proxy.org/https://github.com/dotnet/cli-lab/releases/download/$version/dotnet-core-uninstall.msi"
     }
 }

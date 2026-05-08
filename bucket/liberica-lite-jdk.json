@@ -23,15 +23,15 @@
         "jsonpath": "$[*].version",
         "regex": "(?<major>[\\d.]+)(?:\\+)(?<build>[\\d]+)",
         "replace": "${major}-${build}",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bell-sw/Liberica/releases/download/$matchMajor%2B$matchBuild/bellsoft-jdk$matchMajor%2B$matchBuild-windows-amd64-lite.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/bell-sw/Liberica/releases/download/$matchMajor%2B$matchBuild/bellsoft-jdk$matchMajor%2B$matchBuild-windows-amd64-lite.zip"
             },
             "arm64": {
-                "url": "https://github.com/bell-sw/Liberica/releases/download/$matchMajor%2B$matchBuild/bellsoft-jdk$matchMajor%2B$matchBuild-windows-aarch64-lite.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/bell-sw/Liberica/releases/download/$matchMajor%2B$matchBuild/bellsoft-jdk$matchMajor%2B$matchBuild-windows-aarch64-lite.zip"
             }
         },
         "hash": {

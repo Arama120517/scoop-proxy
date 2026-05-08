@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hismailbulut/Neoray/releases/download/v$version/neoray-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/hismailbulut/Neoray/releases/download/v$version/neoray-windows.zip"
             }
         }
     }

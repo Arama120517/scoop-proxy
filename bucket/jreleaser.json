@@ -17,7 +17,7 @@
         "github": "https://github.com/jreleaser/jreleaser/"
     },
     "autoupdate": {
-        "url": "https://github.com/jreleaser/jreleaser/releases/download/v$version/jreleaser-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/jreleaser/jreleaser/releases/download/v$version/jreleaser-$version.zip",
         "extract_dir": "jreleaser-$version",
         "hash": {
             "url": "$url.sha256"

@@ -31,7 +31,7 @@
     "checkver": {
         "url": "https://releases.pagure.org/virt-viewer/",
         "regex": "virt-viewer-x64-([\\d.-]+)\\.msi",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

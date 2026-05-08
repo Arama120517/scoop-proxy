@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aws/copilot-cli/releases/download/v$version/copilot-windows.exe#/copilot.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/aws/copilot-cli/releases/download/v$version/copilot-windows.exe#/copilot.exe"
             }
         }
     }

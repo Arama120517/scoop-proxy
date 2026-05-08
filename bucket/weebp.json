@@ -47,11 +47,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Francesco149/weebp/releases/download/$version/weebp-$version-windows-x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Francesco149/weebp/releases/download/$version/weebp-$version-windows-x64.zip",
                 "extract_dir": "weebp-$version-windows-x64"
             },
             "32bit": {
-                "url": "https://github.com/Francesco149/weebp/releases/download/$version/weebp-$version-windows-x86.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Francesco149/weebp/releases/download/$version/weebp-$version-windows-x86.zip",
                 "extract_dir": "weebp-$version-windows-x86"
             }
         }

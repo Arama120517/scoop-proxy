@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/antares-sql/antares/releases/download/v$version/Antares-$version-portable.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/antares-sql/antares/releases/download/v$version/Antares-$version-portable.exe#/dl.7z"
             }
         }
     }

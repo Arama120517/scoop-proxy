@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AmrDeveloper/GQL/releases/download/$version/gql-x86_64-windows.exe#/gitql.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/AmrDeveloper/GQL/releases/download/$version/gql-x86_64-windows.exe#/gitql.exe"
             },
             "32bit": {
-                "url": "https://github.com/AmrDeveloper/GQL/releases/download/$version/gql-x86-windows.exe#/gitql.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/AmrDeveloper/GQL/releases/download/$version/gql-x86-windows.exe#/gitql.exe"
             }
         },
         "hash": {

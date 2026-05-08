@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/angr/angr-management/releases/download/v$version/angr-management-v$version-win64-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/angr/angr-management/releases/download/v$version/angr-management-v$version-win64-x86_64.zip"
             }
         }
     }

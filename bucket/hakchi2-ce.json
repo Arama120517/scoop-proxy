@@ -21,6 +21,6 @@
         "github": "https://github.com/TeamShinkansen/Hakchi2-CE"
     },
     "autoupdate": {
-        "url": "https://github.com/TeamShinkansen/Hakchi2-CE/releases/download/v$version/hakchi2-ce-$version-portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/TeamShinkansen/Hakchi2-CE/releases/download/v$version/hakchi2-ce-$version-portable.zip"
     }
 }

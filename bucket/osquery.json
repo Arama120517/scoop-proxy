@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/osquery/osquery/releases/download/$version/osquery-$version.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/osquery/osquery/releases/download/$version/osquery-$version.msi"
             }
         }
     },

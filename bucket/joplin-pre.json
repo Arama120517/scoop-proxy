@@ -26,7 +26,7 @@
         "regex": "/laurent22/joplin/releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/laurent22/joplin/releases/download/v$version/Joplin-Setup-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/laurent22/joplin/releases/download/v$version/Joplin-Setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

@@ -57,10 +57,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe#/swiftsetup.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe#/swiftsetup.exe"
             },
             "arm64": {
-                "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe#/swiftsetup.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe#/swiftsetup.exe"
             }
         }
     }

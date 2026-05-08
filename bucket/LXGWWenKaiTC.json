@@ -96,9 +96,9 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Light.ttf",
-            "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Regular.ttf",
-            "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Medium.ttf"
+            "https://v6.gh-proxy.org/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Light.ttf",
+            "https://v6.gh-proxy.org/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Regular.ttf",
+            "https://v6.gh-proxy.org/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Medium.ttf"
         ]
     }
 }

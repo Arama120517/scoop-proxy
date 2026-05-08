@@ -32,9 +32,9 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/regclient/regclient/releases/download/v$version/regctl-windows-amd64.exe#/regctl.exe",
-                    "https://github.com/regclient/regclient/releases/download/v$version/regbot-windows-amd64.exe#/regbot.exe",
-                    "https://github.com/regclient/regclient/releases/download/v$version/regsync-windows-amd64.exe#/regsync.exe"
+                    "https://v6.gh-proxy.org/https://github.com/regclient/regclient/releases/download/v$version/regctl-windows-amd64.exe#/regctl.exe",
+                    "https://v6.gh-proxy.org/https://github.com/regclient/regclient/releases/download/v$version/regbot-windows-amd64.exe#/regbot.exe",
+                    "https://v6.gh-proxy.org/https://github.com/regclient/regclient/releases/download/v$version/regsync-windows-amd64.exe#/regsync.exe"
                 ]
             }
         }

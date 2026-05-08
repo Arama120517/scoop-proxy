@@ -53,13 +53,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_HD_i18n_x64_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_HD_i18n_x64_v$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_HD_i18n_ARM64_v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_HD_i18n_ARM64_v$version.zip"
             }
         }
     }

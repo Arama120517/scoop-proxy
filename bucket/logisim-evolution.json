@@ -29,8 +29,8 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://github.com/logisim-evolution/logisim-evolution/releases/download/v$version/logisim-evolution-$version-all.jar#/logisim-evolution.jar",
-            "https://raw.githubusercontent.com/logisim-evolution/logisim-evolution/v$version/support/jpackage/windows/Logisim-evolution.ico#/logisim-evolution.ico"
+            "https://v6.gh-proxy.org/https://github.com/logisim-evolution/logisim-evolution/releases/download/v$version/logisim-evolution-$version-all.jar#/logisim-evolution.jar",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/logisim-evolution/logisim-evolution/v$version/support/jpackage/windows/Logisim-evolution.ico#/logisim-evolution.ico"
         ]
     }
 }

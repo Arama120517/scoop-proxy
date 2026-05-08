@@ -18,7 +18,7 @@
         "regex": "cli-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/mobile-dev-inc/Maestro/releases/download/cli-$version/maestro.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/mobile-dev-inc/Maestro/releases/download/cli-$version/maestro.zip",
         "hash": {
             "url": "$baseurl/checksums_sha256.txt"
         }

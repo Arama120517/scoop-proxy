@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/scidavis/SciDAVis/$majorVersion/$version/scidavis.$version-win-dist.msi"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/scidavis/SciDAVis/$majorVersion/$version/scidavis.$version-win-dist.msi"
             }
         }
     }

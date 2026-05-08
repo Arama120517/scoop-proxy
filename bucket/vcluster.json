@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/loft-sh/vcluster/releases/download/v$version/vcluster-windows-amd64.exe#/vcluster.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/loft-sh/vcluster/releases/download/v$version/vcluster-windows-amd64.exe#/vcluster.exe"
             }
         },
         "hash": {

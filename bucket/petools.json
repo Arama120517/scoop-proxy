@@ -18,6 +18,6 @@
         "regex": "PE.Tools.v([\\d.]+)\\.7z"
     },
     "autoupdate": {
-        "url": "https://github.com/petoolse/petools/releases/download/v$matchHead/PE.Tools.v$version.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/petoolse/petools/releases/download/v$matchHead/PE.Tools.v$version.7z"
     }
 }

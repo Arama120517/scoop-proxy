@@ -47,19 +47,19 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-64.zip",
+                    "https://v6.gh-proxy.org/https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-64.zip",
                     "https://github.com/sigoden/window-switcher/raw/v$version/window-switcher.ini"
                 ]
             },
             "32bit": {
                 "url": [
-                    "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-32.zip",
+                    "https://v6.gh-proxy.org/https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-32.zip",
                     "https://github.com/sigoden/window-switcher/raw/v$version/window-switcher.ini"
                 ]
             },
             "arm64": {
                 "url": [
-                    "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-arm64.zip",
+                    "https://v6.gh-proxy.org/https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-arm64.zip",
                     "https://github.com/sigoden/window-switcher/raw/v$version/window-switcher.ini"
                 ]
             }

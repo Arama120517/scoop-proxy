@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "arm64": {
-                "url": "https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version-arm64.zip"
             },
             "64bit": {
-                "url": "https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version-x64.zip"
             }
         }
     }

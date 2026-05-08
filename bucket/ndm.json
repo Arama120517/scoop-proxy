@@ -17,6 +17,6 @@
         "github": "https://github.com/720kb/ndm"
     },
     "autoupdate": {
-        "url": "https://github.com/720kb/ndm/releases/download/v$version/ndm-$version-ia32-win.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/720kb/ndm/releases/download/v$version/ndm-$version-ia32-win.zip"
     }
 }

@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dropbox/dbxcli/releases/download/v$version/dbxcli-windows-amd64.exe#/dbxcli.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/dropbox/dbxcli/releases/download/v$version/dbxcli-windows-amd64.exe#/dbxcli.exe"
             }
         }
     }

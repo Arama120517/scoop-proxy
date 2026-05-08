@@ -15,16 +15,16 @@
     },
     "bin": "RunAsTI.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI.au3",
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI.au3",
         "regex": "#AutoIt3Wrapper_Res_Fileversion=([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI64.exe#/RunAsTI.exe"
+                "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI64.exe#/RunAsTI.exe"
             },
             "32bit": {
-                "url": "https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI32.exe#/RunAsTI.exe"
+                "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/jschicht/RunAsTI/master/RunAsTI32.exe#/RunAsTI.exe"
             }
         }
     }

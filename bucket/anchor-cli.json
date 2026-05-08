@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/solana-foundation/anchor/releases/download/v$version/anchor-$version-x86_64-pc-windows-msvc.exe#/anchor.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/solana-foundation/anchor/releases/download/v$version/anchor-$version-x86_64-pc-windows-msvc.exe#/anchor.exe"
             }
         }
     }

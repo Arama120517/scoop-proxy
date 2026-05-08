@@ -15,7 +15,7 @@
     "checkver": {
         "url": "https://nimbletext.com/Version",
         "regex": "([\\d.]+),\\d+",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://nimbletext.com/Download/NimbleText.exe"

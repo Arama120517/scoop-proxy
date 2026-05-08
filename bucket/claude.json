@@ -26,7 +26,7 @@
     "checkver": {
         "url": "https://downloads.claude.ai/releases/win32/x64/RELEASES",
         "regex": "([\\d.]+)-full",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

@@ -8,6 +8,6 @@
     "bin": "fwup.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/fwup-home/fwup/releases/download/v$version/fwup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/fwup-home/fwup/releases/download/v$version/fwup.exe"
     }
 }

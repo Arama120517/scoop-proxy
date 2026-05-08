@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aardappel/lobster/releases/download/v$version/lobster_windows_release.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/aardappel/lobster/releases/download/v$version/lobster_windows_release.zip"
             }
         }
     }

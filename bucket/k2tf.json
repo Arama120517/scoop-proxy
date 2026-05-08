@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sl1pm4t/k2tf/releases/download/v$version/k2tf_$version_Windows_amd64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/sl1pm4t/k2tf/releases/download/v$version/k2tf_$version_Windows_amd64.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/sl1pm4t/k2tf/releases/download/v$version/k2tf_$version_Windows_arm64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/sl1pm4t/k2tf/releases/download/v$version/k2tf_$version_Windows_arm64.tar.gz"
             }
         },
         "hash": {

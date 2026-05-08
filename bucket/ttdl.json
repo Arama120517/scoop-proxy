@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/VladimirMarkelov/ttdl/releases/download/v$version/ttdl_$version_win_x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/VladimirMarkelov/ttdl/releases/download/v$version/ttdl_$version_win_x64.zip"
             }
         }
     }

@@ -27,11 +27,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/alexanderepstein/Sandman/releases/download/v$version/Sandman.Version.$version.64.Bit.Windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/alexanderepstein/Sandman/releases/download/v$version/Sandman.Version.$version.64.Bit.Windows.zip",
                 "extract_dir": "Sandman-win32-x64"
             },
             "32bit": {
-                "url": "https://github.com/alexanderepstein/Sandman/releases/download/v$version/Sandman.Version.$version.32.Bit.Windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/alexanderepstein/Sandman/releases/download/v$version/Sandman.Version.$version.32.Bit.Windows.zip",
                 "extract_dir": "Sandman-win32-ia32"
             }
         }

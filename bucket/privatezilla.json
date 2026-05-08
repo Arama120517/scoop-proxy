@@ -23,8 +23,8 @@
     },
     "autoupdate": {
         "url": [
-            "https://github.com/builtbybel/privatezilla/releases/download/$version/privatezilla.zip",
-            "https://raw.githubusercontent.com/builtbybel/privatezilla/$version/scripts/packages.zip"
+            "https://v6.gh-proxy.org/https://github.com/builtbybel/privatezilla/releases/download/$version/privatezilla.zip",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/builtbybel/privatezilla/$version/scripts/packages.zip"
         ]
     }
 }

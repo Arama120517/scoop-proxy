@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/gpxsee/Windows/GPXSee-$version_x64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/gpxsee/Windows/GPXSee-$version_x64.exe#/dl.7z"
             }
         }
     }

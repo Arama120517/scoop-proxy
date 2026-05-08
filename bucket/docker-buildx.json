@@ -37,14 +37,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-amd64.exe#/docker-buildx.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-amd64.exe#/docker-buildx.exe"
             },
             "arm64": {
-                "url": "https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-arm64.exe#/docker-buildx.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-arm64.exe#/docker-buildx.exe"
             }
         },
         "hash": {
-            "url": "https://github.com/docker/buildx/releases/download/v$version/checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/docker/buildx/releases/download/v$version/checksums.txt"
         }
     }
 }

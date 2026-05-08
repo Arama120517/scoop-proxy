@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GermanCoding/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GermanCoding/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/GermanCoding/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GermanCoding/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-arm64.zip"
             }
         },
         "hash": {

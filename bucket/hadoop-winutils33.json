@@ -48,26 +48,26 @@
     "checkver": {
         "github": "https://api.github.com/repos/cdarlint/winutils/contents/",
         "jsonpath": "$..name",
-        "reverse": null,
+        "reverse": true,
         "regex": "hadoop-(3.3\\.\\d+)"
     },
     "autoupdate": {
         "url": [
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.cmd",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.dll",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.exp",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.lib",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.pdb",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hdfs",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hdfs.cmd",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/libwinutils.lib",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/mapred",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/mapred.cmd",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/winutils.exe",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/winutils.pdb",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/yarn",
-            "https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/yarn.cmd"
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.cmd",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.dll",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.exp",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.lib",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.pdb",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hdfs",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hdfs.cmd",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/libwinutils.lib",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/mapred",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/mapred.cmd",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/winutils.exe",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/winutils.pdb",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/yarn",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/yarn.cmd"
         ]
     }
 }

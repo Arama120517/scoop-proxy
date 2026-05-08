@@ -15,7 +15,7 @@
     ],
     "checkver": "([\\w.]+)\\s+\\|",
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/emule/eMule/$version/eMule$version.zip",
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/emule/eMule/$version/eMule$version.zip",
         "extract_dir": "eMule$version"
     }
 }

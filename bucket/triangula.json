@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/RH12503/triangula/releases/download/v$version/triangula-windows-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/RH12503/triangula/releases/download/v$version/triangula-windows-$version.zip"
     }
 }

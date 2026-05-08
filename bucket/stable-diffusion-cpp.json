@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-$matchBuild-$matchCommit/sd-master-$matchCommit-bin-win-avx2-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/leejet/stable-diffusion.cpp/releases/download/master-$matchBuild-$matchCommit/sd-master-$matchCommit-bin-win-avx2-x64.zip"
             }
         }
     }

@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gptscript-ai/gptscript/releases/download/v$version/gptscript-v$version-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/gptscript-ai/gptscript/releases/download/v$version/gptscript-v$version-windows-amd64.zip"
             }
         },
         "hash": {

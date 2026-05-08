@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/yatli/fvim/releases/download/$matchUrlx64"
+                "url": "https://v6.gh-proxy.org/https://github.com/yatli/fvim/releases/download/$matchUrlx64"
             },
             "arm64": {
-                "url": "https://github.com/yatli/fvim/releases/download/$matchUrlarm64"
+                "url": "https://v6.gh-proxy.org/https://github.com/yatli/fvim/releases/download/$matchUrlarm64"
             }
         }
     }

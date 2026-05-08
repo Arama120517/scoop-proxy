@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lukeyou05/tacky-borders/releases/download/v$version/tacky-borders-v$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/lukeyou05/tacky-borders/releases/download/v$version/tacky-borders-v$version.zip",
                 "hash": {
                     "url": "$baseurl/sha256sums.txt"
                 }

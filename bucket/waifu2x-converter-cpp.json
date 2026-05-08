@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DeadSix27/waifu2x-converter-cpp/releases/download/v$version/waifu2x-converter-cpp-win64_v$cleanVersion.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/DeadSix27/waifu2x-converter-cpp/releases/download/v$version/waifu2x-converter-cpp-win64_v$cleanVersion.zip",
                 "extract_dir": "waifu2x-converter-cpp-win64_v$cleanVersion"
             }
         }

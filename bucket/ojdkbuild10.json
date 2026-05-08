@@ -26,11 +26,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ojdkbuild/ojdkbuild/releases/download/$matchShort/java-$majorVersion-openjdk-$version.ojdkbuild.windows.x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/ojdkbuild/ojdkbuild/releases/download/$matchShort/java-$majorVersion-openjdk-$version.ojdkbuild.windows.x86_64.zip",
                 "extract_dir": "java-$majorVersion-openjdk-$version.ojdkbuild.windows.x86_64"
             },
             "32bit": {
-                "url": "https://github.com/ojdkbuild/ojdkbuild/releases/download/$matchShort/java-$majorVersion-openjdk-$version.ojdkbuild.windows.x86.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/ojdkbuild/ojdkbuild/releases/download/$matchShort/java-$majorVersion-openjdk-$version.ojdkbuild.windows.x86.zip",
                 "extract_dir": "java-$majorVersion-openjdk-$version.ojdkbuild.windows.x86"
             }
         },

@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/slic3r/Slic3r/releases/download/$version/Slic3r-$version.64bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/slic3r/Slic3r/releases/download/$version/Slic3r-$version.64bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/slic3r/Slic3r/releases/download/$version/Slic3r-$version.32bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/slic3r/Slic3r/releases/download/$version/Slic3r-$version.32bit.zip"
             }
         }
     }

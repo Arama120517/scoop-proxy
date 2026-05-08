@@ -8,6 +8,6 @@
     "bin": "wttop.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jchomarat/wttop/releases/download/$version/wttop.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/jchomarat/wttop/releases/download/$version/wttop.exe"
     }
 }

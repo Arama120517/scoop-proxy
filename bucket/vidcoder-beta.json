@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RandomEngy/VidCoder/releases/download/v$version/VidCoder-$version-Portable.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/RandomEngy/VidCoder/releases/download/v$version/VidCoder-$version-Portable.exe#/dl.7z"
             }
         }
     }

@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/xiaoxinpro/ChineseSubtitleConversionTool/releases/download/V$version/ChineseSubtitleConversionTool.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/xiaoxinpro/ChineseSubtitleConversionTool/releases/download/V$version/ChineseSubtitleConversionTool.zip"
     }
 }

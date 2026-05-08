@@ -21,7 +21,7 @@
         "github": "https://github.com/gpodder/gpodder"
     },
     "autoupdate": {
-        "url": "https://github.com/gpodder/gpodder/releases/download/$version/windows-gpodder-$version-portable.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/gpodder/gpodder/releases/download/$version/windows-gpodder-$version-portable.exe#/dl.7z",
         "hash": {
             "url": "https://github.com/gpodder/gpodder/releases/tag/$version",
             "regex": "$basename.*?sha256:<i>$sha256</i>"

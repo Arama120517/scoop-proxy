@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deepstreamIO/deepstream.io/releases/download/v$version/deepstream.io-windows-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/deepstreamIO/deepstream.io/releases/download/v$version/deepstream.io-windows-$version.zip"
             }
         }
     }

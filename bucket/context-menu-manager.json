@@ -37,8 +37,8 @@
     },
     "autoupdate": {
         "url": [
-            "https://github.com/BluePointLilac/ContextMenuManager/releases/download/$version/ContextMenuManager.NET.4.0.exe#/context-menu-manager.exe",
-            "https://raw.githubusercontent.com/BluePointLilac/ContextMenuManager/$version/languages/en-US.ini"
+            "https://v6.gh-proxy.org/https://github.com/BluePointLilac/ContextMenuManager/releases/download/$version/ContextMenuManager.NET.4.0.exe#/context-menu-manager.exe",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/BluePointLilac/ContextMenuManager/$version/languages/en-US.ini"
         ]
     }
 }

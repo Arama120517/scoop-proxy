@@ -8,6 +8,6 @@
     "bin": "gitui.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/extrawurst/gitui/releases/download/v$version/gitui-win.tar.gz"
+        "url": "https://v6.gh-proxy.org/https://github.com/extrawurst/gitui/releases/download/v$version/gitui-win.tar.gz"
     }
 }

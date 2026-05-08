@@ -10,6 +10,6 @@
         "regex": "/tag/v([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/EpicGamesExt/raddebugger/releases/download/v$version/raddbg.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/EpicGamesExt/raddebugger/releases/download/v$version/raddbg.zip"
     }
 }

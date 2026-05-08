@@ -12,6 +12,6 @@
     "bin": "dotnet-script.cmd",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/filipw/dotnet-script/releases/download/$version/dotnet-script.$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/filipw/dotnet-script/releases/download/$version/dotnet-script.$version.zip"
     }
 }

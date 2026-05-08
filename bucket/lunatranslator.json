@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x64_win10.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x64_win10.zip"
             },
             "32bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x86_win7.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x86_win7.zip"
             }
         }
     }

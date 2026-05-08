@@ -12,6 +12,6 @@
     "bin": "diff-so-fancy.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/so-fancy/diff-so-fancy/releases/download/v$version/diff-so-fancy"
+        "url": "https://v6.gh-proxy.org/https://github.com/so-fancy/diff-so-fancy/releases/download/v$version/diff-so-fancy"
     }
 }

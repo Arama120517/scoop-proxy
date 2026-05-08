@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/synfig/synfig/releases/download/v$version/SynfigStudio-$version-$matchDate-win64-$matchSha.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/synfig/synfig/releases/download/v$version/SynfigStudio-$version-$matchDate-win64-$matchSha.zip"
             },
             "32bit": {
-                "url": "https://github.com/synfig/synfig/releases/download/v$version/SynfigStudio-$version-$matchDate-win32-$matchSha.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/synfig/synfig/releases/download/v$version/SynfigStudio-$version-$matchDate-win32-$matchSha.zip"
             }
         },
         "hash": {

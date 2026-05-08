@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/otya128/winevdm/releases/download/v$version/otvdm-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/otya128/winevdm/releases/download/v$version/otvdm-v$version.zip"
             }
         },
         "extract_dir": "otvdm-v$version"

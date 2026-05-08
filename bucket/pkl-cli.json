@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/apple/pkl/releases/download/$version/pkl-windows-amd64.exe#/pkl.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/apple/pkl/releases/download/$version/pkl-windows-amd64.exe#/pkl.exe"
             }
         }
     }

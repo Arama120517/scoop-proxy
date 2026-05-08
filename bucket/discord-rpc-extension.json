@@ -29,8 +29,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/lolamtisch/Discord-RPC-Extension/releases/download/$version/windows_64bit.zip",
-                    "https://raw.githubusercontent.com/lolamtisch/Discord-RPC-Extension/$version/WindowInstaller/logo.ico"
+                    "https://v6.gh-proxy.org/https://github.com/lolamtisch/Discord-RPC-Extension/releases/download/$version/windows_64bit.zip",
+                    "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lolamtisch/Discord-RPC-Extension/$version/WindowInstaller/logo.ico"
                 ]
             }
         }

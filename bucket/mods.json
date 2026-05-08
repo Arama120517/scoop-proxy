@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/charmbracelet/mods/releases/download/v$version/mods_$version_Windows_x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/charmbracelet/mods/releases/download/v$version/mods_$version_Windows_x86_64.zip",
                 "extract_dir": "mods_$version_Windows_x86_64"
             },
             "arm64": {
-                "url": "https://github.com/charmbracelet/mods/releases/download/v$version/mods_$version_Windows_arm64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/charmbracelet/mods/releases/download/v$version/mods_$version_Windows_arm64.zip",
                 "extract_dir": "mods_$version_Windows_arm64"
             }
         },

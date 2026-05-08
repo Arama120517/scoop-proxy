@@ -37,14 +37,14 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfsctl.exe",
-                    "https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfs.exe"
+                    "https://v6.gh-proxy.org/https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfsctl.exe",
+                    "https://v6.gh-proxy.org/https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfs.exe"
                 ]
             },
             "32bit": {
                 "url": [
-                    "https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfsctl32.exe#/cppcryptfsctl.exe",
-                    "https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfs32.exe#/cppcryptfs.exe"
+                    "https://v6.gh-proxy.org/https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfsctl32.exe#/cppcryptfsctl.exe",
+                    "https://v6.gh-proxy.org/https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfs32.exe#/cppcryptfs.exe"
                 ]
             }
         }

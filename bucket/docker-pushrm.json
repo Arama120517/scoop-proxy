@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/christian-korneck/docker-pushrm/releases/download/v$version/docker-pushrm_windows_amd64.exe#/docker-pushrm.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/christian-korneck/docker-pushrm/releases/download/v$version/docker-pushrm_windows_amd64.exe#/docker-pushrm.exe"
             },
             "32bit": {
-                "url": "https://github.com/christian-korneck/docker-pushrm/releases/download/v$version/docker-pushrm_windows_386.exe#/docker-pushrm.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/christian-korneck/docker-pushrm/releases/download/v$version/docker-pushrm_windows_386.exe#/docker-pushrm.exe"
             }
         }
     }

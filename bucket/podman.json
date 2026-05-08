@@ -80,10 +80,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/containers/podman/releases/download/v$version/podman-installer-windows-amd64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/containers/podman/releases/download/v$version/podman-installer-windows-amd64.exe"
             },
             "arm64": {
-                "url": "https://github.com/containers/podman/releases/download/v$version/podman-installer-windows-arm64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/containers/podman/releases/download/v$version/podman-installer-windows-arm64.exe"
             }
         },
         "hash": {

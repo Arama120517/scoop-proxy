@@ -9,6 +9,6 @@
     "persist": "SilentCMD.exe.config",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/stbrenner/SilentCMD/releases/download/v$version/SilentCMD-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/stbrenner/SilentCMD/releases/download/v$version/SilentCMD-$version.zip"
     }
 }

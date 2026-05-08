@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/$matchManagerversion/selenium-manager-windows.exe#/selenium-manager.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/$matchManagerversion/selenium-manager-windows.exe#/selenium-manager.exe"
             }
         }
     }

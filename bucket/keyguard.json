@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AChep/keyguard-app/releases/download/r$preReleaseVersion/Keyguard-$matchHead.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/AChep/keyguard-app/releases/download/r$preReleaseVersion/Keyguard-$matchHead.msi"
             }
         }
     }

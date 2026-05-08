@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dogecoin/dogecoin/releases/download/v$version/dogecoin-$version-win64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dogecoin/dogecoin/releases/download/v$version/dogecoin-$version-win64.zip"
             },
             "32bit": {
-                "url": "https://github.com/dogecoin/dogecoin/releases/download/v$version/dogecoin-$version-win32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dogecoin/dogecoin/releases/download/v$version/dogecoin-$version-win32.zip"
             }
         },
         "extract_dir": "dogecoin-$version"

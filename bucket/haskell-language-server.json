@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/haskell/haskell-language-server/releases/download/$version/haskell-language-server-$version-x86_64-mingw64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/haskell/haskell-language-server/releases/download/$version/haskell-language-server-$version-x86_64-mingw64.zip"
             }
         },
         "hash": {

@@ -12,7 +12,7 @@
     "extract_dir": "weasel-pageant-1.4",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/vuori/weasel-pageant/releases/download/v$version/weasel-pageant-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/vuori/weasel-pageant/releases/download/v$version/weasel-pageant-$version.zip",
         "extract_dir": "weasel-pageant-$version"
     }
 }

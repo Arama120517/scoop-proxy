@@ -25,6 +25,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/absalomedia/vagrant-manager/releases/download/$version/vagrant-manager.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/absalomedia/vagrant-manager/releases/download/$version/vagrant-manager.exe#/dl.7z"
     }
 }

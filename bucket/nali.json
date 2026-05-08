@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zu1k/nali/releases/download/v$version/nali-windows-amd64-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/zu1k/nali/releases/download/v$version/nali-windows-amd64-v$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/zu1k/nali/releases/download/v$version/nali-windows-386-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/zu1k/nali/releases/download/v$version/nali-windows-386-v$version.zip"
             }
         }
     }

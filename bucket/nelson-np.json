@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nelson-lang/nelson/releases/download/$matchTag/Nelson-$version-x86-64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/nelson-lang/nelson/releases/download/$matchTag/Nelson-$version-x86-64.exe"
             },
             "arm64": {
-                "url": "https://github.com/nelson-lang/nelson/releases/download/$matchTag/Nelson-$version-ARM64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/nelson-lang/nelson/releases/download/$matchTag/Nelson-$version-ARM64.exe"
             }
         }
     }

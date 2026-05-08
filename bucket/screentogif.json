@@ -44,13 +44,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x86.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x86.zip"
             },
             "arm64": {
-                "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.Arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.Arm64.zip"
             }
         }
     }

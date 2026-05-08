@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/JetBrains/kotlin/releases/download/v$matchHead/kotlin-native-prebuilt-windows-x86_64-$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/JetBrains/kotlin/releases/download/v$matchHead/kotlin-native-prebuilt-windows-x86_64-$version.zip",
                 "extract_dir": "kotlin-native-prebuilt-windows-x86_64-$version"
             }
         },

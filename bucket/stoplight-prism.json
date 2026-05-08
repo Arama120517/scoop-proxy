@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stoplightio/prism/releases/download/v$version/prism-cli-win.exe#/prism-cli.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/stoplightio/prism/releases/download/v$version/prism-cli-win.exe#/prism-cli.exe"
             }
         }
     }

@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/muesli/gitomatic/releases/download/v$version/gitomatic_$version_Windows_x86_64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/muesli/gitomatic/releases/download/v$version/gitomatic_$version_Windows_x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/muesli/gitomatic/releases/download/v$version/gitomatic_$version_Windows_i386.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/muesli/gitomatic/releases/download/v$version/gitomatic_$version_Windows_i386.tar.gz"
             }
         },
         "hash": {

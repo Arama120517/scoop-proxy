@@ -23,7 +23,7 @@
     "checkver": {
         "url": "https://downloads.apache.org/tinkerpop/",
         "regex": "href=\"([\\d.]+)/",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://downloads.apache.org/tinkerpop/$version/apache-tinkerpop-gremlin-server-$version-bin.zip",

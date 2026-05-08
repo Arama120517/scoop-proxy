@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gildas-lormeau/single-file-cli/releases/download/v$version/single-file.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/gildas-lormeau/single-file-cli/releases/download/v$version/single-file.exe"
             }
         }
     }

@@ -29,6 +29,6 @@
         "regex": "tag/opentrack-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/opentrack/opentrack/releases/download/opentrack-$version/opentrack-$version-win32-portable.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/opentrack/opentrack/releases/download/opentrack-$version/opentrack-$version-win32-portable.7z"
     }
 }

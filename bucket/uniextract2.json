@@ -34,6 +34,6 @@
         "regex": "download/v([\\w.-]+)/(?<filename>\\w+\\.zip)"
     },
     "autoupdate": {
-        "url": "https://github.com/Bioruebe/UniExtract2/releases/download/v$version/$matchFilename"
+        "url": "https://v6.gh-proxy.org/https://github.com/Bioruebe/UniExtract2/releases/download/v$version/$matchFilename"
     }
 }

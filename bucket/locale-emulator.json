@@ -33,6 +33,6 @@
         "github": "https://github.com/xupefei/Locale-Emulator"
     },
     "autoupdate": {
-        "url": "https://github.com/xupefei/Locale-Emulator/releases/download/v$version/Locale.Emulator.$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/xupefei/Locale-Emulator/releases/download/v$version/Locale.Emulator.$version.zip"
     }
 }

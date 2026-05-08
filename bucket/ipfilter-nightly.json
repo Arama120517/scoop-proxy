@@ -14,6 +14,6 @@
         "regex": "\\A(\\d+)\\Z"
     },
     "autoupdate": {
-        "url": "https://github.com/DavidMoore/ipfilter/releases/download/lists/ipfilter.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/DavidMoore/ipfilter/releases/download/lists/ipfilter.zip"
     }
 }

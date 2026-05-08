@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v$matchTag/BCUninstaller_$version_portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v$matchTag/BCUninstaller_$version_portable.zip"
             }
         },
         "hash": {

@@ -22,6 +22,6 @@
         "github": "https://github.com/microsoft/XmlNotepad"
     },
     "autoupdate": {
-        "url": "https://github.com/microsoft/XmlNotepad/releases/download/$version/XmlNotepadPackage_$version_AnyCPU.msixbundle#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/microsoft/XmlNotepad/releases/download/$version/XmlNotepadPackage_$version_AnyCPU.msixbundle#/dl.7z"
     }
 }

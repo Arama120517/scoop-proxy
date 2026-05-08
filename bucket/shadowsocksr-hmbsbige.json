@@ -38,7 +38,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z",
         "hash": {
             "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases",
             "regex": "(?sm)$basename.*?$sha256"

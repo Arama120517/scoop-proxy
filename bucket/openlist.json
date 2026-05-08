@@ -34,13 +34,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OpenListTeam/OpenList/releases/download/v$version/openlist-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/OpenListTeam/OpenList/releases/download/v$version/openlist-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/OpenListTeam/OpenList/releases/download/v$version/openlist-windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/OpenListTeam/OpenList/releases/download/v$version/openlist-windows-386.zip"
             },
             "arm64": {
-                "url": "https://github.com/OpenListTeam/OpenList/releases/download/v$version/openlist-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/OpenListTeam/OpenList/releases/download/v$version/openlist-windows-arm64.zip"
             }
         },
         "hash": {

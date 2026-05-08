@@ -33,7 +33,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/oleksis/youtube-dl-gui/releases/download/v$version/yt-dlg-$matchRelease.msi#/dl.ism",
+                "url": "https://v6.gh-proxy.org/https://github.com/oleksis/youtube-dl-gui/releases/download/v$version/yt-dlg-$matchRelease.msi#/dl.ism",
                 "hash": {
                     "url": "$baseurl/SHA2-256SUMS"
                 }

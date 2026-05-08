@@ -38,7 +38,7 @@
         "regex": "simplewall-([\\d.]+)-bin\\.(7z|zip)"
     },
     "autoupdate": {
-        "url": "https://github.com/henrypp/simplewall/releases/download/v.$version/simplewall-$version-bin.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/henrypp/simplewall/releases/download/v.$version/simplewall-$version-bin.7z",
         "hash": {
             "url": "$baseurl/simplewall-$version.sha256"
         }

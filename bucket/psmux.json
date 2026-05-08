@@ -28,13 +28,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/psmux/psmux/releases/download/v$version/psmux-v$version-windows-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/psmux/psmux/releases/download/v$version/psmux-v$version-windows-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/psmux/psmux/releases/download/v$version/psmux-v$version-windows-x86.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/psmux/psmux/releases/download/v$version/psmux-v$version-windows-x86.zip"
             },
             "arm64": {
-                "url": "https://github.com/psmux/psmux/releases/download/v$version/psmux-v$version-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/psmux/psmux/releases/download/v$version/psmux-v$version-windows-arm64.zip"
             }
         }
     }

@@ -31,7 +31,7 @@
         "regex": "tag/v([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/stoplightio/studio/releases/download/v$version/stoplight-studio-win.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/stoplightio/studio/releases/download/v$version/stoplight-studio-win.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

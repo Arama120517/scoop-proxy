@@ -20,6 +20,6 @@
         "github": "https://github.com/Syncplay/syncplay"
     },
     "autoupdate": {
-        "url": "https://github.com/Syncplay/syncplay/releases/download/v$version/Syncplay_$version_Portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Syncplay/syncplay/releases/download/v$version/Syncplay_$version_Portable.zip"
     }
 }

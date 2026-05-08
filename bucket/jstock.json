@@ -25,6 +25,6 @@
         "replace": "${1}.${2}.${3}.${4}"
     },
     "autoupdate": {
-        "url": "https://github.com/yccheok/jstock/releases/download/release_$dashVersion/jstock-$version-bin.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/yccheok/jstock/releases/download/release_$dashVersion/jstock-$version-bin.zip"
     }
 }

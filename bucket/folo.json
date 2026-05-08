@@ -38,7 +38,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RSSNext/Folo/releases/download/desktop%2Fv$version/Folo-$version-windows-x64.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/RSSNext/Folo/releases/download/desktop%2Fv$version/Folo-$version-windows-x64.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "(?sm)x64.exe.*?sha512:\\s+$base64"

@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/redis-windows/redis-windows/releases/download/$version/Redis-$matchHead-Windows-x64-msys2.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/redis-windows/redis-windows/releases/download/$version/Redis-$matchHead-Windows-x64-msys2.zip",
                 "extract_dir": "Redis-$matchHead-Windows-x64-msys2"
             }
         }

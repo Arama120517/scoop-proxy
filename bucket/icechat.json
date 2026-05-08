@@ -21,6 +21,6 @@
         "regex": "tag/([\\d.]+)(?=F)"
     },
     "autoupdate": {
-        "url": "https://github.com/icechat/IceChat/releases/download/$versionF/icechat-setup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/icechat/IceChat/releases/download/$versionF/icechat-setup.exe"
     }
 }

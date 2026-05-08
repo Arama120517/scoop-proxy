@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Governikus/AusweisApp/releases/download/$version/AusweisApp-$version.msi",
+                "url": "https://v6.gh-proxy.org/https://github.com/Governikus/AusweisApp/releases/download/$version/AusweisApp-$version.msi",
                 "hash": {
                     "url": "$url.sha256"
                 }

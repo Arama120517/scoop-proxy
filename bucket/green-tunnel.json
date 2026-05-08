@@ -29,6 +29,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/SadeghHayeri/GreenTunnel/releases/download/v$version/green-tunnel-windows.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/SadeghHayeri/GreenTunnel/releases/download/v$version/green-tunnel-windows.zip"
     }
 }

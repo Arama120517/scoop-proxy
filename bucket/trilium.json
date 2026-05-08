@@ -34,10 +34,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TriliumNext/Trilium/releases/download/v$version/TriliumNotes-v$version-windows-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TriliumNext/Trilium/releases/download/v$version/TriliumNotes-v$version-windows-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/TriliumNext/Trilium/releases/download/v$version/TriliumNotes-v$version-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TriliumNext/Trilium/releases/download/v$version/TriliumNotes-v$version-windows-arm64.zip"
             }
         }
     }

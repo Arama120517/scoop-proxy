@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GDQuest/GDScript-formatter/releases/download/$version/gdscript-formatter-$version-windows-x86_64.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GDQuest/GDScript-formatter/releases/download/$version/gdscript-formatter-$version-windows-x86_64.exe.zip"
             },
             "arm64": {
-                "url": "https://github.com/GDQuest/GDScript-formatter/releases/download/$version/gdscript-formatter-$version-windows-aarch64.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GDQuest/GDScript-formatter/releases/download/$version/gdscript-formatter-$version-windows-aarch64.exe.zip"
             }
         }
     }

@@ -19,7 +19,7 @@
     "checkver": {
         "url": "https://streamlabs.com/api/v5/changelog",
         "regex": "Streamlabs Chatbot - Version ([\\d.]+)",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://cdn.streamlabs.com/chatbot/Streamlabs+Chatbot+Installer.exe?v=$version"

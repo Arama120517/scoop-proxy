@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LANDrop/LANDrop/releases/download/v$version/LANDrop-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/LANDrop/LANDrop/releases/download/v$version/LANDrop-$version-win.zip"
             }
         }
     }

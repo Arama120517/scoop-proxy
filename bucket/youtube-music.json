@@ -30,6 +30,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/pear-devs/pear-desktop/releases/download/v$version/YouTube-Music-$version.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/pear-devs/pear-desktop/releases/download/v$version/YouTube-Music-$version.exe#/dl.7z"
     }
 }

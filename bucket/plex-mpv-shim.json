@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/iwalton3/plex-mpv-shim/releases/download/v$version/plex-mpv-shim_$version_installer.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/iwalton3/plex-mpv-shim/releases/download/v$version/plex-mpv-shim_$version_installer.exe"
             }
         }
     }

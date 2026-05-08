@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/danmar/cppcheck/releases/download/$version/cppcheck-$version-x64-Setup.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/danmar/cppcheck/releases/download/$version/cppcheck-$version-x64-Setup.msi"
             }
         }
     }

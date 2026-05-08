@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cloudflare/cloudflared/releases/download/$version/cloudflared-windows-amd64.exe#/cloudflared.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/cloudflare/cloudflared/releases/download/$version/cloudflared-windows-amd64.exe#/cloudflared.exe"
             },
             "32bit": {
-                "url": "https://github.com/cloudflare/cloudflared/releases/download/$version/cloudflared-windows-386.exe#/cloudflared.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/cloudflare/cloudflared/releases/download/$version/cloudflared-windows-386.exe#/cloudflared.exe"
             }
         }
     }

@@ -16,6 +16,6 @@
         "github": "https://github.com/vial-kb/vial-gui"
     },
     "autoupdate": {
-        "url": "https://github.com/vial-kb/vial-gui/releases/download/v$version/Vial-v$version-portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/vial-kb/vial-gui/releases/download/v$version/Vial-v$version-portable.zip"
     }
 }

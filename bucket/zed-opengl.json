@@ -22,7 +22,7 @@
         "regex": "v(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
-        "url": "https://github.com/deevus/zed-windows-builds/releases/download/v$version/zed-opengl.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/deevus/zed-windows-builds/releases/download/v$version/zed-opengl.zip",
         "hash": {
             "url": "$baseurl/sha256sums.txt"
         }

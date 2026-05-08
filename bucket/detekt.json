@@ -23,7 +23,7 @@
         "regex": "detekt-cli-(?<version>[\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/detekt/detekt/releases/download/v$version/detekt-cli-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/detekt/detekt/releases/download/v$version/detekt-cli-$version.zip",
         "extract_dir": "detekt-cli-$version"
     }
 }

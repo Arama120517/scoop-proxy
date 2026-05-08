@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TCNOco/TcNo-Acc-Switcher/releases/download/$version/$matchName"
+                "url": "https://v6.gh-proxy.org/https://github.com/TCNOco/TcNo-Acc-Switcher/releases/download/$version/$matchName"
             }
         }
     }

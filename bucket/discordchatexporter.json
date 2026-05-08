@@ -33,13 +33,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/$version/DiscordChatExporter.win-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Tyrrrz/DiscordChatExporter/releases/download/$version/DiscordChatExporter.win-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/$version/DiscordChatExporter.win-x86.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Tyrrrz/DiscordChatExporter/releases/download/$version/DiscordChatExporter.win-x86.zip"
             },
             "arm64": {
-                "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/$version/DiscordChatExporter.win-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Tyrrrz/DiscordChatExporter/releases/download/$version/DiscordChatExporter.win-arm64.zip"
             }
         }
     }

@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/espeak-ng/espeak-ng/releases/download/$version/espeak-ng.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/espeak-ng/espeak-ng/releases/download/$version/espeak-ng.msi"
             }
         }
     }

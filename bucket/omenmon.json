@@ -15,6 +15,6 @@
     "persist": "OmenMon.xml",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/OmenMon/OmenMon/releases/download/$version/OmenMon-$version-Release.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/OmenMon/OmenMon/releases/download/$version/OmenMon-$version-Release.zip"
     }
 }

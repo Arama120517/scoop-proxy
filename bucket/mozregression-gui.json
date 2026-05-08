@@ -16,6 +16,6 @@
         "github": "https://github.com/mozilla/mozregression"
     },
     "autoupdate": {
-        "url": "https://github.com/mozilla/mozregression/releases/download/$version/mozregression-gui-signed.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/mozilla/mozregression/releases/download/$version/mozregression-gui-signed.exe#/dl.7z"
     }
 }

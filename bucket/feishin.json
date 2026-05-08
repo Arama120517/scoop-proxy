@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jeffvli/feishin/releases/download/v$version/Feishin-$version-win-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jeffvli/feishin/releases/download/v$version/Feishin-$version-win-x64.zip"
             }
         }
     }

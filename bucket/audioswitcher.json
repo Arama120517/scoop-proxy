@@ -17,6 +17,6 @@
         "github": "https://github.com/xenolightning/AudioSwitcher_v1"
     },
     "autoupdate": {
-        "url": "https://github.com/xenolightning/AudioSwitcher_v1/releases/download/$version/AudioSwitcher.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/xenolightning/AudioSwitcher_v1/releases/download/$version/AudioSwitcher.zip"
     }
 }

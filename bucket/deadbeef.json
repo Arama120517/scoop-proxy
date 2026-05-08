@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/deadbeef/travis/windows/$version/deadbeef-$version-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/deadbeef/travis/windows/$version/deadbeef-$version-windows-x86_64.zip"
             }
         }
     }

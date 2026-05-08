@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/boringproxy/boringproxy/releases/download/v$version/boringproxy-windows-x86_64.exe#/boringproxy.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/boringproxy/boringproxy/releases/download/v$version/boringproxy-windows-x86_64.exe#/boringproxy.exe"
             },
             "32bit": {
-                "url": "https://github.com/boringproxy/boringproxy/releases/download/v$version/boringproxy-windows-386.exe#/boringproxy.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/boringproxy/boringproxy/releases/download/v$version/boringproxy-windows-386.exe#/boringproxy.exe"
             }
         }
     }

@@ -8,6 +8,6 @@
     "bin": "ntop.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Nuke928/NTop/releases/download/v$version/ntop.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Nuke928/NTop/releases/download/v$version/ntop.exe"
     }
 }

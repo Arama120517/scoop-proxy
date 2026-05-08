@@ -57,11 +57,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ethersphere/bee/releases/download/v$version/bee-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ethersphere/bee/releases/download/v$version/bee-windows-amd64.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/ethersphere/bee/releases/download/v$version/bee_$version_checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/ethersphere/bee/releases/download/v$version/bee_$version_checksums.txt"
         }
     },
     "notes": [

@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ramboxapp/download/releases/download/v$version/Rambox-$version-win-x64.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/ramboxapp/download/releases/download/v$version/Rambox-$version-win-x64.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"

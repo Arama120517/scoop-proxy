@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/bochs/bochs/$version/Bochs-win64-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/bochs/bochs/$version/Bochs-win64-$version.exe#/dl.7z"
             }
         }
     }

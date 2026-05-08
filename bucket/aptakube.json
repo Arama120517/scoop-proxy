@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aptakube/aptakube/releases/download/$version/Aptakube_$version_x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/aptakube/aptakube/releases/download/$version/Aptakube_$version_x64.zip"
             }
         },
         "hash": {

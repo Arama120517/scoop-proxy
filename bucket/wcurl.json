@@ -22,7 +22,7 @@
         "regex": "tag/([\\d.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/curl/wcurl/archive/$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/curl/wcurl/archive/$version.zip",
         "extract_dir": "wcurl-$version"
     }
 }

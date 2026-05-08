@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/dvingerh/tb-vol-scroll/releases/download/$version/tb-vol-scroll.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/dvingerh/tb-vol-scroll/releases/download/$version/tb-vol-scroll.exe"
     }
 }

@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Ashfaaq18/OpenNetMeter/releases/download/v$version/OpenNetMeter-$matchHead.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/Ashfaaq18/OpenNetMeter/releases/download/v$version/OpenNetMeter-$matchHead.msi"
             }
         }
     }

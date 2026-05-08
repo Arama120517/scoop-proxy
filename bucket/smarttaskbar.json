@@ -47,6 +47,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Oliviaophia/SmartTaskbar/releases/download/v$version/SmartTaskbar_Setup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Oliviaophia/SmartTaskbar/releases/download/v$version/SmartTaskbar_Setup.exe"
     }
 }

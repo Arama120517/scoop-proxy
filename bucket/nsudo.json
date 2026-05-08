@@ -45,6 +45,6 @@
         "github": "https://github.com/M2Team/NSudo"
     },
     "autoupdate": {
-        "url": "https://github.com/M2Team/NSudo/releases/download/$version/NSudo_$version_All_Components.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/M2Team/NSudo/releases/download/$version/NSudo_$version_All_Components.zip"
     }
 }

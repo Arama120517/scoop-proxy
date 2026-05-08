@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-amd64.exe#/matterircd.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-amd64.exe#/matterircd.exe"
             },
             "32bit": {
-                "url": "https://github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-386.exe#/matterircd.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-386.exe#/matterircd.exe"
             },
             "arm64": {
-                "url": "https://github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-arm64.exe#/matterircd.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-arm64.exe#/matterircd.exe"
             }
         },
         "hash": {

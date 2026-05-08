@@ -17,6 +17,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/guyoung/CaptfEncoder/releases/download/$version/CaptfEncoder-win-x64-$version.exe#/CaptfEncoder.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/guyoung/CaptfEncoder/releases/download/$version/CaptfEncoder-win-x64-$version.exe#/CaptfEncoder.exe"
     }
 }

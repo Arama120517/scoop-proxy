@@ -23,11 +23,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x64-win.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x64-win.zip",
                 "extract_dir": "z3-$version-x64-win"
             },
             "32bit": {
-                "url": "https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x86-win.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x86-win.zip",
                 "extract_dir": "z3-$version-x64-win"
             }
         }

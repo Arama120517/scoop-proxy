@@ -24,6 +24,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ThoNohT/NohBoard/releases/download/v$version/NohBoard-ReWrite-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/ThoNohT/NohBoard/releases/download/v$version/NohBoard-ReWrite-v$version.zip"
     }
 }

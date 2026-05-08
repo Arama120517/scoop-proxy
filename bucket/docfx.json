@@ -10,6 +10,6 @@
         "github": "https://github.com/dotnet/docfx"
     },
     "autoupdate": {
-        "url": "https://github.com/dotnet/docfx/releases/download/v$version/docfx-win-x64-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/dotnet/docfx/releases/download/v$version/docfx-win-x64-v$version.zip"
     }
 }

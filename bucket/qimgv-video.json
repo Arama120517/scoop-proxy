@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/easymodo/qimgv/releases/download/v$version/qimgv-x64_$version-video.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/easymodo/qimgv/releases/download/v$version/qimgv-x64_$version-video.zip"
             }
         }
     }

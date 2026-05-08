@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/firebase/firebase-tools/releases/download/v$version/firebase-tools-win.exe#/firebase.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/firebase/firebase-tools/releases/download/v$version/firebase-tools-win.exe#/firebase.exe"
             }
         }
     }

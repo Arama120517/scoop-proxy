@@ -12,7 +12,7 @@
     "bin": "bin\\signal-cli.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/AsamK/signal-cli/releases/download/v$version/signal-cli-$version.tar.gz",
+        "url": "https://v6.gh-proxy.org/https://github.com/AsamK/signal-cli/releases/download/v$version/signal-cli-$version.tar.gz",
         "extract_dir": "signal-cli-$version"
     }
 }

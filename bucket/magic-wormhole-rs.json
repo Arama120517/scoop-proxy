@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/magic-wormhole/magic-wormhole.rs/releases/download/$version/magic-wormhole-cli-x86_64-pc-windows-gnu.tgz"
+                "url": "https://v6.gh-proxy.org/https://github.com/magic-wormhole/magic-wormhole.rs/releases/download/$version/magic-wormhole-cli-x86_64-pc-windows-gnu.tgz"
             }
         }
     }

@@ -31,11 +31,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKaliQt6-$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKaliQt6-$version.zip",
                 "extract_dir": "SiriKaliQt6-$version"
             },
             "32bit": {
-                "url": "https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKaliQt5-$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKaliQt5-$version.zip",
                 "extract_dir": "SiriKaliQt5-$version"
             }
         }

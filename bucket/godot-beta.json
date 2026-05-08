@@ -40,13 +40,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_win64.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_win64.exe.zip"
             },
             "32bit": {
-                "url": "https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_win32.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_win32.exe.zip"
             },
             "arm64": {
-                "url": "https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_windows_arm64.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_windows_arm64.exe.zip"
             }
         },
         "hash": {

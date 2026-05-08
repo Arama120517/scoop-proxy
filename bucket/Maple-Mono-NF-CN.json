@@ -87,7 +87,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/subframe7536/Maple-font/releases/download/v$version/MapleMono-NF-CN.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/subframe7536/Maple-font/releases/download/v$version/MapleMono-NF-CN.zip",
         "hash": {
             "url": "$baseurl/MapleMono-NF-CN.sha256"
         }

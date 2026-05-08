@@ -32,6 +32,6 @@
         "regex": "download/v([\\w.-]+)/(?<filename>[\\w._-]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/indiff/qttabbar/releases/download/v$version/$matchFilename.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/indiff/qttabbar/releases/download/v$version/$matchFilename.zip"
     }
 }

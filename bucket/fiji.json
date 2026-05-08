@@ -19,7 +19,7 @@
     "checkver": {
         "url": "https://downloads.imagej.net/fiji/archive/",
         "regex": "href=\"(\\d{8}-\\d{4})",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

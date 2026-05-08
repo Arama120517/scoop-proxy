@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ameshkov/dnslookup/releases/download/v$version/dnslookup-windows-amd64-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ameshkov/dnslookup/releases/download/v$version/dnslookup-windows-amd64-v$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/ameshkov/dnslookup/releases/download/v$version/dnslookup-windows-386-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ameshkov/dnslookup/releases/download/v$version/dnslookup-windows-386-v$version.zip"
             }
         }
     }

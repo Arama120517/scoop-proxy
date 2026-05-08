@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/FlyGoat/RyzenAdj/releases/download/v$version/ryzenadj-win64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/FlyGoat/RyzenAdj/releases/download/v$version/ryzenadj-win64.zip"
             }
         }
     },

@@ -19,7 +19,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Xonlystar/hexo-blog-client/releases/download/$version/HexoBlogClient-Setup-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/Xonlystar/hexo-blog-client/releases/download/$version/HexoBlogClient-Setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512: $base64"

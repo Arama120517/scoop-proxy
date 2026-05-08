@@ -16,7 +16,7 @@
         "rec.exe"
     ],
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/sox/sox/$version/sox-$version-win32.zip",
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/sox/sox/$version/sox-$version-win32.zip",
         "extract_dir": "sox-$version"
     }
 }

@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OmniDB/OmniDB/releases/download/$version/omnidb-app_$version-windows-amd64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/OmniDB/OmniDB/releases/download/$version/omnidb-app_$version-windows-amd64.exe"
             }
         }
     }

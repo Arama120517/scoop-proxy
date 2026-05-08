@@ -29,7 +29,7 @@
         "github": "https://github.com/Automattic/simplenote-electron"
     },
     "autoupdate": {
-        "url": "https://github.com/Automattic/simplenote-electron/releases/download/v$version/Simplenote-win-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/Automattic/simplenote-electron/releases/download/v$version/Simplenote-win-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

@@ -10,6 +10,6 @@
         "github": "https://github.com/vslavik/diff-pdf/"
     },
     "autoupdate": {
-        "url": "https://github.com/vslavik/diff-pdf/releases/download/v$version/diff-pdf-win-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/vslavik/diff-pdf/releases/download/v$version/diff-pdf-win-$version.zip"
     }
 }

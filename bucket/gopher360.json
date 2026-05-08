@@ -12,6 +12,6 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://github.com/Tylemagne/Gopher360/releases/download/v$version/Gopher.exe#/gopher360.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Tylemagne/Gopher360/releases/download/v$version/Gopher.exe#/gopher360.exe"
     }
 }

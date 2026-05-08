@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/loft-sh/devpod/releases/download/v$version/DevPod_windows_x64_en-US.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/loft-sh/devpod/releases/download/v$version/DevPod_windows_x64_en-US.msi"
             }
         }
     }

@@ -23,11 +23,11 @@
         "architecture": {
             "32bit": {
                 "extract_dir": "numbat-v$version-i686-pc-windows-msvc",
-                "url": "https://github.com/sharkdp/numbat/releases/download/v$version/numbat-v$version-i686-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/sharkdp/numbat/releases/download/v$version/numbat-v$version-i686-pc-windows-msvc.zip"
             },
             "64bit": {
                 "extract_dir": "numbat-v$version-x86_64-pc-windows-msvc",
-                "url": "https://github.com/sharkdp/numbat/releases/download/v$version/numbat-v$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/sharkdp/numbat/releases/download/v$version/numbat-v$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

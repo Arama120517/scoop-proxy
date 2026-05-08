@@ -15,11 +15,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OWASP/Amass/releases/download/v$version/amass_windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/OWASP/Amass/releases/download/v$version/amass_windows_amd64.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/OWASP/Amass/releases/download/v$version/amass_checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/OWASP/Amass/releases/download/v$version/amass_checksums.txt"
         }
     }
 }

@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Soundnode/soundnode-app/releases/download/$version/Soundnode-win32-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Soundnode/soundnode-app/releases/download/$version/Soundnode-win32-x64.zip"
             }
         },
         "hash": {

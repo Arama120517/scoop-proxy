@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/szTheory/exifcleaner/releases/download/v$version/ExifCleaner-Setup-$version.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/szTheory/exifcleaner/releases/download/v$version/ExifCleaner-Setup-$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "(?smi)$basename.*?sha512:\\s+$base64"

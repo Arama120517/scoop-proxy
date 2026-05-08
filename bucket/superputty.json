@@ -22,7 +22,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jimradford/superputty/releases/download/$version/SuperPuTTY-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/jimradford/superputty/releases/download/$version/SuperPuTTY-$version.zip",
         "extract_dir": "SuperPuTTY-$version"
     }
 }

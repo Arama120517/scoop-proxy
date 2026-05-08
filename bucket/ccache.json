@@ -22,11 +22,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ccache/ccache/releases/download/v$version/ccache-$version-windows-x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/ccache/ccache/releases/download/v$version/ccache-$version-windows-x86_64.zip",
                 "extract_dir": "ccache-$version-windows-x86_64"
             },
             "32bit": {
-                "url": "https://github.com/ccache/ccache/releases/download/v$version/ccache-$version-windows-i686.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/ccache/ccache/releases/download/v$version/ccache-$version-windows-i686.zip",
                 "extract_dir": "ccache-$version-windows-i686"
             }
         }

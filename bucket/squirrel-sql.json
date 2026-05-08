@@ -17,7 +17,7 @@
     ],
     "checkver": "Version ([\\d.]+)",
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/squirrel-sql/1-stable/$version-plainzip/squirrelsql-$version-standard.zip",
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/squirrel-sql/1-stable/$version-plainzip/squirrelsql-$version-standard.zip",
         "extract_dir": "squirrelsql-$version-standard"
     }
 }

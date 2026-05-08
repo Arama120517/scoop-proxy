@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Y2Z/monolith/releases/download/v$version/monolith.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Y2Z/monolith/releases/download/v$version/monolith.exe"
             }
         }
     }

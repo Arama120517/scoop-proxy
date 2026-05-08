@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kanryu/quickviewer/releases/download/v$version/QuickViewer-portable-$version-x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/kanryu/quickviewer/releases/download/v$version/QuickViewer-portable-$version-x64.zip",
                 "extract_dir": "QuickViewer-portable-$version-x64"
             }
         }

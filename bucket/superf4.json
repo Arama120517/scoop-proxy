@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stefansundin/superf4/releases/download/v$version/SuperF4-$version-64bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/stefansundin/superf4/releases/download/v$version/SuperF4-$version-64bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/stefansundin/superf4/releases/download/v$version/SuperF4-$version-32bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/stefansundin/superf4/releases/download/v$version/SuperF4-$version-32bit.zip"
             }
         }
     }

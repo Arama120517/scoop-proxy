@@ -17,6 +17,6 @@
     "persist": "listenMoeSettings.ini",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/LISTEN-moe/windows-app/releases/download/$version/ListenMoeClient.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/LISTEN-moe/windows-app/releases/download/$version/ListenMoeClient.exe"
     }
 }

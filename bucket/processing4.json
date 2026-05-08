@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/processing/processing4/releases/download/processing-$version/processing-$preReleaseVersion-windows-x64-portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/processing/processing4/releases/download/processing-$version/processing-$preReleaseVersion-windows-x64-portable.zip"
             }
         }
     }

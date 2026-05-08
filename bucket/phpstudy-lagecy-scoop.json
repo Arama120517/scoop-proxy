@@ -50,7 +50,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/h404bi/phpstudy-lagecy-scoop/master/phpstudy-lagecy-scoop/phpstudy-lagecy-scoop_v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/h404bi/phpstudy-lagecy-scoop/master/phpstudy-lagecy-scoop/phpstudy-lagecy-scoop_v$version.zip",
         "hash": {
             "url": "$url.sha256"
         }

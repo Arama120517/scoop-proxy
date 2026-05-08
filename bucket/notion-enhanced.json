@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/notion-enhancer/notion-repackaged/releases/download/v$version/Notion-Enhanced-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/notion-enhancer/notion-repackaged/releases/download/v$version/Notion-Enhanced-$version-win.zip"
             }
         }
     }

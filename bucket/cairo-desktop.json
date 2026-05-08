@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cairoshell/cairoshell/releases/download/v$version/CairoSetup_64bit.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/cairoshell/cairoshell/releases/download/v$version/CairoSetup_64bit.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/cairoshell/cairoshell/releases/download/v$version/CairoSetup_32bit.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/cairoshell/cairoshell/releases/download/v$version/CairoSetup_32bit.exe#/dl.7z"
             }
         }
     }

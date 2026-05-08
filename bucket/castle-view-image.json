@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/castle-engine/castle-image-viewer/releases/download/v$version/castle-image-viewer-$version-win64-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/castle-engine/castle-image-viewer/releases/download/v$version/castle-image-viewer-$version-win64-x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/castle-engine/castle-image-viewer/releases/download/v$version/castle-image-viewer-$version-win32-i386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/castle-engine/castle-image-viewer/releases/download/v$version/castle-image-viewer-$version-win32-i386.zip"
             }
         }
     }

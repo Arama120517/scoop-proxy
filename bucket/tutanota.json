@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-$version/tutanota-desktop-win.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-$version/tutanota-desktop-win.exe#/dl.7z",
                 "hash": {
                     "url": "https://github.com/tutao/tutanota/releases/tag/tutanota-desktop-release-$version",
                     "regex": "tutanota-desktop-win.exe:.*\\n$sha256"

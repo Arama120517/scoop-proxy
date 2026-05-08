@@ -36,7 +36,7 @@
     "pre_uninstall": "Start-Process -FilePath \"$dir\\MultiPar.exe\" -ArgumentList '/clean' -Wait",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Yutaka-Sawada/MultiPar/releases/download/v$version/MultiPar$cleanVersion.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/Yutaka-Sawada/MultiPar/releases/download/v$version/MultiPar$cleanVersion.zip",
         "hash": {
             "url": "https://github.com/Yutaka-Sawada/MultiPar/releases/tag/v$version",
             "regex": "$basename[\\s\\S]*SHA1: $sha1"

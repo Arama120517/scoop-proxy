@@ -17,7 +17,7 @@
     "checkver": {
         "url": "http://download-mirror.savannah.gnu.org/releases/datamash/windows-binaries/",
         "regex": "datamash-([\\d.]+)-no-locale",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dafny-lang/dafny/releases/download/v$version/dafny-$version-x64-windows-2022.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dafny-lang/dafny/releases/download/v$version/dafny-$version-x64-windows-2022.zip"
             }
         }
     }

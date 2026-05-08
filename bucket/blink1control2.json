@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/todbot/Blink1Control2/releases/download/v$version/Blink1Control2-$version-win-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/todbot/Blink1Control2/releases/download/v$version/Blink1Control2-$version-win-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/todbot/Blink1Control2/releases/download/v$version/Blink1Control2-$version-win-ia32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/todbot/Blink1Control2/releases/download/v$version/Blink1Control2-$version-win-ia32.zip"
             }
         }
     }

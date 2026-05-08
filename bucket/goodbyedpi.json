@@ -29,7 +29,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ValdikSS/GoodbyeDPI/releases/download/$version/goodbyedpi-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/ValdikSS/GoodbyeDPI/releases/download/$version/goodbyedpi-$version.zip",
         "extract_dir": "goodbyedpi-$version"
     }
 }

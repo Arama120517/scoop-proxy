@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lycheeverse/lychee/releases/download/lychee-v$version/lychee-x86_64-windows.exe#/lychee.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/lycheeverse/lychee/releases/download/lychee-v$version/lychee-x86_64-windows.exe#/lychee.exe"
             }
         }
     }

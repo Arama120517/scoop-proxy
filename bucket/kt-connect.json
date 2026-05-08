@@ -24,17 +24,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/alibaba/kt-connect/releases/download/v$version/ktctl_$version_Windows_x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/alibaba/kt-connect/releases/download/v$version/ktctl_$version_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/alibaba/kt-connect/releases/download/v$version/ktctl_$version_Windows_i386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/alibaba/kt-connect/releases/download/v$version/ktctl_$version_Windows_i386.zip"
             },
             "arm64": {
-                "url": "https://github.com/alibaba/kt-connect/releases/download/v$version/ktctl_$version_Windows_arm_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/alibaba/kt-connect/releases/download/v$version/ktctl_$version_Windows_arm_64.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/alibaba/kt-connect/releases/download/v$version/v$version_checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/alibaba/kt-connect/releases/download/v$version/v$version_checksums.txt"
         }
     }
 }

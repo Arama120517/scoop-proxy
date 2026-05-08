@@ -41,7 +41,7 @@
         "regex": "tags/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Moeologist/scoop-completion/archive/v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/Moeologist/scoop-completion/archive/v$version.zip",
         "extract_dir": "scoop-completion-$version\\src"
     }
 }

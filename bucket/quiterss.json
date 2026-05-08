@@ -30,7 +30,7 @@
     "checkver": {
         "url": "https://quiterss.org/files/",
         "regex": "href=\"([\\d.]+)",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://quiterss.org/files/$version_/QuiteRSS-$version.zip",

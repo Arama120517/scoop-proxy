@@ -15,7 +15,7 @@
     "persist": "Logs",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Sophia-Community/SophiApp/releases/download/$version/SophiApp.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/Sophia-Community/SophiApp/releases/download/$version/SophiApp.zip",
         "hash": {
             "url": "https://github.com/Sophia-Community/SophiApp/releases/",
             "find": "<code>$sha256</code>"

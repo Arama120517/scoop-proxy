@@ -26,11 +26,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xournalpp/xournalpp/releases/download/v$version/xournalpp-$version-windows-portable-AMD64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/xournalpp/xournalpp/releases/download/v$version/xournalpp-$version-windows-portable-AMD64.zip",
                 "extract_dir": "xournalpp-$version-windows-portable-AMD64"
             },
             "arm64": {
-                "url": "https://github.com/xournalpp/xournalpp/releases/download/v$version/xournalpp-$version-windows-portable-ARM64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/xournalpp/xournalpp/releases/download/v$version/xournalpp-$version-windows-portable-ARM64.zip",
                 "extract_dir": "xournalpp-$version-windows-portable-ARM64"
             }
         }

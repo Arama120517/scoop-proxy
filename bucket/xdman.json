@@ -33,6 +33,6 @@
         "github": "https://github.com/subhra74/xdm"
     },
     "autoupdate": {
-        "url": "https://github.com/subhra74/xdm/releases/download/$version/xdman.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/subhra74/xdm/releases/download/$version/xdman.jar"
     }
 }

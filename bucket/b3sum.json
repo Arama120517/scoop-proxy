@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/$version/b3sum_windows_x64_bin.exe#/b3sum.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/BLAKE3-team/BLAKE3/releases/download/$version/b3sum_windows_x64_bin.exe#/b3sum.exe"
             }
         }
     }

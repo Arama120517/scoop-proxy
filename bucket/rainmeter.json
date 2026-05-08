@@ -62,6 +62,6 @@
         "github": "https://github.com/rainmeter/rainmeter"
     },
     "autoupdate": {
-        "url": "https://github.com/rainmeter/rainmeter/releases/download/v$version/Rainmeter-$matchHead.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/rainmeter/rainmeter/releases/download/v$version/Rainmeter-$matchHead.exe"
     }
 }

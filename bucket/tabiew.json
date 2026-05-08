@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shshemi/tabiew/releases/download/v$version/tw-x86_64-pc-windows-msvc.exe#/tw.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/shshemi/tabiew/releases/download/v$version/tw-x86_64-pc-windows-msvc.exe#/tw.exe"
             },
             "arm64": {
-                "url": "https://github.com/shshemi/tabiew/releases/download/v$version/tw-aarch64-pc-windows-msvc.exe#/tw.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/shshemi/tabiew/releases/download/v$version/tw-aarch64-pc-windows-msvc.exe#/tw.exe"
             }
         }
     }

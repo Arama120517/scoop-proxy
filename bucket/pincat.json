@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/suzuki-shunsuke/pinact/releases/download/v$version/pinact_windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/suzuki-shunsuke/pinact/releases/download/v$version/pinact_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/suzuki-shunsuke/pinact/releases/download/v$version/pinact_windows_arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/suzuki-shunsuke/pinact/releases/download/v$version/pinact_windows_arm64.zip"
             }
         }
     }

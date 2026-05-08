@@ -15,6 +15,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Sanakan8472/copy-dialog-lunar-lander/releases/download/v$version/CopyDialogLunarLander.msi"
+        "url": "https://v6.gh-proxy.org/https://github.com/Sanakan8472/copy-dialog-lunar-lander/releases/download/v$version/CopyDialogLunarLander.msi"
     }
 }

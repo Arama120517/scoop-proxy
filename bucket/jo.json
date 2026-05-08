@@ -8,6 +8,6 @@
     "bin": "jo.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jpmens/jo/releases/download/$version/jo-$version.exe#/jo.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/jpmens/jo/releases/download/$version/jo-$version.exe#/jo.exe"
     }
 }

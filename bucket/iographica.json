@@ -16,6 +16,6 @@
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v$version/IOGraph_v$underscoreVersion.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/anatolyzenkov/IOGraph/releases/download/v$version/IOGraph_v$underscoreVersion.zip"
     }
 }

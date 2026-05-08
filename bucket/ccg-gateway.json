@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mos1128/ccg-gateway/releases/download/v$version/ccg-gateway.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/mos1128/ccg-gateway/releases/download/v$version/ccg-gateway.exe"
             }
         }
     }

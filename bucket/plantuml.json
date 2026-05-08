@@ -38,7 +38,7 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://github.com/plantuml/plantuml/releases/download/v$version/plantuml-$version.jar#/plantuml.jar",
+            "https://v6.gh-proxy.org/https://github.com/plantuml/plantuml/releases/download/v$version/plantuml-$version.jar#/plantuml.jar",
             "http://beta.plantuml.net/batikAndFop.zip"
         ]
     }

@@ -25,7 +25,7 @@
         "github": "https://github.com/Alex313031/atom-ng"
     },
     "autoupdate": {
-        "url": "https://github.com/Alex313031/atom-ng/releases/download/v$version/Atom-ng_win64_$version_AVX.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/Alex313031/atom-ng/releases/download/v$version/Atom-ng_win64_$version_AVX.zip",
         "extract_dir": "Atom-ng_$version_x64"
     }
 }

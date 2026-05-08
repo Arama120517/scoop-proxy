@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Samsung/netcoredbg/releases/download/$version/netcoredbg-win64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Samsung/netcoredbg/releases/download/$version/netcoredbg-win64.zip"
             }
         }
     }

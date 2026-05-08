@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/maidsafe/safe_browser/releases/download/v$version/safe-browser-v$version-win-x64.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/maidsafe/safe_browser/releases/download/v$version/safe-browser-v$version-win-x64.exe#/dl.7z",
                 "hash": {
                     "url": "https://github.com/maidsafe/safe_browser/releases/tag/v$version",
                     "regex": "(?sm)Windows\\n$sha256"

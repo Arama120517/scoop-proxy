@@ -17,6 +17,6 @@
         "regex": "/releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/kitamstudios/WinDiff/releases/download/v$version/WinDiff.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/kitamstudios/WinDiff/releases/download/v$version/WinDiff.zip"
     }
 }

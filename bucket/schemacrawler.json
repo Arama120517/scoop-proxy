@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/schemacrawler/SchemaCrawler-Installers/releases/download/v$version/SchemaCrawler-$version.msi",
+                "url": "https://v6.gh-proxy.org/https://github.com/schemacrawler/SchemaCrawler-Installers/releases/download/v$version/SchemaCrawler-$version.msi",
                 "hash": {
                     "url": "$url.SHA256"
                 }

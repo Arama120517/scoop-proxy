@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kando-menu/kando/releases/download/v$version/Kando-win32-x64-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/kando-menu/kando/releases/download/v$version/Kando-win32-x64-$version.zip"
             }
         }
     }

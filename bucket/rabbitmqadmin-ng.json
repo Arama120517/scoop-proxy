@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v$version/rabbitmqadmin-$version-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v$version/rabbitmqadmin-$version-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe"
             }
         }
     }

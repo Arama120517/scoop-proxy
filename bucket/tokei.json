@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/XAMPPRocky/tokei/releases/download/v$version/tokei-x86_64-pc-windows-msvc.exe#/tokei.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/XAMPPRocky/tokei/releases/download/v$version/tokei-x86_64-pc-windows-msvc.exe#/tokei.exe"
             },
             "32bit": {
-                "url": "https://github.com/XAMPPRocky/tokei/releases/download/v$version/tokei-i686-pc-windows-msvc.exe#/tokei.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/XAMPPRocky/tokei/releases/download/v$version/tokei-i686-pc-windows-msvc.exe#/tokei.exe"
             }
         }
     }

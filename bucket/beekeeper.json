@@ -18,14 +18,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ethersphere/beekeeper/releases/download/v$version/beekeeper-windows-amd64.exe#/beekeeper.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ethersphere/beekeeper/releases/download/v$version/beekeeper-windows-amd64.exe#/beekeeper.exe"
             },
             "32bit": {
-                "url": "https://github.com/ethersphere/beekeeper/releases/download/v$version/beekeeper-windows-386.exe#/beekeeper.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ethersphere/beekeeper/releases/download/v$version/beekeeper-windows-386.exe#/beekeeper.exe"
             }
         },
         "hash": {
-            "url": "https://github.com/ethersphere/beekeeper/releases/download/v$version/beekeeper_$version_checksums.txt"
+            "url": "https://v6.gh-proxy.org/https://github.com/ethersphere/beekeeper/releases/download/v$version/beekeeper_$version_checksums.txt"
         }
     }
 }

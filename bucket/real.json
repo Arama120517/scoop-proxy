@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/miniant-git/REAL/releases/download/updater-v2/REAL.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/miniant-git/REAL/releases/download/updater-v2/REAL.exe"
             }
         }
     }

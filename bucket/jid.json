@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/simeji/jid/releases/download/v$version/jid_windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/simeji/jid/releases/download/v$version/jid_windows_amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/simeji/jid/releases/download/v$version/jid_windows_386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/simeji/jid/releases/download/v$version/jid_windows_386.zip"
             }
         },
         "hash": {

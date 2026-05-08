@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/yang991178/fluent-reader/releases/download/v$version/Fluent.Reader.Unpacked.$matchHead.x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/yang991178/fluent-reader/releases/download/v$version/Fluent.Reader.Unpacked.$matchHead.x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/yang991178/fluent-reader/releases/download/v$version/Fluent.Reader.Unpacked.$matchHead.x86.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/yang991178/fluent-reader/releases/download/v$version/Fluent.Reader.Unpacked.$matchHead.x86.zip"
             }
         }
     }

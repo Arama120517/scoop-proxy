@@ -10,7 +10,7 @@
         "github": "https://github.com/fsprojects/Paket"
     },
     "autoupdate": {
-        "url": "https://github.com/fsprojects/Paket/releases/download/$version/paket.exe",
+        "url": "https://v6.gh-proxy.org/https://github.com/fsprojects/Paket/releases/download/$version/paket.exe",
         "hash": {
             "url": "$baseurl/paket-sha256.txt"
         }

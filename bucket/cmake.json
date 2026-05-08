@@ -40,15 +40,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
                 "extract_dir": "cmake-$version-windows-x86_64"
             },
             "32bit": {
-                "url": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
                 "extract_dir": "cmake-$version-windows-i386"
             },
             "arm64": {
-                "url": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-arm64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-arm64.zip",
                 "extract_dir": "cmake-$version-windows-arm64"
             }
         },

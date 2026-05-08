@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pomsky-lang/pomsky/releases/download/v$version/pomsky_windows_v$version.exe#/pomsky.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/pomsky-lang/pomsky/releases/download/v$version/pomsky_windows_v$version.exe#/pomsky.exe"
             }
         }
     }

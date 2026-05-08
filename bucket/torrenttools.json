@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fbdtemme/torrenttools/releases/download/v$version/torrenttools-$version-windows-x86_64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/fbdtemme/torrenttools/releases/download/v$version/torrenttools-$version-windows-x86_64.msi"
             }
         }
     }

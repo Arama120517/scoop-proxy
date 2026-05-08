@@ -16,7 +16,7 @@
         "regex": "/sbt-([\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/sbt/sbt/releases/download/v$version/sbt-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/sbt/sbt/releases/download/v$version/sbt-$version.zip",
         "hash": {
             "url": "$url.sha256"
         }

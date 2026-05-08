@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/browseros-ai/BrowserOS/releases/download/$matchTag/BrowserOS_v$version_x64_installer.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/browseros-ai/BrowserOS/releases/download/$matchTag/BrowserOS_v$version_x64_installer.exe#/dl.7z"
             }
         }
     }

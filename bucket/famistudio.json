@@ -19,6 +19,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/BleuBleu/FamiStudio/releases/download/$version/FamiStudio$cleanVersion-WinPortableExe.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/BleuBleu/FamiStudio/releases/download/$version/FamiStudio$cleanVersion-WinPortableExe.zip"
     }
 }

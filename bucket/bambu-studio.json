@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bambulab/BambuStudio/releases/download/$matchTag/$matchFilename"
+                "url": "https://v6.gh-proxy.org/https://github.com/bambulab/BambuStudio/releases/download/$matchTag/$matchFilename"
             }
         }
     }

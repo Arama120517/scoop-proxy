@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LibreSprite/LibreSprite/releases/download/v$version/LibreSprite-Windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/LibreSprite/LibreSprite/releases/download/v$version/LibreSprite-Windows-x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/LibreSprite/LibreSprite/releases/download/v$version/LibreSprite-Windows-x86_32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/LibreSprite/LibreSprite/releases/download/v$version/LibreSprite-Windows-x86_32.zip"
             }
         }
     }

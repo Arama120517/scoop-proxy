@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/86Box/86Box/releases/download/v$matchVersion/86Box-Windows-64-b$matchBuild.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/86Box/86Box/releases/download/v$matchVersion/86Box-Windows-64-b$matchBuild.zip"
             }
         }
     }

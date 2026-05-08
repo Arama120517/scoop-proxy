@@ -29,7 +29,7 @@
         "regex": "\\/rn\\/v([\\d.]+)\""
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/nsis/NSIS%20$majorVersion/$version/nsis-$version.zip",
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/nsis/NSIS%20$majorVersion/$version/nsis-$version.zip",
         "extract_dir": "nsis-$version"
     }
 }

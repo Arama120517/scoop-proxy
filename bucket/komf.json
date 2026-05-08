@@ -20,6 +20,6 @@
     "persist": "config",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Snd-R/komf/releases/download/$version/komf-$version.jar#/komf.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/Snd-R/komf/releases/download/$version/komf-$version.jar#/komf.jar"
     }
 }

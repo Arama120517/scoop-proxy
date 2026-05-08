@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fortran-lang/fpm/releases/download/v$version/fpm-$version-windows-x86_64-gcc-12.exe#/fpm.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/fortran-lang/fpm/releases/download/v$version/fpm-$version-windows-x86_64-gcc-12.exe#/fpm.exe"
             }
         },
         "hash": {

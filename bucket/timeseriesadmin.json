@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/timeseriesadmin/timeseriesadmin/releases/download/v$version/TimeSeriesAdmin.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/timeseriesadmin/timeseriesadmin/releases/download/v$version/TimeSeriesAdmin.exe#/dl.7z"
             }
         }
     }

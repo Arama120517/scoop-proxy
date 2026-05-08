@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/STranslate/STranslate/releases/download/v$version/STranslate-win-Portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/STranslate/STranslate/releases/download/v$version/STranslate-win-Portable.zip"
             }
         }
     }

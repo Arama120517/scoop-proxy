@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cntools/cnping/releases/download/$version/cnping.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/cntools/cnping/releases/download/$version/cnping.exe"
             }
         }
     }

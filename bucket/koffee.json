@@ -16,6 +16,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/mattstermiller/koffee/releases/download/v$version/Koffee-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/mattstermiller/koffee/releases/download/v$version/Koffee-$version.zip"
     }
 }

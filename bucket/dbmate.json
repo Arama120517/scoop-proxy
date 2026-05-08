@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/amacneil/dbmate/releases/download/v$version/dbmate-windows-amd64.exe#/dbmate.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/amacneil/dbmate/releases/download/v$version/dbmate-windows-amd64.exe#/dbmate.exe"
             }
         }
     }

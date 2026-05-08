@@ -23,6 +23,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/tmoreno/open-log-viewer/releases/download/$version/open-log-viewer_$version.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/tmoreno/open-log-viewer/releases/download/$version/open-log-viewer_$version.exe#/dl.7z"
     }
 }

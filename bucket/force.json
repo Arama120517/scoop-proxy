@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.zip"
             }
         }
     }

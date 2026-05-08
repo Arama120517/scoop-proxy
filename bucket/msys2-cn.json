@@ -122,7 +122,7 @@
     "checkver": {
         "url": "https://mirrors.aliyun.com/msys2/distrib/x86_64/",
         "re": "msys2-base-x86_64-(\\d+).tar.xz",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

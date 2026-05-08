@@ -24,6 +24,6 @@
         "regex": "<span class=\"name\">([\\w]+)</span>"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/cmusphinx/pocketsphinx/$version/pocketsphinx-$version-win32.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/cmusphinx/pocketsphinx/$version/pocketsphinx-$version-win32.zip"
     }
 }

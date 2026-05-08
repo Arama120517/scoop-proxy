@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/microsoft/garnet/releases/download/v$version/win-x64-based-readytorun.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/microsoft/garnet/releases/download/v$version/win-x64-based-readytorun.zip"
             },
             "arm64": {
-                "url": "https://github.com/microsoft/garnet/releases/download/v$version/win-arm64-based-readytorun.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/microsoft/garnet/releases/download/v$version/win-arm64-based-readytorun.zip"
             }
         }
     }

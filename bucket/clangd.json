@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/clangd/clangd/releases/download/$version/clangd-windows-$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/clangd/clangd/releases/download/$version/clangd-windows-$version.zip",
                 "extract_dir": "clangd_$version"
             }
         }

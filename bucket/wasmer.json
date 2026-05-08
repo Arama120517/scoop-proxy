@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wasmerio/wasmer/releases/download/v$version/wasmer-windows-amd64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/wasmerio/wasmer/releases/download/v$version/wasmer-windows-amd64.tar.gz"
             }
         }
     }

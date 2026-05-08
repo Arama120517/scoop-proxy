@@ -18,7 +18,7 @@
         "regex": "PatchCleaner_([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/patchcleaner/PatchCleaner_Portable/v$version/PatchCleanerPortable_$underscoreVersion.zip",
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/patchcleaner/PatchCleaner_Portable/v$version/PatchCleanerPortable_$underscoreVersion.zip",
         "extract_dir": "PatchCleanerPortable_$underscoreVersion\\PatchCleaner"
     }
 }

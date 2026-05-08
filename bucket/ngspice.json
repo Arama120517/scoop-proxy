@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/$version/ngspice-$version_64.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/$version/ngspice-$version_64.7z"
             }
         }
     }

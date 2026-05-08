@@ -20,13 +20,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-x86_64-pc-windows-msvc.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-x86_64-pc-windows-msvc.zip",
                 "hash": {
                     "url": "$baseurl/dx-x86_64-pc-windows-msvc.sha256"
                 }
             },
             "arm64": {
-                "url": "https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-aarch64-pc-windows-msvc.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-aarch64-pc-windows-msvc.zip",
                 "hash": {
                     "url": "$baseurl/dx-aarch64-pc-windows-msvc.sha256"
                 }

@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/guilryder/clavier-plus/releases/download/release$version/Clavier.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/guilryder/clavier-plus/releases/download/release$version/Clavier.zip"
             }
         }
     }

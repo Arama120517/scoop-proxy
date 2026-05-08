@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/coin-or/Ipopt/releases/download/releases%2F$version/Ipopt-$version-win64-msvs2019-md.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/coin-or/Ipopt/releases/download/releases%2F$version/Ipopt-$version-win64-msvs2019-md.zip",
                 "extract_dir": "Ipopt-$version-win64-msvs2019-md"
             }
         }

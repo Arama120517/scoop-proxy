@@ -29,6 +29,6 @@
         "github": "https://github.com/klembot/twinejs"
     },
     "autoupdate": {
-        "url": "https://github.com/klembot/twinejs/releases/download/$version/Twine-$version-Windows.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/klembot/twinejs/releases/download/$version/Twine-$version-Windows.exe#/dl.7z"
     }
 }

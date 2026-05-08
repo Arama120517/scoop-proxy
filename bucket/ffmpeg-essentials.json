@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GyanD/codexffmpeg/releases/download/$version/ffmpeg-$version-essentials_build.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/GyanD/codexffmpeg/releases/download/$version/ffmpeg-$version-essentials_build.7z",
                 "extract_dir": "ffmpeg-$version-essentials_build"
             }
         }

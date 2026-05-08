@@ -86,7 +86,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/adobe-fonts/source-han-super-otc/releases/download/$version/SourceHanNotoCJK.ttc",
+        "url": "https://v6.gh-proxy.org/https://github.com/adobe-fonts/source-han-super-otc/releases/download/$version/SourceHanNotoCJK.ttc",
         "hash": {
             "url": "https://github.com/adobe-fonts/source-han-super-otc",
             "find": "href=\"#source-han--noto-cjksourcehannotocjkttc\">.+?MD5 hash is ([A-Fa-f0-9]{32})"

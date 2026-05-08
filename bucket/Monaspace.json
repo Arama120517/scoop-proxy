@@ -90,7 +90,7 @@
         "github": "https://github.com/githubnext/monaspace"
     },
     "autoupdate": {
-        "url": "https://github.com/githubnext/monaspace/releases/download/v$version/monaspace-static-v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/githubnext/monaspace/releases/download/v$version/monaspace-static-v$version.zip",
         "extract_dir": "Static Fonts"
     }
 }

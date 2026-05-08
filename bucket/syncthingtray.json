@@ -46,13 +46,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-x86_64-w64-mingw32.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-x86_64-w64-mingw32.exe.zip"
             },
             "32bit": {
-                "url": "https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-qt5-$version-i686-w64-mingw32.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-qt5-$version-i686-w64-mingw32.exe.zip"
             },
             "arm64": {
-                "url": "https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-aarch64-w64-mingw32.exe.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-aarch64-w64-mingw32.exe.zip"
             }
         }
     }

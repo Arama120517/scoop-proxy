@@ -16,6 +16,6 @@
         "regex": "piv-manager-([\\d.]+)-win"
     },
     "autoupdate": {
-        "url": "https://github.com/Yubico/yubikey-piv-manager/releases/download/yubikey-piv-manager-$version/yubikey-piv-manager-$version-win.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/Yubico/yubikey-piv-manager/releases/download/yubikey-piv-manager-$version/yubikey-piv-manager-$version-win.exe#/dl.7z"
     }
 }

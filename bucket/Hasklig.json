@@ -88,6 +88,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/i-tu/Hasklig/releases/download/v$version/Hasklig-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/i-tu/Hasklig/releases/download/v$version/Hasklig-$version.zip"
     }
 }

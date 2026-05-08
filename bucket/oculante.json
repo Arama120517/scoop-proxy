@@ -16,6 +16,6 @@
         "github": "https://github.com/woelper/oculante"
     },
     "autoupdate": {
-        "url": "https://github.com/woelper/oculante/releases/download/$version/oculante.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/woelper/oculante/releases/download/$version/oculante.exe"
     }
 }

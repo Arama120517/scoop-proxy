@@ -48,10 +48,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/PurpleI2P/i2pd/releases/download/$version/i2pd_$version_win64_mingw.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/PurpleI2P/i2pd/releases/download/$version/i2pd_$version_win64_mingw.zip"
             },
             "32bit": {
-                "url": "https://github.com/PurpleI2P/i2pd/releases/download/$version/i2pd_$version_win32_mingw.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/PurpleI2P/i2pd/releases/download/$version/i2pd_$version_win32_mingw.zip"
             }
         },
         "hash": {

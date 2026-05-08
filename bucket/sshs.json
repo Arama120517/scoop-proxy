@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/quantumsheep/sshs/releases/download/$version/sshs-windows-amd64.exe#/sshs.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/quantumsheep/sshs/releases/download/$version/sshs-windows-amd64.exe#/sshs.exe"
             },
             "arm64": {
-                "url": "https://github.com/quantumsheep/sshs/releases/download/$version/sshs-windows-arm64.exe#/sshs.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/quantumsheep/sshs/releases/download/$version/sshs-windows-arm64.exe#/sshs.exe"
             }
         },
         "hash": {

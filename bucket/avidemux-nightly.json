@@ -29,7 +29,7 @@
     "checkver": {
         "url": "https://www.avidemux.org/nightly/win64/",
         "regex": "(?<win64bit>avidemux_[\\d.]+) r(?<version>\\d+)_win64.exe",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

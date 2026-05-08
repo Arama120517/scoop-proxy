@@ -32,7 +32,7 @@
         "github": "https://github.com/cmderdev/cmder"
     },
     "autoupdate": {
-        "url": "https://github.com/cmderdev/cmder/releases/download/v$version/cmder_mini.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/cmderdev/cmder/releases/download/v$version/cmder_mini.zip",
         "hash": {
             "url": "$baseurl/hashes.txt",
             "regex": "$basename\\s+$sha256"

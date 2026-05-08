@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/fcFn/traymond/releases/download/v$version/Traymond.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/fcFn/traymond/releases/download/v$version/Traymond.exe"
     }
 }

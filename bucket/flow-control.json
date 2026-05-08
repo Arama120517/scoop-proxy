@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/neurocyte/flow/releases/download/v$version/flow-v$version-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/neurocyte/flow/releases/download/v$version/flow-v$version-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/neurocyte/flow/releases/download/v$version/flow-v$version-windows-aarch64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/neurocyte/flow/releases/download/v$version/flow-v$version-windows-aarch64.zip"
             }
         },
         "hash": {

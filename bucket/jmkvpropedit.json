@@ -21,6 +21,6 @@
     "persist": "JMkvpropedit.ini",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/BrunoReX/jmkvpropedit/releases/download/v$version/jmkvpropedit-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/BrunoReX/jmkvpropedit/releases/download/v$version/jmkvpropedit-v$version.zip"
     }
 }

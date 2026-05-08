@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hexchat/hexchat/releases/download/v$version/HexChat.$version.x64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/hexchat/hexchat/releases/download/v$version/HexChat.$version.x64.exe"
             },
             "32bit": {
-                "url": "https://github.com/hexchat/hexchat/releases/download/v$version/HexChat.$version.x86.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/hexchat/hexchat/releases/download/v$version/HexChat.$version.x86.exe"
             }
         }
     }

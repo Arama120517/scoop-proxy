@@ -20,6 +20,6 @@
         "github": "https://github.com/archdvx/wxdfast"
     },
     "autoupdate": {
-        "url": "https://github.com/archdvx/wxdfast/releases/download/v$version/wxDownloadFast-$version-win.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/archdvx/wxdfast/releases/download/v$version/wxDownloadFast-$version-win.zip"
     }
 }

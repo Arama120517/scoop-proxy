@@ -23,7 +23,7 @@
     "checkver": {
         "url": "https://s3.amazonaws.com/notejoy/clients/RELEASES",
         "regex": "([\\d.]+)-full\\.nupkg",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

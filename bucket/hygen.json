@@ -10,6 +10,6 @@
         "github": "https://github.com/jondot/hygen"
     },
     "autoupdate": {
-        "url": "https://github.com/jondot/hygen/releases/download/v$version/hygen.win.exe.v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/jondot/hygen/releases/download/v$version/hygen.win.exe.v$version.zip"
     }
 }

@@ -54,6 +54,6 @@
         "github": "https://github.com/ConEmu/ConEmu"
     },
     "autoupdate": {
-        "url": "https://github.com/ConEmu/ConEmu/releases/download/v$version/ConEmuPack.$cleanVersion.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/ConEmu/ConEmu/releases/download/v$version/ConEmuPack.$cleanVersion.7z"
     }
 }

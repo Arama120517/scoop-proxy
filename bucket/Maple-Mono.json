@@ -87,7 +87,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/subframe7536/Maple-font/releases/download/v$version/MapleMono-TTF.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/subframe7536/Maple-font/releases/download/v$version/MapleMono-TTF.zip",
         "hash": {
             "url": "$baseurl/MapleMono-TTF.sha256"
         }

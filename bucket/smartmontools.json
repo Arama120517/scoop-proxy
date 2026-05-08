@@ -19,6 +19,6 @@
         "regex": "smartmontools-([\\d.-]+)\\.win32"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/smartmontools/smartmontools/$matchHead/smartmontools-$version.win32-setup.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/smartmontools/smartmontools/$matchHead/smartmontools-$version.win32-setup.exe#/dl.7z"
     }
 }

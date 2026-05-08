@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Eclipse-Community/r3dfox/releases/download/v$version/r3dfox-$version.en-US.win64.portable.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Eclipse-Community/r3dfox/releases/download/v$version/r3dfox-$version.en-US.win64.portable.7z"
             },
             "32bit": {
-                "url": "https://github.com/Eclipse-Community/r3dfox/releases/download/v$version/r3dfox-$version.en-US.win32.portable.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Eclipse-Community/r3dfox/releases/download/v$version/r3dfox-$version.en-US.win32.portable.7z"
             }
         }
     }

@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GameTechDev/PresentMon/releases/download/v$version/PresentMon-$version-x64.exe#/PresentMon.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/GameTechDev/PresentMon/releases/download/v$version/PresentMon-$version-x64.exe#/PresentMon.exe"
             }
         }
     }

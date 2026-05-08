@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager-win-$version-x64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager-win-$version-x64.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager-win-$version-arm64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager-win-$version-arm64.exe#/dl.7z"
             }
         },
         "hash": {

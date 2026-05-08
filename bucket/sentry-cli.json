@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/getsentry/sentry-cli/releases/download/$version/sentry-cli-Windows-x86_64.exe#/sentry.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/getsentry/sentry-cli/releases/download/$version/sentry-cli-Windows-x86_64.exe#/sentry.exe"
             },
             "32bit": {
-                "url": "https://github.com/getsentry/sentry-cli/releases/download/$version/sentry-cli-Windows-i686.exe#/sentry.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/getsentry/sentry-cli/releases/download/$version/sentry-cli-Windows-i686.exe#/sentry.exe"
             }
         }
     }

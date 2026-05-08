@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_arm64.zip"
             }
         },
         "hash": {

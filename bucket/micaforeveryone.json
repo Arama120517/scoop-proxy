@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MicaForEveryone/MicaForEveryone/releases/download/v$version/MicaForEveryone-x64-Release.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/MicaForEveryone/MicaForEveryone/releases/download/v$version/MicaForEveryone-x64-Release.zip"
             }
         }
     }

@@ -28,15 +28,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-x86_64.zip",
                 "extract_dir": "llvm-mingw-$matchDate-ucrt-x86_64"
             },
             "32bit": {
-                "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-i686.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-i686.zip",
                 "extract_dir": "llvm-mingw-$matchDate-ucrt-i686"
             },
             "arm64": {
-                "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-aarch64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-aarch64.zip",
                 "extract_dir": "llvm-mingw-$matchDate-ucrt-aarch64"
             }
         }

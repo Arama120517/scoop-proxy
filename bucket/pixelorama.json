@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Orama-Interactive/Pixelorama/releases/download/v$version/Pixelorama-Windows-64bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Orama-Interactive/Pixelorama/releases/download/v$version/Pixelorama-Windows-64bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/Orama-Interactive/Pixelorama/releases/download/v$version/Pixelorama-Windows-32bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Orama-Interactive/Pixelorama/releases/download/v$version/Pixelorama-Windows-32bit.zip"
             }
         }
     }

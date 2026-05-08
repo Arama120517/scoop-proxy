@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/V$version/Portable-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/V$version/Portable-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/V$version/Portable-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/V$version/Portable-arm64.zip"
             }
         }
     }

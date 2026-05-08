@@ -35,13 +35,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version.exe#/rufus.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version.exe#/rufus.exe"
             },
             "32bit": {
-                "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version_x86.exe#/rufus.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version_x86.exe#/rufus.exe"
             },
             "arm64": {
-                "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version_arm64.exe#/rufus.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version_arm64.exe#/rufus.exe"
             }
         }
     }

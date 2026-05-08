@@ -15,6 +15,6 @@
     "bin": "pdd.py",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/jarun/pdd/v$version/pdd#/pdd.py"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/jarun/pdd/v$version/pdd#/pdd.py"
     }
 }

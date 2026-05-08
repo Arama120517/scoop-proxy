@@ -42,7 +42,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sozi-projects/Sozi/releases/download/v$matchTag/Sozi.Setup.$version-$matchBuild.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/sozi-projects/Sozi/releases/download/v$matchTag/Sozi.Setup.$version-$matchBuild.exe#/dl.7z"
             }
         }
     }

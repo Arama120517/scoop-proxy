@@ -28,7 +28,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/geovens/gInk/releases/download/v$version/gInk_v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/geovens/gInk/releases/download/v$version/gInk_v$version.zip",
         "extract_dir": "gInk_v$version"
     }
 }

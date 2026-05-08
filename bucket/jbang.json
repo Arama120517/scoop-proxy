@@ -14,7 +14,7 @@
         "github": "https://github.com/jbangdev/jbang"
     },
     "autoupdate": {
-        "url": "https://github.com/jbangdev/jbang/releases/download/v$version/jbang-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/jbangdev/jbang/releases/download/v$version/jbang-$version.zip",
         "hash": {
             "url": "$url.sha256"
         },

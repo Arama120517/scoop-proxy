@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GerryFerdinandus/bittorrent-tracker-editor/releases/download/V$version/trackereditor_windows_amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GerryFerdinandus/bittorrent-tracker-editor/releases/download/V$version/trackereditor_windows_amd64.zip"
             }
         }
     }

@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DearVa/Everywhere/releases/download/v$version/Everywhere-Windows-x64-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/DearVa/Everywhere/releases/download/v$version/Everywhere-Windows-x64-v$version.zip"
             }
         }
     }

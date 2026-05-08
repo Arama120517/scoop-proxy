@@ -28,13 +28,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-386.zip"
             },
             "arm64": {
-                "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-arm64.zip"
             }
         }
     }

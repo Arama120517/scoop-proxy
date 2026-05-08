@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/crunchy-labs/crunchy-cli/releases/download/v$version/crunchy-cli-v$version-windows-x86_64.exe#/crunchy-cli.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/crunchy-labs/crunchy-cli/releases/download/v$version/crunchy-cli-v$version-windows-x86_64.exe#/crunchy-cli.exe"
             }
         }
     }

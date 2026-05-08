@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mltframework/shotcut/releases/download/v$version/shotcut-win64-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mltframework/shotcut/releases/download/v$version/shotcut-win64-$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/mltframework/shotcut/releases/download/v$version/shotcut-win_ARM-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mltframework/shotcut/releases/download/v$version/shotcut-win_ARM-$version.zip"
             }
         },
         "hash": {

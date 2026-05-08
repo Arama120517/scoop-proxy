@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/brechtsanders/winlibs_mingw/releases/download/$matchGccversion-snapshot$matchDateposix-$matchMingwversion-ucrt-$matchRevision/winlibs-x86_64-posix-seh-gcc-$matchGccversion-snapshot$matchDate-mingw-w64ucrt-$matchMingwversion-$matchRevision.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/brechtsanders/winlibs_mingw/releases/download/$matchGccversion-snapshot$matchDateposix-$matchMingwversion-ucrt-$matchRevision/winlibs-x86_64-posix-seh-gcc-$matchGccversion-snapshot$matchDate-mingw-w64ucrt-$matchMingwversion-$matchRevision.7z"
             },
             "32bit": {
-                "url": "https://github.com/brechtsanders/winlibs_mingw/releases/download/$matchGccversion-snapshot$matchDateposix-$matchMingwversion-ucrt-$matchRevision/winlibs-i686-posix-dwarf-gcc-$matchGccversion-snapshot$matchDate-mingw-w64ucrt-$matchMingwversion-$matchRevision.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/brechtsanders/winlibs_mingw/releases/download/$matchGccversion-snapshot$matchDateposix-$matchMingwversion-ucrt-$matchRevision/winlibs-i686-posix-dwarf-gcc-$matchGccversion-snapshot$matchDate-mingw-w64ucrt-$matchMingwversion-$matchRevision.7z"
             }
         },
         "hash": {

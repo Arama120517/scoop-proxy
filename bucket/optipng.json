@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-$version/optipng-$version-win32.zip",
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-$version/optipng-$version-win32.zip",
                 "extract_dir": "optipng-$version-win32"
             },
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-$version/optipng-$version-win64.zip",
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-$version/optipng-$version-win64.zip",
                 "extract_dir": "optipng-$version-win64"
             }
         }

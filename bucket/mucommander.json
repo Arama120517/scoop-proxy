@@ -28,7 +28,7 @@
         "regex": "download/([\\d.-]+)/"
     },
     "autoupdate": {
-        "url": "https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$version-portable.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$version-portable.zip",
         "hash": {
             "url": "https://github.com/mucommander/mucommander/releases/tag/$version",
             "regex": "$md5\\s*$basename"

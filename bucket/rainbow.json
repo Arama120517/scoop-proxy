@@ -9,6 +9,6 @@
     "bin": "rainbow.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/arsham/rainbow/releases/download/v$version/figurine_windows_v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/arsham/rainbow/releases/download/v$version/figurine_windows_v$version.zip"
     }
 }

@@ -19,6 +19,6 @@
     "bin": "diskspd.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/diskspd/releases/download/v$version/DiskSpd.ZIP"
+        "url": "https://v6.gh-proxy.org/https://github.com/microsoft/diskspd/releases/download/v$version/DiskSpd.ZIP"
     }
 }

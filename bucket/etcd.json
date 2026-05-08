@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/etcd-io/etcd/releases/download/v$version/etcd-v$version-windows-amd64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/etcd-io/etcd/releases/download/v$version/etcd-v$version-windows-amd64.zip",
                 "extract_dir": "etcd-v$version-windows-amd64",
                 "hash": {
                     "url": "$baseurl/SHA256SUMS",

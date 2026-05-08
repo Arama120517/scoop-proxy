@@ -28,11 +28,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LN-Zap/zap-desktop/releases/download/v$version/Zap-win-v$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/LN-Zap/zap-desktop/releases/download/v$version/Zap-win-v$version.exe#/dl.7z"
             }
         },
         "hash": {
-            "url": "https://github.com/LN-Zap/zap-desktop/releases/download/v$version/latest.yml",
+            "url": "https://v6.gh-proxy.org/https://github.com/LN-Zap/zap-desktop/releases/download/v$version/latest.yml",
             "mode": "extract",
             "regex": "(?sm)$version.exe.*?sha512: $base64"
         }

@@ -43,7 +43,7 @@
     "checkver": {
         "url": "https://fork.dev/update/win/RELEASES",
         "regex": "Fork-([\\d.]+)-full.nupkg",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://cdn.fork.dev/update/win/Fork-$version-full.nupkg",

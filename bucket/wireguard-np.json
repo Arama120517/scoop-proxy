@@ -40,7 +40,7 @@
     "checkver": {
         "url": "https://download.wireguard.com/windows-client/",
         "regex": "wireguard-amd64-([\\d.]+)\\.msi",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

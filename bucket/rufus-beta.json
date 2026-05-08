@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version.exe#/rufus.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version.exe#/rufus.exe"
             }
         }
     }

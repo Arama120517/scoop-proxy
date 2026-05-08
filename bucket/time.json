@@ -19,6 +19,6 @@
         "replace": "0.${1}.${2}.${3}"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/lukesampson/psutils/$matchSha/time.ps1"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lukesampson/psutils/$matchSha/time.ps1"
     }
 }

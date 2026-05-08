@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aristocratos/btop4win/releases/download/v$version/btop4win-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/aristocratos/btop4win/releases/download/v$version/btop4win-x64.zip"
             }
         }
     }

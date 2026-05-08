@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mlocati/gettext-iconv-windows/releases/download/v$version/gettext$matchGettext-iconv$matchIconv-shared-64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mlocati/gettext-iconv-windows/releases/download/v$version/gettext$matchGettext-iconv$matchIconv-shared-64.zip"
             },
             "32bit": {
-                "url": "https://github.com/mlocati/gettext-iconv-windows/releases/download/v$version/gettext$matchGettext-iconv$matchIconv-shared-32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mlocati/gettext-iconv-windows/releases/download/v$version/gettext$matchGettext-iconv$matchIconv-shared-32.zip"
             }
         }
     }

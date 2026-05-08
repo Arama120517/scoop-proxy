@@ -15,6 +15,6 @@
         "github": "https://github.com/unetbootin/unetbootin"
     },
     "autoupdate": {
-        "url": "https://github.com/unetbootin/unetbootin/releases/download/$version/unetbootin-windows-$version.exe#/unetbootin.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/unetbootin/unetbootin/releases/download/$version/unetbootin-windows-$version.exe#/unetbootin.exe"
     }
 }

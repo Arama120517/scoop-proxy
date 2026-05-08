@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MikeWang000000/spek-X/releases/download/v$version/spek-x-$version-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/MikeWang000000/spek-X/releases/download/v$version/spek-x-$version-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/MikeWang000000/spek-X/releases/download/v$version/spek-x-$version-windows-aarch64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/MikeWang000000/spek-X/releases/download/v$version/spek-x-$version-windows-aarch64.zip"
             }
         }
     }

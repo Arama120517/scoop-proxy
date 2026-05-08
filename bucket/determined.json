@@ -12,6 +12,6 @@
     "bin": "det.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/sirredbeard/determined-windows-cli/releases/download/$version/determined-cli.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/sirredbeard/determined-windows-cli/releases/download/$version/determined-cli.zip"
     }
 }

@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bensadeh/tailspin/releases/download/$version/tailspin-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/bensadeh/tailspin/releases/download/$version/tailspin-x86_64-pc-windows-msvc.zip"
             }
         }
     }

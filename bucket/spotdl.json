@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/spotDL/spotify-downloader/releases/download/v$version/spotdl-$version-win32.exe#/spotdl.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/spotDL/spotify-downloader/releases/download/v$version/spotdl-$version-win32.exe#/spotdl.exe"
             }
         }
     }

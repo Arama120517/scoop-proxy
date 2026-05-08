@@ -35,6 +35,6 @@
         "github": "https://github.com/AdamsLair/duality"
     },
     "autoupdate": {
-        "url": "https://github.com/AdamsLair/duality/releases/download/v$version/Duality.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/AdamsLair/duality/releases/download/v$version/Duality.zip"
     }
 }

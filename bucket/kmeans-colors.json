@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/okaneco/kmeans-colors/releases/download/$version-binary/kmeans_colors-$version-binary-windows-x86_64.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/okaneco/kmeans-colors/releases/download/$version-binary/kmeans_colors-$version-binary-windows-x86_64.tar.gz",
                 "hash": {
                     "url": "$baseurl/kmeans_colors-$version-binary-windows-x86_64.sha256"
                 }

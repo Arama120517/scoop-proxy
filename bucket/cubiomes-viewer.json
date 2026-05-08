@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Cubitect/cubiomes-viewer/releases/download/$version/cubiomes-viewer-static-w64.exe#/cubiomes-viewer.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Cubitect/cubiomes-viewer/releases/download/$version/cubiomes-viewer-static-w64.exe#/cubiomes-viewer.exe"
             }
         }
     }

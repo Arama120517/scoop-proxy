@@ -16,6 +16,6 @@
         "github": "https://github.com/flxzt/rnote"
     },
     "autoupdate": {
-        "url": "https://github.com/flxzt/rnote/releases/download/v$version/rnote-win-installer-$version-x86_64.exe#/setup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/flxzt/rnote/releases/download/v$version/rnote-win-installer-$version-x86_64.exe#/setup.exe"
     }
 }

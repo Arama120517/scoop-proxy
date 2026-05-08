@@ -15,6 +15,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/JFLarvoire/the_silver_searcher/releases/download/$version-Windows/ag.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/JFLarvoire/the_silver_searcher/releases/download/$version-Windows/ag.zip"
     }
 }

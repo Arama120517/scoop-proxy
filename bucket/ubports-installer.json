@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ubports/ubports-installer/releases/download/$matchTag/ubports-installer_$version_win_x64.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/ubports/ubports-installer/releases/download/$matchTag/ubports-installer_$version_win_x64.exe#/dl.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }

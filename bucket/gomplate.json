@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hairyhenderson/gomplate/releases/download/v$version/gomplate_windows-amd64.exe#/gomplate.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/hairyhenderson/gomplate/releases/download/v$version/gomplate_windows-amd64.exe#/gomplate.exe"
             },
             "32bit": {
-                "url": "https://github.com/hairyhenderson/gomplate/releases/download/v$version/gomplate_windows-386.exe#/gomplate.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/hairyhenderson/gomplate/releases/download/v$version/gomplate_windows-386.exe#/gomplate.exe"
             }
         },
         "hash": {

@@ -33,6 +33,6 @@
         "github": "https://github.com/Microsoft/Microsoft-MPI"
     },
     "autoupdate": {
-        "url": "https://github.com/Microsoft/Microsoft-MPI/releases/download/v$version/msmpisetup.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/Microsoft/Microsoft-MPI/releases/download/v$version/msmpisetup.exe"
     }
 }

@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.1.4/qbittorrent_5.1.4_qt6_lt20_x64_setup.exe#/dl.7z",
+            "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.1.4/qbittorrent_5.1.4_qt6_lt20_x64_setup.exe#/dl.7z",
             "hash": "sha1:75660719e5d2c812f09a71881f2b30f035438d6b"
         }
     },
@@ -49,7 +49,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_qt6_lt20_x64_setup.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_qt6_lt20_x64_setup.exe#/dl.7z"
             }
         }
     }

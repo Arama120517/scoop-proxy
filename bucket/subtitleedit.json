@@ -18,7 +18,7 @@
         "github": "https://github.com/SubtitleEdit/subtitleedit"
     },
     "autoupdate": {
-        "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/$version/SE$cleanVersion.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/SubtitleEdit/subtitleedit/releases/download/$version/SE$cleanVersion.zip",
         "hash": {
             "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/$version/",
             "regex": "(?sm)$basename.*?SHA256 Checksum:\\s*<code>$sha256</"

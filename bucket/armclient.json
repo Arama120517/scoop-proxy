@@ -11,6 +11,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/projectkudu/ARMClient/releases/download/v$version/ARMClient.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/projectkudu/ARMClient/releases/download/v$version/ARMClient.zip"
     }
 }

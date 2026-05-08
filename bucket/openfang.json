@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RightNow-AI/openfang/releases/download/v$version/openfang-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/RightNow-AI/openfang/releases/download/v$version/openfang-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/RightNow-AI/openfang/releases/download/v$version/openfang-aarch64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/RightNow-AI/openfang/releases/download/v$version/openfang-aarch64-pc-windows-msvc.zip"
             }
         }
     }

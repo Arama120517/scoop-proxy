@@ -52,7 +52,7 @@
     "checkver": {
         "url": "https://www.videohelp.com/software/Icaros",
         "regex": "/download/Icaros_v([\\w.]+)\\.zip",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://www.videohelp.com/download/Icaros_v$version.zip"

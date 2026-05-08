@@ -21,6 +21,6 @@
     "persist": "portable_data",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/giowck/symphytum/releases/download/v$version/Symphytum-windows-portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/giowck/symphytum/releases/download/v$version/Symphytum-windows-portable.zip"
     }
 }

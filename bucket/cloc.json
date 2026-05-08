@@ -10,6 +10,6 @@
         "github": "https://github.com/AlDanial/cloc"
     },
     "autoupdate": {
-        "url": "https://github.com/AlDanial/cloc/releases/download/v$version/cloc-$version.exe#/cloc.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/AlDanial/cloc/releases/download/v$version/cloc-$version.exe#/cloc.exe"
     }
 }

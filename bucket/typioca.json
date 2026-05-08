@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bloznelis/typioca/releases/download/$version/typioca-win-amd64.exe#/typioca.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/bloznelis/typioca/releases/download/$version/typioca-win-amd64.exe#/typioca.exe"
             },
             "arm64": {
-                "url": "https://github.com/bloznelis/typioca/releases/download/$version/typioca-win-arm64.exe#/typioca.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/bloznelis/typioca/releases/download/$version/typioca-win-arm64.exe#/typioca.exe"
             }
         }
     }

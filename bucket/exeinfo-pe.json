@@ -23,10 +23,10 @@
         "userdb.txt"
     ],
     "checkver": {
-        "url": "https://raw.githubusercontent.com/ExeinfoASL/ASL/master/README.md",
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/ExeinfoASL/ASL/master/README.md",
         "regex": "Version\\s+\\: ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/ExeinfoASL/ASL/master/exeinfope.zip"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/ExeinfoASL/ASL/master/exeinfope.zip"
     }
 }

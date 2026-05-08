@@ -29,7 +29,7 @@
     "checkver": {
         "url": "https://ftp.osuosl.org/pub/musescore-nightlies/windows/3x/nightly/",
         "regex": "MuseScoreNightly-(\\d+)-3.x-(?<tag>[a-f0-9]+)-x86_64\\.7z",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

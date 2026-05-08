@@ -35,13 +35,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO-x64-$version.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO-x64-$version.exe"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO-x86-$version.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO-x86-$version.exe"
             },
             "arm64": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO-ARM64-$version.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO-ARM64-$version.exe"
             }
         }
     }

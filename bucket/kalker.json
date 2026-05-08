@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/PaddiM8/kalker/releases/download/v$version/kalker-windows.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/PaddiM8/kalker/releases/download/v$version/kalker-windows.msi"
             }
         }
     }

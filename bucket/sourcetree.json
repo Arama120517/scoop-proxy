@@ -19,7 +19,7 @@
     "checkver": {
         "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/RELEASES",
         "regex": "SourceTree-([\\d.]+)-full\\.nupkg",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTree-$version-full.nupkg",

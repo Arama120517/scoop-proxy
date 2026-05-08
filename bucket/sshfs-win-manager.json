@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/evsar3/sshfs-win-manager/releases/download/v$version/sshfs-win-manager-v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/evsar3/sshfs-win-manager/releases/download/v$version/sshfs-win-manager-v$version.zip"
             }
         }
     }

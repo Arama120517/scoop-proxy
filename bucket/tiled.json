@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mapeditor/tiled/releases/download/v$version/Tiled-$version_Windows-10+_x86_64.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/mapeditor/tiled/releases/download/v$version/Tiled-$version_Windows-10+_x86_64.msi"
             },
             "32bit": {
-                "url": "https://github.com/mapeditor/tiled/releases/download/v$version/Tiled-$version_Windows-7-8_x86.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/mapeditor/tiled/releases/download/v$version/Tiled-$version_Windows-7-8_x86.msi"
             }
         }
     }

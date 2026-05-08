@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/baulk/baulk/releases/download/v$version/Baulk-$version-win-x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/baulk/baulk/releases/download/v$version/Baulk-$version-win-x64.zip",
                 "extract_dir": "Baulk-$version-win-x64"
             }
         }

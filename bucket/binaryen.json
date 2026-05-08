@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz",
+                "url": "https://v6.gh-proxy.org/https://github.com/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz",
                 "hash": {
                     "url": "$url.sha256"
                 }

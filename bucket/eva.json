@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nerdypepper/eva/releases/download/v$version/eva.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/nerdypepper/eva/releases/download/v$version/eva.exe"
             }
         }
     }

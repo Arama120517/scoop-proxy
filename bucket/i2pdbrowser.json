@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/PurpleI2P/i2pdbrowser/releases/download/$version/I2PdBrowserPortable_$version.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/PurpleI2P/i2pdbrowser/releases/download/$version/I2PdBrowserPortable_$version.7z"
             }
         },
         "hash": {

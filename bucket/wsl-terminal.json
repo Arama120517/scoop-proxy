@@ -32,7 +32,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/goreliu/wsl-terminal/releases/download/v$version/wsl-terminal-$version.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/goreliu/wsl-terminal/releases/download/v$version/wsl-terminal-$version.7z",
         "hash": {
             "url": "https://github.com/goreliu/wsl-terminal/releases/tag/v$version",
             "regex": "(?sm)$sha256</td>\\s+<td>$basename"

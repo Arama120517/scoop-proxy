@@ -11,6 +11,6 @@
     "bin": "structurizr.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/structurizr/cli/releases/download/v$version/structurizr-cli.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/structurizr/cli/releases/download/v$version/structurizr-cli.zip"
     }
 }

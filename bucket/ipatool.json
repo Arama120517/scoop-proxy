@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/majd/ipatool/releases/download/v$version/ipatool-$version-windows-amd64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/majd/ipatool/releases/download/v$version/ipatool-$version-windows-amd64.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/majd/ipatool/releases/download/v$version/ipatool-$version-windows-arm64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/majd/ipatool/releases/download/v$version/ipatool-$version-windows-arm64.tar.gz"
             }
         },
         "hash": {

@@ -64,6 +64,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/GerbilSoft/rom-properties/releases/download/v$version/SetupRomProperties-$version.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/GerbilSoft/rom-properties/releases/download/v$version/SetupRomProperties-$version.exe"
     }
 }

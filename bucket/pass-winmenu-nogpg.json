@@ -23,6 +23,6 @@
     "persist": "pass-winmenu.yaml",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Baggykiin/pass-winmenu/releases/download/v$version/pass-winmenu-nogpg.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Baggykiin/pass-winmenu/releases/download/v$version/pass-winmenu-nogpg.zip"
     }
 }

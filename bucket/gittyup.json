@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Murmele/Gittyup/releases/download/gittyup_v$version/Gittyup-win64-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Murmele/Gittyup/releases/download/gittyup_v$version/Gittyup-win64-$version.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/Murmele/Gittyup/releases/download/gittyup_v$version/Gittyup-win32-$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Murmele/Gittyup/releases/download/gittyup_v$version/Gittyup-win32-$version.exe#/dl.7z"
             }
         }
     }

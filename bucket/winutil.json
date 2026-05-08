@@ -24,6 +24,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ChrisTitusTech/winutil/releases/download/$version/winutil.ps1"
+        "url": "https://v6.gh-proxy.org/https://github.com/ChrisTitusTech/winutil/releases/download/$version/winutil.ps1"
     }
 }

@@ -19,6 +19,6 @@
     "persist": "UserData",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/QL-Win/QuickLook/releases/download/$version/QuickLook-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/QL-Win/QuickLook/releases/download/$version/QuickLook-$version.zip"
     }
 }

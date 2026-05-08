@@ -87,6 +87,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/AnonymousPro.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/AnonymousPro.zip"
     }
 }

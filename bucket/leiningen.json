@@ -11,6 +11,6 @@
         "github": "https://github.com/technomancy/leiningen"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/technomancy/leiningen/$version/bin/lein.bat"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/technomancy/leiningen/$version/bin/lein.bat"
     }
 }

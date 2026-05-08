@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/usebruno/bruno/releases/download/v$version/bruno_$version_x64_win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/usebruno/bruno/releases/download/v$version/bruno_$version_x64_win.zip"
             }
         }
     }

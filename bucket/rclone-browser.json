@@ -48,10 +48,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/$version/rclone-browser-$version-$matchCommit-windows-64-bit.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/kapitainsky/RcloneBrowser/releases/download/$version/rclone-browser-$version-$matchCommit-windows-64-bit.exe"
             },
             "32bit": {
-                "url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/$version/rclone-browser-$version-$matchCommit-windows-32-bit.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/kapitainsky/RcloneBrowser/releases/download/$version/rclone-browser-$version-$matchCommit-windows-32-bit.exe"
             }
         },
         "hash": {

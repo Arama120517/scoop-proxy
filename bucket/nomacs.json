@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nomacs/nomacs/releases/download/$version/nomacs-portable-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/nomacs/nomacs/releases/download/$version/nomacs-portable-win.zip"
             }
         },
         "extract_dir": "nomacs-$version"

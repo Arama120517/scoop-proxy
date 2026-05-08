@@ -35,13 +35,13 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/Taiizor/Sucrose/releases/download/v$version/Sucrose_Bundle_.NET_Framework_4.8_x86_$version.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Taiizor/Sucrose/releases/download/v$version/Sucrose_Bundle_.NET_Framework_4.8_x86_$version.exe"
             },
             "64bit": {
-                "url": "https://github.com/Taiizor/Sucrose/releases/download/v$version/Sucrose_Bundle_.NET_Framework_4.8_x64_$version.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Taiizor/Sucrose/releases/download/v$version/Sucrose_Bundle_.NET_Framework_4.8_x64_$version.exe"
             },
             "arm64": {
-                "url": "https://github.com/Taiizor/Sucrose/releases/download/v$version/Sucrose_Bundle_.NET_Framework_4.8_ARM64_$version.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Taiizor/Sucrose/releases/download/v$version/Sucrose_Bundle_.NET_Framework_4.8_ARM64_$version.exe"
             }
         }
     }

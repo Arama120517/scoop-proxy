@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win.exe#/dl.7z"
             }
         },
         "hash": {

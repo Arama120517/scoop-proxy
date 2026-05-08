@@ -32,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/espanso/espanso/releases/download/v$version/Espanso-Win-Installer-x86_64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/espanso/espanso/releases/download/v$version/Espanso-Win-Installer-x86_64.exe"
             }
         }
     }

@@ -12,6 +12,6 @@
     "bin": "riff.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/walles/riff/releases/download/$version/riff-$version-x86_64-windows.exe#/riff.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/walles/riff/releases/download/$version/riff-$version-x86_64-windows.exe#/riff.exe"
     }
 }

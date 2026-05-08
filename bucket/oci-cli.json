@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/oracle/oci-cli/releases/download/v$version/oci-cli-$version-Windows-Server-Installer.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/oracle/oci-cli/releases/download/v$version/oci-cli-$version-Windows-Server-Installer.msi"
             }
         }
     }

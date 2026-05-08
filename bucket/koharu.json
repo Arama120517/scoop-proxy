@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mayocream/koharu/releases/download/$version/koharu_windows_x64.exe#/koharu.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/mayocream/koharu/releases/download/$version/koharu_windows_x64.exe#/koharu.exe"
             }
         }
     }

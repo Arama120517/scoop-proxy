@@ -70,10 +70,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x64-setup.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x64-setup.exe"
             },
             "32bit": {
-                "url": "https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x86-setup.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x86-setup.exe"
             }
         },
         "hash": {

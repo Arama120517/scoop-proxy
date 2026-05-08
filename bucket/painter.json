@@ -8,6 +8,6 @@
     "bin": "painter.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/lptstr/painter/releases/download/v$version/painter.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/lptstr/painter/releases/download/v$version/painter.exe"
     }
 }

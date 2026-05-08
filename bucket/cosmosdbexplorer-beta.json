@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sachabruttin/CosmosDbExplorer/releases/download/v$version/CosmosDbExplorer.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/sachabruttin/CosmosDbExplorer/releases/download/v$version/CosmosDbExplorer.zip"
             }
         }
     }

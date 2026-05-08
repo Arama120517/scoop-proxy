@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pd4d10/debugtron/releases/download/v$version/Debugtron-win32-x64-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/pd4d10/debugtron/releases/download/v$version/Debugtron-win32-x64-$version.zip"
             }
         }
     }

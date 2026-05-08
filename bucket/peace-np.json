@@ -61,10 +61,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://sourceforge.net/projects/peace-equalizer-apo-extension/files/64%20bits%20version/Peace64.exe/download"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://sourceforge.net/projects/peace-equalizer-apo-extension/files/64%20bits%20version/Peace64.exe/download"
             },
             "32bit": {
-                "url": "sourceforge/https://sourceforge.net/projects/peace-equalizer-apo-extension/files/Peace.exe/download"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://sourceforge.net/projects/peace-equalizer-apo-extension/files/Peace.exe/download"
             }
         }
     }

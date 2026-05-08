@@ -28,15 +28,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/trzsz/tsshd/releases/download/v$version/tsshd_$version_windows_x86_64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/trzsz/tsshd/releases/download/v$version/tsshd_$version_windows_x86_64.zip",
                 "extract_dir": "tsshd_$version_windows_x86_64"
             },
             "32bit": {
-                "url": "https://github.com/trzsz/tsshd/releases/download/v$version/tsshd_$version_windows_i386.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/trzsz/tsshd/releases/download/v$version/tsshd_$version_windows_i386.zip",
                 "extract_dir": "tsshd_$version_windows_i386"
             },
             "arm64": {
-                "url": "https://github.com/trzsz/tsshd/releases/download/v$version/tsshd_$version_windows_aarch64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/trzsz/tsshd/releases/download/v$version/tsshd_$version_windows_aarch64.zip",
                 "extract_dir": "tsshd_$version_windows_aarch64"
             }
         },

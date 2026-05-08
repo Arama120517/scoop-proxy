@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fedify-dev/fedify/releases/download/$version/fedify-cli-$version-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/fedify-dev/fedify/releases/download/$version/fedify-cli-$version-windows-x86_64.zip"
             }
         }
     }

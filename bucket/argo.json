@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/argoproj/argo-workflows/releases/download/v$version/argo-windows-amd64.exe.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/argoproj/argo-workflows/releases/download/v$version/argo-windows-amd64.exe.gz"
             }
         },
         "hash": {

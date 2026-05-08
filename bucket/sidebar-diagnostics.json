@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ArcadeRenegade/SidebarDiagnostics/releases/download/v$version/Standalone.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ArcadeRenegade/SidebarDiagnostics/releases/download/v$version/Standalone.zip"
             }
         }
     }

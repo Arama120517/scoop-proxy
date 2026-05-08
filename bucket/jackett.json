@@ -25,6 +25,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Jackett/Jackett/releases/download/v$version/Jackett.Binaries.Windows.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Jackett/Jackett/releases/download/v$version/Jackett.Binaries.Windows.zip"
     }
 }

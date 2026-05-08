@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/varbhat/torpar/releases/download/v$version/torpar-win-amd64.exe#/torpar.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/varbhat/torpar/releases/download/v$version/torpar-win-amd64.exe#/torpar.exe"
             }
         },
         "hash": {

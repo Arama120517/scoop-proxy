@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rbsec/sslscan/releases/download/$version/sslscan-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/rbsec/sslscan/releases/download/$version/sslscan-$version.zip"
             }
         }
     }

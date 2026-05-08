@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/422658476/MPV-EASY-Player/releases/download/$version/MPV-EASY.Player.V$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/422658476/MPV-EASY-Player/releases/download/$version/MPV-EASY.Player.V$version.exe#/dl.7z"
             }
         }
     }

@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/FlareSolverr/FlareSolverr/releases/download/v$version/flaresolverr_windows_x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/FlareSolverr/FlareSolverr/releases/download/v$version/flaresolverr_windows_x64.zip"
             }
         }
     }

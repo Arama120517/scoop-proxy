@@ -87,6 +87,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/adam7/delugia-code/releases/download/v$version/delugia-book.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/adam7/delugia-code/releases/download/v$version/delugia-book.zip"
     }
 }

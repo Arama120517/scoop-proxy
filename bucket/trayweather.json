@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/FelixdelasPozas/TrayWeather/releases/download/$version/TrayWeather_v$version_Portable.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/FelixdelasPozas/TrayWeather/releases/download/$version/TrayWeather_v$version_Portable.7z"
             }
         }
     }

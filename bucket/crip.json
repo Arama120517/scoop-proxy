@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Hakky54/certificate-ripper/releases/download/$version/crip-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Hakky54/certificate-ripper/releases/download/$version/crip-windows-amd64.zip"
             }
         }
     }

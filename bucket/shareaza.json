@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-$version/Shareaza_$version_x64.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-$version/Shareaza_$version_x64.exe"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-$version/Shareaza_$version_Win32.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-$version/Shareaza_$version_Win32.exe"
             }
         }
     }

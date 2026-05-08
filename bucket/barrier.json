@@ -46,7 +46,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/debauchee/barrier/releases/download/v$version/BarrierSetup-$version-release.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/debauchee/barrier/releases/download/v$version/BarrierSetup-$version-release.exe"
             }
         }
     }

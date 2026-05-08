@@ -27,7 +27,7 @@
         "regex": "release/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/windirstat/windirstat/releases/download/release%2Fv$version/WinDirStat.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/windirstat/windirstat/releases/download/release%2Fv$version/WinDirStat.7z",
         "hash": {
             "url": "$baseurl/WinDirStat-Hashes.txt"
         }

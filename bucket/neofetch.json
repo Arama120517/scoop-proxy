@@ -11,6 +11,6 @@
     "bin": "neofetch",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/dylanaraps/neofetch/$version/neofetch"
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/dylanaraps/neofetch/$version/neofetch"
     }
 }

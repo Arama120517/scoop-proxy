@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Slackadays/Clipboard/releases/download/$version/clipboard-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Slackadays/Clipboard/releases/download/$version/clipboard-windows-amd64.zip"
             }
         }
     }

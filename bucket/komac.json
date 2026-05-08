@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/russellbanks/Komac/releases/download/v$version/komac-$version-x86_64-pc-windows-msvc.exe#/Komac.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/russellbanks/Komac/releases/download/v$version/komac-$version-x86_64-pc-windows-msvc.exe#/Komac.exe"
             },
             "arm64": {
-                "url": "https://github.com/russellbanks/Komac/releases/download/v$version/komac-$version-aarch64-pc-windows-msvc.exe#/Komac.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/russellbanks/Komac/releases/download/v$version/komac-$version-aarch64-pc-windows-msvc.exe#/Komac.exe"
             }
         },
         "hash": {

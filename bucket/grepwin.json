@@ -68,10 +68,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.zip"
             },
             "32bit": {
-                "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.zip"
             }
         }
     }

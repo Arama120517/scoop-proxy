@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jorgerojas26/lazysql/releases/download/v$version/lazysql_Windows_x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jorgerojas26/lazysql/releases/download/v$version/lazysql_Windows_x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/jorgerojas26/lazysql/releases/download/v$version/lazysql_Windows_arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jorgerojas26/lazysql/releases/download/v$version/lazysql_Windows_arm64.zip"
             },
             "32bit": {
-                "url": "https://github.com/jorgerojas26/lazysql/releases/download/v$version/lazysql_Windows_i386.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/jorgerojas26/lazysql/releases/download/v$version/lazysql_Windows_i386.zip"
             }
         },
         "hash": {

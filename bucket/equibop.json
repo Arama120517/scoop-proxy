@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-win.zip"
             },
             "arm64": {
-                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-arm64-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-arm64-win.zip"
             }
         }
     }

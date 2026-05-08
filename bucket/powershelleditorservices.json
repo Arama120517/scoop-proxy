@@ -8,6 +8,6 @@
     "bin": "PowerShellEditorServices/Start-EditorServices.ps1",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/PowerShell/PowerShellEditorServices/releases/download/v$version/PowerShellEditorServices.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/PowerShell/PowerShellEditorServices/releases/download/v$version/PowerShellEditorServices.zip"
     }
 }

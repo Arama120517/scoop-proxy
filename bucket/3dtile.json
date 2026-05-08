@@ -17,6 +17,6 @@
         "github": "https://github.com/fanvanzh/3dtiles"
     },
     "autoupdate": {
-        "url": "https://github.com/fanvanzh/3dtiles/releases/download/v$version/3dtile.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/fanvanzh/3dtiles/releases/download/v$version/3dtile.zip"
     }
 }

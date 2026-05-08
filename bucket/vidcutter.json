@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ozmartian/vidcutter/releases/download/$version/VidCutter-$version-setup-win64.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ozmartian/vidcutter/releases/download/$version/VidCutter-$version-setup-win64.exe"
             }
         }
     }

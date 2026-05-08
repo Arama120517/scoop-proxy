@@ -24,7 +24,7 @@
     "checkver": {
         "url": "https://files.makehumancommunity.org/releases/",
         "regex": "([\\d.]+)-windows.zip",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://files.makehumancommunity.org/releases/makehuman-community-$version-windows.zip",

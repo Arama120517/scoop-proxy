@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/potassco/clingo/releases/download/v$version/clingo-$version-win64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/potassco/clingo/releases/download/v$version/clingo-$version-win64.zip",
                 "extract_dir": "clingo-$version-win64"
             }
         }

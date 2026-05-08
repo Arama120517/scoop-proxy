@@ -26,6 +26,6 @@
         "regex": "tag/desktop-v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
     }
 }

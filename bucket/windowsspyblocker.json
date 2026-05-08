@@ -16,6 +16,6 @@
     "persist": "app.conf",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/crazy-max/WindowsSpyBlocker/releases/download/$version/WindowsSpyBlocker.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/crazy-max/WindowsSpyBlocker/releases/download/$version/WindowsSpyBlocker.exe"
     }
 }

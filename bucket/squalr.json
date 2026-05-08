@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Squalr/Squalr-Sharp/releases/download/$version/Squalr-$version-full.nupkg"
+                "url": "https://v6.gh-proxy.org/https://github.com/Squalr/Squalr-Sharp/releases/download/$version/Squalr-$version-full.nupkg"
             }
         },
         "hash": {

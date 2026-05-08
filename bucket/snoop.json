@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/snoopwpf/snoopwpf/releases/download/v$version/Snoop.$version.signed.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/snoopwpf/snoopwpf/releases/download/v$version/Snoop.$version.signed.zip"
             }
         },
         "hash": {

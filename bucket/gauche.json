@@ -35,10 +35,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shirok/Gauche/releases/download/release$underscoreVersion/Gauche-mingw-$version-64bit.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/shirok/Gauche/releases/download/release$underscoreVersion/Gauche-mingw-$version-64bit.msi"
             },
             "32bit": {
-                "url": "https://github.com/shirok/Gauche/releases/download/release$underscoreVersion/Gauche-mingw-$version-32bit.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/shirok/Gauche/releases/download/release$underscoreVersion/Gauche-mingw-$version-32bit.msi"
             }
         }
     }

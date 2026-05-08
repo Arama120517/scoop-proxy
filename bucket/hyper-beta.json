@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zeit/hyper/releases/download/$version/hyper-$matchHead-canary$matchPre-full.nupkg",
+                "url": "https://v6.gh-proxy.org/https://github.com/zeit/hyper/releases/download/$version/hyper-$matchHead-canary$matchPre-full.nupkg",
                 "hash": {
                     "url": "$baseurl/RELEASES"
                 }

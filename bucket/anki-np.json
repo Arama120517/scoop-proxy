@@ -43,7 +43,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ankitects/anki/releases/download/$version/anki-launcher-$version-windows.exe#/installer.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ankitects/anki/releases/download/$version/anki-launcher-$version-windows.exe#/installer.exe"
             }
         },
         "hash": {

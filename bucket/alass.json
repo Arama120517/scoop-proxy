@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kaegi/alass/releases/download/v$version/alass-windows64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/kaegi/alass/releases/download/v$version/alass-windows64.zip"
             }
         }
     }

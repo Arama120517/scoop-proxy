@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/crystal-lang/crystal/releases/download/$matchHead/crystal-$version-windows-x86_64-msvc-unsupported.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/crystal-lang/crystal/releases/download/$matchHead/crystal-$version-windows-x86_64-msvc-unsupported.zip"
             }
         }
     }

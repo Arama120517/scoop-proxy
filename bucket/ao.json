@@ -34,6 +34,6 @@
         "github": "https://github.com/klaudiosinani/ao"
     },
     "autoupdate": {
-        "url": "https://github.com/klaussinani/ao/releases/download/v$version/ao-$version.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/klaussinani/ao/releases/download/v$version/ao-$version.exe#/dl.7z"
     }
 }

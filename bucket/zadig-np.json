@@ -21,6 +21,6 @@
         "replace": "${zadigversion}"
     },
     "autoupdate": {
-        "url": "https://github.com/pbatard/libwdi/releases/download/v$matchLibwdiversion/zadig-$version.exe#/zadig.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/pbatard/libwdi/releases/download/v$matchLibwdiversion/zadig-$version.exe#/zadig.exe"
     }
 }

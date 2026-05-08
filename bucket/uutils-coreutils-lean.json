@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/uutils/coreutils/releases/download/$version/coreutils-$version-x86_64-pc-windows-gnu.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/uutils/coreutils/releases/download/$version/coreutils-$version-x86_64-pc-windows-gnu.zip",
                 "extract_dir": "coreutils-$version-x86_64-pc-windows-gnu"
             }
         }

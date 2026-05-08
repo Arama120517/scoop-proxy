@@ -97,7 +97,7 @@
         "github": "https://github.com/theleagueof/league-mono"
     },
     "autoupdate": {
-        "url": "https://github.com/theleagueof/league-mono/releases/download/$version/LeagueMono-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/theleagueof/league-mono/releases/download/$version/LeagueMono-$version.zip",
         "extract_dir": "LeagueMono-$version/variable/TTF"
     }
 }

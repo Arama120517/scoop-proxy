@@ -28,6 +28,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/GitSquared/edex-ui/releases/download/v$version/eDEX-UI-Windows.exe#/dl.7z"
+        "url": "https://v6.gh-proxy.org/https://github.com/GitSquared/edex-ui/releases/download/v$version/eDEX-UI-Windows.exe#/dl.7z"
     }
 }

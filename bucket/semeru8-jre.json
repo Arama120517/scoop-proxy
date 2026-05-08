@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jre_x64_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jre_x64_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
             },
             "32bit": {
-                "url": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jre_x86-32_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jre_x86-32_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
             }
         },
         "hash": {

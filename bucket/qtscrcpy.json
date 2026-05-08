@@ -26,11 +26,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v$version/QtScrcpy-win-x64-v$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/barry-ran/QtScrcpy/releases/download/v$version/QtScrcpy-win-x64-v$version.zip",
                 "extract_dir": "QtScrcpy-win-x64-v$version"
             },
             "32bit": {
-                "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v$version/QtScrcpy-win-x86-v$version.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/barry-ran/QtScrcpy/releases/download/v$version/QtScrcpy-win-x86-v$version.zip",
                 "extract_dir": "QtScrcpy-win-x86-v$version"
             }
         }

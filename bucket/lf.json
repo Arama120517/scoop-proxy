@@ -40,16 +40,16 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip",
-                    "https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.cmd",
-                    "https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.ps1"
+                    "https://v6.gh-proxy.org/https://github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip",
+                    "https://v6.gh-proxy.org/https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.cmd",
+                    "https://v6.gh-proxy.org/https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.ps1"
                 ]
             },
             "32bit": {
                 "url": [
-                    "https://github.com/gokcehan/lf/releases/download/$version/lf-windows-386.zip",
-                    "https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.cmd",
-                    "https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.ps1"
+                    "https://v6.gh-proxy.org/https://github.com/gokcehan/lf/releases/download/$version/lf-windows-386.zip",
+                    "https://v6.gh-proxy.org/https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.cmd",
+                    "https://v6.gh-proxy.org/https://raw.githubusercontent.com/gokcehan/lf/$version/etc/lfcd.ps1"
                 ]
             }
         }

@@ -47,7 +47,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/$version/ShadowsocksR-win-$version.zip#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/$version/ShadowsocksR-win-$version.zip#/dl.7z",
         "extract_dir": "ShadowsocksR-win-$version"
     }
 }

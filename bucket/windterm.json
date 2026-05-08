@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_32.zip"
             }
         },
         "extract_dir": "WindTerm_$version"

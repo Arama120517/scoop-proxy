@@ -11,6 +11,6 @@
         "regex": "premake-(4[0-9a-z.-]+)-windows"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/premake/Premake/$matchHead/premake-$version-windows.zip"
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/premake/Premake/$matchHead/premake-$version-windows.zip"
     }
 }

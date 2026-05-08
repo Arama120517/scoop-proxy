@@ -49,7 +49,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/eumat/Installer/EulerSetup-64_$version.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/eumat/Installer/EulerSetup-64_$version.exe"
             }
         }
     }

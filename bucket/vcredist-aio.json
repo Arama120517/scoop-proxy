@@ -28,14 +28,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe",
+                "url": "https://v6.gh-proxy.org/https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe",
                 "hash": {
                     "url": "https://github.com/abbodi1406/vcredist/releases/v$version",
                     "regex": "File: $basename[\\S\\s]*?SHA-256: $sha256"
                 }
             },
             "32bit": {
-                "url": "https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86only.exe#/vcredist-aio.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86only.exe#/vcredist-aio.exe"
             }
         }
     }

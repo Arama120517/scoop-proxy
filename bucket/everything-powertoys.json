@@ -32,14 +32,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-x64.zip",
                 "hash": {
                     "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/tag/v$version",
                     "regex": "(?s)x64-ZIP.*?$sha256"
                 }
             },
             "arm64": {
-                "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-ARM64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-ARM64.zip",
                 "hash": {
                     "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/tag/v$version",
                     "regex": "(?s)ARM64-ZIP.*?$sha256"

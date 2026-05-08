@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mu-editor/mu/releases/download/v$version/MuEditor-win64-$version.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/mu-editor/mu/releases/download/v$version/MuEditor-win64-$version.msi"
             }
         }
     }

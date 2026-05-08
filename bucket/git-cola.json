@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/git-cola/git-cola/releases/download/v$version/git-cola-$version.windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/git-cola/git-cola/releases/download/v$version/git-cola-$version.windows.zip"
             }
         }
     }

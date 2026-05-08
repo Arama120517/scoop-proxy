@@ -89,6 +89,6 @@
         "github": "https://github.com/IdreesInc/Monocraft"
     },
     "autoupdate": {
-        "url": "https://github.com/IdreesInc/Monocraft/releases/download/v$version/Monocraft.ttf"
+        "url": "https://v6.gh-proxy.org/https://github.com/IdreesInc/Monocraft/releases/download/v$version/Monocraft.ttf"
     }
 }

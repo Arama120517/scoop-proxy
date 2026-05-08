@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bep/s3deploy/releases/download/v$version/s3deploy_$version_windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/bep/s3deploy/releases/download/v$version/s3deploy_$version_windows-amd64.zip"
             }
         },
         "hash": {

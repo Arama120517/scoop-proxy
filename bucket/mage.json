@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/magefile/mage/releases/download/v$version/mage_$version_Windows-64bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/magefile/mage/releases/download/v$version/mage_$version_Windows-64bit.zip"
             }
         },
         "hash": {

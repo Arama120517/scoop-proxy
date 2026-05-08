@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nowledge-co/con-terminal/releases/download/v$version/con-$version-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/nowledge-co/con-terminal/releases/download/v$version/con-$version-windows-x86_64.zip"
             }
         },
         "hash": {

@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/istio/istio/releases/download/$version/istioctl-$version-win.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/istio/istio/releases/download/$version/istioctl-$version-win.zip"
             }
         },
         "hash": {

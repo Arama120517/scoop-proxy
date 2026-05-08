@@ -25,7 +25,7 @@
         "github": "https://github.com/mb21/panwriter"
     },
     "autoupdate": {
-        "url": "https://github.com/mb21/panwriter/releases/download/v$version/PanWriter-Setup-$version.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/mb21/panwriter/releases/download/v$version/PanWriter-Setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512: $base64"

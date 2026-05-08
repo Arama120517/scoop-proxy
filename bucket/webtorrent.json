@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/webtorrent/webtorrent-desktop/releases/download/v$version/WebTorrent-$version-full.nupkg",
+                "url": "https://v6.gh-proxy.org/https://github.com/webtorrent/webtorrent-desktop/releases/download/v$version/WebTorrent-$version-full.nupkg",
                 "hash": {
                     "url": "$baseurl/RELEASES"
                 }

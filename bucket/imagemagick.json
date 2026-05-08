@@ -38,13 +38,13 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-Q16-HDRI-x86-dll.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-Q16-HDRI-x86-dll.exe"
             },
             "64bit": {
-                "url": "https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-Q16-HDRI-x64-dll.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-Q16-HDRI-x64-dll.exe"
             },
             "arm64": {
-                "url": "https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-Q16-HDRI-arm64-dll.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-Q16-HDRI-arm64-dll.exe"
             }
         }
     }

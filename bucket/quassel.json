@@ -50,7 +50,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/quassel/quassel/releases/download/$version/quassel-windows-$version.7z",
+                "url": "https://v6.gh-proxy.org/https://github.com/quassel/quassel/releases/download/$version/quassel-windows-$version.7z",
                 "hash": {
                     "url": "$url.sha256sum"
                 }

@@ -23,11 +23,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version-x64.zip",
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version-x64.zip",
                 "extract_dir": "astyle-$version-x64"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version.zip",
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/astyle/astyle/astyle%20$majorVersion.$minorVersion/astyle-$version.zip",
                 "extract_dir": "astyle-$version"
             }
         }

@@ -25,13 +25,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/swc-project/swc/releases/download/v$version/swc-win32-x64-msvc.exe#/swc.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/swc-project/swc/releases/download/v$version/swc-win32-x64-msvc.exe#/swc.exe"
             },
             "32bit": {
-                "url": "https://github.com/swc-project/swc/releases/download/v$version/swc-win32-ia32-msvc.exe#/swc.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/swc-project/swc/releases/download/v$version/swc-win32-ia32-msvc.exe#/swc.exe"
             },
             "arm64": {
-                "url": "https://github.com/swc-project/swc/releases/download/v$version/swc-win32-arm64-msvc.exe#/swc.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/swc-project/swc/releases/download/v$version/swc-win32-arm64-msvc.exe#/swc.exe"
             }
         }
     }

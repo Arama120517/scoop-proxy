@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vladimiry/ElectronMail/releases/download/v$version/electron-mail-$version-windows-x64-nsis-installer.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/vladimiry/ElectronMail/releases/download/v$version/electron-mail-$version-windows-x64-nsis-installer.exe#/dl.7z"
             }
         },
         "hash": {

@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-extended-$matchDragon_jdk8u$matchJdk-ga/Alibaba_Dragonwell_Extended_$matchDragon_x64_windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-extended-$matchDragon_jdk8u$matchJdk-ga/Alibaba_Dragonwell_Extended_$matchDragon_x64_windows.zip"
             }
         },
         "hash": {

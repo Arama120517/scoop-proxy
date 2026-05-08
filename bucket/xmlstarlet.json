@@ -18,7 +18,7 @@
         "regex": "xmlstarlet-([\\d.]+)-win"
     },
     "autoupdate": {
-        "url": "sourceforge/https://downloads.sourceforge.net/project/xmlstar/xmlstarlet/$version/xmlstarlet-$version-win32.zip",
+        "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/xmlstar/xmlstarlet/$version/xmlstarlet-$version-win32.zip",
         "extract_dir": "xmlstarlet-$version"
     }
 }

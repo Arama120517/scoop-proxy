@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TomWright/dasel/releases/download/v$version/dasel_windows_amd64.exe#/dasel.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/TomWright/dasel/releases/download/v$version/dasel_windows_amd64.exe#/dasel.exe"
             },
             "32bit": {
-                "url": "https://github.com/TomWright/dasel/releases/download/v$version/dasel_windows_386.exe#/dasel.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/TomWright/dasel/releases/download/v$version/dasel_windows_386.exe#/dasel.exe"
             }
         }
     }

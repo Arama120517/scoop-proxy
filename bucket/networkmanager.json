@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
                 "hash": {
                     "url": "https://github.com/BornToBeRoot/NETworkManager/releases/tag/$version",
                     "find": "(?sm)$basename.*?>$sha256</"

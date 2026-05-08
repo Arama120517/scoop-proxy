@@ -90,14 +90,14 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/ip7z/7zip/releases/download/$matchHead/7z$majorVersion$minorVersion-x64.msi",
-                    "https://github.com/ozone10/7zip-Dark7zip/releases/download/v$version/7z$version-x64.zip#/patch.dl"
+                    "https://v6.gh-proxy.org/https://github.com/ip7z/7zip/releases/download/$matchHead/7z$majorVersion$minorVersion-x64.msi",
+                    "https://v6.gh-proxy.org/https://github.com/ozone10/7zip-Dark7zip/releases/download/v$version/7z$version-x64.zip#/patch.dl"
                 ]
             },
             "arm64": {
                 "url": [
-                    "https://github.com/ip7z/7zip/releases/download/$matchHead/7z$majorVersion$minorVersion-arm64.exe",
-                    "https://github.com/ozone10/7zip-Dark7zip/releases/download/v$version/7z$version-arm64.zip#/patch.dl"
+                    "https://v6.gh-proxy.org/https://github.com/ip7z/7zip/releases/download/$matchHead/7z$majorVersion$minorVersion-arm64.exe",
+                    "https://v6.gh-proxy.org/https://github.com/ozone10/7zip-Dark7zip/releases/download/v$version/7z$version-arm64.zip#/patch.dl"
                 ]
             }
         }

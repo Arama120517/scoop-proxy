@@ -14,6 +14,6 @@
     "persist": "Config",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/leiurayer/downkyi/releases/download/v$version/DownKyi-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/leiurayer/downkyi/releases/download/v$version/DownKyi-$version.zip"
     }
 }

@@ -17,6 +17,6 @@
         "github": "https://github.com/tikzit/tikzit"
     },
     "autoupdate": {
-        "url": "https://github.com/tikzit/tikzit/releases/download/v$version/tikzit-win.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/tikzit/tikzit/releases/download/v$version/tikzit-win.zip"
     }
 }

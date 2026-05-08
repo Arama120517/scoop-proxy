@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/slonopotamus/stevedore/releases/download/$version/stevedore-$version-x86_64.msi#/setup.msi_"
+                "url": "https://v6.gh-proxy.org/https://github.com/slonopotamus/stevedore/releases/download/$version/stevedore-$version-x86_64.msi#/setup.msi_"
             }
         }
     }

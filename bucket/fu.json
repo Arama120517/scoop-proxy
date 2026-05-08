@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Angelmmiguel/fu/releases/download/v$version/fu-pc-windows-x86_64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/Angelmmiguel/fu/releases/download/v$version/fu-pc-windows-x86_64.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/Angelmmiguel/fu/releases/download/v$version/fu-pc-windows-aarch64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/Angelmmiguel/fu/releases/download/v$version/fu-pc-windows-aarch64.tar.gz"
             }
         },
         "hash": {

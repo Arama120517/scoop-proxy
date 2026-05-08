@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mpvnet-player/mpv.net/releases/download/v$version/mpv.net-v$version-portable-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mpvnet-player/mpv.net/releases/download/v$version/mpv.net-v$version-portable-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/mpvnet-player/mpv.net/releases/download/v$version/mpv.net-v$version-portable-ARM64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/mpvnet-player/mpv.net/releases/download/v$version/mpv.net-v$version-portable-ARM64.zip"
             }
         }
     }

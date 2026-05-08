@@ -15,6 +15,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/smorks/keepassnatmsg/releases/download/v$version/KeePassNatMsg-v$version-binaries.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/smorks/keepassnatmsg/releases/download/v$version/KeePassNatMsg-v$version-binaries.zip"
     }
 }

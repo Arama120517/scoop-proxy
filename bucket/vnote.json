@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vnotex/vnote/releases/download/v$version/VNote-$version-win64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/vnotex/vnote/releases/download/v$version/VNote-$version-win64.zip",
                 "extract_dir": "VNote-$version-win64\\bin"
             }
         }

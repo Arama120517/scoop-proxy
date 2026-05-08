@@ -17,7 +17,7 @@
         "github": "https://github.com/micronaut-projects/micronaut-starter"
     },
     "autoupdate": {
-        "url": "https://github.com/micronaut-projects/micronaut-starter/releases/download/v$version/micronaut-cli-$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/micronaut-projects/micronaut-starter/releases/download/v$version/micronaut-cli-$version.zip",
         "extract_dir": "micronaut-cli-$version"
     }
 }

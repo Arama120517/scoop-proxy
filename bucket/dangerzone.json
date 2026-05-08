@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/freedomofpress/dangerzone/releases/download/v$version/Dangerzone-$version.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/freedomofpress/dangerzone/releases/download/v$version/Dangerzone-$version.msi"
             }
         },
         "hash": {

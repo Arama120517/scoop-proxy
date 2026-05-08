@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/omrikiei/ktunnel/releases/download/v$version/ktunnel_$version_Windows_x86_64.tar.gz"
+                "url": "https://v6.gh-proxy.org/https://github.com/omrikiei/ktunnel/releases/download/v$version/ktunnel_$version_Windows_x86_64.tar.gz"
             }
         },
         "hash": {

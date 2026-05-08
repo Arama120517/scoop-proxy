@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lencx/Noi/releases/download/v$version/noi-$version-full.nupkg"
+                "url": "https://v6.gh-proxy.org/https://github.com/lencx/Noi/releases/download/v$version/noi-$version-full.nupkg"
             }
         }
     }

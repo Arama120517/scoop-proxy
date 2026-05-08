@@ -61,11 +61,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ZakKemble/avr-gcc-build/releases/download/v$version-1/avr-gcc-$version-x64-windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/ZakKemble/avr-gcc-build/releases/download/v$version-1/avr-gcc-$version-x64-windows.zip",
                 "extract_dir": "avr-gcc-$version-x64-windows"
             },
             "32bit": {
-                "url": "https://github.com/ZakKemble/avr-gcc-build/releases/download/v$version-1/avr-gcc-$version-x86-windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/ZakKemble/avr-gcc-build/releases/download/v$version-1/avr-gcc-$version-x86-windows.zip",
                 "extract_dir": "avr-gcc-$version-x86-windows"
             }
         },

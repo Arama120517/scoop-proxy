@@ -18,9 +18,9 @@
         "github": "https://github.com/Code52/carnac/"
     },
     "autoupdate": {
-        "url": "https://github.com/Code52/carnac/releases/download/$version/carnac-$version-full.nupkg",
+        "url": "https://v6.gh-proxy.org/https://github.com/Code52/carnac/releases/download/$version/carnac-$version-full.nupkg",
         "hash": {
-            "url": "https://github.com/Code52/carnac/releases/download/$version/RELEASES"
+            "url": "https://v6.gh-proxy.org/https://github.com/Code52/carnac/releases/download/$version/RELEASES"
         }
     }
 }

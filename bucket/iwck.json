@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Nigh/I-wanna-clean-keyboard/releases/download/v$version/iwck.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Nigh/I-wanna-clean-keyboard/releases/download/v$version/iwck.zip"
             }
         }
     }

@@ -16,7 +16,7 @@
         "regex": "\\Av(\\S+)\\Z"
     },
     "autoupdate": {
-        "url": "https://github.com/Mysticial/y-cruncher/releases/download/v$version/y-cruncher.v$version.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/Mysticial/y-cruncher/releases/download/v$version/y-cruncher.v$version.zip",
         "extract_dir": "y-cruncher v$version"
     }
 }

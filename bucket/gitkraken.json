@@ -43,7 +43,7 @@
     "checkver": {
         "url": "https://api.gitkraken.dev/releases/production/windows/x64/RELEASES",
         "regex": "gitkraken-([\\d.]+)-full\\.nupkg",
-        "reverse": null
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

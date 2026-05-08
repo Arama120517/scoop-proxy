@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/graphif/project-graph/releases/download/v$version/Project.Graph_$version_x64-setup.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/graphif/project-graph/releases/download/v$version/Project.Graph_$version_x64-setup.exe#/dl.7z"
             }
         }
     }

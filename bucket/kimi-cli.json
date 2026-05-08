@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MoonshotAI/kimi-cli/releases/download/$version/kimi-$version-x86_64-pc-windows-msvc-onedir.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/MoonshotAI/kimi-cli/releases/download/$version/kimi-$version-x86_64-pc-windows-msvc-onedir.zip"
             },
             "arm64": {
-                "url": "https://github.com/MoonshotAI/kimi-cli/releases/download/$version/kimi-$version-aarch64-pc-windows-msvc-onedir.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/MoonshotAI/kimi-cli/releases/download/$version/kimi-$version-aarch64-pc-windows-msvc-onedir.zip"
             }
         },
         "hash": {

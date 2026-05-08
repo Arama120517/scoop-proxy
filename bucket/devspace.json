@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/devspace-sh/devspace/releases/download/v$version/devspace-windows-amd64.exe#/devspace.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/devspace-sh/devspace/releases/download/v$version/devspace-windows-amd64.exe#/devspace.exe"
             },
             "32bit": {
-                "url": "https://github.com/devspace-sh/devspace/releases/download/v$version/devspace-windows-386.exe#/devspace.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/devspace-sh/devspace/releases/download/v$version/devspace-windows-386.exe#/devspace.exe"
             }
         },
         "hash": {

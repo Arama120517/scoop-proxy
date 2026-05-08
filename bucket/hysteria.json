@@ -25,13 +25,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/apernet/hysteria/releases/download/app/v$version/hysteria-windows-amd64.exe#/hysteria.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/apernet/hysteria/releases/download/app/v$version/hysteria-windows-amd64.exe#/hysteria.exe"
             },
             "32bit": {
-                "url": "https://github.com/apernet/hysteria/releases/download/app/v$version/hysteria-windows-386.exe#/hysteria.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/apernet/hysteria/releases/download/app/v$version/hysteria-windows-386.exe#/hysteria.exe"
             },
             "arm64": {
-                "url": "https://github.com/apernet/hysteria/releases/download/app/v$version/hysteria-windows-arm64.exe#/hysteria.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/apernet/hysteria/releases/download/app/v$version/hysteria-windows-arm64.exe#/hysteria.exe"
             }
         },
         "hash": {

@@ -22,6 +22,6 @@
         "github": "https://github.com/MathewSachin/Captura"
     },
     "autoupdate": {
-        "url": "https://github.com/MathewSachin/Captura/releases/download/v$version/Captura-Portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/MathewSachin/Captura/releases/download/v$version/Captura-Portable.zip"
     }
 }

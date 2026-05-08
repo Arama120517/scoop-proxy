@@ -49,6 +49,6 @@
     "persist": "data",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/yuk7/ArchWSL/releases/download/$version/Arch.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/yuk7/ArchWSL/releases/download/$version/Arch.zip"
     }
 }

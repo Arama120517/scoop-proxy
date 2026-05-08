@@ -15,7 +15,7 @@
         "replace": "${shortSha}"
     },
     "autoupdate": {
-        "url": "https://github.com/dahlbyk/posh-git/archive/$matchSha.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/dahlbyk/posh-git/archive/$matchSha.zip",
         "extract_dir": "posh-git-$matchSha\\src"
     }
 }

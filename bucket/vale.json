@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/errata-ai/vale/releases/download/v$version/vale_$version_Windows_64-bit.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/errata-ai/vale/releases/download/v$version/vale_$version_Windows_64-bit.zip"
             }
         },
         "hash": {

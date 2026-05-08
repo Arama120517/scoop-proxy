@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Blinue/Magpie/releases/download/v$version/Magpie-v$version-x64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Blinue/Magpie/releases/download/v$version/Magpie-v$version-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/Blinue/Magpie/releases/download/v$version/Magpie-v$version-ARM64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Blinue/Magpie/releases/download/v$version/Magpie-v$version-ARM64.zip"
             }
         }
     }

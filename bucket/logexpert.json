@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LogExperts/LogExpert/releases/download/v$matchTag/LogExpert.$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/LogExperts/LogExpert/releases/download/v$matchTag/LogExpert.$version.zip"
             }
         }
     }

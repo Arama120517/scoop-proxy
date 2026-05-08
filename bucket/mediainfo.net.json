@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/stax76/MediaInfo.NET/releases/download/$version/MediaInfo.NET-$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/stax76/MediaInfo.NET/releases/download/$version/MediaInfo.NET-$version.zip"
     }
 }

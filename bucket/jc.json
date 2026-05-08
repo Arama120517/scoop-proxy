@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kellyjonbrazil/jc/releases/download/v$version/jc-$version-windows.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/kellyjonbrazil/jc/releases/download/v$version/jc-$version-windows.zip",
                 "extract_dir": "jc-$version-windows"
             }
         }

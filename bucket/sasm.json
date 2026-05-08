@@ -17,6 +17,6 @@
         "github": "https://github.com/Dman95/SASM"
     },
     "autoupdate": {
-        "url": "https://github.com/Dman95/SASM/releases/download/v$version/SASM$cleanVersion.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Dman95/SASM/releases/download/v$version/SASM$cleanVersion.zip"
     }
 }

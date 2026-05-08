@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Virtuslab/scala-cli/releases/download/v$version/scala-cli-x86_64-pc-win32.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Virtuslab/scala-cli/releases/download/v$version/scala-cli-x86_64-pc-win32.zip"
             }
         }
     }

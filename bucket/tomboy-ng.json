@@ -29,6 +29,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/tomboy-notes/tomboy-ng/releases/download/v$version/tomboy-ng-setup-$version.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/tomboy-notes/tomboy-ng/releases/download/v$version/tomboy-ng-setup-$version.exe"
     }
 }

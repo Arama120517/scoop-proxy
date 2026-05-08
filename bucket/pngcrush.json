@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w64.exe#/pngcrush.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w64.exe#/pngcrush.exe"
             },
             "32bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w32.exe#/pngcrush.exe"
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w32.exe#/pngcrush.exe"
             }
         }
     }

@@ -33,10 +33,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ai-shifu/ChatALL/releases/download/v$version/ChatALL-$version-win-x64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/ai-shifu/ChatALL/releases/download/v$version/ChatALL-$version-win-x64.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/ai-shifu/ChatALL/releases/download/v$version/ChatALL-$version-win-arm64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/ai-shifu/ChatALL/releases/download/v$version/ChatALL-$version-win-arm64.exe#/dl.7z"
             }
         },
         "hash": {

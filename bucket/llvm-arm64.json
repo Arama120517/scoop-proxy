@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "arm64": {
-                "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-woa64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-woa64.exe#/dl.7z"
             }
         }
     }

@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Anxcye/anx-reader/releases/download/v$version/Anx-Reader-windows-$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/Anxcye/anx-reader/releases/download/v$version/Anx-Reader-windows-$version.zip"
             }
         }
     }

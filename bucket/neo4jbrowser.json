@@ -26,6 +26,6 @@
         "github": "https://github.com/neo4j/neo4j-browser"
     },
     "autoupdate": {
-        "url": "https://github.com/neo4j/neo4j-browser/releases/download/$version/neo4j-browser-$version.tgz"
+        "url": "https://v6.gh-proxy.org/https://github.com/neo4j/neo4j-browser/releases/download/$version/neo4j-browser-$version.tgz"
     }
 }

@@ -8,7 +8,7 @@
     "bin": "validator.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ScoopInstaller/Validator/releases/download/v$version/validator.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/ScoopInstaller/Validator/releases/download/v$version/validator.zip",
         "hash": {
             "url": "$url.sha256"
         }

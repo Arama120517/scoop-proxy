@@ -35,7 +35,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix/releases/download/v.$version-release/Windows11DragAndDropToTaskbarFix.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix/releases/download/v.$version-release/Windows11DragAndDropToTaskbarFix.exe"
             }
         }
     }

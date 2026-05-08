@@ -37,6 +37,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ugetdm/uget-integrator/releases/download/v$version/uget-integrator_win_$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/ugetdm/uget-integrator/releases/download/v$version/uget-integrator_win_$version.zip"
     }
 }

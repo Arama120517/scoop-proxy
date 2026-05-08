@@ -30,7 +30,7 @@
         "github": "https://github.com/RocketChat/Rocket.Chat.Electron"
     },
     "autoupdate": {
-        "url": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/$version/rocketchat-$version-win.exe#/dl.7z",
+        "url": "https://v6.gh-proxy.org/https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/$version/rocketchat-$version-win.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

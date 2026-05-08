@@ -40,14 +40,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lbryio/lbry-desktop/releases/download/v$version/LBRY_$version.exe#/LBRY_$version.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/lbryio/lbry-desktop/releases/download/v$version/LBRY_$version.exe#/LBRY_$version.7z"
             },
             "32bit": {
-                "url": "https://github.com/lbryio/lbry-desktop/releases/download/v$version/LBRY_$version.exe#/LBRY_$version.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/lbryio/lbry-desktop/releases/download/v$version/LBRY_$version.exe#/LBRY_$version.7z"
             }
         },
         "hash": {
-            "url": "https://github.com/lbryio/lbry-desktop/releases/download/v$version/latest.yml",
+            "url": "https://v6.gh-proxy.org/https://github.com/lbryio/lbry-desktop/releases/download/v$version/latest.yml",
             "mode": "extract",
             "regex": "(?sm)$version.exe.*?sha512: $base64"
         }

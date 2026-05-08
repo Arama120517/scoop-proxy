@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TheJoeFin/Text-Grab/releases/download/v$version/Text-Grab.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/TheJoeFin/Text-Grab/releases/download/v$version/Text-Grab.exe"
             },
             "arm64": {
-                "url": "https://github.com/TheJoeFin/Text-Grab/releases/download/v$version/Text-Grab-arm64.exe#/Text-Grab.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/TheJoeFin/Text-Grab/releases/download/v$version/Text-Grab-arm64.exe#/Text-Grab.exe"
             }
         }
     }

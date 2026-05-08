@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nullpo-head/wsl-distrod/releases/download/v$version/distrod_wsl_launcher-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/nullpo-head/wsl-distrod/releases/download/v$version/distrod_wsl_launcher-x86_64.zip"
             }
         }
     }

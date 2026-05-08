@@ -57,7 +57,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/avast/retdec/releases/download/v$version/RetDec-v$version-Windows-Release.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/avast/retdec/releases/download/v$version/RetDec-v$version-Windows-Release.7z"
             }
         }
     }

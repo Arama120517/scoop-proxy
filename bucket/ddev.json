@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/drud/ddev/releases/download/v$version/ddev_windows-amd64.v$version.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/drud/ddev/releases/download/v$version/ddev_windows-amd64.v$version.zip"
             }
         },
         "hash": {

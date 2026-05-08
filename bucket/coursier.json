@@ -20,6 +20,6 @@
         "regex": "tag/v([\\w\\.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/coursier/coursier/releases/download/v$version/coursier#/coursier.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/coursier/coursier/releases/download/v$version/coursier#/coursier.jar"
     }
 }

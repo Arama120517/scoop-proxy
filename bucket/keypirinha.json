@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Keypirinha/Keypirinha/releases/download/v$version/keypirinha-$version-x64-portable.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Keypirinha/Keypirinha/releases/download/v$version/keypirinha-$version-x64-portable.7z"
             },
             "32bit": {
-                "url": "https://github.com/Keypirinha/Keypirinha/releases/download/v$version/keypirinha-$version-x86-portable.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Keypirinha/Keypirinha/releases/download/v$version/keypirinha-$version-x86-portable.7z"
             }
         },
         "hash": {

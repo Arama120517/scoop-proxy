@@ -17,7 +17,7 @@
         "replace": "${release}-dev-${build}"
     },
     "autoupdate": {
-        "url": "https://github.com/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java11-windows-amd64-dev.zip",
+        "url": "https://v6.gh-proxy.org/https://github.com/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java11-windows-amd64-dev.zip",
         "extract_dir": "graalvm-ce-java11-$matchRelease-dev"
     }
 }

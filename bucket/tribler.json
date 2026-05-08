@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Tribler/tribler/releases/download/v$version/Tribler_$version_x64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/Tribler/tribler/releases/download/v$version/Tribler_$version_x64.exe#/dl.7z"
             }
         }
     }

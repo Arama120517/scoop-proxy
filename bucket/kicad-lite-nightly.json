@@ -26,7 +26,7 @@
     "checkver": {
         "url": "https://downloads.kicad.org/kicad/windows/explore/nightlies",
         "regex": "kicad-nightly-(\\d+(\\.\\d+)*(\\.rc\\d+(\\.\\d+)*)*\\.g[a-f\\d]+)-x86_64-lite\\.exe",
-        "reverse": null
+        "reverse": false
     },
     "autoupdate": {
         "architecture": {

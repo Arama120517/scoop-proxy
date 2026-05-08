@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Vencord/Installer/releases/download/v$version/VencordInstaller.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/Vencord/Installer/releases/download/v$version/VencordInstaller.exe"
             }
         }
     }

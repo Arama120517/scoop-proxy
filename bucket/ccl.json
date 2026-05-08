@@ -40,6 +40,6 @@
         "github": "https://github.com/Clozure/ccl"
     },
     "autoupdate": {
-        "url": "https://github.com/Clozure/ccl/releases/download/v$version/ccl-$version-windowsx86.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/Clozure/ccl/releases/download/v$version/ccl-$version-windowsx86.zip"
     }
 }

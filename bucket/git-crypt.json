@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AGWA/git-crypt/releases/download/$version/git-crypt-$version-x86_64.exe#/git-crypt.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/AGWA/git-crypt/releases/download/$version/git-crypt-$version-x86_64.exe#/git-crypt.exe"
             }
         }
     }

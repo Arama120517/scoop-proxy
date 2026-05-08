@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ms-jpq/sad/releases/download/v$version/x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ms-jpq/sad/releases/download/v$version/x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/ms-jpq/sad/releases/download/v$version/aarch64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/ms-jpq/sad/releases/download/v$version/aarch64-pc-windows-msvc.zip"
             }
         }
     }

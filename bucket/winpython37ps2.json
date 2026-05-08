@@ -118,7 +118,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "sourceforge/https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/Winpython64-$versionps2.exe#/dl.7z",
+                "url": "https://v6.gh-proxy.org/sourceforge/https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/Winpython64-$versionps2.exe#/dl.7z",
                 "extract_dir": "WPy64-$cleanVersion"
             }
         },

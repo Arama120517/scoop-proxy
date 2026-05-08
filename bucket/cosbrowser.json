@@ -30,7 +30,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://raw.githubusercontent.com/tencentyun/cosbrowser/master/changelog.md",
+        "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/tencentyun/cosbrowser/master/changelog.md",
         "re": "v([\\d.]+)"
     },
     "autoupdate": {

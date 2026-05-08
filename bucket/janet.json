@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-$version-windows-x64-installer.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/janet-lang/janet/releases/download/v$version/janet-$version-windows-x64-installer.msi"
             }
         }
     }

@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/konradsz/igrep/releases/download/v$version/igrep-v$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/konradsz/igrep/releases/download/v$version/igrep-v$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

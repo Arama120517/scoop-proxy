@@ -24,6 +24,6 @@
         "regex": "(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
-        "url": "https://github.com/winfsp/winfsp/releases/download/v$majorVersion.$minorVersion/winfsp-$version.msi#/setup.msi_"
+        "url": "https://v6.gh-proxy.org/https://github.com/winfsp/winfsp/releases/download/v$majorVersion.$minorVersion/winfsp-$version.msi#/setup.msi_"
     }
 }

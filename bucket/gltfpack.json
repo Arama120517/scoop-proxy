@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zeux/meshoptimizer/releases/download/v$version/gltfpack-windows.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/zeux/meshoptimizer/releases/download/v$version/gltfpack-windows.zip"
             }
         }
     }

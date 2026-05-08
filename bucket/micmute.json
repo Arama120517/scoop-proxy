@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SaifAqqad/AHK_MicMute/releases/download/$version/MicMute.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/SaifAqqad/AHK_MicMute/releases/download/$version/MicMute.exe"
             }
         },
         "hash": {

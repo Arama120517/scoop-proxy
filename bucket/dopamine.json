@@ -27,6 +27,6 @@
         "github": "https://github.com/digimezzo/dopamine-windows"
     },
     "autoupdate": {
-        "url": "https://github.com/digimezzo/dopamine-windows/releases/download/v$version/Dopamine.$matchHead.Release.-.Portable.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/digimezzo/dopamine-windows/releases/download/v$version/Dopamine.$matchHead.Release.-.Portable.zip"
     }
 }

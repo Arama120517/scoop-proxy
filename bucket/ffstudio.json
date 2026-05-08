@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Draver93/ff-studio/releases/download/v$version/FFStudio_0.2.7_x64_en-US-$matchCommit.msi"
+                "url": "https://v6.gh-proxy.org/https://github.com/Draver93/ff-studio/releases/download/v$version/FFStudio_0.2.7_x64_en-US-$matchCommit.msi"
             }
         }
     }

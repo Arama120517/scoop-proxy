@@ -23,10 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-x86_64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-aarch64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-aarch64.zip"
             }
         }
     }

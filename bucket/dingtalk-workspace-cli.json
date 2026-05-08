@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/releases/download/v$version/dws-windows-amd64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/releases/download/v$version/dws-windows-amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/releases/download/v$version/dws-windows-arm64.zip"
+                "url": "https://v6.gh-proxy.org/https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/releases/download/v$version/dws-windows-arm64.zip"
             }
         },
         "hash": {

@@ -48,6 +48,6 @@
         "github": "https://github.com/snowie2000/mactype"
     },
     "autoupdate": {
-        "url": "https://github.com/snowie2000/mactype/releases/download/v$version/MacTypeInstaller_$minorVersion.$patchVersion.$buildVersion.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/snowie2000/mactype/releases/download/v$version/MacTypeInstaller_$minorVersion.$patchVersion.$buildVersion.exe"
     }
 }

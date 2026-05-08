@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/d2phap/ExifGlass/releases/download/$version/ExifGlass_$version_x64.zip",
+                "url": "https://v6.gh-proxy.org/https://github.com/d2phap/ExifGlass/releases/download/$version/ExifGlass_$version_x64.zip",
                 "extract_dir": "ExifGlass_$version_x64"
             }
         }

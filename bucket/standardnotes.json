@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-x64.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-ia32.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-ia32.exe#/dl.7z"
             }
         },
         "hash": {

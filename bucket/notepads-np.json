@@ -44,6 +44,6 @@
         "github": "https://github.com/0x7c13/Notepads"
     },
     "autoupdate": {
-        "url": "https://github.com/0x7c13/Notepads/releases/download/v$version/Notepads_$version_x86_x64_arm64.msixbundle#/Notepads.msixbundle"
+        "url": "https://v6.gh-proxy.org/https://github.com/0x7c13/Notepads/releases/download/v$version/Notepads_$version_x86_x64_arm64.msixbundle#/Notepads.msixbundle"
     }
 }

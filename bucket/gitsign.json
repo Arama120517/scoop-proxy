@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sigstore/gitsign/releases/download/v$version/gitsign_$version_windows_amd64.exe#/gitsign.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/sigstore/gitsign/releases/download/v$version/gitsign_$version_windows_amd64.exe#/gitsign.exe"
             },
             "arm64": {
-                "url": "https://github.com/sigstore/gitsign/releases/download/v$version/gitsign_$version_windows_arm64.exe#/gitsign.exe"
+                "url": "https://v6.gh-proxy.org/https://github.com/sigstore/gitsign/releases/download/v$version/gitsign_$version_windows_arm64.exe#/gitsign.exe"
             }
         },
         "hash": {

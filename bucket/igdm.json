@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/igdmapps/igdm/releases/download/v$version/IGdm.$version.exe#/dl.7z"
+                "url": "https://v6.gh-proxy.org/https://github.com/igdmapps/igdm/releases/download/v$version/IGdm.$version.exe#/dl.7z"
             }
         }
     }

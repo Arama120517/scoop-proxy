@@ -11,6 +11,6 @@
         "regex": "/releases/tag/arthas-all-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/alibaba/arthas/releases/download/arthas-all-$version/arthas-bin.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/alibaba/arthas/releases/download/arthas-all-$version/arthas-bin.zip"
     }
 }

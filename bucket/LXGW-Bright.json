@@ -102,12 +102,12 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-Italic.otf",
-            "https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-Medium.otf",
-            "https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-MediumItalic.otf",
-            "https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-Regular.otf",
-            "https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-SemiLight.otf",
-            "https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-SemiLightItalic.otf"
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-Italic.otf",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-Medium.otf",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-MediumItalic.otf",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-Regular.otf",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-SemiLight.otf",
+            "https://v6.gh-proxy.org/https://raw.githubusercontent.com/lxgw/LxgwBright/v$version/LXGWBright/LXGWBright-SemiLightItalic.otf"
         ]
     }
 }

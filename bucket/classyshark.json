@@ -17,6 +17,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/google/android-classyshark/releases/download/$version/ClassyShark.jar"
+        "url": "https://v6.gh-proxy.org/https://github.com/google/android-classyshark/releases/download/$version/ClassyShark.jar"
     }
 }
