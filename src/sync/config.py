@@ -132,7 +132,7 @@ SOURCEFORGE_RULES: Rules = [
     ),
     (
         compile(
-            r"(https://(?:downloads|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"
+            r"(https://(?:download|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"
         ),
         lambda m: rf"{SOURCEFORGE_URL}/{m.group(1)}",
     ),

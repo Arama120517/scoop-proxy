@@ -3,6 +3,7 @@ import json
 import os
 import re
 from enum import IntEnum
+from functools import partial
 from json import JSONDecodeError
 from pathlib import Path
 from shutil import copy2, copytree, rmtree
@@ -63,56 +64,56 @@ def semver_compare(old: str, new: str) -> SemverStatus:
     return SemverStatus.EQUAL
 
 
-# {file: "owner/repo"}
-existing_files: dict[str, str] = {}
+# {file: {repo: "owner/repo", version: "x.y.z"# optional}}
+existing_files: dict[str, dict[str, str]] = {}
 
 
 def is_exists(dst: str) -> bool:
     return existing_files.get(dst.lower()) is not None
 
 
-def fix_file_content(file: Path) -> str:
-    content: str = file.read_text("utf-8").replace("\r\n", "\n").strip()
-
-    if file.suffix == ".json":
-        content: str = json.dumps(json.loads(content), indent=4, ensure_ascii=False)
-
-    rules: Rules = DEFAULT_RULES
-    if "github.com" in content or "githubusercontent.com" in content:
-        for url in INVALID_GITHUB_URL:
-            content: str = content.replace(url, GITHUB_URL)
-        rules += GITHUB_RULES
-    elif "sourceforge.net" in content:
-        rules += SOURCEFORGE_RULES
-    elif "nodejs" in file.name:
-        rules += NODEJS_RULES
-    elif "php" in file.name:
-        rules += PHP_RULES
-
-    for pattern, replace in rules:
-        content: str = pattern.sub(replace, content)
-
-    return content
-
-
-def copy(src: str, dst: str, *_) -> str:
+def copy(src: str, dst: str, *_, repo: str) -> str:  # noqa: C901
+    print(src + " -> " + dst)
     src_file, dst_file = Path(src), Path(dst)
+    version: str = "unknown"
+
     try:
-        content: str = fix_file_content(src_file)
+        content: str = src_file.read_text("utf-8").replace("\r\n", "\n").strip()
+
+        if src_file.suffix == ".json":
+            content: str = json.dumps(json.loads(content), indent=4, ensure_ascii=False)
+
         if is_exists(src_file.name):
-            if existing_files[src_file.name.lower()] in HIGH_QUALITY_BUCKETS:
+            info: dict[str, str] = existing_files[src_file.name.lower()]
+            if info["repo"] in HIGH_QUALITY_BUCKETS:
                 return dst
             elif src_file.suffix == ".json" and content is not None:
-                src_ver: str = json.loads(content)["version"]
-                dst_ver: str = json.loads(dst_file.read_text("utf-8"))["version"]
-                status: SemverStatus = semver_compare(dst_ver, src_ver)
+                version: str = json.loads(content)["version"]
+                dst_version: str = info["version"]
+                status: SemverStatus = semver_compare(dst_version, version)
                 if status == SemverStatus.GREATER or status == SemverStatus.EQUAL:
                     return dst
 
+        rules: Rules = DEFAULT_RULES
+        if "github.com" in content or "githubusercontent.com" in content:
+            for url in INVALID_GITHUB_URL:
+                content: str = content.replace(url, GITHUB_URL)
+            rules += GITHUB_RULES
+        elif "sourceforge.net" in content:
+            rules += SOURCEFORGE_RULES
+        elif "nodejs" in src_file.name:
+            rules += NODEJS_RULES
+        elif "php" in src_file.name:
+            rules += PHP_RULES
+
+        for pattern, replace in rules:
+            content: str = pattern.sub(replace, content)
+
         dst_file.write_text(content, "utf-8")
-        existing_files[src_file.name.lower()] = src_file.parent.parent.name.replace(
-            "_", "/"
-        )
+        existing_files[src_file.name.lower()] = {
+            "repo": repo,
+            "version": version,
+        }
         return dst
     except (
         UnicodeDecodeError,
@@ -149,5 +150,8 @@ for repo_name in BUCKETS:
 
         result_dir: Path = CURRENT_DIR / sync_dir_name
         copytree(
-            repo_dir / sync_dir_name, result_dir, dirs_exist_ok=True, copy_function=copy
+            repo_dir / sync_dir_name,
+            result_dir,
+            dirs_exist_ok=True,
+            copy_function=partial(copy, repo=repo_name),
         )
