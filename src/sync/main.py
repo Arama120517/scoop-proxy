@@ -1,6 +1,5 @@
 import contextlib
 import os
-import subprocess
 import threading
 from _thread import lock
 from concurrent.futures import ThreadPoolExecutor
@@ -10,6 +9,7 @@ from re import Pattern
 from shutil import copy2, rmtree
 
 import re2
+from git import Repo
 from orjson import (
     OPT_APPEND_NEWLINE,
     OPT_INDENT_2,
@@ -145,36 +145,18 @@ def copy_wrapper(args):
 
 
 def main() -> None:
+    TEMP_DIR.mkdir(parents=True, exist_ok=True)
+
     for repo_name in BUCKETS:
         repo_dir: Path = TEMP_DIR / repo_name.replace("/", "_")
-        subprocess.check_call(
-            [
-                "git",
-                "clone",
-                "--filter=blob:none",
-                "--no-checkout",
-                "--depth=1",
-                f"{GITHUB_URL + '/' if os.environ.get('MIRROR') else ''}https://github.com/{repo_name}",
-            ],
-            cwd=TEMP_DIR,
+        repo = Repo.clone_from(
+            f"{GITHUB_URL + '/' if os.environ.get('MIRROR') else ''}https://github.com/{repo_name}",
+            repo_dir,
+            multi_options=["--filter=blob:none", "--no-checkout", "--depth=1"],
         )
-        subprocess.check_call(
-            [
-                "git",
-                "sparse_checkout",
-                "init",
-                "--no-cone",
-            ],
-            cwd=repo_dir,
-        )
-        subprocess.check_call(
-            ["git", "sparse_checkout", "set", *SYNC_DIR_NAMES],
-            cwd=repo_dir,
-        )
-        subprocess.check_call(
-            ["git", "checkout", "-b", "result", "origin/HEAD"],
-            cwd=repo_dir,
-        )
+        repo.git.sparse_checkout("init", "--no-cone")
+        repo.git.sparse_checkout("set", *SYNC_DIR_NAMES)
+        repo.git.checkout("-b", "result", "origin/HEAD")
 
         for sync_dir_name in SYNC_DIR_NAMES:
             if not (repo_dir / sync_dir_name).exists():
@@ -194,12 +176,6 @@ def main() -> None:
 
             with ThreadPoolExecutor(max_workers=os.process_cpu_count()) as executor:
                 executor.map(copy_wrapper, tasks)
-            # copytree(
-            #     repo_dir / sync_dir_name,
-            #     result_dir,
-            #     dirs_exist_ok=True,
-            #     copy_function=partial(copy, repo=repo_name),
-            # )
 
 
 if __name__ == "__main__":
