@@ -24,29 +24,76 @@ SOURCEFORGE_URL: str = "https://v6.gh-proxy.org/sourceforge"
 
 SYNC_DIR_NAMES: list[str] = ["bucket", "scripts"]
 
-BUCKETS: list[str] = [
+HIGH_QUALITY_BUCKETS: list[str] = [
     "ScoopInstaller/Main",
     "ScoopInstaller/Extras",
     "ScoopInstaller/Versions",
     "ScoopInstaller/Nirsoft",
+    "niheaven/scoop-sysinternals",
+    "ScoopInstaller/PHP",
+    "matthewjberger/scoop-nerd-fonts",
     "ScoopInstaller/Nonportable",
     "ScoopInstaller/Java",
-    "niheaven/scoop-sysinternals",
-    "matthewjberger/scoop-nerd-fonts",
+    "Calinou/scoop-games",
     "Arama120517/scoop-bucket",
-    "chawyehsu/dorado",
-    "scoopcn/scoopcn",
-    "Scoopforge/Extras-CN",
-    "starise/Scoop-Gaming",
-    "AkariiinMKII/Scoop4kariiin",
 ]
+
+BUCKETS: list[str] = [
+    *HIGH_QUALITY_BUCKETS,
+    "scoopcn/scoopcn",
+    "rasa/scoops",
+    "amorphobia/siku",
+    "ACooper81/scoop-apps",
+    "kkzzhizhou/scoop-zapps",
+    "cderv/r-bucket",
+    "chawyehsu/dorado",
+    "borger/scoop-galaxy-integrations",
+    "oilc/scoop-lemon",
+    "Scoopforge/Extras-CN",
+    "Scoopforge/Extras-Plus",
+    "littleli/scoop-clojure",
+    "TheRandomLabs/scoop-nonportable",
+    "TheRandomLabs/Scoop-Spotify",
+    "TheRandomLabs/Scoop-Python",
+    "Paxxs/Cluttered-bucket",
+    "Weidows-projects/scoop-3rd",
+    "hermanjustnu/scoop-emulators",
+    "borger/scoop-emulators",
+    "ViCrack/scoop-bucket",
+    "akirco/aki-apps",
+    "batkiz/backit",
+    "iquiw/scoop-bucket",
+    "ygguorun/scoop-bucket",
+    "seumsc/scoop-seu",
+    "cc713/ownscoop",
+    "aoisummer/scoop-bucket",
+    "hu3rror/scoop-muggle",
+    "starise/Scoop-Confetti",
+    "dodorz/scoop",
+    "Homeland-Community/scoop",
+    "NyaMisty/scoop_bucket_misty",
+    "jfut/scoop-jfut",
+    "DoveBoy/Apps",
+    "starise/Scoop-Gaming",
+    "mo-san/scoop-bucket",
+    "brian6932/dank-scoop",
+    "AkariiinMKII/Scoop4kariiin",
+    "littleli/Scoop-littleli",
+    "aliesbelik/poldi",
+    "KnotUntied/scoop-fonts",
+    "HUMORCE/nuke",
+    "echoiron/echo-scoop",
+]
+
+
+type Rules = list[tuple[Pattern, str | Callable[[re.Match[str]], str]]]
 
 
 def compile(pattern: str) -> Pattern:
     return re.compile(pattern, re.IGNORECASE | re.MULTILINE)
 
 
-DEFAULT_RULES: list[tuple[Pattern, str]] = [
+DEFAULT_RULES: Rules = [
     (compile(r"\$bucketsdir\\\\[a-zA-Z]+\\\\"), r"$bucketsdir\\\\$bucket\\\\"),
     (
         compile(
@@ -56,42 +103,56 @@ DEFAULT_RULES: list[tuple[Pattern, str]] = [
     ),
 ]
 
-GITHUB_RULES: list[tuple[Pattern, str | Callable[[re.Match[str]], str]]] = [
+GITHUB_RULES: Rules = [
     (
         compile(r"(https://github\.com.+/releases/download/)"),
-        lambda m: f"{GITHUB_URL}/{m.group(1)}",
+        lambda m: rf"{GITHUB_URL}/{m.group(1)}",
     ),
     (
         compile(r"(https://github\.com.+/archive/)"),
-        lambda m: f"{GITHUB_URL}/{m.group(1)}",
+        lambda m: rf"{GITHUB_URL}/{m.group(1)}",
     ),
     (
         compile(r"(https://(raw|gist)\.githubusercontent\.com)"),
-        lambda m: f"{GITHUB_URL}/{m.group(1)}",
+        lambda m: rf"{GITHUB_URL}/{m.group(1)}",
     ),
     (compile(f"{GITHUB_URL}/{GITHUB_URL}"), GITHUB_URL),
     (
         compile(rf"https://[.0-9a-zA-Z]+/{re.escape(GITHUB_URL)}/https:"),
-        f"{GITHUB_URL}/https:",
+        rf"{GITHUB_URL}/https:",
     ),
 ]
 
-SOURCEFORGE_RULES: list[tuple[Pattern, str | Callable[[re.Match[str]], str]]] = [
+SOURCEFORGE_RULES: Rules = [
     (
         compile(
             r"(https://sourceforge\.net/projects/[^/]+(?:/files/.+?)?/download(?![\w/]))"
         ),
-        lambda m: f"{SOURCEFORGE_URL}/{m.group(1)}",
+        lambda m: rf"{SOURCEFORGE_URL}/{m.group(1)}",
     ),
     (
         compile(
             r"(https://(?:downloads|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"
         ),
-        lambda m: f"{SOURCEFORGE_URL}/{m.group(1)}",
+        lambda m: rf"{SOURCEFORGE_URL}/{m.group(1)}",
     ),
     (compile(f"{SOURCEFORGE_URL}/{SOURCEFORGE_URL}"), SOURCEFORGE_URL),
     (
         compile(rf"https://[.0-9a-zA-Z-]+/{re.escape(SOURCEFORGE_URL)}/https:"),
-        f"{SOURCEFORGE_URL}/https:",
+        rf"{SOURCEFORGE_URL}/https:",
     ),
+]
+
+PHP_RULES: Rules = [
+    (
+        compile(r"bin\\postinstall.ps1"),
+        r"bin\\php-postinstall.ps1",
+    )
+]
+
+NODEJS_RULES: Rules = [
+    (
+        compile(r"https://nodejs.org/dist/"),
+        r"https://registry.npmmirror.com/-/binary/node/",
+    )
 ]

@@ -1,15 +1,11 @@
 import contextlib
 import json
-import math
 import os
 import re
-from collections.abc import Callable
 from enum import IntEnum
 from json import JSONDecodeError
 from pathlib import Path
-from re import Pattern
 from shutil import copy2, copytree, rmtree
-from typing import Any
 
 from git import Repo
 
@@ -19,10 +15,14 @@ from sync.config import (
     DEFAULT_RULES,
     GITHUB_RULES,
     GITHUB_URL,
+    HIGH_QUALITY_BUCKETS,
     INVALID_GITHUB_URL,
+    NODEJS_RULES,
+    PHP_RULES,
     SOURCEFORGE_RULES,
     SYNC_DIR_NAMES,
     TEMP_DIR,
+    Rules,
 )
 
 
@@ -41,87 +41,84 @@ def semver_compare(old: str, new: str) -> SemverStatus:
     count: int = max(len(old_segments), len(new_segments), 3)
 
     def to_num(s: str) -> float:
-        if not s:
+        if not s or s.strip() == "":
             return 0.0
         try:
             return float(s)
         except ValueError:
-            return float("nan")
+            return 0.0
 
     for i in range(count):
         old_num: int | float = (
-            to_num(s=old_segments[i]) if i < len(old_segments) else float("nan")
+            to_num(s=old_segments[i]) if i < len(old_segments) else 0.0
         )
         new_num: int | float = (
-            to_num(s=new_segments[i]) if i < len(new_segments) else float("nan")
+            to_num(s=new_segments[i]) if i < len(new_segments) else 0.0
         )
-        old_num_is_nan: bool = math.isnan(old_num)
-        new_num_is_nan: bool = math.isnan(new_num)
 
-        if old_num > new_num or (not old_num_is_nan and new_num_is_nan):
+        if old_num > new_num:
             return SemverStatus.GREATER
-        elif new_num > old_num or (old_num_is_nan and not new_num_is_nan):
+        elif new_num > old_num:
             return SemverStatus.LESS
     return SemverStatus.EQUAL
 
 
-def patch_update(data: str | dict | list) -> str | dict | list:
-    if isinstance(data, str):
-        return data.replace(f"{GITHUB_URL}/", "")
-    if isinstance(data, dict):
-        return {k: patch_update(v) for k, v in data.items()}
-    if isinstance(data, list):
-        return [patch_update(i) for i in data]
-
-
-existing_files: list[str] = []
+# {file: "owner/repo"}
+existing_files: dict[str, str] = {}
 
 
 def is_exists(dst: str) -> bool:
-    return dst.lower() in existing_files
+    return existing_files.get(dst.lower()) is not None
 
 
-def copy(src: str, dst: str, *_) -> str:
-    src_file, dst_file = Path(src), Path(dst)
+def fix_file_content(file: Path) -> str:
+    content: str = file.read_text("utf-8").replace("\r\n", "\n").strip()
 
-    try:
-        content: str = src_file.read_text("utf-8")
-    except UnicodeDecodeError:
-        return dst if is_exists(dst) else copy2(src, dst)
-
-    if src_file.suffix == ".json":
+    if file.suffix == ".json":
         content: str = json.dumps(json.loads(content), indent=4, ensure_ascii=False)
-        if is_exists(dst):
-            src_ver: str = json.loads(content)["version"]
-            dst_ver: str = json.loads(dst_file.read_text("utf-8"))["version"]
-            status: SemverStatus = semver_compare(dst_ver, src_ver)
-            if status == SemverStatus.EQUAL or status.GREATER:
-                return dst
-    else:
-        content: str = content.replace("\r\n", "\n").strip()
 
-    rules: list[tuple[Pattern, str | Callable[[re.Match[str]], str]]] = []
-    rules += DEFAULT_RULES
+    rules: Rules = DEFAULT_RULES
     if "github.com" in content or "githubusercontent.com" in content:
         for url in INVALID_GITHUB_URL:
             content: str = content.replace(url, GITHUB_URL)
         rules += GITHUB_RULES
     elif "sourceforge.net" in content:
         rules += SOURCEFORGE_RULES
+    elif "nodejs" in file.name:
+        rules += NODEJS_RULES
+    elif "php" in file.name:
+        rules += PHP_RULES
 
     for pattern, replace in rules:
         content: str = pattern.sub(replace, content)
 
-    with contextlib.suppress(JSONDecodeError):
-        manifest: Any = json.loads(content)
-        if "checkver" in manifest:
-            manifest["checkver"] = patch_update(manifest["checkver"])
-        if "autoupdate" in manifest:
-            manifest["autoupdate"] = patch_update(manifest["autoupdate"])
-        content: str = json.dumps(manifest, indent=4, ensure_ascii=False)
-    dst_file.write_text(content, "utf-8")
-    existing_files.append(dst.lower())
-    return dst
+    return content
+
+
+def copy(src: str, dst: str, *_) -> str:
+    src_file, dst_file = Path(src), Path(dst)
+    try:
+        content: str = fix_file_content(src_file)
+        if is_exists(src_file.name):
+            if existing_files[src_file.name.lower()] in HIGH_QUALITY_BUCKETS:
+                return dst
+            elif src_file.suffix == ".json" and content is not None:
+                src_ver: str = json.loads(content)["version"]
+                dst_ver: str = json.loads(dst_file.read_text("utf-8"))["version"]
+                status: SemverStatus = semver_compare(dst_ver, src_ver)
+                if status == SemverStatus.GREATER or status == SemverStatus.EQUAL:
+                    return dst
+
+        dst_file.write_text(content, "utf-8")
+        existing_files[src_file.name.lower()] = src_file.parent.parent.name.replace(
+            "_", "/"
+        )
+        return dst
+    except (
+        UnicodeDecodeError,
+        JSONDecodeError,
+    ):  # 如果是二进制文件或 JSON 解析失败,则直接复制
+        return copy2(src, dst)
 
 
 with contextlib.suppress(ModuleNotFoundError, FileNotFoundError):
