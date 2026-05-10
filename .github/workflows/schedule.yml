@@ -13,17 +13,25 @@ jobs:
     name: Schedule
     runs-on: windows-latest
     steps:
+      - uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3.1.1
+        id: get_token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          token: ${{ steps.get_token.outputs.token }}
+
       - uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
         with:
           enable-cache: true
-          cache-python: true
 
       - name: Sync and commit
         shell: pwsh
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "arama0517-dependency-updater[bot]"
+          git config user.email "279924183+arama0517-dependency-updater[bot]@users.noreply.github.com"
 
           uv run --no-dev -m src.sync.main
 
