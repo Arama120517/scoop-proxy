@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: PullRequestHandler
-        uses: ScoopInstaller/GithubActions@ec4ac4815ee2309cb47a239e66d959cbf8127b56 # main
+        uses: ScoopInstaller/GithubActions@63f20efd5d6f876b16fbe2bc95428821b6051c0e # main
         if: startsWith(github.event.comment.body, '/verify')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
