@@ -12,7 +12,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "python-dotenv==1.2.2",
-    "ruff==0.15.12",
+    "ruff==0.15.13",
     "ty==0.0.35",
     "types-requests==2.33.0.20260513",
 ]
