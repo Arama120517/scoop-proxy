@@ -1,0 +1,21 @@
+{
+  "version": "1.4.8",
+  "description": "A powerful android apk resources editor.",
+  "homepage": "https://github.com/REAndroid/APKEditor",
+  "license": "Apache-2.0",
+  "url": "https://v6.gh-proxy.org/https://github.com/REAndroid/APKEditor/releases/download/V1.4.8/APKEditor-1.4.8.jar#/APKEditor.jar",
+  "hash": "026906af28497577496a3e1f5054a878a7cf9c1b3889626882d87ea88d09c20f",
+  "bin": "APKEditor.jar",
+  "suggest": {
+    "JDK": [
+      "java/openjdk",
+      "java/temurin-jdk",
+      "java/oraclejdk",
+      "java/zulu-jdk"
+    ]
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://v6.gh-proxy.org/https://github.com/REAndroid/APKEditor/releases/download/V$version/APKEditor-$version.jar#/APKEditor.jar"
+  }
+}
