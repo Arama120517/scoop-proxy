@@ -42,6 +42,7 @@ HIGH_QUALITY_BUCKETS: list[str] = [
 
 BUCKETS: list[str] = [
     *HIGH_QUALITY_BUCKETS,
+    "renxia/scoop-bucket",
     "scoopcn/scoopcn",
     "rasa/scoops",
     "amorphobia/siku",
@@ -88,75 +89,102 @@ BUCKETS: list[str] = [
 ]
 
 
-type Rules = list[tuple[Pattern, str | Callable[[re.Match[str]], str]]]
+type Rule = tuple[Pattern[str], str | Callable[[re.Match[str]], str]]
 
-options = re2.Options()
-options.case_sensitive = False
-
-
-def compile(pattern: str) -> Pattern:
-    return re2.compile(pattern, options)
+_options = re2.Options()
+_options.case_sensitive = False
 
 
-DEFAULT_RULES: Rules = [
-    (compile(r"\$bucketsdir\\\\[a-zA-Z]+\\\\"), r"$bucketsdir\\\\$bucket\\\\"),
+def _compile(pattern: str) -> Pattern[str]:
+    return re2.compile(pattern, _options)
+
+
+VERSION_RULE: Rule = _compile(r"[^\d.]"), ""
+
+DEFAULT_RULES: list[Rule] = [
+    (_compile(r"\$bucketsdir\\\\[a-zA-Z]+\\\\"), r"$bucketsdir\\\\$bucket\\\\"),
     (
-        compile(
+        _compile(
             r"Find-BucketDirectory\s*(?:\([a-zA-Z-]+\)|-Root\s+-Name\s+[a-zA-Z-]+)"
         ),
         r"Find-BucketDirectory -Root -Name main",
     ),
 ]
+for url in INVALID_GITHUB_URL:
+    DEFAULT_RULES.append((_compile(url), GITHUB_URL))
 
-GITHUB_RULES: Rules = [
+DEPENDS_RULE: Rule = _compile(r"^[a-zA-Z0-9._-]+/"), "main/"
+
+GITHUB_RULES: list[Rule] = [
     (
-        compile(r"(https://github\.com.+/releases/download/)"),
+        _compile(r"(https://github\.com.+/releases/download/)"),
         lambda m: rf"{GITHUB_URL}/{m.group(1)}",
     ),
     (
-        compile(r"(https://github\.com.+/archive/)"),
+        _compile(r"(https://github\.com.+/archive/)"),
         lambda m: rf"{GITHUB_URL}/{m.group(1)}",
     ),
     (
-        compile(r"(https://(raw|gist)\.githubusercontent\.com)"),
+        _compile(r"(https://(raw|gist)\.githubusercontent\.com)"),
         lambda m: rf"{GITHUB_URL}/{m.group(1)}",
     ),
-    (compile(f"{GITHUB_URL}/{GITHUB_URL}"), GITHUB_URL),
+    (_compile(f"{GITHUB_URL}/{GITHUB_URL}"), GITHUB_URL),
     (
-        compile(rf"https://[.0-9a-zA-Z]+/{re.escape(GITHUB_URL)}/https:"),
+        _compile(rf"https://[.0-9a-zA-Z]+/{re.escape(GITHUB_URL)}/https:"),
         rf"{GITHUB_URL}/https:",
     ),
 ]
 
-SOURCEFORGE_RULES: Rules = [
+SOURCEFORGE_RULES: list[Rule] = [
     (
-        compile(
+        _compile(
             r"(https://sourceforge\.net/projects/[^/]+(?:/files/.+?)?/download)([^a-zA-Z0-9_/]|$)"
             #                                                                  ^^^^^^^^^^^^^^^^^^ 捕获边界
         ),
         lambda m: SOURCEFORGE_URL + "/" + m.group(1) + (m.group(2) or ""),
     ),
     (
-        compile(r"(https://(?:download|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"),
+        _compile(
+            r"(https://(?:download|[a-z0-9.-]+\.dl)\.sourceforge\.net/project/.+)"
+        ),
         lambda m: rf"{SOURCEFORGE_URL}/{m.group(1)}",
     ),
-    (compile(f"{SOURCEFORGE_URL}/{SOURCEFORGE_URL}"), SOURCEFORGE_URL),
+    (_compile(f"{SOURCEFORGE_URL}/{SOURCEFORGE_URL}"), SOURCEFORGE_URL),
     (
-        compile(rf"https://[.0-9a-zA-Z-]+/{re.escape(SOURCEFORGE_URL)}/https:"),
+        _compile(rf"https://[.0-9a-zA-Z-]+/{re.escape(SOURCEFORGE_URL)}/https:"),
         rf"{SOURCEFORGE_URL}/https:",
     ),
 ]
 
-PHP_RULES: Rules = [
+PHP_RULES: list[Rule] = [
     (
-        compile(r"bin\\postinstall.ps1"),
+        _compile(r"bin\\postinstall.ps1"),
         r"bin\\php-postinstall.ps1",
     )
 ]
 
-NODEJS_RULES: Rules = [
+NODEJS_RULES: list[Rule] = [
     (
-        compile(r"https://nodejs.org/dist/"),
+        _compile(r"https://nodejs.org/dist/"),
         r"https://registry.npmmirror.com/-/binary/node/",
     )
+]
+
+__all__: list[str] = [
+    "BUCKETS",
+    "CURRENT_DIR",
+    "DEFAULT_RULES",
+    "DEPENDS_RULE",
+    "GITHUB_RULES",
+    "GITHUB_URL",
+    "HIGH_QUALITY_BUCKETS",
+    "INVALID_GITHUB_URL",
+    "NODEJS_RULES",
+    "PHP_RULES",
+    "SOURCEFORGE_RULES",
+    "SOURCEFORGE_URL",
+    "SYNC_DIR_NAMES",
+    "TEMP_DIR",
+    "VERSION_RULE",
+    "Rule",
 ]

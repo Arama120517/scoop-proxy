@@ -2,11 +2,12 @@ import contextlib
 import os
 import threading
 from _thread import lock
-from concurrent.futures import ThreadPoolExecutor
+from collections.abc import Iterator
+from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from enum import IntEnum
 from pathlib import Path
-from re import Pattern
 from shutil import copy2, rmtree
+from typing import Any
 
 import re2
 from git import Repo
@@ -15,6 +16,7 @@ from orjson import (
     OPT_INDENT_2,
     OPT_NON_STR_KEYS,
     JSONDecodeError,
+    JSONEncodeError,
     dumps,
     loads,
 )
@@ -23,17 +25,17 @@ from sync.config import (
     BUCKETS,
     CURRENT_DIR,
     DEFAULT_RULES,
+    DEPENDS_RULE,
     GITHUB_RULES,
     GITHUB_URL,
     HIGH_QUALITY_BUCKETS,
-    INVALID_GITHUB_URL,
     NODEJS_RULES,
     PHP_RULES,
     SOURCEFORGE_RULES,
     SYNC_DIR_NAMES,
     TEMP_DIR,
-    Rules,
-    compile,
+    VERSION_RULE,
+    Rule,
 )
 
 
@@ -43,12 +45,9 @@ class SemverStatus(IntEnum):
     EQUAL = 0  # a == b
 
 
-version_pattern: Pattern = compile(r"[^\d.]")
-
-
 def semver_compare(old: str, new: str) -> SemverStatus:
-    old: str = re2.sub(version_pattern, "", str(old or "").replace("-", "."))
-    new: str = re2.sub(version_pattern, "", str(new or "").replace("-", "."))
+    old: str = re2.sub(*VERSION_RULE, str(old or "").replace("-", "."))
+    new: str = re2.sub(*VERSION_RULE, str(new or "").replace("-", "."))
 
     old_segments, new_segments = old.split("."), new.split(".")
 
@@ -77,105 +76,122 @@ def semver_compare(old: str, new: str) -> SemverStatus:
     return SemverStatus.EQUAL
 
 
-# {file: {repo: "owner/repo", version: "x.y.z"# optional}}
+# {file: {repo: "owner/repo", version: "x.y.z" | "unknown"}}
 existing_files: dict[str, dict[str, str]] = {}
 existing_lock: lock = threading.Lock()
 
 
-def is_exists(dst: str) -> bool:
-    with existing_lock:
-        return existing_files.get(dst.lower()) is not None
-
-
-def copy(src: str, dst: str, repo: str) -> None:
-    src_file, dst_file = Path(src), Path(dst)
+def copy(args: tuple[Path, Path, str]) -> None:
+    src, dst, repo = args
     version: str = "unknown"
 
     try:
-        content: str = src_file.read_text().replace("\r\n", "\n").strip()
+        content: str = src.read_text().replace("\r\n", "\n").strip()
 
-        if src_file.suffix == ".json":
+        if src.suffix == ".json":
+            content_json: Any = loads(content)
+            # 处理依赖
+            if "depends" in content_json:
+                depends: list[str] | str = content_json["depends"]
+                if isinstance(depends, str):
+                    depends: list[str] = [depends]
+                for i in range(len(depends)):
+                    depends[i] = re2.sub(*DEPENDS_RULE, depends[i])
+                content_json["depends"] = depends
+
+            if "suggest" in content_json:
+                suggest: dict[str, str] = content_json["suggest"]
+                for key in suggest:
+                    suggest[key] = re2.sub(*DEPENDS_RULE, suggest[key])
+
             content: str = dumps(
-                loads(content),
+                content_json,
                 option=OPT_INDENT_2 | OPT_NON_STR_KEYS | OPT_APPEND_NEWLINE,
             ).decode()
-    except UnicodeDecodeError, JSONDecodeError:
-        if not dst_file.exists():
-            copy2(src, dst)
-        return
-    if is_exists(src_file.name):
+            version: Any = (
+                content_json.get("version", "unknown")
+                if isinstance(content_json, dict)
+                else "unknown"
+            )
+            if not isinstance(version, str):
+                version = "unknown"
+    except UnicodeDecodeError, JSONDecodeError, JSONEncodeError:
         with existing_lock:
-            info: dict[str, str] = existing_files[src_file.name.lower()]
-        if info["repo"] in HIGH_QUALITY_BUCKETS:
-            return
-        elif src_file.suffix == ".json":
-            version: str = loads(content)["version"]
-            dst_version: str = info["version"]
-            status: SemverStatus = semver_compare(dst_version, version)
-            if status == SemverStatus.GREATER or status == SemverStatus.EQUAL:
+            if existing_files.get(src.name.lower()) is not None:
+                copy2(src, dst)
+        return
+    with existing_lock:
+        info: dict[str, str] | None = existing_files.get(src.name.lower())
+        if info is not None:
+            if info["repo"] in HIGH_QUALITY_BUCKETS:
                 return
+            elif src.suffix == ".json":
+                dst_version: str = info["version"]
+                status: SemverStatus = semver_compare(dst_version, version)
+                if status == SemverStatus.GREATER or status == SemverStatus.EQUAL:
+                    return
 
-    rules: Rules = []
+    rules: list[Rule] = []
     rules += DEFAULT_RULES
     if "github.com" in content or "githubusercontent.com" in content:
-        for url in INVALID_GITHUB_URL:
-            rules.append((compile(url), GITHUB_URL))
         rules += GITHUB_RULES
     elif "sourceforge.net" in content:
         rules += SOURCEFORGE_RULES
-    elif "nodejs" in src_file.name:
+    elif "nodejs" in src.name:
         rules += NODEJS_RULES
-    elif "php" in src_file.name:
+    elif "php" in src.name:
         rules += PHP_RULES
 
     for pattern, replace in rules:
         content: str = re2.sub(pattern, replace, content)
 
-    dst_file.write_text(content)
+    dst.write_text(content)
     with existing_lock:
-        existing_files[src_file.name.lower()] = {
+        existing_files[src.name.lower()] = {
             "repo": repo,
             "version": version,
         }
     return
 
 
-def copy_wrapper(args):
-    return copy(*args)
+def clone(repo_name: str) -> list[tuple[Path, str]]:
+    repo_dir: Path = TEMP_DIR / repo_name.replace("/", "_")
+    repo = Repo.clone_from(
+        f"{GITHUB_URL + '/' if os.environ.get('MIRROR') else ''}https://github.com/{repo_name}",
+        repo_dir,
+        multi_options=["--filter=blob:none", "--no-checkout", "--depth=1"],
+    )
+    repo.git.sparse_checkout("init", "--no-cone")
+    repo.git.sparse_checkout("set", *SYNC_DIR_NAMES)
+    repo.git.checkout("-b", "result", "origin/HEAD")
+    need_work_dirs: list[tuple[Path, str]] = []
+    for sync_dir_name in SYNC_DIR_NAMES:
+        if not (repo_dir / sync_dir_name).exists():
+            continue
+        need_work_dirs.append((repo_dir / sync_dir_name, repo_name))
+    return need_work_dirs
 
 
 def main() -> None:
-    TEMP_DIR.mkdir(parents=True, exist_ok=True)
+    with ThreadPoolExecutor(max_workers=os.process_cpu_count()) as executor:
+        results: Iterator[list[tuple[Path, str]]] = executor.map(clone, BUCKETS)
+        need_work_dirs: list[tuple[Path, str]] = []
+        for result in results:
+            need_work_dirs += result
 
-    for repo_name in BUCKETS:
-        repo_dir: Path = TEMP_DIR / repo_name.replace("/", "_")
-        repo = Repo.clone_from(
-            f"{GITHUB_URL + '/' if os.environ.get('MIRROR') else ''}https://github.com/{repo_name}",
-            repo_dir,
-            multi_options=["--filter=blob:none", "--no-checkout", "--depth=1"],
-        )
-        repo.git.sparse_checkout("init", "--no-cone")
-        repo.git.sparse_checkout("set", *SYNC_DIR_NAMES)
-        repo.git.checkout("-b", "result", "origin/HEAD")
+        futures: list[Future[None]] = []
+        for sync_dir, repo_name in need_work_dirs:
+            result_dir: Path = CURRENT_DIR / sync_dir.name
+            src_dir: Path = sync_dir
 
-        for sync_dir_name in SYNC_DIR_NAMES:
-            if not (repo_dir / sync_dir_name).exists():
-                continue
-
-            result_dir: Path = CURRENT_DIR / sync_dir_name
-            src_dir: Path = repo_dir / sync_dir_name
-
-            # 🔥 收集所有文件任务
-            tasks = []
             for src_file in src_dir.rglob("*"):
                 if not src_file.is_file():
                     continue
-                dst: Path = result_dir / src_file.relative_to(src_dir)
-                dst.parent.mkdir(parents=True, exist_ok=True)
-                tasks.append((str(src_file), str(dst), repo_name))
-
-            with ThreadPoolExecutor(max_workers=os.process_cpu_count()) as executor:
-                executor.map(copy_wrapper, tasks)
+                dst_file: Path = result_dir / src_file.relative_to(src_dir)
+                dst_file.parent.mkdir(parents=True, exist_ok=True)
+                futures.append(executor.submit(copy, (src_file, dst_file, repo_name)))
+        for future in as_completed(futures):
+            future.result()
 
 
 if __name__ == "__main__":
@@ -187,5 +203,6 @@ if __name__ == "__main__":
     for dir_name in [*SYNC_DIR_NAMES, "temp"]:
         result_dir: Path = CURRENT_DIR / dir_name
         if result_dir.exists():
-            rmtree(CURRENT_DIR / dir_name)
+            rmtree(result_dir)
+            result_dir.mkdir(parents=True, exist_ok=True)
     main()
