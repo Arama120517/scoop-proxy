@@ -3,10 +3,7 @@ name: Schedule
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
-
-permissions:
-  contents: write
+    - cron: "0 * * * *"
 
 jobs:
   schedule:
