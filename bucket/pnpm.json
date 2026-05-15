@@ -1,37 +1,54 @@
 {
-    "version": "10.33.2",
-    "description": "Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具",
-    "homepage": "https://pnpm.io/",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/pnpm/pnpm/releases/download/v10.33.2/pnpm-win-x64.exe#/pnpm.exe",
-            "hash": "3d1af71e9da7081efd58f95942e1f7e2107bf8fcdae03eb2331c0b6cea59510b"
-        }
+  "version": "11.1.2",
+  "description": "A fast and disk space efficient Node package manager.",
+  "homepage": "https://pnpm.io/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/pnpm/pnpm/releases/download/v11.1.2/pnpm-win32-x64.zip",
+      "hash": "441509ba8a5e860b7c9f41e3371aab6d2dda76a071aa95abbbedda8ab5c84798"
     },
-    "post_install": [
-        "pnpm config set store-dir $dir\\store",
-        "pnpm config set global-dir $dir\\global",
-        "pnpm config set global-bin-dir $dir\\bin",
-        "pnpm config set cache-dir $dir\\cache",
-        "pnpm config set state-dir $dir\\state"
-    ],
-    "bin": "pnpm.exe",
-    "persist": [
-        "store",
-        "global",
-        "bin",
-        "cache",
-        "state"
-    ],
-    "env_add_path": "bin",
-    "checkver": {
-        "github": "https://github.com/pnpm/pnpm"
-    },
-    "autoupdate": {
-        "url": "https://github.com/pnpm/pnpm/releases/download/v$version/pnpm-win-x64.exe#/pnpm.exe",
-        "hash": {
-            "mode": "download"
-        }
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/pnpm/pnpm/releases/download/v11.1.2/pnpm-win32-arm64.zip",
+      "hash": "6e84576ee53a948d4ae6f804d5f7fd3a82953ebe7077fc0fdfe004a874bcb438"
     }
+  },
+  "bin": [
+    "pnpm.exe",
+    [
+      "pnpm.exe",
+      "pnpx",
+      "dlx"
+    ]
+  ],
+  "checkver": {
+    "script": [
+      "# Using checkver script to check through all release tags",
+      "$auth = Get-GitHubToken",
+      "$head = @{}",
+      "if($auth) { $head.add('authorization', \"Bearer $auth\") }",
+      "$url = 'https://api.github.com/repos/pnpm/pnpm/releases'",
+      "$latest_ver = [Version]::new(0,0,0,0) # note: Powershell 5 does not support casting 'int' or 'float' to 'System.Version'",
+      "$releases = $(Invoke-WebRequest -Headers $head $url).Content | ConvertFrom-Json",
+      "$releases | ForEach-Object {",
+      "    if (!($_.tag_name -match '([\\d.]+)')) { return }",
+      "    if ($_.prerelease) { return }",
+      "    $ver = [Version]::new($matches[1])",
+      "    if ($ver -gt $latest_ver) { $latest_ver = $ver }",
+      "}",
+      "if ($latest_ver -eq [Version]::new(0,0,0,0)) { error \"Could not match version string in '$url'\"; continue }",
+      "Write-Output $latest_ver"
+    ],
+    "regex": "([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/pnpm/pnpm/releases/download/v$version/pnpm-win32-x64.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/pnpm/pnpm/releases/download/v$version/pnpm-win32-arm64.zip"
+      }
+    }
+  }
 }

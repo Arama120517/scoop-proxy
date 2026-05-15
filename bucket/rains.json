@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/rookie0/rains",
-  "description": "A command line Chinese stock information retrieval tool",
-  "license": "MIT",
   "version": "0.2.2",
+  "description": "💹 命令行 A 股沪深北证股票信息行情数据查询工具",
+  "homepage": "https://github.com/rookie0/rains",
+  "license": "MIT",
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/rookie0/rains/releases/download/v0.2.2/rains-x86_64-pc-windows-msvc.exe.zip",

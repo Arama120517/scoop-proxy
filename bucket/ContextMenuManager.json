@@ -1,18 +1,27 @@
 {
-    "version": "3.3.3.1",
-    "description": "Windows右键菜单管理程序",
-    "homepage": "https://github.com/BluePointLilac/ContextMenuManager",
-    "license": "BSD-3-Clause",
-    "url": "https://github.com/BluePointLilac/ContextMenuManager/releases/download/3.3.3.1/ContextMenuManager.NET.4.0.exe",
-    "installer": {
-        "script": [
-            "Rename-Item \"$dir\\ContextMenuManager.NET.4.0.exe\" \"$dir\\ContextMenuManager.exe\""
-        ]
-    },
-    "shortcuts": [
-        [
-            "ContextMenuManager.exe",
-            "ContextMenuManager"
-        ]
+  "version": "4.0.0.6",
+  "description": "Context Menu Manager is a program to manage the Windows right-click context menu with support of Windows 7 - 11.",
+  "homepage": "https://github.com/Jack251970/ContextMenuManager",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/Jack251970/ContextMenuManager/releases/download/4.0.0.6/ContextMenuManager.exe",
+      "hash": "df10c663cc4df10a8d7ad3a2d9fa8a36b6f5968e29a2038ee7116e04d70b9ff7"
+    }
+  },
+  "shortcuts": [
+    [
+      "ContextMenuManager.exe",
+      "Context Menu Manager"
     ]
+  ],
+  "persist": "Config",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/Jack251970/ContextMenuManager/releases/download/$version/ContextMenuManager.exe"
+      }
+    }
+  }
 }

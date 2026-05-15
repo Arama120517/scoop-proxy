@@ -1,34 +1,56 @@
 {
-    "version": "0.7.5",
-    "description": "🖼️ PNG/JPEG optimization app for macOS, Windows and Linux",
-    "homepage": "https://github.com/meowtec/Imagine",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/meowtec/Imagine/releases/download/v0.7.5/Imagine-Setup-0.7.5.exe#/dl.7z",
-            "hash": "sha512:170174be0d03f06ce086ae1dd96370544c27a2d4e66c6cdf4883ff9262ec74e6589c556c6579e89d54704905b4ee3e425f7d4db4700059195d137f8dbefa0544"
-        }
-    },
-    "pre_install": [
-        "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\`$*\" -Recurse"
-    ],
-    "shortcuts": [
+  "version": "2.5.6",
+  "description": "(1MB Tiny) Freeware Image & Animation Viewer for Windows",
+  "homepage": "https://www.nyam.pe.kr/dev/imagine/",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.nyam.pe.kr/dev/imagine/#license"
+  },
+  "pre_install": "if (!(Test-Path \"$persist_dir\\Imagine.ini\")) { New-Item \"$dir\\Imagine.ini\" | Out-Null }",
+  "architecture": {
+    "64bit": {
+      "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=2.5.6#/dl.7z",
+      "hash": "f325a9f9409367da8833812e6fc15bedf71609a1dd14152680e3e4c2a4e10eb3",
+      "bin": [
+        "Imagine64.exe",
         [
-            "Imagine.exe",
-            "Imagine"
+          "Imagine64.exe",
+          "Imagine"
         ]
-    ],
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/meowtec/Imagine/releases/download/v$version/Imagine-Setup-$version.exe#/dl.7z",
-                "hash": {
-                    "url": "$baseurl/latest.yml",
-                    "regex": "sha512:\\s+$base64"
-                }
-            }
-        }
+      ],
+      "shortcuts": [
+        [
+          "Imagine64.exe",
+          "Imagine"
+        ]
+      ]
+    },
+    "32bit": {
+      "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=2.5.6#/dl.7z",
+      "hash": "f8544a0cc957a19719d4ee725b61d543f9dfbae915f49d4413ef4fd94991d463",
+      "bin": "Imagine.exe",
+      "shortcuts": [
+        [
+          "Imagine.exe",
+          "Imagine"
+        ]
+      ]
     }
+  },
+  "persist": [
+    "Imagine.ini",
+    "PlugInst.inf",
+    "Plugin"
+  ],
+  "checkver": "v(\\d[\\d.]+)",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=$version#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=$version#/dl.7z"
+      }
+    }
+  }
 }
