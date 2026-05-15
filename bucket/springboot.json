@@ -5,8 +5,8 @@
   "license": "Apache-2.0",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-cli/4.1.0-RC1/spring-boot-cli-4.1.0-RC1-bin.zip",

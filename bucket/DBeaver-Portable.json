@@ -6,9 +6,9 @@
   "changelog": "https://github.com/dbeaver/dbeaver/releases",
   "suggest": {
     "java": [
-      "java/oraclejdk",
-      "java/oraclejre8",
-      "java/openjdk11"
+      "main/oraclejdk",
+      "main/oraclejre8",
+      "main/openjdk11"
     ]
   },
   "architecture": {

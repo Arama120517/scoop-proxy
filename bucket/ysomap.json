@@ -6,8 +6,8 @@
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/ysomap.json 不建议用scoop，最好是源码编译，能够获取最新的功能",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/wh1t3p1g/ysomap/releases/download/v0.1.5/ysomap.jar",

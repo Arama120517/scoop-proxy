@@ -22,8 +22,8 @@
   ],
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "persist": "Ghidra\\Extensions",

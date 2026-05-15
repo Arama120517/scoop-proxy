@@ -7,8 +7,8 @@
   "hash": "045297fa3919f8988c60a4fbe95d7b79f24411678f2289fb718a6138ccedc331",
   "suggest": {
     "JDK": [
-      "java/liberica-full",
-      "java/oraclejdk"
+      "main/liberica-full",
+      "main/oraclejdk"
     ]
   },
   "bin": "chunky.jar",

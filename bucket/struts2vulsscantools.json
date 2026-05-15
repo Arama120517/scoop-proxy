@@ -6,8 +6,8 @@
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/struts2vulsscantools.json",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/abc123info/Struts2VulsScanTools/releases/download/v19.73/Struts2_19.73.jar",

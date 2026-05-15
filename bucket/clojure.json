@@ -13,9 +13,9 @@
   ],
   "suggest": {
     "JDK": [
-      "java/openjdk",
-      "java/temurin-jdk",
-      "java/oraclejdk"
+      "main/openjdk",
+      "main/temurin-jdk",
+      "main/oraclejdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/clojure/brew-install/releases/download/1.12.5.1645/clojure-tools.zip",

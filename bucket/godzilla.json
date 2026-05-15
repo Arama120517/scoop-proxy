@@ -5,8 +5,8 @@
   "license": "Freeware",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/BeichenDream/Godzilla/releases/download/v4.0.1-godzilla/godzilla.jar",

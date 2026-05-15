@@ -6,8 +6,8 @@
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/memshellparty.json https://github.com/vicrack/scoop-bucket",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/ReaJason/MemShellParty/releases/download/v2.7.0/boot-2.7.0.jar",

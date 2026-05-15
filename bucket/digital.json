@@ -5,8 +5,8 @@
   "license": "GPL-3.0-only",
   "suggest": {
     "JDK": [
-      "java/opendk",
-      "java/oraclejdk"
+      "main/opendk",
+      "main/oraclejdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/hneemann/Digital/releases/download/v0.31/Digital.zip",

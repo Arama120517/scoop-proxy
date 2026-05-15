@@ -7,7 +7,7 @@
   "suggest": {
     "transmission": [
       "transmission-cli",
-      "extras/transmission"
+      "main/transmission"
     ]
   },
   "architecture": {

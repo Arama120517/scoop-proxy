@@ -6,8 +6,8 @@
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/woodpecker.json",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/woodpecker-framework/woodpecker-framework-release/releases/download/1.3.5/woodpecker-framework.1.3.5.jar",

@@ -14,8 +14,8 @@
   ],
   "suggest": {
     "JDK 17+": [
-      "java/temurin17-jdk",
-      "java/zulu17-jdk"
+      "main/temurin17-jdk",
+      "main/zulu17-jdk"
     ]
   },
   "checkver": "github",

@@ -5,8 +5,8 @@
   "license": "GPL-3.0-only",
   "suggest": {
     "java": [
-      "java/temurin8-jre",
-      "java/corretto8-jre"
+      "main/temurin8-jre",
+      "main/corretto8-jre"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/mucommander/mucommander/releases/download/1.5.2-1/mucommander-1.5.2-1-portable.zip",

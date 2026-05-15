@@ -6,8 +6,8 @@
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/mysql-fake-server.json",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/4ra1n/mysql-fake-server/releases/download/0.0.4/fake-mysql-gui-0.0.4.jar",

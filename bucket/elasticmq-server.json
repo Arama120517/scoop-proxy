@@ -12,10 +12,10 @@
   ],
   "suggest": {
     "JDK": [
-      "java/openjdk",
-      "java/temurin-jdk",
-      "java/oraclejdk",
-      "java/zulu-jdk"
+      "main/openjdk",
+      "main/temurin-jdk",
+      "main/oraclejdk",
+      "main/zulu-jdk"
     ]
   },
   "checkver": {

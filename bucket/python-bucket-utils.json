@@ -6,8 +6,8 @@
   "suggest": {
     "Python": [
       "python",
-      "versions/python-alpha",
-      "versions/python-beta"
+      "main/python-alpha",
+      "main/python-beta"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/TheRandomLabs/Scoop-Python/master/scripts/install-python-package.ps1",

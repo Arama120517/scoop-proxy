@@ -10,8 +10,8 @@
       "ffmpeg-nightly"
     ],
     "mpv": [
-      "extras/mpv",
-      "extras/mpv-git"
+      "main/mpv",
+      "main/mpv-git"
     ]
   },
   "architecture": {

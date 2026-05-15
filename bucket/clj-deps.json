@@ -6,9 +6,9 @@
   "notes": "Please fully exit and restart any active terminal sessions.",
   "suggest": {
     "JDK": [
-      "java/openjdk",
-      "java/temurin-jdk",
-      "java/oraclejdk"
+      "main/openjdk",
+      "main/temurin-jdk",
+      "main/oraclejdk"
     ]
   },
   "depends": [

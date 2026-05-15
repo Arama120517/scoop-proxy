@@ -23,8 +23,8 @@
   },
   "suggest": {
     "Beads CLI": [
-      "r-bucket/beads",
-      "r-bucket/beads-rust"
+      "main/beads",
+      "main/beads-rust"
     ]
   },
   "post_install": [

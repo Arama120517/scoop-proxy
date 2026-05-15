@@ -5,8 +5,8 @@
   "license": "Freeware",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/abc123info/EquationToolsGUI/releases/download/v0.51/EquationToolsGUI_V0.51.zip#dl.zip_",

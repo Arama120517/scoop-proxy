@@ -8,9 +8,9 @@
   },
   "suggest": {
     "vcredist": [
-      "extras/vcredist2005",
-      "extras/vcredist2008",
-      "extras/vcredist2022"
+      "main/vcredist2005",
+      "main/vcredist2008",
+      "main/vcredist2022"
     ],
     "AutoIt Script Editor": "main/autoit-script-editor"
   },

@@ -11,10 +11,10 @@
   "suggest": {
     ".NET SDK": [
       "dotnet-sdk",
-      "versions/dotnet-sdk-lts",
-      "versions/dotnet8-sdk",
-      "versions/dotnet9-sdk",
-      "versions/dotnet10-sdk"
+      "main/dotnet-sdk-lts",
+      "main/dotnet8-sdk",
+      "main/dotnet9-sdk",
+      "main/dotnet10-sdk"
     ]
   },
   "url": "https://api.nuget.org/v3-flatcontainer/wix/7.0.0/wix.7.0.0.nupkg",

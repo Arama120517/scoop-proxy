@@ -8,10 +8,10 @@
   "bin": "cljstyle.jar",
   "suggest": {
     "JDK": [
-      "java/openjdk",
-      "java/temurin-jdk",
-      "java/zulu-jdk",
-      "java/oraclejdk"
+      "main/openjdk",
+      "main/temurin-jdk",
+      "main/zulu-jdk",
+      "main/oraclejdk"
     ]
   },
   "checkver": "github",

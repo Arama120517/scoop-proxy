@@ -18,8 +18,8 @@
   ],
   "suggest": {
     "JDK": [
-      "java/semeru-jdk",
-      "java/semeru-lts-jdk"
+      "main/semeru-jdk",
+      "main/semeru-lts-jdk"
     ]
   },
   "notes": "Ensure Java 21 is on your PATH (preferably, an IBM Semeru Runtimes Java 21 JDK to enable advanced jvmpview extensions)",

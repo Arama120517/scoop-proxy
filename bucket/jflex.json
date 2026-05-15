@@ -10,10 +10,10 @@
   "bin": "bin\\jflex.bat",
   "suggest": {
     "JDK": [
-      "java/temurin-jdk",
-      "java/openjdk",
-      "java/zulu-jdk",
-      "java/oraclejdk"
+      "main/temurin-jdk",
+      "main/openjdk",
+      "main/zulu-jdk",
+      "main/oraclejdk"
     ]
   },
   "checkver": {

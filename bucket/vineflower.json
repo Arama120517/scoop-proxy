@@ -8,10 +8,10 @@
   "bin": "vineflower.jar",
   "suggest": {
     "JDK 11+": [
-      "java/temurin17-jdk",
-      "java/temurin11-jdk",
-      "java/zulu17-jdk",
-      "java/zulu11-jdk"
+      "main/temurin17-jdk",
+      "main/temurin11-jdk",
+      "main/zulu17-jdk",
+      "main/zulu11-jdk"
     ]
   },
   "notes": "You need to have JRE 11 installed on your computer to use Vineflower.",

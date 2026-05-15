@@ -1,5 +1,4 @@
 from _thread import lock
-from collections.abc import Iterator
 from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from contextlib import suppress
 from enum import IntEnum
@@ -80,6 +79,16 @@ existing_files: dict[str, dict[str, str]] = {}
 existing_lock: lock = Lock()
 
 
+def fix_depends(val: str | list[str]) -> Any:
+    if isinstance(val, str) and "/" in val:
+        return "main/" + val.split("/", 1)[1]
+    if isinstance(val, list):
+        return [
+            "main/" + item.split("/", 1)[1] if "/" in item else item for item in val
+        ]
+    return val
+
+
 def copy(args: tuple[Path, Path, str]) -> None:
     src, dst, repo = args
     version: str = "unknown"
@@ -91,25 +100,21 @@ def copy(args: tuple[Path, Path, str]) -> None:
             content_json: Any = loads(content)
             # 处理依赖
             if "depends" in content_json:
-                depends: list[str] | str = content_json["depends"]
-                if isinstance(depends, str):
-                    depends: list[str] = [depends]
-                else:
-                    depends: list[str] = list(depends)
-                for i in range(len(depends)):
-                    item: str = depends[i]
-                    if "/" in item:
-                        depends[i] = "main/" + item.split("/", 1)[1]
-                content_json["depends"] = depends
+                raw_depends: list[str] | str = content_json["depends"]
+                depends = (
+                    [raw_depends] if isinstance(raw_depends, str) else list(raw_depends)
+                )
+                content_json["depends"] = [fix_depends(d) for d in depends]
 
             if "suggest" in content_json:
-                suggest: dict[str, str] | str = content_json["suggest"]
+                suggest: dict[str, str | list[str]] | str = content_json["suggest"]
                 if isinstance(suggest, dict):
-                    for key, value in suggest.items():
-                        if "/" in value:
-                            suggest[key] = "main/" + value.split("/", 1)[1]
-                elif isinstance(suggest, str) and "/" in suggest:
-                    content_json["suggest"] = "main/" + suggest.split("/", 1)[1]
+                    content_json["suggest"] = {
+                        k: fix_depends(v) for k, v in suggest.items()
+                    }
+                elif isinstance(suggest, str):
+                    content_json["suggest"] = fix_depends(suggest)
+
             content: str = dumps(
                 content_json,
                 option=OPT_INDENT_2 | OPT_NON_STR_KEYS | OPT_APPEND_NEWLINE,
@@ -160,16 +165,17 @@ def copy(args: tuple[Path, Path, str]) -> None:
     return
 
 
-def clone(repo_name: str) -> list[tuple[Path, str]]:
+def clone(repo_name: str, skip_clone: bool) -> list[tuple[Path, str]]:
     repo_dir: Path = TEMP_DIR / repo_name.replace("/", "_")
-    repo = Repo.clone_from(
-        f"{GITHUB_URL + '/' if environ.get('MIRROR') else ''}https://github.com/{repo_name}",
-        repo_dir,
-        multi_options=["--filter=blob:none", "--no-checkout", "--depth=1"],
-    )
-    repo.git.sparse_checkout("init", "--no-cone")
-    repo.git.sparse_checkout("set", *SYNC_DIR_NAMES)
-    repo.git.checkout("-b", "result", "origin/HEAD")
+    if not repo_dir.exists() or not skip_clone:
+        repo: Repo = Repo.clone_from(
+            f"{GITHUB_URL + '/' if environ.get('MIRROR') else ''}https://github.com/{repo_name}",
+            repo_dir,
+            multi_options=["--filter=blob:none", "--no-checkout", "--depth=1"],
+        )
+        repo.git.sparse_checkout("init", "--no-cone")
+        repo.git.sparse_checkout("set", *SYNC_DIR_NAMES)
+        repo.git.checkout("-b", "result", "origin/HEAD")
     need_work_dirs: list[tuple[Path, str]] = []
     for sync_dir_name in SYNC_DIR_NAMES:
         if not (repo_dir / sync_dir_name).exists():
@@ -180,10 +186,15 @@ def clone(repo_name: str) -> list[tuple[Path, str]]:
 
 def main() -> None:
     with ThreadPoolExecutor(max_workers=process_cpu_count()) as executor:
-        results: Iterator[list[tuple[Path, str]]] = executor.map(clone, BUCKETS)
+        skip_clone: bool = environ.get("SKIP_CLONE") is not None
+
+        futures: list[Future[list[tuple[Path, str]]]] = []
+        for repo_name in BUCKETS:
+            futures.append(executor.submit(clone, repo_name, skip_clone))
+
         need_work_dirs: list[tuple[Path, str]] = []
-        for result in results:
-            need_work_dirs += result
+        for future in futures:
+            need_work_dirs += future.result()
 
         futures: list[Future[None]] = []
         for sync_dir, repo_name in need_work_dirs:
@@ -209,6 +220,7 @@ if __name__ == "__main__":
     for dir_name in [*SYNC_DIR_NAMES, "temp"]:
         result_dir: Path = CURRENT_DIR / dir_name
         if result_dir.exists():
-            rmtree(result_dir)
+            if environ.get("SKIP_CLONE") is None:
+                rmtree(result_dir)
             result_dir.mkdir(parents=True, exist_ok=True)
     main()

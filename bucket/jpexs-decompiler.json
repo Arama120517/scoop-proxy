@@ -17,8 +17,8 @@
   "pre_install": "(Get-Content -Raw \"$dir\\ffdec.bat\") -replace '\\njava ', 'start javaw ' | Set-Content \"$dir\\ffdec.bat\"",
   "suggest": {
     "JDK": [
-      "java/temurin-jdk",
-      "java/zulu-jdk"
+      "main/temurin-jdk",
+      "main/zulu-jdk"
     ]
   },
   "notes": "You need to have JRE 8+ installed on your computer to use JPEXS Free Flash Decompiler.",

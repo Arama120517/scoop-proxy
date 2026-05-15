@@ -14,10 +14,10 @@
   ],
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk",
-      "java/temurin-jdk",
-      "java/zulu-jdk"
+      "main/oraclejdk",
+      "main/openjdk",
+      "main/temurin-jdk",
+      "main/zulu-jdk"
     ]
   }
 }

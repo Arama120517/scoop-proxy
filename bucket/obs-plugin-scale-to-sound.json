@@ -6,11 +6,11 @@
   "notes": "If you don't have any obs-studio version installed in your computer, please install one of the following below. Then uninstall this app and install it again.",
   "suggest": {
     "OBS": [
-      "3rd/OBSStudio-Portable",
-      "extras/obs-studio",
-      "extras/obs-studio-small",
-      "versions/obs-studio-pre",
-      "versions/obs-studio27"
+      "main/OBSStudio-Portable",
+      "main/obs-studio",
+      "main/obs-studio-small",
+      "main/obs-studio-pre",
+      "main/obs-studio27"
     ]
   },
   "architecture": {

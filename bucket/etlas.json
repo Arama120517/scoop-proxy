@@ -6,8 +6,8 @@
   "suggest": {
     "wget": "wget",
     "JDK": [
-      "java/oraclejdk",
-      "javan/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "architecture": {

@@ -5,8 +5,8 @@
   "license": "GPL-3.0-or-later",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ],
     "POV-Ray": "main/pov-ray"
   },

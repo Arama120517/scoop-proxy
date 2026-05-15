@@ -16,8 +16,8 @@
   "suggest": {
     "Lua": [
       "main/lua",
-      "versions/lua51",
-      "versions/lua53"
+      "main/lua51",
+      "main/lua53"
     ]
   },
   "architecture": {

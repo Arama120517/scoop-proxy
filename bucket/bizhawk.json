@@ -10,8 +10,8 @@
   "notes": ".NET Framework 4.8 is required.",
   "suggest": {
     "vcredist": [
-      "extras/vcredist2010",
-      "extras/vcredist2022"
+      "main/vcredist2010",
+      "main/vcredist2022"
     ]
   },
   "architecture": {

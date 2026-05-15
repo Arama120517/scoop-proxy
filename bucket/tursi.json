@@ -6,7 +6,7 @@
   "hash": "d74f612e32b7383ef1b5955673cc50c12be16b5621c75414daf01b136dc48194",
   "suggest": {
     "JDK": [
-      "extras/oraclejdk",
+      "main/oraclejdk",
       "openjdk"
     ]
   },

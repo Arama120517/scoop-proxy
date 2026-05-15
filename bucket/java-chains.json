@@ -6,8 +6,8 @@
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/java-chains.json https://github.com/vicrack/scoop-bucket",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/vulhub/java-chains/releases/download/1.4.4/java-chains-1.4.4-windows-amd64.zip",

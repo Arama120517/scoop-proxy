@@ -22,8 +22,8 @@
   },
   "suggest": {
     "JDK": [
-      "java/oraclejdk-lts",
-      "java/openjdk"
+      "main/oraclejdk-lts",
+      "main/openjdk"
     ]
   }
 }

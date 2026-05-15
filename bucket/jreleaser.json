@@ -5,8 +5,8 @@
   "license": "Apache-2.0",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/jreleaser/jreleaser/releases/download/v1.24.0/jreleaser-1.24.0.zip",

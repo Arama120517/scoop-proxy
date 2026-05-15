@@ -16,8 +16,8 @@
   "notes": "Model location: $dir\\model.bin.gz",
   "suggest": {
     "KataGo": [
-      "lemon/katago-opencl",
-      "lemon/katago-cpu"
+      "main/katago-opencl",
+      "main/katago-cpu"
     ]
   },
   "autoupdate": {

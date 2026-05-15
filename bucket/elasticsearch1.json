@@ -8,8 +8,8 @@
   },
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "main/oraclejdk",
+      "main/openjdk"
     ]
   },
   "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.0.zip",

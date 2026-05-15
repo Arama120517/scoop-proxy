@@ -8,9 +8,9 @@
   "bin": "lspatch.jar",
   "suggest": {
     "JDK 21+": [
-      "java/openjdk",
-      "java/temurin-jdk",
-      "java/zulu-jdk"
+      "main/openjdk",
+      "main/temurin-jdk",
+      "main/zulu-jdk"
     ]
   },
   "notes": "You need to have JRE 21 installed on your computer to use LSPatch CLI.",

@@ -8,8 +8,8 @@
     "Android SDK Tools": "android-clt",
     "Android Studio": "main/android-studio",
     "Java": [
-      "java/oraclejdk-lts",
-      "java/openjdk11"
+      "main/oraclejdk-lts",
+      "main/openjdk11"
     ],
     "Visual Studio Code with Flutter extension": "main/vscode"
   },

@@ -5,8 +5,8 @@
   "license": "GPL-3.0-or-later",
   "suggest": {
     "JDK": [
-      "java/openjdk",
-      "java/oraclejdk"
+      "main/openjdk",
+      "main/oraclejdk"
     ]
   },
   "url": "https://v6.gh-proxy.org/https://github.com/oripa/oripa/releases/download/v1.79_release/oripa-1.79-all.jar#/oripa.jar",

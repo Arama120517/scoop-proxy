@@ -19,10 +19,10 @@
   ],
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk",
-      "java/adoptopenjdk-hotspot",
-      "java/zulu"
+      "main/oraclejdk",
+      "main/openjdk",
+      "main/adoptopenjdk-hotspot",
+      "main/zulu"
     ]
   },
   "checkver": "github",
