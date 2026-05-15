@@ -24,7 +24,6 @@ from sync.config import (
     BUCKETS,
     CURRENT_DIR,
     DEFAULT_RULES,
-    DEPENDS_RULE,
     GITHUB_RULES,
     GITHUB_URL,
     HIGH_QUALITY_BUCKETS,
@@ -90,21 +89,27 @@ def copy(args: tuple[Path, Path, str]) -> None:
 
         if src.parent.name == "bucket" and src.suffix == ".json":
             content_json: Any = loads(content)
-            pattern, replace = DEPENDS_RULE
             # 处理依赖
             if "depends" in content_json:
                 depends: list[str] | str = content_json["depends"]
                 if isinstance(depends, str):
                     depends: list[str] = [depends]
+                else:
+                    depends: list[str] = list(depends)
                 for i in range(len(depends)):
-                    depends[i] = pattern.sub(replace, depends[i])
+                    item: str = depends[i]
+                    if "/" in item:
+                        depends[i] = "main/" + item.split("/", 1)[1]
                 content_json["depends"] = depends
 
             if "suggest" in content_json:
-                suggest: dict[str, str] = content_json["suggest"]
-                for key in suggest:
-                    suggest[key] = pattern.sub(replace, suggest[key])
-
+                suggest: dict[str, str] | str = content_json["suggest"]
+                if isinstance(suggest, dict):
+                    for key, value in suggest.items():
+                        if "/" in value:
+                            suggest[key] = "main/" + value.split("/", 1)[1]
+                elif isinstance(suggest, str) and "/" in suggest:
+                    content_json["suggest"] = "main/" + suggest.split("/", 1)[1]
             content: str = dumps(
                 content_json,
                 option=OPT_INDENT_2 | OPT_NON_STR_KEYS | OPT_APPEND_NEWLINE,

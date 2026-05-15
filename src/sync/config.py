@@ -111,8 +111,6 @@ DEFAULT_RULES: list[Rule] = [
 for url in INVALID_GITHUB_URL:
     DEFAULT_RULES.append((_compile(url), GITHUB_URL))
 
-DEPENDS_RULE: Rule = _compile(r"^[a-zA-Z0-9._-]+/"), "main/"
-
 GITHUB_RULES: list[Rule] = [
     (
         _compile(r"(https://github\.com.+/releases/download/)"),
@@ -171,7 +169,6 @@ __all__: list[str] = [
     "BUCKETS",
     "CURRENT_DIR",
     "DEFAULT_RULES",
-    "DEPENDS_RULE",
     "GITHUB_RULES",
     "GITHUB_URL",
     "HIGH_QUALITY_BUCKETS",
