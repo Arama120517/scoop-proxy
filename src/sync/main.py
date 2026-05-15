@@ -86,7 +86,7 @@ def copy(args: tuple[Path, Path, str]) -> None:
     version: str = "unknown"
 
     try:
-        content: str = src.read_text().replace("\r\n", "\n").strip()
+        content: str = src.read_text("utf-8").replace("\r\n", "\n").strip()
 
         if src.suffix == ".json":
             content_json: Any = loads(content)
@@ -145,7 +145,7 @@ def copy(args: tuple[Path, Path, str]) -> None:
     for pattern, replace in rules:
         content: str = re2.sub(pattern, replace, content)
 
-    dst.write_text(content)
+    dst.write_text(content, encoding="utf-8")
     with existing_lock:
         existing_files[src.name.lower()] = {
             "repo": repo,
