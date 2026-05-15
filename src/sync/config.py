@@ -1,9 +1,7 @@
-import re
 from collections.abc import Callable
 from pathlib import Path
-from re import Pattern
 
-import re2
+from re2 import Options, _Match, _Regexp, compile, escape
 
 CURRENT_DIR: Path = Path.cwd()
 TEMP_DIR: Path = CURRENT_DIR / "temp"
@@ -89,14 +87,14 @@ BUCKETS: list[str] = [
 ]
 
 
-type Rule = tuple[Pattern[str], str | Callable[[re.Match[str]], str]]
+type Rule = tuple[_Regexp[str], str | Callable[[_Match[str]], str]]
 
-_options = re2.Options()
+_options = Options()
 _options.case_sensitive = False
 
 
-def _compile(pattern: str) -> Pattern[str]:
-    return re2.compile(pattern, _options)
+def _compile(pattern: str) -> _Regexp[str]:
+    return compile(pattern, _options)
 
 
 VERSION_RULE: Rule = _compile(r"[^\d.]"), ""
@@ -130,7 +128,7 @@ GITHUB_RULES: list[Rule] = [
     ),
     (_compile(f"{GITHUB_URL}/{GITHUB_URL}"), GITHUB_URL),
     (
-        _compile(rf"https://[.0-9a-zA-Z]+/{re.escape(GITHUB_URL)}/https:"),
+        _compile(rf"https://[.0-9a-zA-Z]+/{escape(GITHUB_URL)}/https:"),
         rf"{GITHUB_URL}/https:",
     ),
 ]
@@ -139,7 +137,6 @@ SOURCEFORGE_RULES: list[Rule] = [
     (
         _compile(
             r"(https://sourceforge\.net/projects/[^/]+(?:/files/.+?)?/download)([^a-zA-Z0-9_/]|$)"
-            #                                                                  ^^^^^^^^^^^^^^^^^^ 捕获边界
         ),
         lambda m: SOURCEFORGE_URL + "/" + m.group(1) + (m.group(2) or ""),
     ),
@@ -151,7 +148,7 @@ SOURCEFORGE_RULES: list[Rule] = [
     ),
     (_compile(f"{SOURCEFORGE_URL}/{SOURCEFORGE_URL}"), SOURCEFORGE_URL),
     (
-        _compile(rf"https://[.0-9a-zA-Z-]+/{re.escape(SOURCEFORGE_URL)}/https:"),
+        _compile(rf"https://[.0-9a-zA-Z-]+/{escape(SOURCEFORGE_URL)}/https:"),
         rf"{SOURCEFORGE_URL}/https:",
     ),
 ]

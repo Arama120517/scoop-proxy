@@ -1,15 +1,14 @@
-import contextlib
-import os
-import threading
 from _thread import lock
 from collections.abc import Iterator
 from concurrent.futures import Future, ThreadPoolExecutor, as_completed
+from contextlib import suppress
 from enum import IntEnum
+from os import environ, process_cpu_count
 from pathlib import Path
 from shutil import copy2, rmtree
+from threading import Lock
 from typing import Any
 
-import re2
 from git import Repo
 from orjson import (
     OPT_APPEND_NEWLINE,
@@ -41,13 +40,14 @@ from sync.config import (
 
 class SemverStatus(IntEnum):
     GREATER = 1  # a > b
-    LESS = -1  # a < b
     EQUAL = 0  # a == b
+    LESS = -1  # a < b
 
 
 def semver_compare(old: str, new: str) -> SemverStatus:
-    old: str = re2.sub(*VERSION_RULE, str(old or "").replace("-", "."))
-    new: str = re2.sub(*VERSION_RULE, str(new or "").replace("-", "."))
+    pattern, replace = VERSION_RULE
+    old: str = pattern.sub(replace, str(old or "").replace("-", "."))
+    new: str = pattern.sub(replace, str(new or "").replace("-", "."))
 
     old_segments, new_segments = old.split("."), new.split(".")
 
@@ -78,7 +78,7 @@ def semver_compare(old: str, new: str) -> SemverStatus:
 
 # {file: {repo: "owner/repo", version: "x.y.z" | "unknown"}}
 existing_files: dict[str, dict[str, str]] = {}
-existing_lock: lock = threading.Lock()
+existing_lock: lock = Lock()
 
 
 def copy(args: tuple[Path, Path, str]) -> None:
@@ -88,21 +88,22 @@ def copy(args: tuple[Path, Path, str]) -> None:
     try:
         content: str = src.read_text("utf-8").replace("\r\n", "\n").strip()
 
-        if src.suffix == ".json":
+        if src.parent.name == "bucket" and src.suffix == ".json":
             content_json: Any = loads(content)
+            pattern, replace = DEPENDS_RULE
             # 处理依赖
             if "depends" in content_json:
                 depends: list[str] | str = content_json["depends"]
                 if isinstance(depends, str):
                     depends: list[str] = [depends]
                 for i in range(len(depends)):
-                    depends[i] = re2.sub(*DEPENDS_RULE, depends[i])
+                    depends[i] = pattern.sub(replace, depends[i])
                 content_json["depends"] = depends
 
             if "suggest" in content_json:
                 suggest: dict[str, str] = content_json["suggest"]
                 for key in suggest:
-                    suggest[key] = re2.sub(*DEPENDS_RULE, suggest[key])
+                    suggest[key] = pattern.sub(replace, suggest[key])
 
             content: str = dumps(
                 content_json,
@@ -143,7 +144,7 @@ def copy(args: tuple[Path, Path, str]) -> None:
         rules += PHP_RULES
 
     for pattern, replace in rules:
-        content: str = re2.sub(pattern, replace, content)
+        content: str = pattern.sub(replace, content)
 
     dst.write_text(content, encoding="utf-8")
     with existing_lock:
@@ -157,7 +158,7 @@ def copy(args: tuple[Path, Path, str]) -> None:
 def clone(repo_name: str) -> list[tuple[Path, str]]:
     repo_dir: Path = TEMP_DIR / repo_name.replace("/", "_")
     repo = Repo.clone_from(
-        f"{GITHUB_URL + '/' if os.environ.get('MIRROR') else ''}https://github.com/{repo_name}",
+        f"{GITHUB_URL + '/' if environ.get('MIRROR') else ''}https://github.com/{repo_name}",
         repo_dir,
         multi_options=["--filter=blob:none", "--no-checkout", "--depth=1"],
     )
@@ -173,7 +174,7 @@ def clone(repo_name: str) -> list[tuple[Path, str]]:
 
 
 def main() -> None:
-    with ThreadPoolExecutor(max_workers=os.process_cpu_count()) as executor:
+    with ThreadPoolExecutor(max_workers=process_cpu_count()) as executor:
         results: Iterator[list[tuple[Path, str]]] = executor.map(clone, BUCKETS)
         need_work_dirs: list[tuple[Path, str]] = []
         for result in results:
@@ -195,7 +196,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    with contextlib.suppress(ModuleNotFoundError, FileNotFoundError):
+    with suppress(ModuleNotFoundError, FileNotFoundError):
         from dotenv import load_dotenv
 
         load_dotenv()
