@@ -20,7 +20,7 @@
   "bin": "cargo-zigbuild.exe",
   "suggest": {
     "zig": "main/zig",
-    "zig-dev": "versions/zig-dev"
+    "zig-dev": "main/zig-dev"
   },
   "checkver": "github",
   "autoupdate": {

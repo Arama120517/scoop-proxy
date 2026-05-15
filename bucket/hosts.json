@@ -20,6 +20,6 @@
     "name": "hosts"
   },
   "depends": [
-    "aki/powerhtml"
+    "main/powerhtml"
   ]
 }

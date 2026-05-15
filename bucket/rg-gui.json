@@ -3,7 +3,9 @@
   "description": "A Simple RipGrep GUI for Windows",
   "homepage": "https://github.com/kcowolf/rg-gui",
   "license": "MIT",
-  "depends": "windowsdesktop-runtime-lts",
+  "depends": [
+    "windowsdesktop-runtime-lts"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/kcowolf/rg-gui/releases/download/v0.5.1/rg-gui-v0.5.1.zip",
   "hash": "3c6cd79b1867728b46057757b1320aae95c361dddb26943b58c9e421c0101f0e",
   "bin": "rg-gui.exe",

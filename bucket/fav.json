@@ -3,7 +3,9 @@
   "description": "Back up your favorite bilibili resources with CLI.",
   "homepage": "https://github.com/kingwingfly/fav",
   "license": "MIT",
-  "depends": "ffmpeg-shared",
+  "depends": [
+    "ffmpeg-shared"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/kingwingfly/fav/releases/download/v1.2.4/fav_bili-v1.2.4-x86_64-pc-windows-msvc.zip",

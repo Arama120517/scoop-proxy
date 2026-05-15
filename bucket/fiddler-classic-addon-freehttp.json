@@ -4,7 +4,7 @@
   "homepage": "https://github.com/lulianqi/FreeHttp",
   "license": "MIT",
   "suggest": {
-    "fiddler": "nuke/fiddler"
+    "fiddler": "main/fiddler"
   },
   "url": "https://lulianqi.com/file/FreeHttp2.3.0.zip",
   "hash": "240f436da5d4a7de57487d1bb4fa95baad08be783b5609d620da92775840b41a",

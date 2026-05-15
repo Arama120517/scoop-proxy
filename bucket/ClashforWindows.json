@@ -10,7 +10,7 @@
   ],
   "depends": [
     "main/gsudo",
-    "Scoop4kariiin/Scoop4kariiinUtils"
+    "main/Scoop4kariiinUtils"
   ],
   "architecture": {
     "64bit": {

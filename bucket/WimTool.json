@@ -1,22 +1,30 @@
 {
-  "version": "1.30.2011.501",
-  "url": "https://scoop-zapps.ziiyc.com/d/WimTool/WimTool-1.30.2011.501.zip",
-  "hash": "047fe528b3980305a29d406e75e7d76109feea89395cf3f52bd4efbc54bf6375",
-  "checkver": {
-    "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/WimTool.latest",
-    "regex": "([\\d.]+)"
-  },
-  "autoupdate": {
-    "url": "https://scoop-zapps.ziiyc.com/d/WimTool/WimTool-$version.zip",
-    "hash": {
-      "url": "$url.sha256",
-      "regex": "$sha256"
+    "version": "1.6.2024.1111",
+    "description": "Wim文件的图形视窗处理工具",
+    "homepage": "http://bbs.wuyou.net/forum.php?mod=viewthread&tid=106907",
+    "license": "Freeware",
+    "url": "https://scoop-lemon.tari.xyz/hosted/wimtool/WimTool%20-%20V1.6.2024.1111.rar",
+    "hash": "d40234922b05f59db31c1ea35eb7f279e7b2fb1c3d5dffe2c830ab472edce9e5",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "WimTool\\x64"
+        },
+        "32bit": {
+            "extract_dir": "WimTool\\x86"
+        }
+    },
+    "bin": "WimTool.exe",
+    "shortcuts": [
+        [
+            "WimTool.exe",
+            "WimTool"
+        ]
+    ],
+    "checkver": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/wimtool/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/wimtool/WimTool%20-%20V$version.rar"
     }
-  },
-  "shortcuts": [
-    [
-      "WimTool.exe",
-      "WimTool"
-    ]
-  ]
 }

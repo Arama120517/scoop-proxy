@@ -14,7 +14,7 @@
     }
   },
   "suggest": {
-    "Everything": "versions/everything-alpha"
+    "Everything": "main/everything-alpha"
   },
   "shortcuts": [
     [

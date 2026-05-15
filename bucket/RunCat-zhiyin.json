@@ -4,7 +4,7 @@
   "homepage": "https://github.com/Weidows/RunCat_for_windows",
   "license": "Apache-2.0",
   "suggest": {
-    ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+    ".NET Desktop Runtime": "main/windowsdesktop-runtime-lts"
   },
   "architecture": {
     "64bit": {

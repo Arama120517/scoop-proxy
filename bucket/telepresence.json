@@ -12,8 +12,8 @@
   "post_install": "Remove-Item \"$dir\\*.msi\", \"$dir\\*.ps1\" -Force -Recurse",
   "bin": "telepresence.exe",
   "suggest": {
-    "sshfs": "nonportable/sshfs-np",
-    "winfsp": "nonportable/winfsp-np"
+    "sshfs": "main/sshfs-np",
+    "winfsp": "main/winfsp-np"
   },
   "checkver": {
     "url": "https://github.com/datawire/homebrew-blackbird/raw/master/Formula/telepresence.rb",

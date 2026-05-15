@@ -5,7 +5,9 @@
   "license": "Proprietary",
   "url": "https://www.ipvanish.com/software/setup-prod-v2/ipvanish-setup.exe#/setup.exe",
   "hash": "8c645d9e39a94af3003d8e0d1065d436b0a3dd6c314d84828cb0763ebd4965d7",
-  "depends": "dark",
+  "depends": [
+    "dark"
+  ],
   "architecture": {
     "64bit": {
       "installer": {

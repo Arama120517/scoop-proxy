@@ -14,11 +14,11 @@
     "Learn more: https://github.com/notBald/Avalonia86#how-to-use"
   ],
   "depends": [
-    "extras/86box",
-    "extras/86box-roms"
+    "main/86box",
+    "main/86box-roms"
   ],
   "suggest": {
-    ".NET Desktop Runtime 9.0": "versions/windowsdesktop-runtime-9.0"
+    ".NET Desktop Runtime 9.0": "main/windowsdesktop-runtime-9.0"
   },
   "architecture": {
     "64bit": {

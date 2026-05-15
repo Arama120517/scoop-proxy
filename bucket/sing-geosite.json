@@ -13,7 +13,7 @@
   ],
   "notes": "Geosite is deprecated in sing-box 1.8.0 and removed in sing-box 1.12.0",
   "suggest": {
-    "sing-geosite-rule-set": "lemon/sing-geosite-rule-set"
+    "sing-geosite-rule-set": "main/sing-geosite-rule-set"
   },
   "checkver": {
     "github": "https://github.com/SagerNet/sing-geosite"

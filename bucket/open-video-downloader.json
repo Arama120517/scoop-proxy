@@ -4,7 +4,7 @@
   "homepage": "https://jely2002.github.io/youtube-dl-gui/",
   "license": "AGPL-3.0-only",
   "suggest": {
-    "vcredist": "extras/vcredist2010"
+    "vcredist": "main/vcredist2010"
   },
   "architecture": {
     "64bit": {

@@ -7,7 +7,7 @@
   "hash": "a188ce647833f87b8484c8abe6f5b4d29276be62c47d346c472598da02c3f63f",
   "bin": "mq-view.exe",
   "suggest": {
-    "Core CLI": "r-bucket/mq"
+    "Core CLI": "main/mq"
   },
   "checkver": {
     "github": "https://github.com/harehare/mq-view"

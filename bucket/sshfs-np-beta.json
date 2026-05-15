@@ -13,7 +13,9 @@
       "hash": "f74e399a44b54b447f7e8ed4f012ba1932c5f90be71a6942ea304841eab610b0"
     }
   },
-  "depends": "winfsp-np-beta",
+  "depends": [
+    "winfsp-np-beta"
+  ],
   "pre_install": [
     "Invoke-ExternalCommand msiexec.exe \"/i $([char][byte]34)$dir\\setup.msi_$([char][byte]34) /qn /norestart INSTALLLEVEL=1000 INSTALLDIR=$([char][byte]34)$dir$([char][byte]34)\" -RunAs",
     "$null = if (!(Test-Path \"$persist_dir$($cfg = '/etc/ssh_config')\")) { New-Item \"$dir$cfg\" }"

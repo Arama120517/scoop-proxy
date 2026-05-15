@@ -3,7 +3,9 @@
   "description": "SIP003 plugin based on v2ray for shadowsocks",
   "homepage": "https://github.com/shadowsocks/v2ray-plugin",
   "license": "MIT",
-  "depends": "shadowsocks",
+  "depends": [
+    "shadowsocks"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.2/v2ray-plugin-windows-amd64-v1.3.2.tar.gz",

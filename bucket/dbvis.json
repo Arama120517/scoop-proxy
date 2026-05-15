@@ -7,8 +7,8 @@
     "url": "https://www.dbvis.com/eula/"
   },
   "suggest": {
-    "JDK": "java/openjdk",
-    "JRE": "java/temurin-jre"
+    "JDK": "main/openjdk",
+    "JRE": "main/temurin-jre"
   },
   "architecture": {
     "64bit": {

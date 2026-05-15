@@ -4,7 +4,7 @@
   "homepage": "https://karatelabs.github.io/karate/",
   "license": "MIT",
   "suggest": {
-    "Java": "java/openjdk"
+    "Java": "main/openjdk"
   },
   "url": "https://v6.gh-proxy.org/https://github.com/karatelabs/karate/releases/download/v2.0.9/karate-2.0.9.jar#/karate.jar",
   "hash": "94b088dc8dddf28808d0d420b2d2e3656f60a9e65563aa5f5a798394701d6c09",

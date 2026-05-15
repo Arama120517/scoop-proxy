@@ -4,7 +4,9 @@
   "description": "Powerful tool which extends the functionality of Windows Firewall and provides new extra features which makes Windows Firewall better",
   "homepage": "https://www.binisoft.org/wfc.php",
   "license": "Freeware",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "url": "https://www.binisoft.org/download/wfc6setup.exe",
   "hash": "16442002148e25cc009ad69e6292ce763eeb93108a9008c35019ec2ca7252f32",
   "installer": {

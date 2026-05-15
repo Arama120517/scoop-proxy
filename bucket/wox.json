@@ -8,7 +8,7 @@
   },
   "suggest": {
     "Python3": "main/python",
-    "Everything": "extras/everything"
+    "Everything": "main/everything"
   },
   "architecture": {
     "64bit": {

@@ -6,7 +6,9 @@
     "identifier": "GPL-2.0-or-later",
     "url": "https://github.com/winfsp/sshfs-win/blob/HEAD/License.txt"
   },
-  "depends": "winfsp-np",
+  "depends": [
+    "winfsp-np"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/billziss-gh/sshfs-win/releases/download/v3.7.21011/sshfs-win-3.7.21011-x64.msi#/setup.msi_",

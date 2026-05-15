@@ -7,7 +7,7 @@
     "url": "https://www.nvidia.com/en-us/about-nvidia/eula-agreement/"
   },
   "suggest": {
-    "GeForce Experience": "gaming/nvidia-geforce-experience"
+    "GeForce Experience": "main/nvidia-geforce-experience"
   },
   "url": "https://us.download.nvidia.com/Windows/596.49/596.49-desktop-win10-win11-64bit-international-dch-whql.exe#/dl.7z",
   "hash": "45e71d78d82dc1c1f0ccb299d684510d8e77a507fd6963745083407495c038b2",

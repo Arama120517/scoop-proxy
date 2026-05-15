@@ -15,7 +15,7 @@
   },
   "bin": "bv.exe",
   "suggest": {
-    "Beads CLI": "r-bucket/beads-rust"
+    "Beads CLI": "main/beads-rust"
   },
   "checkver": "github",
   "autoupdate": {

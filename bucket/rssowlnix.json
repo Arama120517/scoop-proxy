@@ -23,7 +23,7 @@
     ]
   ],
   "suggest": {
-    "JRE": "java/temurin17-jre"
+    "JRE": "main/temurin17-jre"
   },
   "checkver": "github",
   "autoupdate": {

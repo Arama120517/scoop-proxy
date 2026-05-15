@@ -3,7 +3,9 @@
   "description": "A snipping tool, which allows you to pin the screenshot back onto the screen.",
   "version": "2.11.3",
   "license": "Proprietary",
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://download.snipaste.com/archives/Snipaste-2.11.3-x64.zip",
@@ -42,7 +44,7 @@
     "splog.txt"
   ],
   "suggest": {
-    "vcredist": "extras/vcredist2015"
+    "vcredist": "main/vcredist2015"
   },
   "checkver": {
     "url": "https://www.snipaste.com/versions",

@@ -1,29 +1,42 @@
 {
-  "version": "2.12.0",
-  "description": "GO Simple Tunnel - a simple tunnel written in golang",
-  "homepage": "https://github.com/ginuerzh/gost",
+  "version": "3.2.7-nightly.20260426",
+  "description": "GO Simple Tunnel - a simple tunnel written in golang.",
+  "homepage": "https://gost.run/",
   "license": "MIT",
-  "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/gost.json",
   "architecture": {
-    "32bit": {
-      "url": "https://v6.gh-proxy.org/https://github.com/ginuerzh/gost/releases/download/v2.12.0/gost_2.12.0_windows_386.zip",
-      "hash": "f7732f53c1acaeaee1265ed7b48250ddc59f713c1d4f93e3dfb73387c4544fd8"
-    },
     "64bit": {
-      "url": "https://v6.gh-proxy.org/https://github.com/ginuerzh/gost/releases/download/v2.12.0/gost_2.12.0_windows_amd64.zip",
-      "hash": "2ebe0cb6ac5e966647b222a1f5ac1ae4ce1f340e190f5f69e381c4f694526d43"
+      "url": "https://v6.gh-proxy.org/https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260426/gost_3.2.7-nightly.20260426_windows_amd64.zip",
+      "hash": "24845c71633138e9f3704e00d2cb4b299053ba37ba8ab284c0cac7c3739c28c0"
+    },
+    "32bit": {
+      "url": "https://v6.gh-proxy.org/https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260426/gost_3.2.7-nightly.20260426_windows_386.zip",
+      "hash": "f982b6c356801e19111035288346ef1c79c42e5a07e44de7a9d294363bb0818c"
+    },
+    "arm64": {
+      "url": "https://v6.gh-proxy.org/https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260426/gost_3.2.7-nightly.20260426_windows_arm64.zip",
+      "hash": "0b3c4b7eb4663996fcaffd057e4e70a868dec9195f241603893e47b374f883e4"
     }
   },
   "bin": "gost.exe",
-  "checkver": "github",
+  "persist": "conf",
+  "checkver": {
+    "url": "https://github.com/go-gost/gost/releases.atom",
+    "regex": "Repository/\\d+/v(.+?)<"
+  },
   "autoupdate": {
     "architecture": {
-      "32bit": {
-        "url": "https://v6.gh-proxy.org/https://github.com/ginuerzh/gost/releases/download/v$version/gost_$version_windows_386.zip"
-      },
       "64bit": {
-        "url": "https://v6.gh-proxy.org/https://github.com/ginuerzh/gost/releases/download/v$version/gost_$version_windows_amd64.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_amd64.zip"
+      },
+      "32bit": {
+        "url": "https://v6.gh-proxy.org/https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_386.zip"
+      },
+      "arm64": {
+        "url": "https://v6.gh-proxy.org/https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_arm64.zip"
       }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
     }
   }
 }

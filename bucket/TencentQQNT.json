@@ -7,7 +7,9 @@
     "The app runtime is persisted by scoop, while user data is saved in path:",
     "\"$env:USERPROFILE\\Documents\\Tencent Files\""
   ],
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.30/guanwang/6a035910/QQ_9.9.30-260511_x64_01.exe#/dl.7z",

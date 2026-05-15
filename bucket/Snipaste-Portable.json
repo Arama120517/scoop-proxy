@@ -26,7 +26,7 @@
     ]
   ],
   "suggest": {
-    "vcredist": "extras/vcredist2015"
+    "vcredist": "main/vcredist2015"
   },
   "checkver": {
     "url": "https://www.snipaste.com/download.html",

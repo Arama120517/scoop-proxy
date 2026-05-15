@@ -5,7 +5,7 @@
   "license": "GPL-2.0-only",
   "changelog": "https://winmerge.org/docs/changelog.php?lang=en",
   "suggest": {
-    "vcredist2008": "extras/vcredist2008"
+    "vcredist2008": "main/vcredist2008"
   },
   "architecture": {
     "64bit": {

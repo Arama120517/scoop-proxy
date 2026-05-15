@@ -3,7 +3,9 @@
   "homepage": "https://github.com/python/mypy_extensions",
   "description": "Extensions for mypy.",
   "license": "MIT",
-  "depends": "mypy-py",
+  "depends": [
+    "mypy-py"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/python/mypy_extensions/archive/0.4.3.zip",
   "hash": "dcc5e1adcd378f76570deb7dd1678e9601f7de7c3dc0d29703203fa0eb1c5003",
   "extract_dir": "mypy_extensions-0.4.3",

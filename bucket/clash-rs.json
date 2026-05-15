@@ -15,7 +15,7 @@
   },
   "bin": "clash-rs.exe",
   "suggest": {
-    "wintun-libs": "lemon/wintun-libs"
+    "wintun-libs": "main/wintun-libs"
   },
   "post_install": "if (installed 'wintun-libs' $global) {Copy-Item \"$(appdir wintun-libs $global)\\current\\wintun.dll\" \"$dir\\\" } else { error 'It is recommended to install `lemon/wintun-libs` first, then reinstall `lemon/clash-rs`.'}",
   "checkver": "github",

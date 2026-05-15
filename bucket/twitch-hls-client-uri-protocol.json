@@ -5,7 +5,7 @@
   "homepage": "https://github.com/brian6932/twitch-hls-client-uri-protocol",
   "license": "AGPL-3.0-only",
   "suggest": {
-    "twitch-hls-client": "dank-scoop/twitch-hls-client"
+    "twitch-hls-client": "main/twitch-hls-client"
   },
   "architecture": {
     "64bit-v4": {

@@ -3,7 +3,9 @@
   "description": "A CLI to add common aliases and features to deps.edn-based projects",
   "homepage": "https://github.com/babashka/neil",
   "license": "MIT",
-  "depends": "scoop-clojure/babashka",
+  "depends": [
+    "main/babashka"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/babashka/neil/archive/refs/tags/v0.3.69.zip",

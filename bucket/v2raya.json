@@ -6,9 +6,11 @@
     "identifier": "AGPL-3.0-only",
     "url": "https://github.com/v2rayA/v2rayA/raw/master/LICENSE"
   },
-  "depends": "v2ray",
+  "depends": [
+    "v2ray"
+  ],
   "suggest": {
-    "v2ray-rules-dat": "Apps/v2ray-rules-dat"
+    "v2ray-rules-dat": "main/v2ray-rules-dat"
   },
   "architecture": {
     "64bit": {

@@ -7,7 +7,7 @@
   "hash": "47775a695d43edb3ad01155957392c2e5ff4fe85d61589cb84206045ff9e6301",
   "bin": "mq-lsp.exe",
   "suggest": {
-    "Core CLI": "r-bucket/mq"
+    "Core CLI": "main/mq"
   },
   "checkver": {
     "github": "https://github.com/harehare/mq"

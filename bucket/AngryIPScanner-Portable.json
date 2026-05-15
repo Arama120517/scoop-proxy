@@ -9,7 +9,7 @@
     "--arch 32bit"
   ],
   "suggest": {
-    "JRE": "java/temurin8-jre"
+    "JRE": "main/temurin8-jre"
   },
   "architecture": {
     "64bit": {

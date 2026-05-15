@@ -8,7 +8,9 @@
   },
   "url": "https://www.scootersoftware.com/BCompare-zh-5.2.1.32035.exe",
   "hash": "6c3cc8fc45565fade00fdd9409cd6290ff00fafc384a47bfcc2484250b3c5abc",
-  "depends": "innounp",
+  "depends": [
+    "innounp"
+  ],
   "pre_install": "Expand-InnoArchive -Path \"$dir\\$fname\" -Switches \"-a\"  -Removal",
   "architecture": {
     "64bit": {

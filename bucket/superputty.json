@@ -3,12 +3,14 @@
   "description": "A window manager for the PuTTY SSH Client. It allows you to embed PuTTY terminal instances inside of a windows form providing a better tabbed interface when multiple connections are used.",
   "homepage": "https://github.com/jimradford/superputty",
   "license": "MIT",
-  "depends": "putty",
+  "depends": [
+    "putty"
+  ],
   "suggest": {
     "Cygwin": "cygwin",
-    "WinSCP": "extras/winscp",
-    "FileZilla": "extras/filezilla",
-    "KiTTY": "extras/kitty"
+    "WinSCP": "main/winscp",
+    "FileZilla": "main/filezilla",
+    "KiTTY": "main/kitty"
   },
   "url": "https://v6.gh-proxy.org/https://github.com/jimradford/superputty/releases/download/1.5.0.0/SuperPuTTY-1.5.0.0.zip",
   "hash": "4d96c6e42c1a1191455960580fdc610027c69cbd0d3477ef8b757c8512f0947c",

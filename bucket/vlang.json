@@ -5,7 +5,7 @@
   "license": "MIT",
   "notes": "Vlang contains self-hosted TCC. For making optimized builds of your software you have to install GNU/GCC or LLVM/Clang",
   "suggest": {
-    "An LLVM/Clang/LLD based mingw-w64 toolchain": "Scoop-littleli/llvm-mingw"
+    "An LLVM/Clang/LLD based mingw-w64 toolchain": "main/llvm-mingw"
   },
   "url": "https://v6.gh-proxy.org/https://github.com/vlang/v/releases/download/weekly.2026.08/v_windows.zip",
   "hash": "d8d5cca8024c5b943011150fb1e23121b82dddf55f87407a78a1ea8d4a81926c",

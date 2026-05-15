@@ -4,7 +4,7 @@
   "homepage": "https://github.com/jackychu0830/jy-srt-tools",
   "license": "Apache License 2.0",
   "suggest": {
-    "Java Runtime Environment": "java/adoptopenjdk-hotspot-jre"
+    "Java Runtime Environment": "main/adoptopenjdk-hotspot-jre"
   },
   "url": [
     "https://v6.gh-proxy.org/https://github.com/jackychu0830/jy-srt-tools/releases/download/2.4.510-Win/jy-srt-tools-2.4.510-Win.jar#/jy-srt-tools.jar",

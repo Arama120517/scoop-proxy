@@ -7,7 +7,9 @@
     "url": "https://github.com/valinet/ExplorerPatcher/raw/master/LICENSE"
   },
   "notes": "Wiki: <https://github.com/valinet/ExplorerPatcher/wiki>",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/valinet/ExplorerPatcher/releases/download/26100.4946.69.6_7384790/ep_setup.exe",
   "hash": "8e3dd4f24f65234cfc2aaae7d84f2a9ebc167ab47cb50f4422d5974d44d5ffe7",
   "installer": {

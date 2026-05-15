@@ -8,7 +8,7 @@
   },
   "changelog": "https://github.com/ankitects/anki/releases",
   "suggest": {
-    "vcredist": "extras/vcredist2008"
+    "vcredist": "main/vcredist2008"
   },
   "architecture": {
     "64bit": {

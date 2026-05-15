@@ -1,6 +1,8 @@
 {
   "version": "3.0.3.21",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://scoop-zapps.ziiyc.com/d/SecoClient/SecoClient-Win64-3.0.3.21.exe#/setup.exe",

@@ -3,7 +3,9 @@
   "description": "A plugin for KeePass 2.x which provides various user interface options.",
   "homepage": "https://keepass.info/plugins.html#keeuiext",
   "license": "Freeware",
-  "depends": "extras/keepass",
+  "depends": [
+    "main/keepass"
+  ],
   "url": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.5.zip",
   "hash": "fbd0f4519a842f33a3c793b23b4b67f289794ce9133677e8ce396e93b1b72a9f",
   "checkver": {

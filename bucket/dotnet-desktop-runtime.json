@@ -13,7 +13,9 @@
       "hash": "sha512:8d67c9d7210555c25d1a893a4b5ca5a2afc79f411bdd6d03b38f5e6ef8188c347de7990c3b60354854e1f7101ec46b9653f2012dc18eef08cb0e780c1fed0a24"
     }
   },
-  "depends": "dark",
+  "depends": [
+    "dark"
+  ],
   "installer": {
     "script": [
       "Expand-DarkArchive \"$dir\\$fname\" \"$dir\\extracted\" -Removal",

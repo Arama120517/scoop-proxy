@@ -4,7 +4,7 @@
   "homepage": "https://mill-build.org",
   "license": "MIT",
   "suggest": {
-    "JDK": "java/openjdk"
+    "JDK": "main/openjdk"
   },
   "url": "https://repo1.maven.org/maven2/com/lihaoyi/mill-dist/1.1.6/mill-dist-1.1.6-mill.bat#/mill.bat",
   "hash": "1b732f7e842b751bdf6f2020086388538c8bed500da07649d54dd41ab19da010",

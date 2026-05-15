@@ -14,7 +14,7 @@
   "bin": "apery.exe",
   "notes": "Apery requires a USI-compatible GUI (e.g. Shogidokoro, ShogiGUI, MyShogi).",
   "suggest": {
-    "ShogiGUI": "lemon/shogigui"
+    "ShogiGUI": "main/shogigui"
   },
   "checkver": "github",
   "autoupdate": {

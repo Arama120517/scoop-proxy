@@ -2,7 +2,9 @@
   "homepage": "https://github.com/xwmx/nb",
   "license": "AGPL-3.0",
   "version": "7.25.4",
-  "depends": "main/unzip",
+  "depends": [
+    "main/unzip"
+  ],
   "suggest": {
     "git": "git"
   },

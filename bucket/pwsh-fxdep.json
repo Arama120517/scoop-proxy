@@ -12,7 +12,9 @@
       "PowerShell Core"
     ]
   ],
-  "depends": "dotnet-sdk",
+  "depends": [
+    "dotnet-sdk"
+  ],
   "checkver": "github",
   "autoupdate": {
     "url": "https://v6.gh-proxy.org/https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-fxdependent.zip",

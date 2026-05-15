@@ -9,7 +9,9 @@
     "To disable auto-import, run following command:",
     "$dir\\remove-profile-content.ps1"
   ],
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/AkariiinMKII/Windows-screenFetch/archive/v1.5.9.zip",
   "hash": "2a41eb23d24e42227da4752362fd70be514ce30915bd7cd5275ee08da0c1716c",
   "extract_dir": "Windows-screenFetch-1.5.9",

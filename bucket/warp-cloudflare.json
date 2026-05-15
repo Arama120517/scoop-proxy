@@ -7,7 +7,9 @@
     "url": "https://www.cloudflare.com/en-ca/application/terms/"
   },
   "notes": "Actually, installed at 'C:\\Program Files\\Cloudflare\\Cloudflare WARP'",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://1111-releases.cloudflareclient.com/windows/Cloudflare_WARP_Release-x64.msi#/setup.msi_",

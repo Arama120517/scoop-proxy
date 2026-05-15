@@ -3,7 +3,9 @@
   "description": "High quality DirectShow video renderer",
   "homepage": "http://madvr.com",
   "license": "Freeware",
-  "depends": "gsudo",
+  "depends": [
+    "gsudo"
+  ],
   "url": [
     "https://www.videohelp.com/download/madVR09217.zip",
     "https://www.videohelp.com/download/madVRhdrMeasure210.zip"

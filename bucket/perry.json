@@ -12,7 +12,9 @@
     "Verify with: perry doctor",
     "First compile: perry compile hello.ts -o hello.exe"
   ],
-  "depends": "main/llvm",
+  "depends": [
+    "main/llvm"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/PerryTS/perry/releases/download/v0.5.511/perry-windows-x86_64.zip",

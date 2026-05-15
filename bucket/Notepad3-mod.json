@@ -7,7 +7,9 @@
     "Notepad3.exe",
     "minipath.exe"
   ],
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "shortcuts": [
     [
       "Notepad3.exe",

@@ -1,31 +1,50 @@
 {
-  "version": "0.6.0",
-  "description": "Cross-platform Go Version Manager",
-  "homepage": "https://github.com/andrewkroh/gvm",
-  "license": "Apache-2.0",
+  "version": "1.8.0",
+  "description": "Golang Version Manager",
+  "homepage": "https://github.com/voidint/g",
+  "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://v6.gh-proxy.org/https://github.com/andrewkroh/gvm/releases/download/v0.6.0/gvm-windows-amd64.exe#/gvm.exe",
-      "hash": "beebb433c0ddf72d1232e6a35a3d8f08ad9a1a8f4bd408f000b7ad2b63028e0d"
+      "url": "https://v6.gh-proxy.org/https://github.com/voidint/g/releases/download/v1.8.0/g1.8.0.windows-amd64.zip",
+      "hash": "93ad318012c8dc601b93ad44ce82b10fbdb23e169d831bb041061c0f6783c7e9"
     },
     "32bit": {
-      "url": "https://v6.gh-proxy.org/https://github.com/andrewkroh/gvm/releases/download/v0.6.0/gvm-windows-386.exe#/gvm.exe",
-      "hash": "30657a48a457e8819d686732ffbadda5600f5fd09a8870bdcb7dde8a0f8e2601"
+      "url": "https://v6.gh-proxy.org/https://github.com/voidint/g/releases/download/v1.8.0/g1.8.0.windows-386.zip",
+      "hash": "25624f1f22355d23b914a5bc387c58f744b5c66d183328b0e951bbec1ce72a57"
     }
   },
-  "bin": "gvm.exe",
+  "bin": [
+    [
+      "g.exe",
+      "gvm"
+    ]
+  ],
+  "env_set": {
+    "G_MIRROR": "https://golang.google.cn/dl/",
+    "G_EXPERIMENTAL": "true",
+    "G_HOME": "$dir\\.g",
+    "GOROOT": "$persist_dir\\.g\\go",
+    "GOCACHE": "$dir\\.go\\GOCACHE",
+    "GOENV": "$dir\\.go\\GOENV",
+    "GOPATH": "$dir\\.go\\GOPATH"
+  },
+  "env_add_path": [
+    ".g\\go\\bin",
+    ".go\\GOPATH\\bin"
+  ],
+  "persist": [
+    ".g",
+    ".go"
+  ],
   "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://v6.gh-proxy.org/https://github.com/andrewkroh/gvm/releases/download/v$version/gvm-windows-amd64.exe#/gvm.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/voidint/g/releases/download/v$version/g$version.windows-amd64.zip"
       },
       "32bit": {
-        "url": "https://v6.gh-proxy.org/https://github.com/andrewkroh/gvm/releases/download/v$version/gvm-windows-386.exe#/gvm.exe"
+        "url": "https://v6.gh-proxy.org/https://github.com/voidint/g/releases/download/v$version/g$version.windows-386.zip"
       }
-    },
-    "hash": {
-      "url": "$baseurl/gvm_$version_SHA256SUMS"
     }
   }
 }

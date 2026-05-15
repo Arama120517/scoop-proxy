@@ -7,7 +7,7 @@
   "hash": "15b3e94a9239dae4a9386952c3cfa272b37adbe179d265dce4a028ac84b2f718",
   "bin": "mq-edit.exe",
   "suggest": {
-    "Core CLI": "r-bucket/mq"
+    "Core CLI": "main/mq"
   },
   "checkver": {
     "github": "https://github.com/harehare/mq-edit"

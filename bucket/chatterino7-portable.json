@@ -4,7 +4,7 @@
   "homepage": "https://github.com/SevenTV/chatterino7",
   "license": "MIT",
   "suggest": {
-    "vcredist-aio": "extras/vcredist-aio"
+    "vcredist-aio": "main/vcredist-aio"
   },
   "architecture": {
     "64bit": {

@@ -6,7 +6,9 @@
     "identifier": "Proprietary",
     "url": "https://www.warp.dev/terms-of-service"
   },
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://releases.warp.dev/stable/v0.2026.05.13.09.15.stable_01/WarpSetup.exe",

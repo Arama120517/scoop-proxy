@@ -6,10 +6,12 @@
     "identifier": "Freeware",
     "url": "https://winsshterm.blogspot.com/p/license.html"
   },
-  "depends": "putty",
+  "depends": [
+    "putty"
+  ],
   "suggest": {
-    "Copy files": "extras/winscp",
-    "X-server": "extras/vcxsrv"
+    "Copy files": "main/winscp",
+    "X-server": "main/vcxsrv"
   },
   "architecture": {
     "64bit": {

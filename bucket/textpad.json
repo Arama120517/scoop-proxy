@@ -5,7 +5,9 @@
   "license": "Commercial",
   "url": "https://www.textpad.com/file?path=v9/TextPadSetupV9-x64.exe",
   "hash": "94523b40156801430555a0c17a11ec6a2aea559b28442dbe6f71d28095744fe8",
-  "depends": "lessmsi",
+  "depends": [
+    "lessmsi"
+  ],
   "pre_install": "Start-Process -FilePath \"$dir\\TextPadSetupV9-x64.exe\" -ArgumentList \"/extract\" -Wait",
   "installer": {
     "script": [

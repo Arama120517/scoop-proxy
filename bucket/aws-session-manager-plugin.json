@@ -3,7 +3,9 @@
   "description": "This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances",
   "homepage": "https://github.com/aws/session-manager-plugin",
   "license": "Apache-2.0",
-  "depends": "aws",
+  "depends": [
+    "aws"
+  ],
   "url": "https://s3.amazonaws.com/session-manager-downloads/plugin/1.2.814.0/windows/SessionManagerPluginSetup.exe",
   "hash": "1847af7c0c3588e3cf390e176e578e79b33ad226f282bc7e9642749aa9d62414",
   "bin": "bin\\session-manager-plugin.exe",

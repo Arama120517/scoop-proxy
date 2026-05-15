@@ -3,7 +3,9 @@
   "homepage": "https://github.com/joeyespo/grip",
   "description": "Renders Markdown files.",
   "license": "MIT",
-  "depends": "python-bucket-utils",
+  "depends": [
+    "python-bucket-utils"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/joeyespo/grip/archive/v4.5.2.zip",
   "hash": "dafdd057f75041d07ed2f518050b90ff9a9be37a7c01c93d63b11bfa4d02ce58",
   "extract_dir": "grip-4.5.2",

@@ -4,8 +4,8 @@
   "homepage": "https://streamlink.github.io/streamlink-twitch-gui/",
   "license": "MIT",
   "suggest": {
-    "streamlink": "extras/streamlink",
-    "VLC": "extras/vlc"
+    "streamlink": "main/streamlink",
+    "VLC": "main/vlc"
   },
   "architecture": {
     "64bit": {

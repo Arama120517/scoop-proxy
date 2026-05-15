@@ -6,7 +6,9 @@
     "identifier": "Freeware",
     "url": "https://www.irfanview.com/eula.htm"
   },
-  "depends": "Irfanview",
+  "depends": [
+    "Irfanview"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://www.irfanview.info/files/iview473_plugins_x64.zip",

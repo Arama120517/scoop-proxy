@@ -5,8 +5,8 @@
   "license": "MIT",
   "suggest": {
     "yt-dlp": "main/yt-dlp",
-    "yt-dlp-nightly": "versions/yt-dlp-nightly",
-    "yt-dlp-master": "versions/yt-dlp-master"
+    "yt-dlp-nightly": "main/yt-dlp-nightly",
+    "yt-dlp-master": "main/yt-dlp-master"
   },
   "architecture": {
     "64bit": {

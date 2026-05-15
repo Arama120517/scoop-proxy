@@ -3,7 +3,9 @@
   "description": "A friendly language for building type-safe, scalable systems",
   "homepage": "https://gleam.run/",
   "license": "Apache-2.0",
-  "depends": "erlang",
+  "depends": [
+    "erlang"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/gleam-lang/gleam/releases/download/v1.16.0/gleam-v1.16.0-x86_64-pc-windows-msvc.zip",

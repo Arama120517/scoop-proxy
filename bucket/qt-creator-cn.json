@@ -10,7 +10,7 @@
     }
   },
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "main/vcredist2022"
   },
   "shortcuts": [
     [

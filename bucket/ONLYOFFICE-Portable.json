@@ -5,7 +5,7 @@
   "license": "AGPL-3.0-only",
   "changelog": "",
   "suggest": {
-    "Microsoft Visual C++ Redistibutable 2015": "extras/vcredist2022"
+    "Microsoft Visual C++ Redistibutable 2015": "main/vcredist2022"
   },
   "architecture": {
     "64bit": {

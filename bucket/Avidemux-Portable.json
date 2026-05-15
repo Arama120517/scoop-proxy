@@ -4,7 +4,9 @@
   "homepage": "http://fixounet.free.fr/avidemux/",
   "license": "GPL-2.0-only",
   "changelog": "",
-  "depends": "qtifw",
+  "depends": [
+    "qtifw"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/mean00/avidemux2/releases/download/2.8.1/Avidemux_2.8.1.VC++.64bits.exe",

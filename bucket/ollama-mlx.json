@@ -6,7 +6,7 @@
   "notes": "Ollama with daemon has been moved to 'extras/ollama-full'.",
   "suggest": {
     "Ollama": "main/ollama",
-    "Ollama Full": "extras/ollama-full"
+    "Ollama Full": "main/ollama-full"
   },
   "architecture": {
     "64bit": {

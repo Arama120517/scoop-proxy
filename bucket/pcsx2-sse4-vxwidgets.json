@@ -7,7 +7,7 @@
     "identifier": "GPL-3.0"
   },
   "suggest": {
-    "Microsoft Visual C++ Runtime 2019": "extras/vcredist2019"
+    "Microsoft Visual C++ Runtime 2019": "main/vcredist2019"
   },
   "architecture": {
     "64bit": {

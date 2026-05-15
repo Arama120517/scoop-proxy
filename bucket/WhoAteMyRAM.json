@@ -9,7 +9,9 @@
     "To disable auto-import, run following command:",
     "$dir\\remove-profile-content.ps1"
   ],
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/AkariiinMKII/WhoAteMyRAM/archive/v1.0.20.zip",
   "hash": "ec5d16b0879697d870d52fc4752f6b185493105cc068da6c994b1339ac40af6e",
   "extract_dir": "WhoAteMyRAM-1.0.20",

@@ -4,7 +4,9 @@
   "homepage": "https://www.rstudio.com",
   "license": "AGPL-3.0-only",
   "notes": "For 32bit, please install 'versions/rstudio11",
-  "depends": "r",
+  "depends": [
+    "r"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://s3.amazonaws.com/rstudio-ide-build/electron/windows/RStudio-2026.04.0-526.exe#/dl.7z",

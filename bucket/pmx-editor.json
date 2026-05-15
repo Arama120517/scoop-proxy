@@ -8,8 +8,8 @@
     "--> \"scoop install extras/vcredist2010 extras/vcredist2013 directx2010\""
   ],
   "suggest": {
-    "Visual C++ Redistributable 2010": "extras/vcredist2010",
-    "Visual C++ Redistributable 2013": "extras/vcredist2013",
+    "Visual C++ Redistributable 2010": "main/vcredist2010",
+    "Visual C++ Redistributable 2013": "main/vcredist2013",
     "DirectX End-User Runtimes": "directx2010"
   },
   "url": "https://kkhk22.up.seesaa.net/tool/PmxEditor_0273.zip",

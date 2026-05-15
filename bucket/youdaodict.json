@@ -1,23 +1,26 @@
 {
-  "homepage": "https://cidian.youdao.com/",
-  "version": "11.0.0",
-  "license": "freeware",
-  "url": "http://cidian.youdao.com/download/YoudaoDict.exe#/dl.7z",
-  "hash": "14f3fbcce8b0ec424ae48019536c5a0fe884d42e0ddf05fd9c317e805889393e",
-  "installer": {
-    "script": "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\dict.7z\" \"$dir\""
+  "version": "11.3.6.0",
+  "description": "Youdao Dictionary has typical acoustic translation, smart screen word identification, real-time synchronization with network up-to-date vocabulary, and other word look-up features.",
+  "homepage": "https://cidian.youdao.com",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "http://xue.youdao.com/sw/m/1191866"
   },
-  "bin": "YoudaoDict.exe",
-  "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$_*_\", \"$dir\\uninst.exe\" -Force -Recurse",
+  "url": "http://cidian.youdao.com/download/YoudaoDict.exe#/dl.7z",
+  "hash": "bcee89eba407603d202447e0d491edcf62aa59d288cb5a2d707b16dc6d94133f",
+  "pre_install": "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\dict.7z\" \"$dir\"",
+  "post_install": "@('$PLUGINSDIR', '[NSIS].nsi', 'uninst.exe', '$_67_') | ForEach-Object { Remove-Item \"$dir\\$_\" -ErrorAction 'SilentlyContinue' -Force -Recurse }",
   "shortcuts": [
     [
       "YoudaoDict.exe",
-      "Youdao Dict"
+      "Youdao\\Youdao Dict"
     ]
   ],
+  "bin": "YoudaoDict.exe",
   "checkver": {
-    "url": "https://shared.youdao.com/dict/market/cidian-online/js/chunk-28e6f1c6.82ec366d.js",
-    "regex": "version:\\\"([\\d.]+)"
+    "url": "https://api-overmind.youdao.com/openapi/get/luna/dict/luna-front/prod/cidianConfig",
+    "jsonpath": "$.data.value.logList[0].version",
+    "regex": "([\\d.]+)"
   },
   "autoupdate": {
     "url": "http://cidian.youdao.com/download/YoudaoDict.exe#/dl.7z"

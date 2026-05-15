@@ -3,7 +3,9 @@
   "description": "Fast integer versions of trained models for the Tesseract Open Source OCR Engine",
   "homepage": "https://github.com/tesseract-ocr/tessdata_fast",
   "license": "Apache-2.0",
-  "depends": "tesseract",
+  "depends": [
+    "tesseract"
+  ],
   "url": [
     "https://github.com/tesseract-ocr/tessdata_best/raw/main/chi_sim.traineddata",
     "https://github.com/tesseract-ocr/tessdata_best/raw/main/chi_sim_vert.traineddata",

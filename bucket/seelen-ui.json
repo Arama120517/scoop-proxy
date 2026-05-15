@@ -13,7 +13,7 @@
     "reg import \"$dir\\register-url-handler.reg\""
   ],
   "suggest": {
-    "Microsoft Edge WebView2": "extras/webview2"
+    "Microsoft Edge WebView2": "main/webview2"
   },
   "architecture": {
     "64bit": {

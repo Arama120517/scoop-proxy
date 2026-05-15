@@ -3,7 +3,9 @@
   "description": "This doesn't actually contain iTunes, instead it only contains Apple Application Support QuickTime AAC codecs (AMDS will be supported soon)",
   "homepage": "https://www.apple.com/itunes/",
   "license": "Proprietary",
-  "depends": "main/lessmsi",
+  "depends": [
+    "main/lessmsi"
+  ],
   "notes": [
     "You'll probably want to create the following symlink",
     "$link = '/Apple Application Support'; $path = '/Program Files/Common Files/Apple'; New-Item -ItemType Directory -Force $path; New-Item -ItemType SymbolicLink -Target \"$(scoop prefix itunes-lean)$link\" -Path \"$path$link\""

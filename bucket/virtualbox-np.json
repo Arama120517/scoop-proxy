@@ -7,7 +7,9 @@
     "url": "https://www.virtualbox.org/wiki/Licensing_FAQ"
   },
   "notes": "Guest Additions are located at: \"$env:ProgramW6432\\Oracle\\VirtualBox\\VBoxGuestAdditions.iso\".",
-  "depends": "extras/vcredist2022",
+  "depends": [
+    "main/vcredist2022"
+  ],
   "url": "https://download.virtualbox.org/virtualbox/7.2.8/VirtualBox-7.2.8-173730-Win.exe",
   "hash": "ae5415cc968c0e8acddd99358c21d267a2c31ac4ff5182861aab9e6931001606",
   "architecture": {

@@ -4,7 +4,7 @@
   "homepage": "https://github.com/usethesource/rascal",
   "license": "BSD-2-Clause",
   "suggest": {
-    "JRE": "java/temurin-lts-jre"
+    "JRE": "main/temurin-lts-jre"
   },
   "url": "https://v6.gh-proxy.org/https://github.com/usethesource/rascal/releases/download/v0.42.2/rascal-0.42.2.jar",
   "hash": "sha1:db9549a7bcc3ed5e0422097b68bd06655df2d7f5",

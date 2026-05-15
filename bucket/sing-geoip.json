@@ -13,7 +13,7 @@
   ],
   "notes": "GeoIP is deprecated in sing-box 1.8.0 and removed in sing-box 1.12.0",
   "suggest": {
-    "sing-geoip-rule-set": "lemon/sing-geoip-rule-set"
+    "sing-geoip-rule-set": "main/sing-geoip-rule-set"
   },
   "checkver": {
     "github": "https://github.com/SagerNet/sing-geoip"

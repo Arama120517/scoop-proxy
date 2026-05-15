@@ -4,7 +4,9 @@
   "homepage": "https://www.ztree.com/html/beta.htm",
   "license": "Shareware",
   "notes": "There is no way to uninstall just the beta version",
-  "depends": "ztree",
+  "depends": [
+    "ztree"
+  ],
   "url": "https://www.ztree.com/download/ztw24217.zip",
   "hash": "f1b533f46ceefd52a285d4f0f5ddcbfada17686eff680525bd1347997d3e1a59",
   "post_install": "cp \"$dir/*.*\" \"$(appdir ztree $global)/current\"",

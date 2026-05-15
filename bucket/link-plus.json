@@ -7,7 +7,9 @@
     "Visit following site for user guide:",
     "https://www.lnelab.com/docs"
   ],
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/lnelab/link-plus/releases/download/3.1.7/link-plus-win-3.1.7.exe#/dl.7z",

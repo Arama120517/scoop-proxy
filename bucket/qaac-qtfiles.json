@@ -3,7 +3,9 @@
   "description": "Use qaac without installing iTunes",
   "homepage": "https://github.com/AnimMouse/QTFiles",
   "license": "MPL-2.0",
-  "depends": "muggle/qaac",
+  "depends": [
+    "main/qaac"
+  ],
   "architecture": {
     "64bit": {
       "url": [

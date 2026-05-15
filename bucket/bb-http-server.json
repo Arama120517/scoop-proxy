@@ -3,7 +3,9 @@
   "description": "Babashka to serve static assets",
   "homepage": "https://github.com/babashka/http-server",
   "license": "MIT",
-  "depends": "scoop-clojure/babashka",
+  "depends": [
+    "main/babashka"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/babashka/http-server/releases/download/v0.1.15/http-server.jar",

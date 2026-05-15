@@ -5,7 +5,7 @@
   "license": "MIT",
   "notes": "Usage: 'nerd-font-patcher [<args>] <path_to_font>'",
   "suggest": {
-    "fontforge": "extras/fontforge",
+    "fontforge": "main/fontforge",
     "python": "python"
   },
   "url": "https://github.com/ryanoasis/nerd-fonts/raw/master/FontPatcher.zip",

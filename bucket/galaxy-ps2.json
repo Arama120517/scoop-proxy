@@ -1,7 +1,9 @@
 {
   "homepage": "https://github.com/AHCoder/galaxy-integration-ps2/",
   "version": "0.2021.09.14",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "license": "MIT",
   "description": "GOG Galaxy 2.0 Unofficial PS2 Integration",
   "url": "https://v6.gh-proxy.org/https://github.com/AHCoder/galaxy-integration-ps2/archive/2d57a094e4447a2016074a42dd4d7b425985a48a.zip",

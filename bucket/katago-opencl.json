@@ -17,7 +17,7 @@
   "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\\*\" -Include '*.cfg', '*.bin.gz' | Move-Item -Force -Destination $dir }",
   "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.cfg', '*.bin.gz' | Move-Item -Force -Destination $persist_dir",
   "suggest": {
-    "neural networks": "lemon/katago-models"
+    "neural networks": "main/katago-models"
   },
   "checkver": "github",
   "autoupdate": {

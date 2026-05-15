@@ -2,7 +2,9 @@
   "homepage": "https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar",
   "license": "MIT",
   "version": "0.5.15",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/tylerbrawl/Galaxy-Plugin-Rockstar/releases/download/v0.5.15/plugin.zip",
   "hash": "1215bfd4c6ff437ba2e25f64d6dbf38c53a135fde8a5d8be8d757a6e9eb2edfd",
   "extract_dir": "Rockstar",

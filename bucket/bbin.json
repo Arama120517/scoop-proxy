@@ -4,7 +4,9 @@
   "homepage": "https://github.com/babashka/bbin",
   "license": "MIT",
   "notes": "Folder ~\\.local\\bin was added to your PATH environment variable.",
-  "depends": "scoop-clojure/babashka",
+  "depends": [
+    "main/babashka"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/babashka/bbin/archive/refs/tags/v0.2.5.zip",

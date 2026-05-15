@@ -5,7 +5,7 @@
   "license": "MIT",
   "notes": "You must enable HTTPS decryption for this addon to work.",
   "suggest": {
-    "fiddler": "nuke/fiddler"
+    "fiddler": "main/fiddler"
   },
   "url": "https://telerik-fiddler.s3.amazonaws.com/fiddler/addons/fiddler-anywhere.zip",
   "extract_dir": "bin\\Release Signed"

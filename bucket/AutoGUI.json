@@ -1,7 +1,9 @@
 {
   "homepage": "https://sourceforge.net/projects/autogui/",
   "description": "AutoHotkey Development Environment",
-  "depends": "autohotkey",
+  "depends": [
+    "autohotkey"
+  ],
   "extract_dir": "AutoGUI",
   "version": "3.0.4",
   "url": "https://nchc.dl.sourceforge.net/project/autogui/3.0.4/AutoGUI-3.0.4.7z",

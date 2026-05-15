@@ -3,7 +3,9 @@
   "description": "Custom app for Spicetify that fetches lyrics from Genius and Musixmatch.",
   "homepage": "https://github.com/khanhas/genius-spicetify",
   "license": "Freeware",
-  "depends": "spicetify-cli",
+  "depends": [
+    "spicetify-cli"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/khanhas/genius-spicetify/archive/master.zip",
   "hash": "80abe09519957c6be3ff322f5014746a2af770d7c4d683fc4fbc8463d795c64e",
   "notes": [

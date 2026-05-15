@@ -6,7 +6,9 @@
     "url": "https://cemuhook.sshnuke.net",
     "identifier": "Freeware"
   },
-  "depends": "cemu",
+  "depends": [
+    "cemu"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://files.sshnuke.net/cemuhook_1262d_0577.zip",

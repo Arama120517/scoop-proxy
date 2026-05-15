@@ -12,10 +12,10 @@
     "Profiles will be migrated automatically."
   ],
   "suggest": {
-    "vcredist": "extras/vcredist2022",
-    "RivaTuner Statistics Server": "extras/rtss",
-    "MSI Kombustor": "extras/msikombustor",
-    "FurMark": "extras/furmark"
+    "vcredist": "main/vcredist2022",
+    "RivaTuner Statistics Server": "main/rtss",
+    "MSI Kombustor": "main/msikombustor",
+    "FurMark": "main/furmark"
   },
   "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/afterburner/%5BGuru3D%5D-MSIAfterburnerSetup467Beta2Build16935.zip",
   "hash": "a3c550f0ce23ac4bc89e72d0a6e73019b0742fdeff3b68d0849d82c5145a9b62",

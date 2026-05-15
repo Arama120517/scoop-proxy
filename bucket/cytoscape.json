@@ -9,7 +9,7 @@
   "url": "https://v6.gh-proxy.org/https://github.com/cytoscape/cytoscape/releases/download/3.10.4/cytoscape-windows-3.10.4.zip",
   "hash": "f0e8ad9ec68a19e19d212a6cc8c5da0060742b6a04db080598b98832b0478924",
   "suggest": {
-    "java": "java/openjdk11"
+    "java": "main/openjdk11"
   },
   "extract_dir": "cytoscape-windows-3.10.4",
   "shortcuts": [

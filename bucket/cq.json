@@ -1,22 +1,27 @@
 {
-  "version": "1.2.0",
-  "description": "High-performance SQL query engine for CSV files",
-  "homepage": "https://github.com/baldimario/cq",
-  "license": "MIT",
+  "version": "2026.01.09-17.19",
+  "description": "Clojure Command-line Data Processor for JSON, YAML, EDN, XML and more",
+  "homepage": "https://github.com/markus-wa/cq",
+  "license": "EPL-2.0",
+  "depends": [
+    "main/vcredist2022"
+  ],
   "architecture": {
     "64bit": {
-      "url": "https://v6.gh-proxy.org/https://github.com/baldimario/cq/releases/download/v1.2.0/cq_x86_64-windows-v1.2.0.zip",
-      "hash": "cb5dc9b7025c1e944b04738b8fbebea59e6220ef3a17318e1025362224287d8d",
-      "extract_dir": "zig\\zig-out\\x86_64-windows"
+      "url": "https://v6.gh-proxy.org/https://github.com/markus-wa/cq/releases/download/2026.01.09-17.19/cq-native-windows.exe#/cq.exe",
+      "hash": "73e42ae9fb9a6a018c425496d81e1a0c85d643eb7cdc8eb5c06dcd23563cd93d"
     }
   },
-  "post_install": "Remove-Item \"$dir\\zig\" -Force -Recurse",
   "bin": "cq.exe",
-  "checkver": "github",
+  "checkver": {
+    "url": "https://github.com/markus-wa/cq/releases",
+    "regex": "tag/([\\d.]+)-([\\d.]+)",
+    "replace": "${1}-${2}"
+  },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://v6.gh-proxy.org/https://github.com/baldimario/cq/releases/download/v$version/cq_x86_64-windows-v$version.zip"
+        "url": "https://v6.gh-proxy.org/https://github.com/markus-wa/cq/releases/download/$version/cq-native-windows.exe#/cq.exe"
       }
     }
   }

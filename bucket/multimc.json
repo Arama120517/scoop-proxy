@@ -49,6 +49,6 @@
     "notifications.json"
   ],
   "suggest": {
-    "MCEdit": "dorado/mcedit"
+    "MCEdit": "main/mcedit"
   }
 }

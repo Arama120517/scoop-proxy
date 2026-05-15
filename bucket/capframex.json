@@ -4,7 +4,7 @@
   "homepage": "https://github.com/CXWorld/CapFrameX",
   "license": "MIT",
   "suggest": {
-    "OCAT": "extras/ocat"
+    "OCAT": "main/ocat"
   },
   "architecture": {
     "64bit": {

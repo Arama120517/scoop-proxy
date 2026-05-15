@@ -9,7 +9,9 @@
       "hash": "1b8e54440c830dfc8295327abcd0cfda8da282b2485722d6ccf94dadde61bf13"
     }
   },
-  "depends": "wkhtmltopdf",
+  "depends": [
+    "wkhtmltopdf"
+  ],
   "bin": "mdconv.exe",
   "checkver": "github",
   "autoupdate": {

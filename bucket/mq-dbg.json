@@ -7,7 +7,7 @@
   "hash": "65a5efe48be5f4571287eb5c275d24689cef5c12bc101f49a42cefb00cd536bd",
   "bin": "mq-dbg.exe",
   "suggest": {
-    "Core CLI": "r-bucket/mq"
+    "Core CLI": "main/mq"
   },
   "checkver": {
     "github": "https://github.com/harehare/mq"

@@ -3,7 +3,9 @@
   "description": "Simple template processing command line tool to help build static websites",
   "homepage": "https://github.com/retrogradeorbit/bootleg",
   "license": "EPL-2.0",
-  "depends": "extras/vcredist",
+  "depends": [
+    "main/vcredist"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/retrogradeorbit/bootleg/releases/download/v0.1.9/bootleg-0.1.9-windows-amd64.zip",

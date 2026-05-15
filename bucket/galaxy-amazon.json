@@ -2,7 +2,9 @@
   "homepage": "https://github.com/Rall3n/galaxy-integration-amazon",
   "license": "GPL-3.0-only",
   "version": "0.5.2",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/Rall3n/galaxy-integration-amazon/releases/download/v0.5.2/windows.zip",
   "hash": "0b82fdf4245bd20bfae4fea096ebfebd1f6f29ee2817fea235612f3821b0d1ce",
   "extract_to": "integration",

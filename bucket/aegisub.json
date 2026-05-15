@@ -7,7 +7,7 @@
     "url": "https://github.com/TypesettingTools/Aegisub/blob/master/LICENCE"
   },
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "main/vcredist2022"
   },
   "architecture": {
     "64bit": {

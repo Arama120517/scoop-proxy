@@ -3,7 +3,9 @@
   "description": "Visual Basic 6.0 SP6 runtime files",
   "homepage": "https://www.vector.co.jp/soft/dl/win95/util/se342080.html",
   "license": "Freeware",
-  "depends": "sudo",
+  "depends": [
+    "sudo"
+  ],
   "url": "https://ftp.vector.co.jp/49/41/2181/vb6rt340.exe#/dl.7z",
   "hash": "6dc97365c2545ace7f18428592307d4d13d8c1c7ca0289725cb9b6603e47a875",
   "extract_dir": "vb6rtest",

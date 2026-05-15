@@ -8,7 +8,9 @@
     "Visit README page for more information:",
     "https://github.com/xanderfrangos/twinkle-tray#command-line-arguments"
   ],
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.17.2/Twinkle.Tray.v1.17.2.exe#/dl.7z",

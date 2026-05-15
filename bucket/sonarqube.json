@@ -11,8 +11,8 @@
     "https://docs.oracle.com/en/java/javase/24/security/security-manager-is-permanently-disabled.html"
   ],
   "suggest": {
-    "Java 17": "java/openjdk17",
-    "Java 21": "java/openjdk21"
+    "Java 17": "main/openjdk17",
+    "Java 21": "main/openjdk21"
   },
   "url": "https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.5.0.122743.zip",
   "hash": "670bfd6328594b5df2af7c998b0cd512ef5b0baabf68865b2f3e398d9b787ae1",

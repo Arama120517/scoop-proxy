@@ -12,7 +12,7 @@
   "bin": "reductstore.exe",
   "persist": "data",
   "suggest": {
-    "reduct-cli": "lemon/reduct-cli"
+    "reduct-cli": "main/reduct-cli"
   },
   "checkver": {
     "github": "https://github.com/reductstore/reductstore"

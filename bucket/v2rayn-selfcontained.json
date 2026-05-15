@@ -12,7 +12,7 @@
   ],
   "suggest": {
     "v2fly-core": "v2ray",
-    "v2rayN": "extras/v2rayn"
+    "v2rayN": "main/v2rayn"
   },
   "architecture": {
     "64bit": {

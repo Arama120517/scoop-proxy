@@ -16,5 +16,7 @@
   "autoupdate": {
     "url": "https://psg-prod-eastus.azureedge.net/packages/tree.$version.nupkg"
   },
-  "depends": "r-bucket/tree"
+  "depends": [
+    "main/tree"
+  ]
 }

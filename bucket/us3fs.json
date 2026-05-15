@@ -11,7 +11,7 @@
   },
   "bin": "us3fs.exe",
   "suggest": {
-    "winfsp": "nonportable/winfsp-np"
+    "winfsp": "main/winfsp-np"
   },
   "checkver": {
     "url": "https://docs.ucloud.cn/ufile/tools/us3fs/ReleaseNote.md",

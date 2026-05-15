@@ -7,7 +7,7 @@
   "hash": "b14203b1793cb9386cdc740a7fc48e598baf46a5f478bce14c3208cee8500d6b",
   "bin": "mq-mcp.exe",
   "suggest": {
-    "Core CLI": "r-bucket/mq"
+    "Core CLI": "main/mq"
   },
   "checkver": {
     "github": "https://github.com/harehare/mq-mcp"

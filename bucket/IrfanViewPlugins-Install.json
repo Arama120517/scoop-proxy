@@ -6,7 +6,9 @@
     "identifier": "Various",
     "url": "https://www.irfanview.com/plugins.htm"
   },
-  "depends": "scoop-apps/irfanview-install",
+  "depends": [
+    "main/irfanview-install"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://www.irfanview.info/files/iview473_plugins_x64_setup.exe#/setup.exe",

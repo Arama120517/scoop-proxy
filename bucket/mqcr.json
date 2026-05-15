@@ -7,7 +7,7 @@
   "hash": "a3b78c1ff1a67bafae8ededf59eddfc43342bfbbfe0ff4df7ce44f53a9249b1e",
   "bin": "mqcr.exe",
   "suggest": {
-    "Core CLI": "r-bucket/mq"
+    "Core CLI": "main/mq"
   },
   "checkver": {
     "github": "https://github.com/harehare/mq"

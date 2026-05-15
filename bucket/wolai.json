@@ -7,7 +7,9 @@
     "Visit following site for user guide:",
     "https://www.wolai.com/wolai/xhqeop8UHpVTMUSVmgz8nq"
   ],
-  "depends": "Scoop4kariiin/Scoop4kariiinUtils",
+  "depends": [
+    "main/Scoop4kariiinUtils"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://cdn.wostatic.cn/dist/installers/wolai%20Setup%201.2.12.exe#/dl.7z",

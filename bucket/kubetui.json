@@ -3,7 +3,9 @@
   "description": "A TUI tool for real-time monitoring and exploration of Kubernetes resources",
   "homepage": "https://github.com/sarub0b0/kubetui",
   "license": "MIT",
-  "depends": "extras/vcredist2022",
+  "depends": [
+    "main/vcredist2022"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://v6.gh-proxy.org/https://github.com/sarub0b0/kubetui/releases/download/v1.13.0/kubetui-x86_64-pc-windows-msvc.exe#/kubetui.exe",

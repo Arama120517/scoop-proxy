@@ -11,7 +11,9 @@
     "If it failed in installation, you can manually run:",
     "gsudo \"$dir\\update-firewall-rules.ps1\""
   ],
-  "depends": "main/gsudo",
+  "depends": [
+    "main/gsudo"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://download.mikrotik.com/routeros/winbox/4.1/WinBox_Windows.zip",

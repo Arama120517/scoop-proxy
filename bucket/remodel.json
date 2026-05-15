@@ -12,6 +12,6 @@
   "bin": "remodel.exe",
   "notes": "Remodel is deprecated in favor of Lune.",
   "suggest": {
-    "Lune": "lemon/lune"
+    "Lune": "main/lune"
   }
 }

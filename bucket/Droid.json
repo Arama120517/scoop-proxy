@@ -3,7 +3,9 @@
   "description": "An native software development agents that work everywhere you do.",
   "homepage": "https://factory.ai/",
   "license": "unknown",
-  "depends": "ripgrep",
+  "depends": [
+    "ripgrep"
+  ],
   "architecture": {
     "64bit": {
       "url": "https://downloads.factory.ai/factory-cli/releases/0.126.0/windows/x64/droid.exe",

@@ -9,7 +9,9 @@
     "To create a VMware Workstation based Docker machine, just run like this command:",
     "'docker-machine create --driver=vmwareworkstation dev'"
   ],
-  "depends": "main/docker",
+  "depends": [
+    "main/docker"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/pecigonzalo/docker-machine-vmwareworkstation/releases/download/v1.1.0/docker-machine-driver-vmwareworkstation.exe",
   "hash": "464f7a2d1ef9860721e3e66b90e77d2f1403dc88e259e7be7080db1f8b2c1e1a",
   "bin": "docker-machine-driver-vmwareworkstation.exe",

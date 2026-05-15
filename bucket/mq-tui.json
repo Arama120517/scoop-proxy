@@ -7,7 +7,7 @@
   "hash": "718af5e8cd8e7450fced70c3d4fb5008c4b624d8e0aad655341513c62178f47c",
   "bin": "mq-tui.exe",
   "suggest": {
-    "Core CLI": "r-bucket/mq"
+    "Core CLI": "main/mq"
   },
   "checkver": {
     "github": "https://github.com/harehare/mq-tui"

@@ -6,7 +6,9 @@
     "identifier": "MIT,PSF-2.0,CNRI-Python,Unknown",
     "url": "https://github.com/python/mypy/blob/master/LICENSE"
   },
-  "depends": "python-bucket-utils",
+  "depends": [
+    "python-bucket-utils"
+  ],
   "url": "https://v6.gh-proxy.org/https://github.com/python/mypy/archive/v0.812.zip",
   "hash": "127b8823091a83f0184c41bf526a1053ac4fb63b61486e0d56c81e47718b4c09",
   "extract_dir": "mypy-0.812",

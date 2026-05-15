@@ -11,7 +11,9 @@
       "FFMetrics"
     ]
   ],
-  "depends": "ffmpeg",
+  "depends": [
+    "ffmpeg"
+  ],
   "checkver": {
     "github": "https://github.com/fifonik/FFMetrics"
   },

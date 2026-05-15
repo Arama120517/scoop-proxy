@@ -7,7 +7,9 @@
     "url": "https://www.microsoft.com/licensing/terms/productoffering/OfficeDesktopApplicationsWindows/MCA"
   },
   "changelog": "https://learn.microsoft.com/en-us/officeupdates/current-channel",
-  "depends": "7zip19.00-helper",
+  "depends": [
+    "7zip19.00-helper"
+  ],
   "url": "https://download.microsoft.com/download/#/dl.7z_",
   "hash": "c4c24503f266c4522b25067ee778c57cb3a17fafa75f9684b6445bec0699e063",
   "pre_install": [

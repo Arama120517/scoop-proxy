@@ -6,7 +6,9 @@
     "identifier": "GPL-3.0-or-later",
     "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/raw/master/LICENSE"
   },
-  "depends": "v2ray",
+  "depends": [
+    "v2ray"
+  ],
   "url": [
     "https://v6.gh-proxy.org/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202605142252/geoip.dat",
     "https://v6.gh-proxy.org/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202605142252/geosite.dat"

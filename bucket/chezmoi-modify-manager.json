@@ -10,7 +10,9 @@
     }
   },
   "bin": "chezmoi_modify_manager.exe",
-  "depends": "chezmoi",
+  "depends": [
+    "chezmoi"
+  ],
   "checkver": {
     "github": "https://github.com/VorpalBlade/chezmoi_modify_manager/"
   },

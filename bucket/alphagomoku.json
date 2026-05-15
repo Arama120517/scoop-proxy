@@ -20,7 +20,7 @@
     "logs"
   ],
   "suggest": {
-    "Gomoku manager": "lemon/piskvork"
+    "Gomoku manager": "main/piskvork"
   },
   "checkver": "github",
   "autoupdate": {

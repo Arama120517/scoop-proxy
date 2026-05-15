@@ -13,10 +13,12 @@
       "hash": "1405fe561a1435a47ebbcdd28bfba28f53daf87b2cd427b654731952dba2883e"
     }
   },
-  "depends": "main/wixtoolset",
+  "depends": [
+    "main/wixtoolset"
+  ],
   "suggest": {
-    "python39": "versions/python39",
-    "vcredist": "extras/vcredist2022"
+    "python39": "main/python39",
+    "vcredist": "main/vcredist2022"
   },
   "installer": {
     "script": [
