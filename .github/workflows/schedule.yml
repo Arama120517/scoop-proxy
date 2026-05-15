@@ -6,7 +6,30 @@ on:
     - cron: "0 * * * *"
 
 jobs:
+  excavate:
+    name: Excavate
+    runs-on: windows-latest
+    steps:
+      - uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3.1.1
+        id: get_token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: Arama120517/scoop-bucket
+          token: ${{ steps.get_token.outputs.token }}
+
+      - name: Excavate
+        uses: ScoopInstaller/GithubActions@ec4ac4815ee2309cb47a239e66d959cbf8127b56 # main
+        env:
+          GITHUB_TOKEN: ${{ steps.get_token.outputs.token }}
+          USER_NAME: arama0517-dependency-updater[bot]
+          USER_EMAIL: 279924183+arama0517-dependency-updater[bot]@users.noreply.github.com
+
   schedule:
+    needs: excavate
     name: Schedule
     runs-on: windows-latest
     steps:
