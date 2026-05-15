@@ -1,5 +1,5 @@
 {
-  "version": "0.250",
+  "version": "0.250.1",
   "description": "Lightweight control tool for Asus laptops. (Manual fan control)",
   "homepage": "https://github.com/seerge/g-helper-experimental-release",
   "license": "MIT",
@@ -9,8 +9,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://v6.gh-proxy.org/https://github.com/seerge/g-helper-experimental-release/releases/download/v0.250/GHelper.zip",
-      "hash": "79d6325a795b0bf0f0ed14fa92f7ff5d6a72bdde47657c3ee3cc0af3ab23420d"
+      "url": "https://v6.gh-proxy.org/https://github.com/seerge/g-helper-experimental-release/releases/download/v0.250.1/GHelper.zip",
+      "hash": "a31cdf05daec69dd88f02deff32a49885ef6c93e844b4e7f5b1ebd7690e4ade5"
     }
   },
   "pre_install": "if (!(is_admin)) { throw 'Admin privileges are required.' }",
